@@ -1,16 +1,15 @@
                  U __cxa_atexit
                  U __dso_handle
                  U _GLOBAL_OFFSET_TABLE_
-0000000000000000 t _GLOBAL__sub_I__ZN1A2goEv
-0000000000000000 r .LC0
+000000000000005d t _GLOBAL__sub_I__ZN1A2goEv
+0000000000000010 t __static_initialization_and_destruction_0(int, int)
 0000000000000000 T A::go()
-                 U std::ctype<char>::_M_widen_init() const
-0000000000000000 W std::ctype<char>::do_widen(char) const
-                 U std::ostream::put(char)
-                 U std::ostream::flush()
+0000000000000000 W Entete::go()
+                 U std::ostream::operator<<(std::ostream& (*)(std::ostream&))
                  U std::ios_base::Init::Init()
                  U std::ios_base::Init::~Init()
-                 U std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)
-                 U std::__throw_bad_cast()
                  U std::cout
+                 U std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+0000000000000000 r std::piecewise_construct
 0000000000000000 b std::__ioinit
+                 U std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
