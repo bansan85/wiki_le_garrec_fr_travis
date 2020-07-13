@@ -1,0 +1,2 @@
+variable : nullptr ? false et vaut 1.
+variableNull : nullptr ? true et ne peut être lu.
