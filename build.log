@@ -1,13 +1,13 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: 1da0707d-49fc-4fc3-8a37-009eb6843a6c@1.worker-com-5686bd95fc-h7pxz.gce-production-3
+hostname: b3247dc0-3552-4995-851f-0648f3448d97@1.worker-com-668464d7c8-7n9pz.gce-production-2
 version: v6.2.17 https://github.com/travis-ci/worker/tree/bc420764f334fe0d096a417c80426f672f1b7d18
-instance: travis-job-85a4ae29-8a34-44a4-be9b-e18aab41d6b6 travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
-startup: 6.183741014s
-travis_fold:end:worker_info[0Ktravis_time:start:12f2a05a[0Ktravis_time:end:12f2a05a:start=1593877154714349883,finish=1593877154896480409,duration=182130526,event=no_world_writable_dirs[0Ktravis_time:start:130c97af[0Ktravis_time:end:130c97af:start=1593877154899472811,finish=1593877154902820493,duration=3347682,event=setup_filter[0Ktravis_time:start:2806f176[0Ktravis_time:end:2806f176:start=1593877154910847465,finish=1593877154923561383,duration=12713918,event=agent[0Ktravis_time:start:0e0360ed[0Ktravis_time:end:0e0360ed:start=1593877154926644613,finish=1593877154930892766,duration=4248153,event=check_unsupported[0Ktravis_time:start:138788c4[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+instance: travis-job-dd989a05-5108-4a64-88c6-2d7796351482 travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
+startup: 6.167287621s
+travis_fold:end:worker_info[0Ktravis_time:start:10ed1d6c[0Ktravis_time:end:10ed1d6c:start=1593878189851631162,finish=1593878190027309388,duration=175678226,event=no_world_writable_dirs[0Ktravis_time:start:0f4a351c[0Ktravis_time:end:0f4a351c:start=1593878190030146502,finish=1593878190037242540,duration=7096038,event=setup_filter[0Ktravis_time:start:0da7668f[0Ktravis_time:end:0da7668f:start=1593878190040646284,finish=1593878190048467153,duration=7820869,event=agent[0Ktravis_time:start:23667f6f[0Ktravis_time:end:23667f6f:start=1593878190050695453,finish=1593878190056027760,duration=5332307,event=check_unsupported[0Ktravis_time:start:0e56af19[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: cpp
 Build dist: bionic
-Build id: 174291910
-Job id: 357564749
+Build id: 174292483
+Job id: 357566149
 Runtime kernel version: 5.0.0-1031-gcp
 travis-build version: 53c9fddd
 [34m[1mBuild image provisioning date and time[0m
@@ -164,13 +164,13 @@ ruby-2.5.7
 ruby-2.6.5
 ruby-2.7.0
 travis_fold:end:system_info[0K
-travis_time:end:138788c4:start=1593877154934319766,finish=1593877154939431888,duration=5112122,event=show_system_info[0Ktravis_time:start:07d5a79c[0Ktravis_time:end:07d5a79c:start=1593877154942334837,finish=1593877154959037279,duration=16702442,event=rm_riak_source[0Ktravis_time:start:084c839f[0Ktravis_time:end:084c839f:start=1593877154962030066,finish=1593877154966915867,duration=4885801,event=fix_rwky_redis[0Ktravis_time:start:1288f248[0Ktravis_time:end:1288f248:start=1593877154969554885,finish=1593877155326290183,duration=356735298,event=wait_for_network[0Ktravis_time:start:18709065[0Ktravis_time:end:18709065:start=1593877155331144155,finish=1593877155568006781,duration=236862626,event=update_apt_keys[0Ktravis_time:start:0963bde2[0Ktravis_time:end:0963bde2:start=1593877155571957016,finish=1593877155623303212,duration=51346196,event=fix_hhvm_source[0Ktravis_time:start:16fad848[0Ktravis_time:end:16fad848:start=1593877155627896135,finish=1593877155630629246,duration=2733111,event=update_mongo_arch[0Ktravis_time:start:169f0263[0Ktravis_time:end:169f0263:start=1593877155634363692,finish=1593877155674214192,duration=39850500,event=fix_sudo_enabled_trusty[0Ktravis_time:start:116ec20c[0Ktravis_time:end:116ec20c:start=1593877155678932065,finish=1593877155681306400,duration=2374335,event=update_glibc[0Ktravis_time:start:13f275c0[0Ktravis_time:end:13f275c0:start=1593877155684926417,finish=1593877155692810637,duration=7884220,event=clean_up_path[0Ktravis_time:start:0467f544[0Ktravis_time:end:0467f544:start=1593877155696046556,finish=1593877155704906000,duration=8859444,event=fix_resolv_conf[0Ktravis_time:start:1930524c[0Ktravis_time:end:1930524c:start=1593877155707969288,finish=1593877155735548059,duration=27578771,event=fix_etc_hosts[0Ktravis_time:start:022d679b[0Ktravis_time:end:022d679b:start=1593877155739446232,finish=1593877155747632052,duration=8185820,event=fix_mvn_settings_xml[0Ktravis_time:start:179d6879[0Ktravis_time:end:179d6879:start=1593877155751738807,finish=1593877155761500015,duration=9761208,event=no_ipv6_localhost[0Ktravis_time:start:168db7e8[0Ktravis_time:end:168db7e8:start=1593877155765395704,finish=1593877155767914687,duration=2518983,event=fix_etc_mavenrc[0Ktravis_time:start:00957d20[0Ktravis_time:end:00957d20:start=1593877155771130575,finish=1593877155773932504,duration=2801929,event=fix_wwdr_certificate[0Ktravis_time:start:27fd2ea6[0Ktravis_time:end:27fd2ea6:start=1593877155777150966,finish=1593877155835701524,duration=58550558,event=put_localhost_first[0Ktravis_time:start:05efb8a0[0Ktravis_time:end:05efb8a0:start=1593877155839680813,finish=1593877155843252623,duration=3571810,event=home_paths[0Ktravis_time:start:02ae24bb[0Ktravis_time:end:02ae24bb:start=1593877155846735399,finish=1593877155858230966,duration=11495567,event=disable_initramfs[0Ktravis_time:start:02693bda[0Ktravis_time:end:02693bda:start=1593877155861655991,finish=1593877156006839469,duration=145183478,event=disable_ssh_roaming[0Ktravis_time:start:12955dd4[0Ktravis_time:end:12955dd4:start=1593877156010790548,finish=1593877156013584055,duration=2793507,event=debug_tools[0Ktravis_time:start:01c93a4b[0Ktravis_time:end:01c93a4b:start=1593877156017459417,finish=1593877156020605866,duration=3146449,event=uninstall_oclint[0Ktravis_time:start:0d87cb88[0Ktravis_time:end:0d87cb88:start=1593877156024427832,finish=1593877156027613657,duration=3185825,event=rvm_use[0Ktravis_time:start:1e49e314[0Ktravis_time:end:1e49e314:start=1593877156031260631,finish=1593877156039315994,duration=8055363,event=rm_etc_boto_cfg[0Ktravis_time:start:0b9f39c4[0Ktravis_time:end:0b9f39c4:start=1593877156043048540,finish=1593877156045680470,duration=2631930,event=rm_oraclejdk8_symlink[0Ktravis_time:start:0461a648[0Ktravis_time:end:0461a648:start=1593877156049543896,finish=1593877156141746296,duration=92202400,event=enable_i386[0Ktravis_time:start:08f87ebc[0Ktravis_time:end:08f87ebc:start=1593877156146236058,finish=1593877156149918421,duration=3682363,event=update_rubygems[0Ktravis_time:start:2c1b4579[0Ktravis_time:end:2c1b4579:start=1593877156153237746,finish=1593877156934442272,duration=781204526,event=ensure_path_components[0Ktravis_time:start:0edfc7e6[0Ktravis_time:end:0edfc7e6:start=1593877156938557858,finish=1593877156941114346,duration=2556488,event=redefine_curl[0Ktravis_time:start:006bbcec[0Ktravis_time:end:006bbcec:start=1593877156945090010,finish=1593877157059756375,duration=114666365,event=nonblock_pipe[0Ktravis_time:start:0f1a274c[0Ktravis_time:end:0f1a274c:start=1593877157064440000,finish=1593877163099009444,duration=6034569444,event=apt_get_update[0Ktravis_time:start:0551b788[0Ktravis_time:end:0551b788:start=1593877163103024932,finish=1593877163105592128,duration=2567196,event=deprecate_xcode_64[0Ktravis_time:start:137f0a00[0Ktravis_time:end:137f0a00:start=1593877163109581225,finish=1593877165596098284,duration=2486517059,event=update_heroku[0Ktravis_time:start:237be008[0Ktravis_time:end:237be008:start=1593877165599845472,finish=1593877165602413091,duration=2567619,event=shell_session_update[0Ktravis_time:start:16246e88[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:16246e88:start=1593877165607199135,finish=1593877167755312378,duration=2148113243,event=set_docker_mtu[0Ktravis_time:start:252950d4[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:252950d4:start=1593877167760748118,finish=1593877167847264998,duration=86516880,event=resolvconf[0Ktravis_time:start:1c0103ee[0Ktravis_time:end:1c0103ee:start=1593877167855229643,finish=1593877168032406078,duration=177176435,event=maven_central_mirror[0Ktravis_time:start:008b4228[0Ktravis_time:end:008b4228:start=1593877168037607658,finish=1593877168136599971,duration=98992313,event=maven_https[0Ktravis_fold:start:apt[0K[33;1mAdding APT Sources[0m
-travis_time:start:08af84a0[0K$ curl -sSL "https://build.travis-ci.com/files/gpg/travis-security.asc" | sudo -E apt-key add -
+travis_time:end:0e56af19:start=1593878190060614615,finish=1593878190065880836,duration=5266221,event=show_system_info[0Ktravis_time:start:0845df66[0Ktravis_time:end:0845df66:start=1593878190069066373,finish=1593878190086627707,duration=17561334,event=rm_riak_source[0Ktravis_time:start:01c6d6be[0Ktravis_time:end:01c6d6be:start=1593878190089041766,finish=1593878190093448928,duration=4407162,event=fix_rwky_redis[0Ktravis_time:start:00cf8efc[0Ktravis_time:end:00cf8efc:start=1593878190096841730,finish=1593878190711180872,duration=614339142,event=wait_for_network[0Ktravis_time:start:0a555052[0Ktravis_time:end:0a555052:start=1593878190718266352,finish=1593878191134184311,duration=415917959,event=update_apt_keys[0Ktravis_time:start:27f6fd4a[0Ktravis_time:end:27f6fd4a:start=1593878191138342605,finish=1593878191218990213,duration=80647608,event=fix_hhvm_source[0Ktravis_time:start:1ea00940[0Ktravis_time:end:1ea00940:start=1593878191227580162,finish=1593878191230356463,duration=2776301,event=update_mongo_arch[0Ktravis_time:start:03dfc580[0Ktravis_time:end:03dfc580:start=1593878191235426001,finish=1593878191291845050,duration=56419049,event=fix_sudo_enabled_trusty[0Ktravis_time:start:0acf925a[0Ktravis_time:end:0acf925a:start=1593878191295031282,finish=1593878191297425135,duration=2393853,event=update_glibc[0Ktravis_time:start:1d7b62b0[0Ktravis_time:end:1d7b62b0:start=1593878191300810185,finish=1593878191310139545,duration=9329360,event=clean_up_path[0Ktravis_time:start:2270d6f3[0Ktravis_time:end:2270d6f3:start=1593878191313159557,finish=1593878191323624259,duration=10464702,event=fix_resolv_conf[0Ktravis_time:start:1c6b4268[0Ktravis_time:end:1c6b4268:start=1593878191327060820,finish=1593878191343932740,duration=16871920,event=fix_etc_hosts[0Ktravis_time:start:1b0fd43a[0Ktravis_time:end:1b0fd43a:start=1593878191347894494,finish=1593878191357107040,duration=9212546,event=fix_mvn_settings_xml[0Ktravis_time:start:03b70e6a[0Ktravis_time:end:03b70e6a:start=1593878191361694838,finish=1593878191376236598,duration=14541760,event=no_ipv6_localhost[0Ktravis_time:start:3229a8f1[0Ktravis_time:end:3229a8f1:start=1593878191381194655,finish=1593878191383687293,duration=2492638,event=fix_etc_mavenrc[0Ktravis_time:start:02f03a00[0Ktravis_time:end:02f03a00:start=1593878191387611115,finish=1593878191390940481,duration=3329366,event=fix_wwdr_certificate[0Ktravis_time:start:0b4fcc73[0Ktravis_time:end:0b4fcc73:start=1593878191394996163,finish=1593878191454040177,duration=59044014,event=put_localhost_first[0Ktravis_time:start:02686002[0Ktravis_time:end:02686002:start=1593878191458125230,finish=1593878191461405309,duration=3280079,event=home_paths[0Ktravis_time:start:01b6eaf7[0Ktravis_time:end:01b6eaf7:start=1593878191470128382,finish=1593878191488409288,duration=18280906,event=disable_initramfs[0Ktravis_time:start:01597542[0Ktravis_time:end:01597542:start=1593878191502362177,finish=1593878191722117476,duration=219755299,event=disable_ssh_roaming[0Ktravis_time:start:07b7171b[0Ktravis_time:end:07b7171b:start=1593878191729483374,finish=1593878191733310590,duration=3827216,event=debug_tools[0Ktravis_time:start:126c7e53[0Ktravis_time:end:126c7e53:start=1593878191736336202,finish=1593878191739825510,duration=3489308,event=uninstall_oclint[0Ktravis_time:start:06bc0052[0Ktravis_time:end:06bc0052:start=1593878191742799401,finish=1593878191746244468,duration=3445067,event=rvm_use[0Ktravis_time:start:07fc03f8[0Ktravis_time:end:07fc03f8:start=1593878191750083918,finish=1593878191758834791,duration=8750873,event=rm_etc_boto_cfg[0Ktravis_time:start:00b758f5[0Ktravis_time:end:00b758f5:start=1593878191763644619,finish=1593878191767617208,duration=3972589,event=rm_oraclejdk8_symlink[0Ktravis_time:start:008830a1[0Ktravis_time:end:008830a1:start=1593878191773194471,finish=1593878191942896727,duration=169702256,event=enable_i386[0Ktravis_time:start:3c99288c[0Ktravis_time:end:3c99288c:start=1593878191947092507,finish=1593878191950765320,duration=3672813,event=update_rubygems[0Ktravis_time:start:31182b40[0Ktravis_time:end:31182b40:start=1593878191954134450,finish=1593878192739121110,duration=784986660,event=ensure_path_components[0Ktravis_time:start:1c2665c4[0Ktravis_time:end:1c2665c4:start=1593878192743238718,finish=1593878192745258879,duration=2020161,event=redefine_curl[0Ktravis_time:start:01074b46[0Ktravis_time:end:01074b46:start=1593878192749031092,finish=1593878192855858182,duration=106827090,event=nonblock_pipe[0Ktravis_time:start:070c1580[0Ktravis_time:end:070c1580:start=1593878192860040831,finish=1593878198902869983,duration=6042829152,event=apt_get_update[0Ktravis_time:start:22514943[0Ktravis_time:end:22514943:start=1593878198906680692,finish=1593878198909132235,duration=2451543,event=deprecate_xcode_64[0Ktravis_time:start:1fe51384[0Ktravis_time:end:1fe51384:start=1593878198913546190,finish=1593878201285983166,duration=2372436976,event=update_heroku[0Ktravis_time:start:06f5d3ea[0Ktravis_time:end:06f5d3ea:start=1593878201289719603,finish=1593878201291771798,duration=2052195,event=shell_session_update[0Ktravis_time:start:01736dd8[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:01736dd8:start=1593878201295094632,finish=1593878203305495855,duration=2010401223,event=set_docker_mtu[0Ktravis_time:start:1d5882d5[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:1d5882d5:start=1593878203310538282,finish=1593878203383531921,duration=72993639,event=resolvconf[0Ktravis_time:start:04bea71e[0Ktravis_time:end:04bea71e:start=1593878203387529607,finish=1593878203530067269,duration=142537662,event=maven_central_mirror[0Ktravis_time:start:046d362e[0Ktravis_time:end:046d362e:start=1593878203533897741,finish=1593878203628808966,duration=94911225,event=maven_https[0Ktravis_fold:start:apt[0K[33;1mAdding APT Sources[0m
+travis_time:start:059c7ed9[0K$ curl -sSL "https://build.travis-ci.com/files/gpg/travis-security.asc" | sudo -E apt-key add -
 OK
-travis_time:end:08af84a0:start=1593877168141203762,finish=1593877168458470419,duration=317266657,event=prepare[0Ktravis_time:start:02993ffc[0K$ echo "deb http://archive.ubuntu.com/ubuntu/ focal main universe" | sudo tee -a ${TRAVIS_ROOT}/etc/apt/sources.list >/dev/null
-travis_time:end:02993ffc:start=1593877168462871980,finish=1593877168473130493,duration=10258513,event=prepare[0Ktravis_time:start:006950be[0K$ travis_apt_get_update
-travis_time:end:006950be:start=1593877168478159941,finish=1593877184675298028,duration=16197138087,event=prepare[0K[33;1mInstalling APT Packages[0m
-travis_time:start:2553064a[0K$ sudo -E apt-get -yq --no-install-suggests --no-install-recommends $(travis_apt_get_options) install cppcheck clang-10 gcc-10 g++-10 clang-format clang-tidy clang-tools iwyu libboost-dev
+travis_time:end:059c7ed9:start=1593878203633673839,finish=1593878204010062637,duration=376388798,event=prepare[0Ktravis_time:start:2dba124b[0K$ echo "deb http://archive.ubuntu.com/ubuntu/ focal main universe" | sudo tee -a ${TRAVIS_ROOT}/etc/apt/sources.list >/dev/null
+travis_time:end:2dba124b:start=1593878204013617208,finish=1593878204023597295,duration=9980087,event=prepare[0Ktravis_time:start:235d98cc[0K$ travis_apt_get_update
+travis_time:end:235d98cc:start=1593878204027494991,finish=1593878218988165712,duration=14960670721,event=prepare[0K[33;1mInstalling APT Packages[0m
+travis_time:start:38490fba[0K$ sudo -E apt-get -yq --no-install-suggests --no-install-recommends $(travis_apt_get_options) install cppcheck clang-10 gcc-10 g++-10 clang-format clang-tidy clang-tools iwyu libboost-dev
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -284,7 +284,7 @@ Get:58 http://archive.ubuntu.com/ubuntu focal/main amd64 libboost1.71-dev amd64 
 Get:59 http://archive.ubuntu.com/ubuntu focal/main amd64 libboost-dev amd64 1.71.0.0ubuntu2 [3,596 B]
 Get:60 http://archive.ubuntu.com/ubuntu focal/universe amd64 iwyu amd64 8.0-3build1 [5,068 kB]
 Preconfiguring packages ...
-Fetched 122 MB in 5s (26.6 MB/s)
+Fetched 122 MB in 5s (23.4 MB/s)
 Selecting previously unselected package gcc-10-base:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 118522 files and directories currently installed.)
 Preparing to unpack .../gcc-10-base_10-20200411-0ubuntu1_amd64.deb ...
@@ -577,17 +577,17 @@ Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
 Processing triggers for ccache (3.4.1-1) ...
 Updating symlinks in /usr/lib/ccache ...
 Processing triggers for libc-bin (2.31-0ubuntu9) ...
-travis_time:end:2553064a:start=1593877184680616243,finish=1593877286993603385,duration=102312987142,event=prepare[0Ktravis_fold:end:apt[0Ktravis_time:start:1dfafd86[0Ktravis_time:end:1dfafd86:start=1593877286998348064,finish=1593877287000956877,duration=2608813,event=fix_ps4[0Ktravis_time:start:16c98116[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:11ad8d8e[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
+travis_time:end:38490fba:start=1593878218992398534,finish=1593878314091615230,duration=95099216696,event=prepare[0Ktravis_fold:end:apt[0Ktravis_time:start:00e3c910[0Ktravis_time:end:00e3c910:start=1593878314096154662,finish=1593878314098701426,duration=2546764,event=fix_ps4[0Ktravis_time:start:043d7e6d[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:21a7fba8[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
 Cloning into 'bansan85/wiki_le_garrec_fr'...
-travis_time:end:11ad8d8e:start=1593877287008773472,finish=1593877287368042834,duration=359269362,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
-$ git checkout -qf fd29f11e46be616a06908bd55eb45e33dd0c410d
+travis_time:end:21a7fba8:start=1593878314106023515,finish=1593878314558681885,duration=452658370,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
+$ git checkout -qf 35b49c9e4ba2556434540b0c1f6fbf0a10a3424c
 travis_fold:end:git.checkout[0K
-travis_time:end:11ad8d8e:start=1593877287008773472,finish=1593877287376435858,duration=367662386,event=checkout[0Ktravis_time:start:1f906801[0K
+travis_time:end:21a7fba8:start=1593878314106023515,finish=1593878314567191911,duration=461168396,event=checkout[0Ktravis_time:start:0580b88f[0K
 [33;1mSetting environment variables from .travis.yml[0m
 $ export PASSWORD_OPENSSL=[secure]
 
-travis_time:end:1f906801:start=1593877287380434718,finish=1593877287388439289,duration=8004571,event=env[0K$ export TRAVIS_COMPILER=g++
+travis_time:end:0580b88f:start=1593878314571131952,finish=1593878314578449730,duration=7317778,event=env[0K$ export TRAVIS_COMPILER=g++
 $ export CXX=${CXX:-g++}
 $ export CXX_FOR_BUILD=${CXX_FOR_BUILD:-g++}
 $ export CC=${CC:-gcc}
@@ -598,19 +598,19 @@ Copyright (C) 2017 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-travis_fold:start:before_install.1[0Ktravis_time:start:033f0928[0K$ cppcheck --version
+travis_fold:start:before_install.1[0Ktravis_time:start:05344de8[0K$ cppcheck --version
 Cppcheck 1.90
-travis_time:end:033f0928:start=1593877287412360908,finish=1593877287417775019,duration=5414111,event=before_install[0Ktravis_fold:end:before_install.1[0Ktravis_fold:start:before_install.2[0Ktravis_time:start:38ee4aca[0K$ clang-format --version
+travis_time:end:05344de8:start=1593878314596806966,finish=1593878314602351164,duration=5544198,event=before_install[0Ktravis_fold:end:before_install.1[0Ktravis_fold:start:before_install.2[0Ktravis_time:start:2a80f5ec[0K$ clang-format --version
 clang-format version 7.0.0 (tags/RELEASE_700/final)
-travis_time:end:38ee4aca:start=1593877287423721120,finish=1593877287443551014,duration=19829894,event=before_install[0Ktravis_fold:end:before_install.2[0Ktravis_fold:start:before_install.3[0Ktravis_time:start:00bccb02[0K$ openssl aes-256-cbc -md sha512 -pbkdf2 -iter 100000 -k "$PASSWORD_OPENSSL" -out travis/ci/github_wiki_le_garrec_fr.key -in travis/ci/github_wiki_le_garrec_fr.key.enc -d
-travis_time:end:00bccb02:start=1593877287449164805,finish=1593877287537837571,duration=88672766,event=before_install[0Ktravis_fold:end:before_install.3[0Ktravis_fold:start:before_install.4[0Ktravis_time:start:174e612a[0K$ eval $(ssh-agent -s)
-Agent pid 9486
-travis_time:end:174e612a:start=1593877287543687025,finish=1593877287552660546,duration=8973521,event=before_install[0Ktravis_fold:end:before_install.4[0Ktravis_fold:start:before_install.5[0Ktravis_time:start:1946794c[0K$ chmod 600 travis/ci/github_wiki_le_garrec_fr.key
-travis_time:end:1946794c:start=1593877287558481650,finish=1593877287562520602,duration=4038952,event=before_install[0Ktravis_fold:end:before_install.5[0Ktravis_fold:start:before_install.6[0Ktravis_time:start:05a35137[0K$ ssh-add travis/ci/github_wiki_le_garrec_fr.key
+travis_time:end:2a80f5ec:start=1593878314606819388,finish=1593878314622878328,duration=16058940,event=before_install[0Ktravis_fold:end:before_install.2[0Ktravis_fold:start:before_install.3[0Ktravis_time:start:099f1b2e[0K$ openssl aes-256-cbc -md sha512 -pbkdf2 -iter 100000 -k "$PASSWORD_OPENSSL" -out travis/ci/github_wiki_le_garrec_fr.key -in travis/ci/github_wiki_le_garrec_fr.key.enc -d
+travis_time:end:099f1b2e:start=1593878314627358046,finish=1593878314713641712,duration=86283666,event=before_install[0Ktravis_fold:end:before_install.3[0Ktravis_fold:start:before_install.4[0Ktravis_time:start:0de179c4[0K$ eval $(ssh-agent -s)
+Agent pid 9468
+travis_time:end:0de179c4:start=1593878314718816872,finish=1593878314727540231,duration=8723359,event=before_install[0Ktravis_fold:end:before_install.4[0Ktravis_fold:start:before_install.5[0Ktravis_time:start:3277b41a[0K$ chmod 600 travis/ci/github_wiki_le_garrec_fr.key
+travis_time:end:3277b41a:start=1593878314733058537,finish=1593878314736261874,duration=3203337,event=before_install[0Ktravis_fold:end:before_install.5[0Ktravis_fold:start:before_install.6[0Ktravis_time:start:09613851[0K$ ssh-add travis/ci/github_wiki_le_garrec_fr.key
 Identity added: travis/ci/github_wiki_le_garrec_fr.key (travis-ci@le-garrec.fr)
-travis_time:end:05a35137:start=1593877287566947110,finish=1593877287579971099,duration=13023989,event=before_install[0Ktravis_fold:end:before_install.6[0Ktravis_time:start:0aad1797[0K$ mkdir buildcppgcc; cd buildcppgcc
-travis_time:end:0aad1797:start=1593877287585152815,finish=1593877287588648586,duration=3495771,event=script[0K[32;1mThe command "mkdir buildcppgcc; cd buildcppgcc" exited with 0.[0m
-travis_time:start:2578d692[0K$ CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS="-Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P" cmake ../cpp
+travis_time:end:09613851:start=1593878314740378535,finish=1593878314750331682,duration=9953147,event=before_install[0Ktravis_fold:end:before_install.6[0Ktravis_time:start:16eecf5d[0K$ mkdir buildcppgcc; cd buildcppgcc
+travis_time:end:16eecf5d:start=1593878314753961578,finish=1593878314757013610,duration=3052032,event=script[0K[32;1mThe command "mkdir buildcppgcc; cd buildcppgcc" exited with 0.[0m
+travis_time:start:02192aa5[0K$ CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS="-Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P" cmake ../cpp
 -- The C compiler identification is GNU 10.0.1
 -- The CXX compiler identification is GNU 10.0.1
 -- Check for working C compiler: /usr/bin/gcc-10
@@ -629,8 +629,8 @@ travis_time:start:2578d692[0K$ CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc
-travis_time:end:2578d692:start=1593877287593737049,finish=1593877288644765713,duration=1051028664,event=script[0K[32;1mThe command "CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS="-Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P" cmake ../cpp" exited with 0.[0m
-travis_time:start:097a0da0[0K$ make
+travis_time:end:02192aa5:start=1593878314760676960,finish=1593878315635380675,duration=874703715,event=script[0K[32;1mThe command "CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS="-Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P" cmake ../cpp" exited with 0.[0m
+travis_time:start:1f265b05[0K$ make
 /usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc --check-build-system CMakeFiles/Makefile.cmake 0
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/CMakeFiles /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/CMakeFiles/progress.marks
 make -f CMakeFiles/Makefile2 all
@@ -663,49 +663,22 @@ make[1]: *** [boost/executor/CMakeFiles/boostexecutor.dir/all] Error 2
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 Makefile:86: recipe for target 'all' failed
 make: *** [all] Error 2
-travis_time:end:097a0da0:start=1593877288650639331,finish=1593877300893452781,duration=12242813450,event=script[0K[31;1mThe command "make" exited with 2.[0m
-travis_time:start:19495864[0K$ cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json
+travis_time:end:1f265b05:start=1593878315640014361,finish=1593878327099976997,duration=11459962636,event=script[0K[31;1mThe command "make" exited with 2.[0m
+travis_time:start:38917700[0K$ cppcheck --inconclusive --enable=all --project=compile_commands.json
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp ...
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:3:0: information: Include file: <functional> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:4:0: information: Include file: <memory> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:3:0: information: Include file: <atomic> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:4:0: information: Include file: <boost/asio.hpp> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:5:0: information: Include file: <queue> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:6:0: information: Include file: <vector> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:65:10: style:inconclusive: Technically the member function 'PrioritySchedulerImpl::item_comp::operator()' can be const. [functionConst]
+    bool operator()(const std::shared_ptr<item_base>& a,
+         ^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:100:8: performance:inconclusive: Technically the member function 'ExecutorTypeImpl::on_work_started' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+  void on_work_started() const noexcept {}
+       ^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:103:8: performance:inconclusive: Technically the member function 'ExecutorTypeImpl::on_work_finished' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+  void on_work_finished() const noexcept {}
+       ^
 1/7 files checked 14% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp ...
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:1:0: information: Include file: <atomic> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:2:0: information: Include file: <chrono> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:3:0: information: Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:4:0: information: Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:5:0: information: Include file: <thread> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
 2/7 files checked 28% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseA.cpp ...
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/Entete.h:3:0: information: Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
 3/7 files checked 42% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseB.cpp ...
 4/7 files checked 57% done
@@ -714,15 +687,29 @@ Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/main.cpp 
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp ...
 6/7 files checked 85% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp ...
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp:7:18: style: Statements following return, break, continue, goto or throw will never be executed. [unreachableCode]
+  return RET_NEG(ARG1);  // NOLINT
+                 ^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp:7:18: warning: Unused variable value 'ARG1' [constStatement]
+  return RET_NEG(ARG1);  // NOLINT
+                 ^
 7/7 files checked 100% done
-travis_time:end:19495864:start=1593877300899295782,finish=1593877300934225893,duration=34930111,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json" exited with 0.[0m
-travis_time:start:00bc67f0[0K$ iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi
-travis_time:end:00bc67f0:start=1593877300940093449,finish=1593877304967320614,duration=4027227165,event=script[0K[32;1mThe command "iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi" exited with 0.[0m
-travis_time:start:243e6a00[0K$ cd ..
-travis_time:end:243e6a00:start=1593877304971809346,finish=1593877304974862654,duration=3053308,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
-travis_time:start:000b6058[0K$ mkdir buildcppclang; cd buildcppclang
-travis_time:end:000b6058:start=1593877304979199485,finish=1593877304983805771,duration=4606286,event=script[0K[32;1mThe command "mkdir buildcppclang; cd buildcppclang" exited with 0.[0m
-travis_time:start:0a5fe89c[0K$ CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2" cmake ../cpp
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:103:0: style: The function 'on_work_finished' is never used. [unusedFunction]
+
+^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:100:0: style: The function 'on_work_started' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
+travis_time:end:38917700:start=1593878327107667452,finish=1593878327147594610,duration=39927158,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all --project=compile_commands.json" exited with 0.[0m
+travis_time:start:10fbd089[0K$ iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi
+travis_time:end:10fbd089:start=1593878327151970635,finish=1593878330973811808,duration=3821841173,event=script[0K[32;1mThe command "iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi" exited with 0.[0m
+travis_time:start:04eadaae[0K$ cd ..
+travis_time:end:04eadaae:start=1593878330977785785,finish=1593878330980366046,duration=2580261,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
+travis_time:start:155ab0b8[0K$ mkdir buildcppclang; cd buildcppclang
+travis_time:end:155ab0b8:start=1593878330984188665,finish=1593878330988269259,duration=4080594,event=script[0K[32;1mThe command "mkdir buildcppclang; cd buildcppclang" exited with 0.[0m
+travis_time:start:0a53a272[0K$ CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat" cmake ../cpp
 -- The C compiler identification is Clang 10.0.0
 -- The CXX compiler identification is Clang 10.0.0
 -- Check for working C compiler: /usr/bin/clang-10
@@ -741,8 +728,8 @@ travis_time:start:0a5fe89c[0K$ CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CX
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang
-travis_time:end:0a5fe89c:start=1593877304988085536,finish=1593877306377553200,duration=1389467664,event=script[0K[32;1mThe command "CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2" cmake ../cpp" exited with 0.[0m
-travis_time:start:1c8386c4[0K$ make
+travis_time:end:0a53a272:start=1593878330992007501,finish=1593878332205160539,duration=1213153038,event=script[0K[32;1mThe command "CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat" cmake ../cpp" exited with 0.[0m
+travis_time:start:050b8f42[0K$ make
 /usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang --check-build-system CMakeFiles/Makefile.cmake 0
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles/progress.marks
 make -f CMakeFiles/Makefile2 all
@@ -776,68 +763,23 @@ make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildc
 make -f boost/executor/CMakeFiles/boostexecutor.dir/build.make boost/executor/CMakeFiles/boostexecutor.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 [ 11%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o
-cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2   -o CMakeFiles/boostexecutor.dir/executor.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
-In file included from /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:1:
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:16:30: error: rvalue references are incompatible with C++98 [-Werror,-Wc++98-compat]
-    ExecutorType(ExecutorType&& other) noexcept;
-                             ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:16:48: error: noexcept specifications are incompatible with C++98 [-Werror,-Wc++98-compat]
-    ExecutorType(ExecutorType&& other) noexcept;
-                                               ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:17:47: error: deleted function definitions are incompatible with C++98 [-Werror,-Wc++98-compat]
-    ExecutorType(ExecutorType const& other) = delete;
-                                              ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:18:41: error: rvalue references are incompatible with C++98 [-Werror,-Wc++98-compat]
-    ExecutorType& operator=(ExecutorType&& other) noexcept = delete;
-                                        ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:18:60: error: noexcept specifications are incompatible with C++98 [-Werror,-Wc++98-compat]
-    ExecutorType& operator=(ExecutorType&& other) noexcept = delete;
-                                                           ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:18:62: error: deleted function definitions are incompatible with C++98 [-Werror,-Wc++98-compat]
-    ExecutorType& operator=(ExecutorType&& other) noexcept = delete;
-                                                             ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:19:58: error: deleted function definitions are incompatible with C++98 [-Werror,-Wc++98-compat]
-    ExecutorType& operator=(ExecutorType const& other) = delete;
-                                                         ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:22:48: error: noexcept specifications are incompatible with C++98 [-Werror,-Wc++98-compat]
-    PriorityScheduler& context() const noexcept;
-                                               ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:34:46: error: noexcept specifications are incompatible with C++98 [-Werror,-Wc++98-compat]
-  ExecutorType get_executor(int pri) noexcept;
-                                             ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:46:59: error: noexcept specifications are incompatible with C++98 [-Werror,-Wc++98-compat]
-                const PriorityScheduler::ExecutorType& b) noexcept;
-                                                          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:49:59: error: noexcept specifications are incompatible with C++98 [-Werror,-Wc++98-compat]
-                const PriorityScheduler::ExecutorType& b) noexcept;
-                                                          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:78:60: error: consecutive right angle brackets are incompatible with C++98 (use '> >') [-Werror,-Wc++98-compat]
-                      std::vector<std::shared_ptr<item_base>>, item_comp>
-                                                           ^~
-                                                           > >
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:80:29: error: in-class initialization of non-static data members is incompatible with C++98 [-Werror,-Wc++98-compat]
-  std::atomic<bool> stopped_{false};
-                            ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:80:29: error: constructor call from initializer list is incompatible with C++98 [-Werror,-Wc++98-compat]
-  std::atomic<bool> stopped_{false};
-                            ^~~~~~~
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:17:29: error: lambda expressions are incompatible with C++98 [-Werror,-Wc++98-compat]
-      condition_.wait(lock, [&] { return stopped_ || !queue_.empty(); });
-                            ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:17:18: error: local type '(lambda at /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:17:29)' as template argument is incompatible with C++98 [-Werror,-Wc++98-compat-local-type-template-args]
-      condition_.wait(lock, [&] { return stopped_ || !queue_.empty(); });
-                 ^~~~
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:50:18: error: lambda expressions are incompatible with C++98 [-Werror,-Wc++98-compat]
-      execute_ = [](std::shared_ptr<item_base>& p) {
-                 ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:87:7: error: noexcept specifications are incompatible with C++98 [-Werror,-Wc++98-compat]
-      : context_(ctx), priority_(pri)
-      ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:91:36: error: rvalue references are incompatible with C++98 [-Werror,-Wc++98-compat]
-  ExecutorTypeImpl(ExecutorTypeImpl&& other) noexcept = default;
-                                   ^
-fatal error: too many errors emitted, stopping now [-ferror-limit=]
-20 errors generated.
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat   -o CMakeFiles/boostexecutor.dir/executor.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:93:21: error: explicitly defaulted move assignment operator is implicitly deleted [-Werror,-Wdefaulted-function-deleted]
+  ExecutorTypeImpl& operator=(ExecutorTypeImpl&& other) noexcept = default;
+                    ^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:113:22: note: move assignment operator of 'ExecutorTypeImpl' is implicitly deleted because field 'context_' is of reference type 'PriorityScheduler &'
+  PriorityScheduler& context_;
+                     ^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:83:40: error: padding size of 'PriorityScheduler::ExecutorType::ExecutorTypeImpl' with 4 bytes to alignment boundary [-Werror,-Wpadded]
+class PriorityScheduler::ExecutorType::ExecutorTypeImpl
+                                       ^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:38:52: error: padding struct 'PriorityScheduler::PrioritySchedulerImpl::item_base' with 4 bytes to align 'timestamp' [-Werror,-Wpadded]
+    std::chrono::high_resolution_clock::time_point timestamp;
+                                                   ^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:8:26: error: padding size of 'PriorityScheduler::PrioritySchedulerImpl' with 7 bytes to alignment boundary [-Werror,-Wpadded]
+class PriorityScheduler::PrioritySchedulerImpl
+                         ^
+4 errors generated.
 boost/executor/CMakeFiles/boostexecutor.dir/build.make:65: recipe for target 'boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o' failed
 make[2]: *** [boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o] Error 1
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
@@ -846,8 +788,8 @@ make[1]: *** [boost/executor/CMakeFiles/boostexecutor.dir/all] Error 2
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 Makefile:86: recipe for target 'all' failed
 make: *** [all] Error 2
-travis_time:end:1c8386c4:start=1593877306383756734,finish=1593877307667225694,duration=1283468960,event=script[0K[31;1mThe command "make" exited with 2.[0m
-travis_time:start:1a89e890[0K$ python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py
+travis_time:end:050b8f42:start=1593878332210074337,finish=1593878333581859348,duration=1371785011,event=script[0K[31;1mThe command "make" exited with 2.[0m
+travis_time:start:0cf9d38e[0K$ python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py
 Enabled checks:
     abseil-duration-addition
     abseil-duration-comparison
@@ -1092,7 +1034,6 @@ Enabled checks:
     fuchsia-default-arguments-declarations
     fuchsia-header-anon-namespaces
     fuchsia-multiple-inheritance
-    fuchsia-overloaded-operator
     fuchsia-restrict-system-includes
     fuchsia-statically-constructed-objects
     fuchsia-trailing-return
@@ -1266,94 +1207,12 @@ class PriorityScheduler
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:13:37: error: non-const reference parameter 'ctx', make it const or use a pointer [google-runtime-references,-warnings-as-errors]
     ExecutorType(PriorityScheduler& ctx, int pri);
                                     ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:16:30: error: rvalue references are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    ExecutorType(ExecutorType&& other) noexcept;
-                             ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:16:48: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    ExecutorType(ExecutorType&& other) noexcept;
-                                               ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:17:47: error: deleted function definitions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    ExecutorType(ExecutorType const& other) = delete;
-                                              ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:18:41: error: rvalue references are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    ExecutorType& operator=(ExecutorType&& other) noexcept = delete;
-                                        ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:18:60: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    ExecutorType& operator=(ExecutorType&& other) noexcept = delete;
-                                                           ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:18:62: error: deleted function definitions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    ExecutorType& operator=(ExecutorType&& other) noexcept = delete;
-                                                             ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:19:58: error: deleted function definitions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    ExecutorType& operator=(ExecutorType const& other) = delete;
-                                                         ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:22:48: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    PriorityScheduler& context() const noexcept;
-                                               ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:34:46: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  ExecutorType get_executor(int pri) noexcept;
-                                             ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:45:1: error: overloading 'operator==' is disallowed [fuchsia-overloaded-operator,-warnings-as-errors]
-bool operator==(const PriorityScheduler::ExecutorType& a,
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:46:59: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-                const PriorityScheduler::ExecutorType& b) noexcept;
-                                                          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:48:1: error: overloading 'operator!=' is disallowed [fuchsia-overloaded-operator,-warnings-as-errors]
-bool operator!=(const PriorityScheduler::ExecutorType& a,
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:49:59: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-                const PriorityScheduler::ExecutorType& b) noexcept;
-                                                          ^
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:9:18: error: no previous extern declaration for non-static variable 'test' [clang-diagnostic-missing-variable-declarations,-warnings-as-errors]
 std::atomic<int> test{0};
                  ^
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:9:1: note: declare 'static' if the variable is not intended to be used outside of this translation unit
 std::atomic<int> test{0};
 ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:9:22: error: constructor call from initializer list is incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-std::atomic<int> test{0};
-                     ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:9:22: error: generalized initializer lists are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:15:34: error: rvalue references are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  PriorityScheduler::ExecutorType&& nulle = sched.get_executor(-1);
-                                 ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:16:34: error: rvalue references are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  PriorityScheduler::ExecutorType&& low = sched.get_executor(0);
-                                 ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:17:34: error: rvalue references are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  PriorityScheduler::ExecutorType&& med = sched.get_executor(1);
-                                 ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:18:34: error: rvalue references are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  PriorityScheduler::ExecutorType&& high = sched.get_executor(2);
-                                 ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:20:11: error: lambda expressions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  med.add([] { std::cout << "2\n"; });
-          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:21:11: error: lambda expressions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  low.add([] { std::cout << "1\n"; });
-          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:22:11: error: lambda expressions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  med.add([] { std::cout << "22\n"; });
-          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:23:11: error: lambda expressions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  low.add([] { std::cout << "11\n"; });
-          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:24:12: error: lambda expressions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  high.add([] { std::cout << "3\n"; });
-           ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:25:12: error: lambda expressions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  high.add([] { std::cout << "33\n"; });
-           ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:26:12: error: lambda expressions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  high.add([] { std::cout << "333\n"; });
-           ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:28:13: error: lambda expressions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  nulle.add([&sched] { sched.stop(); });
-            ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:30:17: error: lambda expressions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  std::thread t([&sched] { sched.run(); });
-                ^
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseA.cpp
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseB.cpp
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/main.cpp
@@ -1363,12 +1222,6 @@ clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /ho
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:8:26: error: padding size of 'PriorityScheduler::PrioritySchedulerImpl' with 7 bytes to alignment boundary [clang-diagnostic-padded,-warnings-as-errors]
 class PriorityScheduler::PrioritySchedulerImpl
                          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:17:18: error: local type '(lambda at /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:17:29)' as template argument is incompatible with C++98 [clang-diagnostic-c++98-compat-local-type-template-args,-warnings-as-errors]
-      condition_.wait(lock, [&] { return stopped_ || !queue_.empty(); });
-                 ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:17:29: error: lambda expressions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-      condition_.wait(lock, [&] { return stopped_ || !queue_.empty(); });
-                            ^
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:18:20: error: statement should be inside braces [hicpp-braces-around-statements,-warnings-as-errors]
       if (stopped_) return;
                    ^
@@ -1386,54 +1239,9 @@ class PriorityScheduler::PrioritySchedulerImpl
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:38:52: error: padding struct 'PriorityScheduler::PrioritySchedulerImpl::item_base' with 4 bytes to align 'timestamp' [clang-diagnostic-padded,-warnings-as-errors]
     std::chrono::high_resolution_clock::time_point timestamp;
                                                    ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:50:16: error: local type '(lambda at /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:50:18)' as template argument is incompatible with C++98 [clang-diagnostic-c++98-compat-local-type-template-args,-warnings-as-errors]
-      execute_ = [](std::shared_ptr<item_base>& p) {
-               ^
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/new_allocator.h:151:23: note: in instantiation of member function 'PriorityScheduler::PrioritySchedulerImpl::item<boost::asio::detail::work_dispatcher<std::function<void ()> > >::item' requested here
-        { ::new((void *)__p) _Up(std::forward<_Args>(__args)...); }
-                             ^
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/alloc_traits.h:507:8: note: in instantiation of function template specialization '__gnu_cxx::new_allocator<char>::construct<PriorityScheduler::PrioritySchedulerImpl::item<boost::asio::detail::work_dispatcher<std::function<void ()> > >, const int &, boost::asio::detail::work_dispatcher<std::function<void ()> > >' requested here
-          __a.construct(__p, std::forward<_Args>(__args)...);
-              ^
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/shared_ptr_base.h:548:30: note: in instantiation of function template specialization 'std::allocator_traits<std::allocator<char> >::construct<PriorityScheduler::PrioritySchedulerImpl::item<boost::asio::detail::work_dispatcher<std::function<void ()> > >, const int &, boost::asio::detail::work_dispatcher<std::function<void ()> > >' requested here
-          allocator_traits<_Alloc>::construct(__a, _M_ptr(),
-                                    ^
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/shared_ptr_base.h:680:6: note: in instantiation of function template specialization 'std::_Sp_counted_ptr_inplace<PriorityScheduler::PrioritySchedulerImpl::item<boost::asio::detail::work_dispatcher<std::function<void ()> > >, std::allocator<char>, __gnu_cxx::_S_atomic>::_Sp_counted_ptr_inplace<const int &, boost::asio::detail::work_dispatcher<std::function<void ()> > >' requested here
-            _Sp_cp_type(__a._M_a, std::forward<_Args>(__args)...);
-            ^
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/shared_ptr_base.h:1368:14: note: in instantiation of function template specialization 'std::__shared_count<__gnu_cxx::_S_atomic>::__shared_count<PriorityScheduler::PrioritySchedulerImpl::item<boost::asio::detail::work_dispatcher<std::function<void ()> > >, std::allocator<char>, const int &, boost::asio::detail::work_dispatcher<std::function<void ()> > >' requested here
-        : _M_ptr(), _M_refcount(_M_ptr, __tag, std::forward<_Args>(__args)...)
-                    ^
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/shared_ptr.h:408:4: note: (skipping 4 contexts in backtrace; use -ftemplate-backtrace-limit=0 to see all)
-        : __shared_ptr<_Tp>(__tag, std::forward<_Args>(__args)...)
-          ^
-/usr/include/boost/asio/impl/dispatch.hpp:54:8: note: in instantiation of function template specialization 'PriorityScheduler::ExecutorType::ExecutorTypeImpl::dispatch<boost::asio::detail::work_dispatcher<std::function<void ()> >, std::allocator<void> >' requested here
-    ex.dispatch(detail::work_dispatcher<DecayedHandler>(
-       ^
-/usr/include/boost/asio/async_result.hpp:82:5: note: in instantiation of function template specialization 'boost::asio::detail::initiate_dispatch::operator()<std::function<void ()> &, const PriorityScheduler::ExecutorType::ExecutorTypeImpl &>' requested here
-    BOOST_ASIO_MOVE_CAST(Initiation)(initiation)(
-    ^
-/usr/include/boost/asio/detail/config.hpp:131:37: note: expanded from macro 'BOOST_ASIO_MOVE_CAST'
-# define BOOST_ASIO_MOVE_CAST(type) static_cast<type&&>
-                                    ^
-/usr/include/boost/asio/async_result.hpp:257:17: note: in instantiation of function template specialization 'boost::asio::async_result<std::function<void ()>, void ()>::initiate<boost::asio::detail::initiate_dispatch, std::function<void ()> &, const PriorityScheduler::ExecutorType::ExecutorTypeImpl &>' requested here
-    Signature>::initiate(BOOST_ASIO_MOVE_CAST(Initiation)(initiation),
-                ^
-/usr/include/boost/asio/impl/dispatch.hpp:74:10: note: in instantiation of function template specialization 'boost::asio::async_initiate<std::function<void ()> &, void (), boost::asio::detail::initiate_dispatch, const PriorityScheduler::ExecutorType::ExecutorTypeImpl &>' requested here
-  return async_initiate<CompletionToken, void()>(
-         ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:159:16: note: in instantiation of function template specialization 'boost::asio::dispatch<PriorityScheduler::ExecutorType::ExecutorTypeImpl, std::function<void ()> &>' requested here
-  boost::asio::dispatch(*impl_, f);
-               ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:50:18: error: lambda expressions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-      execute_ = [](std::shared_ptr<item_base>& p) {
-                 ^
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:58:10: error: member variable 'function_' has public visibility [misc-non-private-member-variables-in-classes,-warnings-as-errors]
     Func function_;
          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:65:5: error: overloading 'operator()' is disallowed [fuchsia-overloaded-operator,-warnings-as-errors]
-    bool operator()(const std::shared_ptr<item_base>& a,
-    ^
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:68:40: error: statement should be inside braces [google-readability-braces-around-statements,-warnings-as-errors]
       if (a->priority_ != b->priority_)
                                        ^
@@ -1467,20 +1275,12 @@ class PriorityScheduler::PrioritySchedulerImpl
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:76:27: error: member variable 'condition_' has public visibility [misc-non-private-member-variables-in-classes,-warnings-as-errors]
   std::condition_variable condition_;
                           ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:78:60: error: consecutive right angle brackets are incompatible with C++98 (use '> >') [clang-diagnostic-c++98-compat,-warnings-as-errors]
-                      std::vector<std::shared_ptr<item_base>>, item_comp>
-                                                           ^~
-                                                           > >
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:79:7: error: member variable 'queue_' has public visibility [misc-non-private-member-variables-in-classes,-warnings-as-errors]
       queue_;
       ^
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:80:21: error: member variable 'stopped_' has public visibility [misc-non-private-member-variables-in-classes,-warnings-as-errors]
   std::atomic<bool> stopped_{false};
                     ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:80:29: error: constructor call from initializer list is incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  std::atomic<bool> stopped_{false};
-                            ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:80:29: error: in-class initialization of non-static data members is incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:83:40: error: padding size of 'PriorityScheduler::ExecutorType::ExecutorTypeImpl' with 4 bytes to alignment boundary [clang-diagnostic-padded,-warnings-as-errors]
 class PriorityScheduler::ExecutorType::ExecutorTypeImpl
                                        ^
@@ -1489,21 +1289,6 @@ class PriorityScheduler::ExecutorType::ExecutorTypeImpl
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:86:39: error: non-const reference parameter 'ctx', make it const or use a pointer [google-runtime-references,-warnings-as-errors]
   ExecutorTypeImpl(PriorityScheduler& ctx, int pri) noexcept
                                       ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:87:7: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-      : context_(ctx), priority_(pri)
-      ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:91:36: error: rvalue references are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  ExecutorTypeImpl(ExecutorTypeImpl&& other) noexcept = default;
-                                   ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:91:55: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  ExecutorTypeImpl(ExecutorTypeImpl&& other) noexcept = default;
-                                                      ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:91:57: error: defaulted function definitions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  ExecutorTypeImpl(ExecutorTypeImpl&& other) noexcept = default;
-                                                        ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:92:53: error: deleted function definitions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  ExecutorTypeImpl(ExecutorTypeImpl const& other) = delete;
-                                                    ^
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:93:3: error: move assignment operator is explicitly defaulted but implicitly deleted, probably because a base class or a non-static data member is not assignable, e.g. because the latter is marked 'const'; definition can either be removed or explicitly deleted [readability-deleted-default,-warnings-as-errors]
   ExecutorTypeImpl& operator=(ExecutorTypeImpl&& other) noexcept = default;
   ^
@@ -1513,79 +1298,12 @@ class PriorityScheduler::ExecutorType::ExecutorTypeImpl
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:113:22: note: move assignment operator of 'ExecutorTypeImpl' is implicitly deleted because field 'context_' is of reference type 'PriorityScheduler &'
   PriorityScheduler& context_;
                      ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:93:47: error: rvalue references are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  ExecutorTypeImpl& operator=(ExecutorTypeImpl&& other) noexcept = default;
-                                              ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:93:66: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  ExecutorTypeImpl& operator=(ExecutorTypeImpl&& other) noexcept = default;
-                                                                 ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:93:68: error: defaulted function definitions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  ExecutorTypeImpl& operator=(ExecutorTypeImpl&& other) noexcept = default;
-                                                                   ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:94:64: error: deleted function definitions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  ExecutorTypeImpl& operator=(ExecutorTypeImpl const& other) = delete;
-                                                               ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:97:47: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  PriorityScheduler& context() const noexcept { return context_; }
-                                              ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:100:41: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  void on_work_started() const noexcept {}
-                                        ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:103:42: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  void on_work_finished() const noexcept {}
-                                         ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:107:21: error: rvalue references are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  void dispatch(Func&& f, const Alloc& a) const
-                    ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:117:17: error: rvalue references are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  void post(Func&& f, const Alloc& a) const
-                ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:122:64: error: consecutive right angle brackets are incompatible with C++98 (use '> >') [clang-diagnostic-c++98-compat,-warnings-as-errors]
-            PriorityScheduler::PrioritySchedulerImpl::item<Func>>(
-                                                               ^~
-                                                               > >
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:136:18: error: rvalue references are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  void defer(Func&& f, const Alloc& a) const
-                 ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:147:52: error: defaulted function definitions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-PriorityScheduler::ExecutorType::~ExecutorType() = default;
-                                                   ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:149:59: error: rvalue references are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-PriorityScheduler::ExecutorType::ExecutorType(ExecutorType&& other) noexcept =
-                                                          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:149:69: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-PriorityScheduler::ExecutorType::ExecutorType(ExecutorType&& other) noexcept =
-                                                                    ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:150:5: error: defaulted function definitions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    default;
-    ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:152:69: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-PriorityScheduler& PriorityScheduler::ExecutorType::context() const noexcept
-                                                                    ^
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:159:3: error: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls,-warnings-as-errors]
   boost::asio::dispatch(*impl_, f);
   ^
 /usr/include/boost/asio/impl/dispatch.hpp:72:5: note: default parameter was declared here
     typename enable_if<is_executor<Executor>::value>::type*)
     ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:162:1: error: overloading 'operator==' is disallowed [fuchsia-overloaded-operator,-warnings-as-errors]
-bool operator==(const PriorityScheduler::ExecutorType& a,
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:163:59: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-                const PriorityScheduler::ExecutorType& b) noexcept
-                                                          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:168:1: error: overloading 'operator!=' is disallowed [fuchsia-overloaded-operator,-warnings-as-errors]
-bool operator!=(const PriorityScheduler::ExecutorType& a,
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:169:59: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-                const PriorityScheduler::ExecutorType& b) noexcept
-                                                          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:179:43: error: defaulted function definitions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-PriorityScheduler::~PriorityScheduler() = default;
-                                          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:182:14: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    int pri) noexcept
-             ^
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:6:7: error: class 'PriorityScheduler' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator [cppcoreguidelines-special-member-functions,-warnings-as-errors]
 class PriorityScheduler
       ^
@@ -1593,63 +1311,24 @@ class PriorityScheduler
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:13:37: error: non-const reference parameter 'ctx', make it const or use a pointer [google-runtime-references,-warnings-as-errors]
     ExecutorType(PriorityScheduler& ctx, int pri);
                                     ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:16:30: error: rvalue references are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    ExecutorType(ExecutorType&& other) noexcept;
-                             ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:16:48: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    ExecutorType(ExecutorType&& other) noexcept;
-                                               ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:17:47: error: deleted function definitions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    ExecutorType(ExecutorType const& other) = delete;
-                                              ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:18:41: error: rvalue references are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    ExecutorType& operator=(ExecutorType&& other) noexcept = delete;
-                                        ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:18:60: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    ExecutorType& operator=(ExecutorType&& other) noexcept = delete;
-                                                           ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:18:62: error: deleted function definitions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    ExecutorType& operator=(ExecutorType&& other) noexcept = delete;
-                                                             ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:19:58: error: deleted function definitions are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    ExecutorType& operator=(ExecutorType const& other) = delete;
-                                                         ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:22:48: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-    PriorityScheduler& context() const noexcept;
-                                               ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:34:46: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-  ExecutorType get_executor(int pri) noexcept;
-                                             ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:45:1: error: overloading 'operator==' is disallowed [fuchsia-overloaded-operator,-warnings-as-errors]
-bool operator==(const PriorityScheduler::ExecutorType& a,
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:46:59: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-                const PriorityScheduler::ExecutorType& b) noexcept;
-                                                          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:48:1: error: overloading 'operator!=' is disallowed [fuchsia-overloaded-operator,-warnings-as-errors]
-bool operator!=(const PriorityScheduler::ExecutorType& a,
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:49:59: error: noexcept specifications are incompatible with C++98 [clang-diagnostic-c++98-compat,-warnings-as-errors]
-                const PriorityScheduler::ExecutorType& b) noexcept;
-                                                          ^
-12617 warnings generated.
-Suppressed 12585 warnings (12585 in non-user code).
+11153 warnings generated.
+Suppressed 11149 warnings (11149 in non-user code).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
-32 warnings treated as errors
-8982 warnings generated.
-Suppressed 8982 warnings (8982 in non-user code).
+4 warnings treated as errors
+8320 warnings generated.
+Suppressed 8320 warnings (8320 in non-user code).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
-8982 warnings generated.
-Suppressed 8982 warnings (8982 in non-user code).
+8320 warnings generated.
+Suppressed 8320 warnings (8320 in non-user code).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
 Suppressed 3 warnings (3 NOLINT).
 Suppressed 3 warnings (3 NOLINT).
-41373 warnings generated.
-Suppressed 41296 warnings (41296 in non-user code).
+38491 warnings generated.
+Suppressed 38462 warnings (38462 in non-user code).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
-76 warnings treated as errors
-travis_time:end:1a89e890:start=1593877307671948413,finish=1593877329511665508,duration=21839717095,event=script[0K[31;1mThe command "python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py" exited with 1.[0m
-travis_time:start:19b370aa[0K$ make clean; scan-build -v -v -v -o . make
+28 warnings treated as errors
+travis_time:end:0cf9d38e:start=1593878333586634539,finish=1593878353564819420,duration=19978184881,event=script[0K[31;1mThe command "python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py" exited with 1.[0m
+travis_time:start:191d8f8a[0K$ make clean; scan-build -v -v -v -o . make
 make -f CMakeFiles/Makefile2 clean
 make[1]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make -f CMakeFiles/clang_fmt.dir/build.make CMakeFiles/clang_fmt.dir/clean
@@ -1678,7 +1357,7 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 scan-build: Using '/usr/local/clang-7.0.0/bin/clang-7' for static analysis
-scan-build: Emitting reports for this run to '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-04-154210-10068-1'.
+scan-build: Emitting reports for this run to '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-04-155913-10062-1'.
 /usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang --check-build-system CMakeFiles/Makefile.cmake 0
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles/progress.marks
 make -f CMakeFiles/Makefile2 all
@@ -1710,68 +1389,23 @@ make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildc
 make -f boost/executor/CMakeFiles/boostexecutor.dir/build.make boost/executor/CMakeFiles/boostexecutor.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 [ 11%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o
-cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2   -o CMakeFiles/boostexecutor.dir/executor.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
-In file included from /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:1:
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:16:30: error: rvalue references are incompatible with C++98 [-Werror,-Wc++98-compat]
-    ExecutorType(ExecutorType&& other) noexcept;
-                             ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:16:48: error: noexcept specifications are incompatible with C++98 [-Werror,-Wc++98-compat]
-    ExecutorType(ExecutorType&& other) noexcept;
-                                               ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:17:47: error: deleted function definitions are incompatible with C++98 [-Werror,-Wc++98-compat]
-    ExecutorType(ExecutorType const& other) = delete;
-                                              ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:18:41: error: rvalue references are incompatible with C++98 [-Werror,-Wc++98-compat]
-    ExecutorType& operator=(ExecutorType&& other) noexcept = delete;
-                                        ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:18:60: error: noexcept specifications are incompatible with C++98 [-Werror,-Wc++98-compat]
-    ExecutorType& operator=(ExecutorType&& other) noexcept = delete;
-                                                           ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:18:62: error: deleted function definitions are incompatible with C++98 [-Werror,-Wc++98-compat]
-    ExecutorType& operator=(ExecutorType&& other) noexcept = delete;
-                                                             ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:19:58: error: deleted function definitions are incompatible with C++98 [-Werror,-Wc++98-compat]
-    ExecutorType& operator=(ExecutorType const& other) = delete;
-                                                         ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:22:48: error: noexcept specifications are incompatible with C++98 [-Werror,-Wc++98-compat]
-    PriorityScheduler& context() const noexcept;
-                                               ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:34:46: error: noexcept specifications are incompatible with C++98 [-Werror,-Wc++98-compat]
-  ExecutorType get_executor(int pri) noexcept;
-                                             ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:46:59: error: noexcept specifications are incompatible with C++98 [-Werror,-Wc++98-compat]
-                const PriorityScheduler::ExecutorType& b) noexcept;
-                                                          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:49:59: error: noexcept specifications are incompatible with C++98 [-Werror,-Wc++98-compat]
-                const PriorityScheduler::ExecutorType& b) noexcept;
-                                                          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:78:60: error: consecutive right angle brackets are incompatible with C++98 (use '> >') [-Werror,-Wc++98-compat]
-                      std::vector<std::shared_ptr<item_base>>, item_comp>
-                                                           ^~
-                                                           > >
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:80:29: error: in-class initialization of non-static data members is incompatible with C++98 [-Werror,-Wc++98-compat]
-  std::atomic<bool> stopped_{false};
-                            ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:80:29: error: constructor call from initializer list is incompatible with C++98 [-Werror,-Wc++98-compat]
-  std::atomic<bool> stopped_{false};
-                            ^~~~~~~
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:17:29: error: lambda expressions are incompatible with C++98 [-Werror,-Wc++98-compat]
-      condition_.wait(lock, [&] { return stopped_ || !queue_.empty(); });
-                            ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:17:18: error: local type '(lambda at /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:17:29)' as template argument is incompatible with C++98 [-Werror,-Wc++98-compat-local-type-template-args]
-      condition_.wait(lock, [&] { return stopped_ || !queue_.empty(); });
-                 ^~~~
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:50:18: error: lambda expressions are incompatible with C++98 [-Werror,-Wc++98-compat]
-      execute_ = [](std::shared_ptr<item_base>& p) {
-                 ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:87:7: error: noexcept specifications are incompatible with C++98 [-Werror,-Wc++98-compat]
-      : context_(ctx), priority_(pri)
-      ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:91:36: error: rvalue references are incompatible with C++98 [-Werror,-Wc++98-compat]
-  ExecutorTypeImpl(ExecutorTypeImpl&& other) noexcept = default;
-                                   ^
-fatal error: too many errors emitted, stopping now [-ferror-limit=]
-20 errors generated.
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat   -o CMakeFiles/boostexecutor.dir/executor.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:93:21: error: explicitly defaulted move assignment operator is implicitly deleted [-Werror,-Wdefaulted-function-deleted]
+  ExecutorTypeImpl& operator=(ExecutorTypeImpl&& other) noexcept = default;
+                    ^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:113:22: note: move assignment operator of 'ExecutorTypeImpl' is implicitly deleted because field 'context_' is of reference type 'PriorityScheduler &'
+  PriorityScheduler& context_;
+                     ^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:83:40: error: padding size of 'PriorityScheduler::ExecutorType::ExecutorTypeImpl' with 4 bytes to alignment boundary [-Werror,-Wpadded]
+class PriorityScheduler::ExecutorType::ExecutorTypeImpl
+                                       ^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:38:52: error: padding struct 'PriorityScheduler::PrioritySchedulerImpl::item_base' with 4 bytes to align 'timestamp' [-Werror,-Wpadded]
+    std::chrono::high_resolution_clock::time_point timestamp;
+                                                   ^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:8:26: error: padding size of 'PriorityScheduler::PrioritySchedulerImpl' with 7 bytes to alignment boundary [-Werror,-Wpadded]
+class PriorityScheduler::PrioritySchedulerImpl
+                         ^
+4 errors generated.
 boost/executor/CMakeFiles/boostexecutor.dir/build.make:65: recipe for target 'boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o' failed
 make[2]: *** [boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o] Error 1
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
@@ -1780,51 +1414,24 @@ make[1]: *** [boost/executor/CMakeFiles/boostexecutor.dir/all] Error 2
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 Makefile:86: recipe for target 'all' failed
 make: *** [all] Error 2
-scan-build: Removing directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-04-154210-10068-1' because it contains no reports.
+scan-build: Removing directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-04-155913-10062-1' because it contains no reports.
 scan-build: No bugs found.
-travis_time:end:19b370aa:start=1593877329516074426,finish=1593877331291781024,duration=1775706598,event=script[0K[31;1mThe command "make clean; scan-build -v -v -v -o . make" exited with 2.[0m
-travis_time:start:16e17dda[0K$ cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json
+travis_time:end:191d8f8a:start=1593878353569594235,finish=1593878355245844168,duration=1676249933,event=script[0K[31;1mThe command "make clean; scan-build -v -v -v -o . make" exited with 2.[0m
+travis_time:start:0b46105e[0K$ cppcheck --inconclusive --enable=all --project=compile_commands.json
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp ...
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:3:0: information: Include file: <functional> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:4:0: information: Include file: <memory> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:3:0: information: Include file: <atomic> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:4:0: information: Include file: <boost/asio.hpp> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:5:0: information: Include file: <queue> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:6:0: information: Include file: <vector> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:65:10: style:inconclusive: Technically the member function 'PrioritySchedulerImpl::item_comp::operator()' can be const. [functionConst]
+    bool operator()(const std::shared_ptr<item_base>& a,
+         ^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:100:8: performance:inconclusive: Technically the member function 'ExecutorTypeImpl::on_work_started' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+  void on_work_started() const noexcept {}
+       ^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:103:8: performance:inconclusive: Technically the member function 'ExecutorTypeImpl::on_work_finished' can be static (but you may consider moving to unnamed namespace). [functionStatic]
+  void on_work_finished() const noexcept {}
+       ^
 1/7 files checked 14% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp ...
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:1:0: information: Include file: <atomic> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:2:0: information: Include file: <chrono> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:3:0: information: Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:4:0: information: Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:5:0: information: Include file: <thread> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
 2/7 files checked 28% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseA.cpp ...
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/Entete.h:3:0: information: Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
-
-^
 3/7 files checked 42% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseB.cpp ...
 4/7 files checked 57% done
@@ -1833,50 +1440,21 @@ Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/main.cpp 
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp ...
 6/7 files checked 85% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp ...
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp:7:18: style: Statements following return, break, continue, goto or throw will never be executed. [unreachableCode]
+  return RET_NEG(ARG1);  // NOLINT
+                 ^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp:7:18: warning: Unused variable value 'ARG1' [constStatement]
+  return RET_NEG(ARG1);  // NOLINT
+                 ^
 7/7 files checked 100% done
-travis_time:end:16e17dda:start=1593877331297659345,finish=1593877331336242317,duration=38582972,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json" exited with 0.[0m
-travis_time:start:31069afa[0K$ iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi
-travis_time:end:31069afa:start=1593877331341482831,finish=1593877337415837961,duration=6074355130,event=script[0K[32;1mThe command "iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi" exited with 0.[0m
-travis_time:start:1a809db6[0K$ cd ..
-travis_time:end:1a809db6:start=1593877337421532883,finish=1593877337424186825,duration=2653942,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
-travis_time:start:0b218d59[0K$ git clone ssh://git@github.com/bansan85/wiki_le_garrec_fr_travis.git
-Cloning into 'wiki_le_garrec_fr_travis'...
-Warning: Permanently added the RSA host key for IP address '140.82.113.4' to the list of known hosts.
-travis_time:end:0b218d59:start=1593877337428013987,finish=1593877338000557430,duration=572543443,event=script[0K[32;1mThe command "git clone ssh://git@github.com/bansan85/wiki_le_garrec_fr_travis.git" exited with 0.[0m
-travis_time:start:0031b7b0[0K$ mkdir -p wiki_le_garrec_fr_travis/cpp/linker/weak wiki_le_garrec_fr_travis/cpp/preprocessor
-travis_time:end:0031b7b0:start=1593877338005549258,finish=1593877338011593201,duration=6043943,event=script[0K[32;1mThe command "mkdir -p wiki_le_garrec_fr_travis/cpp/linker/weak wiki_le_garrec_fr_travis/cpp/preprocessor" exited with 0.[0m
-travis_time:start:223fd6ac[0K$ nm --demangle buildcppgcc/linker/weak/CMakeFiles/linkerweak.dir/ClasseA.cpp.o > wiki_le_garrec_fr_travis/cpp/linker/weak/ClasseA.cpp.txt
-nm: 'buildcppgcc/linker/weak/CMakeFiles/linkerweak.dir/ClasseA.cpp.o': No such file
-travis_time:end:223fd6ac:start=1593877338015827170,finish=1593877338021659320,duration=5832150,event=script[0K[31;1mThe command "nm --demangle buildcppgcc/linker/weak/CMakeFiles/linkerweak.dir/ClasseA.cpp.o > wiki_le_garrec_fr_travis/cpp/linker/weak/ClasseA.cpp.txt" exited with 1.[0m
-travis_time:start:1b57f916[0K$ nm --demangle buildcppgcc/linker/weak/CMakeFiles/linkerweak.dir/ClasseB.cpp.o > wiki_le_garrec_fr_travis/cpp/linker/weak/ClasseB.cpp.txt
-nm: 'buildcppgcc/linker/weak/CMakeFiles/linkerweak.dir/ClasseB.cpp.o': No such file
-travis_time:end:1b57f916:start=1593877338027436749,finish=1593877338033188978,duration=5752229,event=script[0K[31;1mThe command "nm --demangle buildcppgcc/linker/weak/CMakeFiles/linkerweak.dir/ClasseB.cpp.o > wiki_le_garrec_fr_travis/cpp/linker/weak/ClasseB.cpp.txt" exited with 1.[0m
-travis_time:start:1ce50154[0K$ cd wiki_le_garrec_fr_travis
-travis_time:end:1ce50154:start=1593877338039354851,finish=1593877338043877763,duration=4522912,event=script[0K[32;1mThe command "cd wiki_le_garrec_fr_travis" exited with 0.[0m
-travis_time:start:2b8a0236[0K$ git config --global user.name "Travis"
-travis_time:end:2b8a0236:start=1593877338054123803,finish=1593877338059786167,duration=5662364,event=script[0K[32;1mThe command "git config --global user.name "Travis"" exited with 0.[0m
-travis_time:start:36da19b7[0K$ git config --global user.email "travis-ci@le-garrec.fr"
-travis_time:end:36da19b7:start=1593877338065442959,finish=1593877338070422482,duration=4979523,event=script[0K[32;1mThe command "git config --global user.email "travis-ci@le-garrec.fr"" exited with 0.[0m
-travis_time:start:198bbed8[0K$ git add cpp/linker/weak/ClasseA.cpp.txt cpp/linker/weak/ClasseB.cpp.txt
-travis_time:end:198bbed8:start=1593877338074794422,finish=1593877338080219833,duration=5425411,event=script[0K[32;1mThe command "git add cpp/linker/weak/ClasseA.cpp.txt cpp/linker/weak/ClasseB.cpp.txt" exited with 0.[0m
-travis_time:start:0dd6186b[0K$ cd ..
-travis_time:end:0dd6186b:start=1593877338084339435,finish=1593877338087024206,duration=2684771,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
-travis_time:start:14d3654a[0K$ cp buildcppgcc/preprocessor/CMakeFiles/str_helper.dir/str_helper.cpp.i wiki_le_garrec_fr_travis/cpp/preprocessor/
-cp: cannot stat 'buildcppgcc/preprocessor/CMakeFiles/str_helper.dir/str_helper.cpp.i': No such file or directory
-travis_time:end:14d3654a:start=1593877338091031824,finish=1593877338095643472,duration=4611648,event=script[0K[31;1mThe command "cp buildcppgcc/preprocessor/CMakeFiles/str_helper.dir/str_helper.cpp.i wiki_le_garrec_fr_travis/cpp/preprocessor/" exited with 1.[0m
-travis_time:start:0a1b943f[0K$ cp buildcppgcc/preprocessor/CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i wiki_le_garrec_fr_travis/cpp/preprocessor/
-cp: cannot stat 'buildcppgcc/preprocessor/CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i': No such file or directory
-travis_time:end:0a1b943f:start=1593877338099713522,finish=1593877338104296556,duration=4583034,event=script[0K[31;1mThe command "cp buildcppgcc/preprocessor/CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i wiki_le_garrec_fr_travis/cpp/preprocessor/" exited with 1.[0m
-travis_time:start:09d34b3e[0K$ cd wiki_le_garrec_fr_travis
-travis_time:end:09d34b3e:start=1593877338108270399,finish=1593877338110931431,duration=2661032,event=script[0K[32;1mThe command "cd wiki_le_garrec_fr_travis" exited with 0.[0m
-travis_time:start:08301ed0[0K$ git add cpp/preprocessor/str_helper.cpp.i
-travis_time:end:08301ed0:start=1593877338114905151,finish=1593877338119885003,duration=4979852,event=script[0K[32;1mThe command "git add cpp/preprocessor/str_helper.cpp.i" exited with 0.[0m
-travis_time:start:07c54238[0K$ git add cpp/preprocessor/macro_and_spaces.cpp.i
-travis_time:end:07c54238:start=1593877338124600219,finish=1593877338129441096,duration=4840877,event=script[0K[32;1mThe command "git add cpp/preprocessor/macro_and_spaces.cpp.i" exited with 0.[0m
-travis_time:start:1af927cb[0K$ if [ ! -z "$(git diff-index --name-only HEAD --)" ]; then git commit -m "$TRAVIS_COMMIT_MESSAGE" -m "Update from $TRAVIS_COMMIT"; git push; fi
-travis_time:end:1af927cb:start=1593877338133558938,finish=1593877338139649703,duration=6090765,event=script[0K[32;1mThe command "if [ ! -z "$(git diff-index --name-only HEAD --)" ]; then git commit -m "$TRAVIS_COMMIT_MESSAGE" -m "Update from $TRAVIS_COMMIT"; git push; fi" exited with 0.[0m
-travis_time:start:0257978a[0K$ cd ..
-travis_time:end:0257978a:start=1593877338143706367,finish=1593877338146408712,duration=2702345,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:103:0: style: The function 'on_work_finished' is never used. [unusedFunction]
 
+^
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:100:0: style: The function 'on_work_started' is never used. [unusedFunction]
 
-Done. Your build exited with 1.
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
+travis_time:end:0b46105e:start=1593878355251339421,finish=1593878355300871942,duration=49532521,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all --project=compile_commands.json" exited with 0.[0m
+travis_time:start:01eff190[0K$ iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi
+/home/travis/build
