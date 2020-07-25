@@ -1,0 +1,236 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 0f425a6d-ecdf-4a01-8b3b-ff61fbac18af@1.worker-com-fb897bfbc-mx659.gce-production-1
+version: v6.2.17 https://github.com/travis-ci/worker/tree/bc420764f334fe0d096a417c80426f672f1b7d18
+instance: travis-job-1e3c0902-14c6-4c1d-a2ff-1618dbc7d86a travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
+startup: 6.248993223s
+travis_fold:end:worker_info[0Ktravis_time:start:082ffb7e[0Ktravis_time:end:082ffb7e:start=1593537153897287430,finish=1593537154103724605,duration=206437175,event=no_world_writable_dirs[0Ktravis_time:start:0571faaf[0Ktravis_time:end:0571faaf:start=1593537154107095138,finish=1593537154115259766,duration=8164628,event=agent[0Ktravis_time:start:15c2b9a8[0Ktravis_time:end:15c2b9a8:start=1593537154118073877,finish=1593537154120187683,duration=2113806,event=check_unsupported[0Ktravis_time:start:0e6c0580[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: node_js
+Build dist: bionic
+Build id: 173687944
+Job id: 355934030
+Runtime kernel version: 5.0.0-1031-gcp
+travis-build version: 8e9c8035
+[34m[1mBuild image provisioning date and time[0m
+Mon Feb 24 21:21:37 UTC 2020
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.4 LTS
+Release:	18.04
+Codename:	bionic
+[34m[1mSystemd Version[0m
+systemd 237
+[34m[1mCookbooks Version[0m
+b5e4fc1 https://github.com/travis-ci/travis-cookbooks/tree/b5e4fc1
+[34m[1mgit version[0m
+git version 2.25.1
+[34m[1mbash version[0m
+GNU bash, version 4.4.20(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:09:54 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:07:56 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.7.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.4.1
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.38.2 linux-x64 node-v12.13.0
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.9.7-4 Q16 x86_64 20170114 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.29, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.1.1  11 Sep 2018
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 11.7 (Ubuntu 11.7-2.pgdg18.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.10 March 2017
+[34m[1msudo version[0m
+1.8.21p2
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 8.0 (2016 Sep 12, compiled Jun 06 2019 17:31:41)
+[34m[1miptables version[0m
+iptables v1.6.1
+[34m[1mcurl version[0m
+curl 7.58.0 (x86_64-pc-linux-gnu) libcurl/7.58.0 OpenSSL/1.1.1 zlib/1.2.11 libidn2/2.0.4 libpsl/0.19.1 (+libidn2/2.0.4) nghttp2/1.30.0 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.19.4 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.2  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.35.2
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.87
+[34m[1mphpenv version[0m
+rbenv 1.1.2-26-gc6324ff
+[34m[1mrvm version[0m
+rvm 1.29.9 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.16
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.3.25
+9.4.26
+9.5.21
+9.6.17
+[34m[1mRedis version[0m
+redis-server 5.0.7
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mant version[0m
+Apache Ant(TM) version 1.10.5 compiled on March 28 2019
+[34m[1mmvn version[0m
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+[34m[1mgradle version[0m
+Gradle 5.1.1!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.16.0
+v10.19.0
+v11.15.0
+v12.13.1
+v12.16.1
+v13.3.0
+v4.9.1
+v6.17.1
+v8.16.2
+v8.17.0
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  7.1
+  7.1.33
+  7.2
+* 7.2.27 (set by /home/travis/.phpenv/version)
+  7.3
+  7.3.14
+  7.4
+  7.4.2
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.9.2 2020-01-14 16:30:31
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.4.9
+ruby-2.5.3
+ruby-2.5.7
+ruby-2.6.5
+ruby-2.7.0
+travis_fold:end:system_info[0K
+travis_time:end:0e6c0580:start=1593537154122947397,finish=1593537154131931075,duration=8983678,event=show_system_info[0Ktravis_time:start:1e78741a[0Ktravis_time:end:1e78741a:start=1593537154134895514,finish=1593537154149315544,duration=14420030,event=rm_riak_source[0Ktravis_time:start:139f7d2a[0Ktravis_time:end:139f7d2a:start=1593537154154493946,finish=1593537154159726514,duration=5232568,event=fix_rwky_redis[0Ktravis_time:start:149befe9[0Ktravis_time:end:149befe9:start=1593537154162864201,finish=1593537154708716626,duration=545852425,event=wait_for_network[0Ktravis_time:start:10b89592[0Ktravis_time:end:10b89592:start=1593537154712168823,finish=1593537154962884881,duration=250716058,event=update_apt_keys[0Ktravis_time:start:003b13f0[0Ktravis_time:end:003b13f0:start=1593537154966416059,finish=1593537155021585131,duration=55169072,event=fix_hhvm_source[0Ktravis_time:start:06ded27f[0Ktravis_time:end:06ded27f:start=1593537155024776464,finish=1593537155027399974,duration=2623510,event=update_mongo_arch[0Ktravis_time:start:06d68c96[0Ktravis_time:end:06d68c96:start=1593537155030317645,finish=1593537155073627675,duration=43310030,event=fix_sudo_enabled_trusty[0Ktravis_time:start:23c78b1b[0Ktravis_time:end:23c78b1b:start=1593537155077005918,finish=1593537155079371506,duration=2365588,event=update_glibc[0Ktravis_time:start:001868be[0Ktravis_time:end:001868be:start=1593537155082284374,finish=1593537155090487063,duration=8202689,event=clean_up_path[0Ktravis_time:start:0ad27d37[0Ktravis_time:end:0ad27d37:start=1593537155093538485,finish=1593537155102930840,duration=9392355,event=fix_resolv_conf[0Ktravis_time:start:0b378372[0Ktravis_time:end:0b378372:start=1593537155106057446,finish=1593537155122516206,duration=16458760,event=fix_etc_hosts[0Ktravis_time:start:0cd79058[0Ktravis_time:end:0cd79058:start=1593537155125647124,finish=1593537155134705029,duration=9057905,event=fix_mvn_settings_xml[0Ktravis_time:start:039f1cb0[0Ktravis_time:end:039f1cb0:start=1593537155137674662,finish=1593537155147835815,duration=10161153,event=no_ipv6_localhost[0Ktravis_time:start:054e1274[0Ktravis_time:end:054e1274:start=1593537155150959272,finish=1593537155153161339,duration=2202067,event=fix_etc_mavenrc[0Ktravis_time:start:06c8bb88[0Ktravis_time:end:06c8bb88:start=1593537155156053444,finish=1593537155158937060,duration=2883616,event=fix_wwdr_certificate[0Ktravis_time:start:02c1fd02[0Ktravis_time:end:02c1fd02:start=1593537155161752857,finish=1593537155219225431,duration=57472574,event=put_localhost_first[0Ktravis_time:start:13915d76[0Ktravis_time:end:13915d76:start=1593537155222303177,finish=1593537155225534380,duration=3231203,event=home_paths[0Ktravis_time:start:000363f8[0Ktravis_time:end:000363f8:start=1593537155228519448,finish=1593537155241363324,duration=12843876,event=disable_initramfs[0Ktravis_time:start:0e4824ec[0Ktravis_time:end:0e4824ec:start=1593537155244294401,finish=1593537155427625726,duration=183331325,event=disable_ssh_roaming[0Ktravis_time:start:0d14412b[0Ktravis_time:end:0d14412b:start=1593537155430888138,finish=1593537155433141847,duration=2253709,event=debug_tools[0Ktravis_time:start:06f8a8bd[0Ktravis_time:end:06f8a8bd:start=1593537155435979421,finish=1593537155439088761,duration=3109340,event=uninstall_oclint[0Ktravis_time:start:09cc0ca8[0Ktravis_time:end:09cc0ca8:start=1593537155441989536,finish=1593537155444887060,duration=2897524,event=rvm_use[0Ktravis_time:start:0bcafc2a[0Ktravis_time:end:0bcafc2a:start=1593537155447775066,finish=1593537155455828052,duration=8052986,event=rm_etc_boto_cfg[0Ktravis_time:start:293ad4f0[0Ktravis_time:end:293ad4f0:start=1593537155458719450,finish=1593537155460872526,duration=2153076,event=rm_oraclejdk8_symlink[0Ktravis_time:start:0f3d9840[0Ktravis_time:end:0f3d9840:start=1593537155463714715,finish=1593537155559660371,duration=95945656,event=enable_i386[0Ktravis_time:start:03a2b5b0[0Ktravis_time:end:03a2b5b0:start=1593537155562903047,finish=1593537155567027208,duration=4124161,event=update_rubygems[0Ktravis_time:start:06b60560[0Ktravis_time:end:06b60560:start=1593537155569922782,finish=1593537156373574086,duration=803651304,event=ensure_path_components[0Ktravis_time:start:1689089e[0Ktravis_time:end:1689089e:start=1593537156376823401,finish=1593537156379022393,duration=2198992,event=redefine_curl[0Ktravis_time:start:0bec1809[0Ktravis_time:end:0bec1809:start=1593537156381840957,finish=1593537156383889901,duration=2048944,event=nonblock_pipe[0Ktravis_time:start:0755f24c[0Ktravis_time:end:0755f24c:start=1593537156386594768,finish=1593537162424831371,duration=6038236603,event=apt_get_update[0Ktravis_time:start:0d5e318e[0Ktravis_time:end:0d5e318e:start=1593537162428133886,finish=1593537162430233305,duration=2099419,event=deprecate_xcode_64[0Ktravis_time:start:190ff62c[0Ktravis_time:end:190ff62c:start=1593537162432916127,finish=1593537165010224730,duration=2577308603,event=update_heroku[0Ktravis_time:start:025f7b78[0Ktravis_time:end:025f7b78:start=1593537165013470740,finish=1593537165015667788,duration=2197048,event=shell_session_update[0Ktravis_time:start:0f7234f4[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:0f7234f4:start=1593537165018451305,finish=1593537167220900771,duration=2202449466,event=set_docker_mtu[0Ktravis_time:start:07ed3d7d[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:07ed3d7d:start=1593537167224972876,finish=1593537167302324518,duration=77351642,event=resolvconf[0Ktravis_time:start:007564f0[0Ktravis_time:end:007564f0:start=1593537167309959278,finish=1593537167479353485,duration=169394207,event=maven_central_mirror[0Ktravis_time:start:106ebd3a[0Ktravis_time:end:106ebd3a:start=1593537167482404333,finish=1593537167583949046,duration=101544713,event=maven_https[0Ktravis_time:start:18a2301b[0Ktravis_time:end:18a2301b:start=1593537167587801389,finish=1593537167590427668,duration=2626279,event=fix_ps4[0Ktravis_time:start:008d55bb[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:09e6fe74[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
+Cloning into 'bansan85/wiki_le_garrec_fr'...
+remote: Enumerating objects: 60, done.[K
+remote: Counting objects:   1% (1/60)[Kremote: Counting objects:   3% (2/60)[Kremote: Counting objects:   5% (3/60)[Kremote: Counting objects:   6% (4/60)[Kremote: Counting objects:   8% (5/60)[Kremote: Counting objects:  10% (6/60)[Kremote: Counting objects:  11% (7/60)[Kremote: Counting objects:  13% (8/60)[Kremote: Counting objects:  15% (9/60)[Kremote: Counting objects:  16% (10/60)[Kremote: Counting objects:  18% (11/60)[Kremote: Counting objects:  20% (12/60)[Kremote: Counting objects:  21% (13/60)[Kremote: Counting objects:  23% (14/60)[Kremote: Counting objects:  25% (15/60)[Kremote: Counting objects:  26% (16/60)[Kremote: Counting objects:  28% (17/60)[Kremote: Counting objects:  30% (18/60)[Kremote: Counting objects:  31% (19/60)[Kremote: Counting objects:  33% (20/60)[Kremote: Counting objects:  35% (21/60)[Kremote: Counting objects:  36% (22/60)[Kremote: Counting objects:  38% (23/60)[Kremote: Counting objects:  40% (24/60)[Kremote: Counting objects:  41% (25/60)[Kremote: Counting objects:  43% (26/60)[Kremote: Counting objects:  45% (27/60)[Kremote: Counting objects:  46% (28/60)[Kremote: Counting objects:  48% (29/60)[Kremote: Counting objects:  50% (30/60)[Kremote: Counting objects:  51% (31/60)[Kremote: Counting objects:  53% (32/60)[Kremote: Counting objects:  55% (33/60)[Kremote: Counting objects:  56% (34/60)[Kremote: Counting objects:  58% (35/60)[Kremote: Counting objects:  60% (36/60)[Kremote: Counting objects:  61% (37/60)[Kremote: Counting objects:  63% (38/60)[Kremote: Counting objects:  65% (39/60)[Kremote: Counting objects:  66% (40/60)[Kremote: Counting objects:  68% (41/60)[Kremote: Counting objects:  70% (42/60)[Kremote: Counting objects:  71% (43/60)[Kremote: Counting objects:  73% (44/60)[Kremote: Counting objects:  75% (45/60)[Kremote: Counting objects:  76% (46/60)[Kremote: Counting objects:  78% (47/60)[Kremote: Counting objects:  80% (48/60)[Kremote: Counting objects:  81% (49/60)[Kremote: Counting objects:  83% (50/60)[Kremote: Counting objects:  85% (51/60)[Kremote: Counting objects:  86% (52/60)[Kremote: Counting objects:  88% (53/60)[Kremote: Counting objects:  90% (54/60)remote: Counting objects:  91% (55/60)[Kremote: Counting objects:  93% (56/60)[Kremote: Counting objects:  95% (57/60)[Kremote: Counting objects:  96% (58/60)[Kremote: Counting objects:  98% (59/60)[Kremote: Counting objects: 100% (60/60)[Kremote: Counting objects: 100% (60/60), done.[K
+remote: Compressing objects:   2% (1/42)[Kremote: Compressing objects:   4% (2/42)[Kremote: Compressing objects:   7% (3/42)[Kremote: Compressing objects:   9% (4/42)[Kremote: Compressing objects:  11% (5/42)[Kremote: Compressing objects:  14% (6/42)[Kremote: Compressing objects:  16% (7/42)[Kremote: Compressing objects:  19% (8/42)[Kremote: Compressing objects:  21% (9/42)[Kremote: Compressing objects:  23% (10/42)[Kremote: Compressing objects:  26% (11/42)[Kremote: Compressing objects:  28% (12/42)[Kremote: Compressing objects:  30% (13/42)[Kremote: Compressing objects:  33% (14/42)[Kremote: Compressing objects:  35% (15/42)[Kremote: Compressing objects:  38% (16/42)[Kremote: Compressing objects:  40% (17/42)[Kremote: Compressing objects:  42% (18/42)[Kremote: Compressing objects:  45% (19/42)[Kremote: Compressing objects:  47% (20/42)[Kremote: Compressing objects:  50% (21/42)[Kremote: Compressing objects:  52% (22/42)[Kremote: Compressing objects:  54% (23/42)[Kremote: Compressing objects:  57% (24/42)[Kremote: Compressing objects:  59% (25/42)[Kremote: Compressing objects:  61% (26/42)[Kremote: Compressing objects:  64% (27/42)[Kremote: Compressing objects:  66% (28/42)[Kremote: Compressing objects:  69% (29/42)[Kremote: Compressing objects:  71% (30/42)[Kremote: Compressing objects:  73% (31/42)[Kremote: Compressing objects:  76% (32/42)[Kremote: Compressing objects:  78% (33/42)[Kremote: Compressing objects:  80% (34/42)[Kremote: Compressing objects:  83% (35/42)[Kremote: Compressing objects:  85% (36/42)[Kremote: Compressing objects:  88% (37/42)[Kremote: Compressing objects:  90% (38/42)[Kremote: Compressing objects:  92% (39/42)[Kremote: Compressing objects:  95% (40/42)[Kremote: Compressing objects:  97% (41/42)[Kremote: Compressing objects: 100% (42/42)[Kremote: Compressing objects: 100% (42/42), done.[K
+Receiving objects:   0% (1/151)Receiving objects:   1% (2/151)Receiving objects:   2% (4/151)Receiving objects:   3% (5/151)Receiving objects:   4% (7/151)Receiving objects:   5% (8/151)Receiving objects:   6% (10/151)Receiving objects:   7% (11/151)Receiving objects:   8% (13/151)Receiving objects:   9% (14/151)Receiving objects:  10% (16/151)Receiving objects:  11% (17/151)Receiving objects:  12% (19/151)Receiving objects:  13% (20/151)Receiving objects:  14% (22/151)Receiving objects:  15% (23/151)Receiving objects:  16% (25/151)Receiving objects:  17% (26/151)Receiving objects:  18% (28/151)Receiving objects:  19% (29/151)Receiving objects:  20% (31/151)Receiving objects:  21% (32/151)Receiving objects:  22% (34/151)Receiving objects:  23% (35/151)Receiving objects:  24% (37/151)Receiving objects:  25% (38/151)Receiving objects:  26% (40/151)Receiving objects:  27% (41/151)Receiving objects:  28% (43/151)Receiving objects:  29% (44/151)Receiving objects:  30% (46/151)Receiving objects:  31% (47/151)Receiving objects:  32% (49/151)Receiving objects:  33% (50/151)Receiving objects:  34% (52/151)Receiving objects:  35% (53/151)Receiving objects:  36% (55/151)Receiving objects:  37% (56/151)Receiving objects:  38% (58/151)Receiving objects:  39% (59/151)Receiving objects:  40% (61/151)Receiving objects:  41% (62/151)Receiving objects:  42% (64/151)Receiving objects:  43% (65/151)Receiving objects:  44% (67/151)Receiving objects:  45% (68/151)Receiving objects:  46% (70/151)Receiving objects:  47% (71/151)Receiving objects:  48% (73/151)Receiving objects:  49% (74/151)Receiving objects:  50% (76/151)Receiving objects:  51% (78/151)Receiving objects:  52% (79/151)Receiving objects:  53% (81/151)Receiving objects:  54% (82/151)Receiving objects:  55% (84/151)Receiving objects:  56% (85/151)Receiving objects:  57% (87/151)Receiving objects:  58% (88/151)Receiving objects:  59% (90/151)Receiving objects:  60% (91/151)Receiving objects:  61% (93/151)Receiving objects:  62% (94/151)Receiving objects:  63% (96/151)Receiving objects:  64% (97/151)Receiving objects:  65% (99/151)Receiving objects:  66% (100/151)Receiving objects:  67% (102/151)Receiving objects:  68% (103/151)Receiving objects:  69% (105/151)Receiving objects:  70% (106/151)Receiving objects:  71% (108/151)Receiving objects:  72% (109/151)Receiving objects:  73% (111/151)remote: Total 151 (delta 24), reused 48 (delta 13), pack-reused 91[K
+Receiving objects:  74% (112/151)Receiving objects:  75% (114/151)Receiving objects:  76% (115/151)Receiving objects:  77% (117/151)Receiving objects:  78% (118/151)Receiving objects:  79% (120/151)Receiving objects:  80% (121/151)Receiving objects:  81% (123/151)Receiving objects:  82% (124/151)Receiving objects:  83% (126/151)Receiving objects:  84% (127/151)Receiving objects:  85% (129/151)Receiving objects:  86% (130/151)Receiving objects:  87% (132/151)Receiving objects:  88% (133/151)Receiving objects:  89% (135/151)Receiving objects:  90% (136/151)Receiving objects:  91% (138/151)Receiving objects:  92% (139/151)Receiving objects:  93% (141/151)Receiving objects:  94% (142/151)Receiving objects:  95% (144/151)Receiving objects:  96% (145/151)Receiving objects:  97% (147/151)Receiving objects:  98% (148/151)Receiving objects:  99% (150/151)Receiving objects: 100% (151/151)Receiving objects: 100% (151/151), 32.77 KiB | 1.26 MiB/s, done.
+Resolving deltas:   0% (0/51)Resolving deltas:   7% (4/51)Resolving deltas:  15% (8/51)Resolving deltas:  21% (11/51)Resolving deltas:  27% (14/51)Resolving deltas:  29% (15/51)Resolving deltas:  33% (17/51)Resolving deltas:  37% (19/51)Resolving deltas:  41% (21/51)Resolving deltas:  43% (22/51)Resolving deltas:  47% (24/51)Resolving deltas:  49% (25/51)Resolving deltas:  50% (26/51)Resolving deltas:  52% (27/51)Resolving deltas:  58% (30/51)Resolving deltas:  78% (40/51)Resolving deltas:  80% (41/51)Resolving deltas:  82% (42/51)Resolving deltas:  84% (43/51)Resolving deltas:  88% (45/51)Resolving deltas: 100% (51/51)Resolving deltas: 100% (51/51), done.
+travis_time:end:09e6fe74:start=1593537167596945388,finish=1593537168101801507,duration=504856119,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
+$ git checkout -qf 9981c9317e8bcaa0fc943a9ef092deac0004c31c
+travis_fold:end:git.checkout[0K
+travis_time:end:09e6fe74:start=1593537167596945388,finish=1593537168108283776,duration=511338388,event=checkout[0Ktravis_time:start:0dc23eba[0Ktravis_time:end:0dc23eba:start=1593537168111525238,finish=1593537168117509749,duration=5984511,event=env[0Ktravis_fold:start:nvm.install[0Ktravis_time:start:09e921b8[0K$ nvm install node
+Downloading and installing node v14.4.0...
+Downloading https://nodejs.org/dist/v14.4.0/node-v14.4.0-linux-x64.tar.xz...
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v14.4.0 (npm v6.14.5)
+travis_time:end:09e921b8:start=1593537168876078666,finish=1593537172840269608,duration=3964190942,event=setup[0Ktravis_fold:end:nvm.install[0K
+travis_fold:start:cache.1[0KSetting up build cache
+$ export CASHER_DIR=${TRAVIS_HOME}/.casher
+travis_time:start:0229179e[0K$ Installing caching utilities
+travis_time:end:0229179e:start=1593537174052669993,finish=1593537174212663724,duration=159993731,event=setup_casher[0Ktravis_time:start:017ffa52[0Ktravis_time:end:017ffa52:start=1593537174219790153,finish=1593537174223844714,duration=4054561,event=setup_casher[0Ktravis_time:start:3670a54d[0Kattempting to download cache archive[0m
+[32;1mfetching master/cache--linux-bionic-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--node-node.tgz[0m
+[32;1mfound cache[0m
+travis_time:end:3670a54d:start=1593537174228805013,finish=1593537175609563265,duration=1380758252,event=setup_casher[0Ktravis_fold:end:cache.1[0K
+travis_fold:start:cache.npm[0K
+travis_time:start:222a1a84[0Ktravis_time:end:222a1a84:start=1593537175778689182,finish=1593537175782573385,duration=3884203,event=setup_cache[0Ktravis_time:start:03605800[0Kadding /home/travis/build/bansan85/wiki_le_garrec_fr/node_modules to cache[0m
+creating directory /home/travis/build/bansan85/wiki_le_garrec_fr/node_modules[0m
+travis_time:end:03605800:start=1593537175787171348,finish=1593537177143802484,duration=1356631136,event=setup_cache[0Ktravis_fold:end:cache.npm[0K$ node --version
+v14.4.0
+$ npm --version
+6.14.5
+$ nvm --version
+0.35.3
+
+travis_fold:start:before_install[0Ktravis_time:start:0db425f3[0K$ npm install --save-dev stylelint stylelint-config-standard
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35msaveError[0m ENOENT: no such file or directory, open '/home/travis/build/bansan85/wiki_le_garrec_fr/package.json'
+[0m[37;40mnpm[0m [0m[34;40mnotice[0m[35m[0m created a lockfile as package-lock.json. You should commit this file.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m ENOENT: no such file or directory, open '/home/travis/build/bansan85/wiki_le_garrec_fr/package.json'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m wiki_le_garrec_fr No description
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m wiki_le_garrec_fr No repository field.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m wiki_le_garrec_fr No README data
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m wiki_le_garrec_fr No license field.
+[0m
++ stylelint-config-standard@20.0.0
++ stylelint@13.6.1
+updated 2 packages and audited 454 packages in 1.952s
+
+56 packages are looking for funding
+  run `npm fund` for details
+
+found [92m0[0m vulnerabilities
+
+travis_time:end:0db425f3:start=1593537177315561644,finish=1593537179765277808,duration=2449716164,event=before_install[0Ktravis_fold:end:before_install[0Ktravis_time:start:0565f25d[0K$ cd css
+travis_time:end:0565f25d:start=1593537179770821619,finish=1593537179774168286,duration=3346667,event=script[0K[32;1mThe command "cd css" exited with 0.[0m
+travis_time:start:062b2170[0K$ npx stylelint **/*.css
+
+[4mdokuwiki/userstyle.css[24m
+ [2m1:29[22m  [31m[31m✖[39m[31m[39m  Expected double colon          [2mselector-pseudo-element-colon-notation[22m
+          pseudo-element notation                                              
+ [2m1:36[22m  [31m[31m✖[39m[31m[39m  Expected single space before   [2mblock-opening-brace-space-before[22m      
+          "{"
+
+travis_time:end:062b2170:start=1593537179779193645,finish=1593537180343453723,duration=564260078,event=script[0K[31;1mThe command "npx stylelint **/*.css" exited with 2.[0m
+travis_fold:start:cache.2[0Kstore build cache
+travis_time:start:092fa9ff[0Ktravis_time:end:092fa9ff:start=1593537180349002035,finish=1593537180352965790,duration=3963755,event=cache[0Ktravis_time:start:00df65b0[0K[32;1mnothing changed[0m
+travis_time:end:00df65b0:start=1593537180357872003,finish=1593537181453100144,duration=1095228141,event=cache[0Ktravis_fold:end:cache.2[0K
+
+Done. Your build exited with 1.
