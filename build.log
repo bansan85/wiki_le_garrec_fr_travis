@@ -1,13 +1,13 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: 1af8de5c-cecf-4d01-9d63-ec14b532b58d@1.worker-com-855f4bcbbb-5cgbv.gce-production-2
+hostname: 1eb98037-63a4-4ac9-a27d-1c939fffc323@1.worker-com-78f4bfd8fc-6fkkr.gce-production-3
 version: v6.2.17 https://github.com/travis-ci/worker/tree/bc420764f334fe0d096a417c80426f672f1b7d18
-instance: travis-job-82c6ce68-a7e3-4212-9f4b-64c5894fc623 travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
-startup: 6.165548633s
-travis_fold:end:worker_info[0Ktravis_time:start:172f8bde[0Ktravis_time:end:172f8bde:start=1592843601696521860,finish=1592843601914949886,duration=218428026,event=no_world_writable_dirs[0Ktravis_time:start:1ed1824c[0Ktravis_time:end:1ed1824c:start=1592843601919097882,finish=1592843601928295722,duration=9197840,event=agent[0Ktravis_time:start:002e03c9[0Ktravis_time:end:002e03c9:start=1592843601931714256,finish=1592843601934523140,duration=2808884,event=check_unsupported[0Ktravis_time:start:0d0d0784[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+instance: travis-job-d9478adf-5d7a-413b-b607-8299a7fad683 travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
+startup: 6.370479049s
+travis_fold:end:worker_info[0Ktravis_time:start:05440f78[0Ktravis_time:end:05440f78:start=1592860052597708187,finish=1592860052838970031,duration=241261844,event=no_world_writable_dirs[0Ktravis_time:start:05819ac0[0Ktravis_time:end:05819ac0:start=1592860052842452057,finish=1592860052851908587,duration=9456530,event=agent[0Ktravis_time:start:07cedb20[0Ktravis_time:end:07cedb20:start=1592860052854994270,finish=1592860052857352147,duration=2357877,event=check_unsupported[0Ktravis_time:start:0291b219[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: cpp
 Build dist: bionic
-Build id: 172528287
-Job id: 352298043
+Build id: 172567442
+Job id: 352400332
 Runtime kernel version: 5.0.0-1031-gcp
 travis-build version: 43d08e12
 [34m[1mBuild image provisioning date and time[0m
@@ -164,13 +164,13 @@ ruby-2.5.7
 ruby-2.6.5
 ruby-2.7.0
 travis_fold:end:system_info[0K
-travis_time:end:0d0d0784:start=1592843601937550302,finish=1592843601945469658,duration=7919356,event=show_system_info[0Ktravis_time:start:0a11d2bd[0Ktravis_time:end:0a11d2bd:start=1592843601949408512,finish=1592843601966543979,duration=17135467,event=rm_riak_source[0Ktravis_time:start:29efe051[0Ktravis_time:end:29efe051:start=1592843601970201023,finish=1592843601976063795,duration=5862772,event=fix_rwky_redis[0Ktravis_time:start:04dedf97[0Ktravis_time:end:04dedf97:start=1592843601979810895,finish=1592843602523237810,duration=543426915,event=wait_for_network[0Ktravis_time:start:1be0000e[0Ktravis_time:end:1be0000e:start=1592843602526693562,finish=1592843602788752992,duration=262059430,event=update_apt_keys[0Ktravis_time:start:2e46c14e[0Ktravis_time:end:2e46c14e:start=1592843602792246941,finish=1592843602849830611,duration=57583670,event=fix_hhvm_source[0Ktravis_time:start:16b32052[0Ktravis_time:end:16b32052:start=1592843602853181401,finish=1592843602855911375,duration=2729974,event=update_mongo_arch[0Ktravis_time:start:0cf15004[0Ktravis_time:end:0cf15004:start=1592843602858786872,finish=1592843602901771593,duration=42984721,event=fix_sudo_enabled_trusty[0Ktravis_time:start:0044b52d[0Ktravis_time:end:0044b52d:start=1592843602905062698,finish=1592843602907446828,duration=2384130,event=update_glibc[0Ktravis_time:start:0397f030[0Ktravis_time:end:0397f030:start=1592843602910581003,finish=1592843602919140076,duration=8559073,event=clean_up_path[0Ktravis_time:start:094714fa[0Ktravis_time:end:094714fa:start=1592843602922213934,finish=1592843602931477283,duration=9263349,event=fix_resolv_conf[0Ktravis_time:start:05e67f99[0Ktravis_time:end:05e67f99:start=1592843602934690541,finish=1592843602962950961,duration=28260420,event=fix_etc_hosts[0Ktravis_time:start:01cb7a1c[0Ktravis_time:end:01cb7a1c:start=1592843602966085934,finish=1592843602974978371,duration=8892437,event=fix_mvn_settings_xml[0Ktravis_time:start:036e35a1[0Ktravis_time:end:036e35a1:start=1592843602977913097,finish=1592843602988029287,duration=10116190,event=no_ipv6_localhost[0Ktravis_time:start:02d6a0d4[0Ktravis_time:end:02d6a0d4:start=1592843602991236055,finish=1592843602993597951,duration=2361896,event=fix_etc_mavenrc[0Ktravis_time:start:045caa48[0Ktravis_time:end:045caa48:start=1592843602996576093,finish=1592843602999543371,duration=2967278,event=fix_wwdr_certificate[0Ktravis_time:start:083b4fa0[0Ktravis_time:end:083b4fa0:start=1592843603002456655,finish=1592843603039228197,duration=36771542,event=put_localhost_first[0Ktravis_time:start:091bfb52[0Ktravis_time:end:091bfb52:start=1592843603042772091,finish=1592843603046341336,duration=3569245,event=home_paths[0Ktravis_time:start:0304fe90[0Ktravis_time:end:0304fe90:start=1592843603049451390,finish=1592843603063882188,duration=14430798,event=disable_initramfs[0Ktravis_time:start:10b842d7[0Ktravis_time:end:10b842d7:start=1592843603067164137,finish=1592843603225015789,duration=157851652,event=disable_ssh_roaming[0Ktravis_time:start:07a21fe5[0Ktravis_time:end:07a21fe5:start=1592843603228217605,finish=1592843603230578380,duration=2360775,event=debug_tools[0Ktravis_time:start:2d1777c0[0Ktravis_time:end:2d1777c0:start=1592843603233666820,finish=1592843603237282264,duration=3615444,event=uninstall_oclint[0Ktravis_time:start:0a2aedce[0Ktravis_time:end:0a2aedce:start=1592843603240362448,finish=1592843603243270107,duration=2907659,event=rvm_use[0Ktravis_time:start:0cbe117e[0Ktravis_time:end:0cbe117e:start=1592843603246602381,finish=1592843603255323492,duration=8721111,event=rm_etc_boto_cfg[0Ktravis_time:start:0b570470[0Ktravis_time:end:0b570470:start=1592843603258559377,finish=1592843603260912642,duration=2353265,event=rm_oraclejdk8_symlink[0Ktravis_time:start:07fc9971[0Ktravis_time:end:07fc9971:start=1592843603263949868,finish=1592843603365186190,duration=101236322,event=enable_i386[0Ktravis_time:start:081395b8[0Ktravis_time:end:081395b8:start=1592843603368307371,finish=1592843603372235553,duration=3928182,event=update_rubygems[0Ktravis_time:start:14a76552[0Ktravis_time:end:14a76552:start=1592843603375301507,finish=1592843604215424877,duration=840123370,event=ensure_path_components[0Ktravis_time:start:1b4d3248[0Ktravis_time:end:1b4d3248:start=1592843604219008305,finish=1592843604221559521,duration=2551216,event=redefine_curl[0Ktravis_time:start:09618ada[0Ktravis_time:end:09618ada:start=1592843604224603785,finish=1592843604226892594,duration=2288809,event=nonblock_pipe[0Ktravis_time:start:2667e154[0Ktravis_time:end:2667e154:start=1592843604229863292,finish=1592843610273904338,duration=6044041046,event=apt_get_update[0Ktravis_time:start:26773c02[0Ktravis_time:end:26773c02:start=1592843610277153709,finish=1592843610280108042,duration=2954333,event=deprecate_xcode_64[0Ktravis_time:start:16e9ea93[0Ktravis_time:end:16e9ea93:start=1592843610283449211,finish=1592843612958279129,duration=2674829918,event=update_heroku[0Ktravis_time:start:0a4f1640[0Ktravis_time:end:0a4f1640:start=1592843612961675160,finish=1592843612964081798,duration=2406638,event=shell_session_update[0Ktravis_time:start:07516650[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:07516650:start=1592843612967194113,finish=1592843615218442656,duration=2251248543,event=set_docker_mtu[0Ktravis_time:start:0dbecc0a[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:0dbecc0a:start=1592843615221918784,finish=1592843615308426493,duration=86507709,event=resolvconf[0Ktravis_time:start:016d2ea8[0Ktravis_time:end:016d2ea8:start=1592843615312956223,finish=1592843615501693454,duration=188737231,event=maven_central_mirror[0Ktravis_time:start:015d6988[0Ktravis_time:end:015d6988:start=1592843615505236153,finish=1592843615614903434,duration=109667281,event=maven_https[0Ktravis_fold:start:apt[0K[33;1mAdding APT Sources[0m
-travis_time:start:097656ed[0K$ curl -sSL "https://build.travis-ci.com/files/gpg/travis-security.asc" | sudo -E apt-key add -
+travis_time:end:0291b219:start=1592860052860432704,finish=1592860052869444387,duration=9011683,event=show_system_info[0Ktravis_time:start:03c7f96e[0Ktravis_time:end:03c7f96e:start=1592860052872617259,finish=1592860052887029381,duration=14412122,event=rm_riak_source[0Ktravis_time:start:3a562b74[0Ktravis_time:end:3a562b74:start=1592860052892280334,finish=1592860052898685350,duration=6405016,event=fix_rwky_redis[0Ktravis_time:start:04059b10[0Ktravis_time:end:04059b10:start=1592860052902336923,finish=1592860053479568429,duration=577231506,event=wait_for_network[0Ktravis_time:start:07836330[0Ktravis_time:end:07836330:start=1592860053483040569,finish=1592860053772584317,duration=289543748,event=update_apt_keys[0Ktravis_time:start:0ca16443[0Ktravis_time:end:0ca16443:start=1592860053775458422,finish=1592860053835851095,duration=60392673,event=fix_hhvm_source[0Ktravis_time:start:187f63a4[0Ktravis_time:end:187f63a4:start=1592860053839841243,finish=1592860053842770212,duration=2928969,event=update_mongo_arch[0Ktravis_time:start:02580256[0Ktravis_time:end:02580256:start=1592860053845944538,finish=1592860053895693388,duration=49748850,event=fix_sudo_enabled_trusty[0Ktravis_time:start:11ef83d8[0Ktravis_time:end:11ef83d8:start=1592860053901019555,finish=1592860053904254910,duration=3235355,event=update_glibc[0Ktravis_time:start:02536b00[0Ktravis_time:end:02536b00:start=1592860053908728403,finish=1592860053918435574,duration=9707171,event=clean_up_path[0Ktravis_time:start:022c101f[0Ktravis_time:end:022c101f:start=1592860053921781236,finish=1592860053932253415,duration=10472179,event=fix_resolv_conf[0Ktravis_time:start:0392b9b7[0Ktravis_time:end:0392b9b7:start=1592860053935975855,finish=1592860053961414849,duration=25438994,event=fix_etc_hosts[0Ktravis_time:start:11b4b518[0Ktravis_time:end:11b4b518:start=1592860053966287997,finish=1592860053977935635,duration=11647638,event=fix_mvn_settings_xml[0Ktravis_time:start:0c4c5166[0Ktravis_time:end:0c4c5166:start=1592860053983043187,finish=1592860053998280540,duration=15237353,event=no_ipv6_localhost[0Ktravis_time:start:0896e074[0Ktravis_time:end:0896e074:start=1592860054002995186,finish=1592860054006513520,duration=3518334,event=fix_etc_mavenrc[0Ktravis_time:start:0039b526[0Ktravis_time:end:0039b526:start=1592860054011068452,finish=1592860054016091721,duration=5023269,event=fix_wwdr_certificate[0Ktravis_time:start:0d50cc84[0Ktravis_time:end:0d50cc84:start=1592860054019733785,finish=1592860054094919889,duration=75186104,event=put_localhost_first[0Ktravis_time:start:02cacb62[0Ktravis_time:end:02cacb62:start=1592860054098737375,finish=1592860054102967171,duration=4229796,event=home_paths[0Ktravis_time:start:006eafa8[0Ktravis_time:end:006eafa8:start=1592860054107079528,finish=1592860054124210097,duration=17130569,event=disable_initramfs[0Ktravis_time:start:31b7745c[0Ktravis_time:end:31b7745c:start=1592860054129397553,finish=1592860054362002362,duration=232604809,event=disable_ssh_roaming[0Ktravis_time:start:0428eee7[0Ktravis_time:end:0428eee7:start=1592860054365428103,finish=1592860054367778416,duration=2350313,event=debug_tools[0Ktravis_time:start:060177d6[0Ktravis_time:end:060177d6:start=1592860054370906857,finish=1592860054376729592,duration=5822735,event=uninstall_oclint[0Ktravis_time:start:23baf04e[0Ktravis_time:end:23baf04e:start=1592860054380775686,finish=1592860054384493561,duration=3717875,event=rvm_use[0Ktravis_time:start:1af14110[0Ktravis_time:end:1af14110:start=1592860054388331161,finish=1592860054400552209,duration=12221048,event=rm_etc_boto_cfg[0Ktravis_time:start:04d3e46a[0Ktravis_time:end:04d3e46a:start=1592860054404186489,finish=1592860054407209990,duration=3023501,event=rm_oraclejdk8_symlink[0Ktravis_time:start:00b566aa[0Ktravis_time:end:00b566aa:start=1592860054411499851,finish=1592860054546342258,duration=134842407,event=enable_i386[0Ktravis_time:start:00ef7219[0Ktravis_time:end:00ef7219:start=1592860054551142707,finish=1592860054558744495,duration=7601788,event=update_rubygems[0Ktravis_time:start:108f0600[0Ktravis_time:end:108f0600:start=1592860054562915804,finish=1592860055511893776,duration=948977972,event=ensure_path_components[0Ktravis_time:start:07196e04[0Ktravis_time:end:07196e04:start=1592860055515769572,finish=1592860055518316864,duration=2547292,event=redefine_curl[0Ktravis_time:start:0cd37312[0Ktravis_time:end:0cd37312:start=1592860055521972014,finish=1592860055525258050,duration=3286036,event=nonblock_pipe[0Ktravis_time:start:1266787b[0Ktravis_time:end:1266787b:start=1592860055528832442,finish=1592860061572008193,duration=6043175751,event=apt_get_update[0Ktravis_time:start:2751d8ae[0Ktravis_time:end:2751d8ae:start=1592860061575650013,finish=1592860061578072828,duration=2422815,event=deprecate_xcode_64[0Ktravis_time:start:1da95737[0Ktravis_time:end:1da95737:start=1592860061581096511,finish=1592860064375382855,duration=2794286344,event=update_heroku[0Ktravis_time:start:0c6f8928[0Ktravis_time:end:0c6f8928:start=1592860064378505861,finish=1592860064380738457,duration=2232596,event=shell_session_update[0Ktravis_time:start:11e1c250[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:11e1c250:start=1592860064383543618,finish=1592860066591842522,duration=2208298904,event=set_docker_mtu[0Ktravis_time:start:04333a7c[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:04333a7c:start=1592860066595812262,finish=1592860066678882190,duration=83069928,event=resolvconf[0Ktravis_time:start:01c5329a[0Ktravis_time:end:01c5329a:start=1592860066683097019,finish=1592860066865038926,duration=181941907,event=maven_central_mirror[0Ktravis_time:start:143ef09e[0Ktravis_time:end:143ef09e:start=1592860066868851737,finish=1592860066981800785,duration=112949048,event=maven_https[0Ktravis_fold:start:apt[0K[33;1mAdding APT Sources[0m
+travis_time:start:0a89fb46[0K$ curl -sSL "https://build.travis-ci.com/files/gpg/travis-security.asc" | sudo -E apt-key add -
 OK
-travis_time:end:097656ed:start=1592843615619157352,finish=1592843615963331833,duration=344174481,event=prepare[0Ktravis_time:start:31d66a38[0K$ echo "deb http://archive.ubuntu.com/ubuntu/ focal main" | sudo tee -a ${TRAVIS_ROOT}/etc/apt/sources.list >/dev/null
-travis_time:end:31d66a38:start=1592843615967185079,finish=1592843615976133089,duration=8948010,event=prepare[0Ktravis_time:start:0b5b1048[0K$ travis_apt_get_update
-travis_time:end:0b5b1048:start=1592843615979811524,finish=1592843628402259289,duration=12422447765,event=prepare[0K[33;1mInstalling APT Packages[0m
-travis_time:start:0de13ef0[0K$ sudo -E apt-get -yq --no-install-suggests --no-install-recommends $(travis_apt_get_options) install cppcheck clang-format
+travis_time:end:0a89fb46:start=1592860066986231738,finish=1592860067399279800,duration=413048062,event=prepare[0Ktravis_time:start:0c330bf0[0K$ echo "deb http://archive.ubuntu.com/ubuntu/ focal main universe" | sudo tee -a ${TRAVIS_ROOT}/etc/apt/sources.list >/dev/null
+travis_time:end:0c330bf0:start=1592860067403472381,finish=1592860067413379334,duration=9906953,event=prepare[0Ktravis_time:start:0ac3ab80[0K$ travis_apt_get_update
+travis_time:end:0ac3ab80:start=1592860067417217886,finish=1592860084553101448,duration=17135883562,event=prepare[0K[33;1mInstalling APT Packages[0m
+travis_time:start:02c77f48[0K$ sudo -E apt-get -yq --no-install-suggests --no-install-recommends $(travis_apt_get_options) install cppcheck clang clang-format clang-tidy
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -178,57 +178,320 @@ The following package was automatically installed and is no longer required:
   libopts25
 Use 'sudo apt autoremove' to remove it.
 The following additional packages will be installed:
-  clang-format-6.0 libtinyxml2-6 python3-pygments
+  clang-10 clang-format-10 clang-tidy-10 clang-tools-10 gcc-10-base gcc-9-base
+  lib32gcc-s1 lib32gcc1 lib32stdc++6 libasan5 libatomic1 libc-bin libc-dev-bin
+  libc6 libc6-dev libc6-i386 libclang-common-10-dev libclang-cpp10
+  libclang1-10 libcrypt-dev libcrypt1 libffi7 libgcc-9-dev libgcc-s1 libgomp1
+  libitm1 libllvm10 liblsan0 libobjc-9-dev libobjc4 libquadmath0
+  libstdc++-9-dev libstdc++6 libtinfo6 libtinyxml2-6a libtsan0 libubsan1
+  locales python3-pygments
 Suggested packages:
-  cppcheck-gui python-pygments-doc ttf-bitstream-vera
+  clang-10-doc cppcheck-gui glibc-doc manpages-dev libstdc++-9-doc
+  python-pygments-doc ttf-bitstream-vera
+Recommended packages:
+  llvm-10-dev libomp-10-dev manpages-dev libidn2-0
 The following NEW packages will be installed:
-  clang-format clang-format-6.0 cppcheck libtinyxml2-6 python3-pygments
-0 upgraded, 5 newly installed, 0 to remove and 832 not upgraded.
-Need to get 2,119 kB of archives.
-After this operation, 8,992 kB of additional disk space will be used.
-Get:1 http://archive.ubuntu.com/ubuntu bionic/universe amd64 clang-format-6.0 amd64 1:6.0-1ubuntu2 [588 kB]
-Get:2 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 clang-format amd64 1:6.0-41~exp5~ubuntu1 [3,144 B]
-Get:3 http://archive.ubuntu.com/ubuntu bionic/universe amd64 libtinyxml2-6 amd64 6.0.0+dfsg-1 [27.9 kB]
-Get:4 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-pygments all 2.3.1+dfsg-1ubuntu2 [579 kB]
-Get:5 http://archive.ubuntu.com/ubuntu bionic/universe amd64 cppcheck amd64 1.82-1 [921 kB]
-Fetched 2,119 kB in 1s (2,309 kB/s)
-Selecting previously unselected package clang-format-6.0.
+  clang clang-10 clang-format clang-format-10 clang-tidy clang-tidy-10
+  clang-tools-10 cppcheck gcc-10-base gcc-9-base lib32gcc-s1 lib32gcc1
+  lib32stdc++6 libasan5 libc6-i386 libclang-common-10-dev libclang-cpp10
+  libclang1-10 libcrypt-dev libcrypt1 libffi7 libgcc-9-dev libgcc-s1 libllvm10
+  libobjc-9-dev libobjc4 libstdc++-9-dev libtinfo6 libtinyxml2-6a libubsan1
+  python3-pygments
+The following packages will be upgraded:
+  libatomic1 libc-bin libc-dev-bin libc6 libc6-dev libgomp1 libitm1 liblsan0
+  libquadmath0 libstdc++6 libtsan0 locales
+12 upgraded, 31 newly installed, 0 to remove and 939 not upgraded.
+Need to get 67.0 MB of archives.
+After this operation, 314 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 gcc-10-base amd64 10-20200411-0ubuntu1 [19.0 kB]
+Get:2 http://archive.ubuntu.com/ubuntu focal/main amd64 libgcc-s1 amd64 10-20200411-0ubuntu1 [41.6 kB]
+Get:3 http://archive.ubuntu.com/ubuntu focal/main amd64 libcrypt1 amd64 1:4.4.10-10ubuntu4 [78.2 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal/main amd64 locales all 2.31-0ubuntu9 [3,870 kB]
+Get:5 http://archive.ubuntu.com/ubuntu focal/main amd64 libc6 amd64 2.31-0ubuntu9 [2,713 kB]
+Get:6 http://archive.ubuntu.com/ubuntu focal/main amd64 libc-bin amd64 2.31-0ubuntu9 [636 kB]
+Get:7 http://archive.ubuntu.com/ubuntu focal/main amd64 libc-dev-bin amd64 2.31-0ubuntu9 [71.8 kB]
+Get:8 http://archive.ubuntu.com/ubuntu focal/main amd64 libc6-dev amd64 2.31-0ubuntu9 [2,520 kB]
+Get:9 http://archive.ubuntu.com/ubuntu focal/main amd64 libcrypt-dev amd64 1:4.4.10-10ubuntu4 [104 kB]
+Get:10 http://archive.ubuntu.com/ubuntu focal/main amd64 libstdc++6 amd64 10-20200411-0ubuntu1 [503 kB]
+Get:11 http://archive.ubuntu.com/ubuntu focal/main amd64 libtinfo6 amd64 6.2-0ubuntu2 [87.0 kB]
+Get:12 http://archive.ubuntu.com/ubuntu focal/main amd64 libffi7 amd64 3.3-4 [19.7 kB]
+Get:13 http://archive.ubuntu.com/ubuntu focal/main amd64 libllvm10 amd64 1:10.0.0-4ubuntu1 [15.3 MB]
+Get:14 http://archive.ubuntu.com/ubuntu focal/universe amd64 libclang-cpp10 amd64 1:10.0.0-4ubuntu1 [9,944 kB]
+Get:15 http://archive.ubuntu.com/ubuntu focal/main amd64 gcc-9-base amd64 9.3.0-10ubuntu2 [19.3 kB]
+Get:16 http://archive.ubuntu.com/ubuntu focal/main amd64 libgomp1 amd64 10-20200411-0ubuntu1 [101 kB]
+Get:17 http://archive.ubuntu.com/ubuntu focal/main amd64 libitm1 amd64 10-20200411-0ubuntu1 [26.3 kB]
+Get:18 http://archive.ubuntu.com/ubuntu focal/main amd64 libatomic1 amd64 10-20200411-0ubuntu1 [9,284 B]
+Get:19 http://archive.ubuntu.com/ubuntu focal/main amd64 libasan5 amd64 9.3.0-10ubuntu2 [395 kB]
+Get:20 http://archive.ubuntu.com/ubuntu focal/main amd64 liblsan0 amd64 10-20200411-0ubuntu1 [144 kB]
+Get:21 http://archive.ubuntu.com/ubuntu focal/main amd64 libtsan0 amd64 10-20200411-0ubuntu1 [319 kB]
+Get:22 http://archive.ubuntu.com/ubuntu focal/main amd64 libubsan1 amd64 10-20200411-0ubuntu1 [136 kB]
+Get:23 http://archive.ubuntu.com/ubuntu focal/main amd64 libquadmath0 amd64 10-20200411-0ubuntu1 [146 kB]
+Get:24 http://archive.ubuntu.com/ubuntu focal/main amd64 libgcc-9-dev amd64 9.3.0-10ubuntu2 [2,359 kB]
+Get:25 http://archive.ubuntu.com/ubuntu focal/main amd64 libstdc++-9-dev amd64 9.3.0-10ubuntu2 [1,711 kB]
+Get:26 http://archive.ubuntu.com/ubuntu focal/universe amd64 libobjc4 amd64 10-20200411-0ubuntu1 [42.8 kB]
+Get:27 http://archive.ubuntu.com/ubuntu focal/universe amd64 libobjc-9-dev amd64 9.3.0-10ubuntu2 [225 kB]
+Get:28 http://archive.ubuntu.com/ubuntu focal/main amd64 libc6-i386 amd64 2.31-0ubuntu9 [2,723 kB]
+Get:29 http://archive.ubuntu.com/ubuntu focal/main amd64 lib32gcc-s1 amd64 10-20200411-0ubuntu1 [49.6 kB]
+Get:30 http://archive.ubuntu.com/ubuntu focal/main amd64 lib32gcc1 amd64 1:10-20200411-0ubuntu1 [1,132 B]
+Get:31 http://archive.ubuntu.com/ubuntu focal/main amd64 lib32stdc++6 amd64 10-20200411-0ubuntu1 [525 kB]
+Get:32 http://archive.ubuntu.com/ubuntu focal/universe amd64 libclang-common-10-dev amd64 1:10.0.0-4ubuntu1 [5,012 kB]
+Get:33 http://archive.ubuntu.com/ubuntu focal/universe amd64 libclang1-10 amd64 1:10.0.0-4ubuntu1 [7,571 kB]
+Get:34 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-10 amd64 1:10.0.0-4ubuntu1 [66.9 kB]
+Get:35 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang amd64 1:10.0-50~exp1 [3,276 B]
+Get:36 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-format-10 amd64 1:10.0.0-4ubuntu1 [40.9 kB]
+Get:37 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-format amd64 1:10.0-50~exp1 [3,272 B]
+Get:38 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-tools-10 amd64 1:10.0.0-4ubuntu1 [6,150 kB]
+Get:39 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-tidy-10 amd64 1:10.0.0-4ubuntu1 [1,033 kB]
+Get:40 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-tidy amd64 1:10.0-50~exp1 [3,048 B]
+Get:41 http://archive.ubuntu.com/ubuntu focal/universe amd64 libtinyxml2-6a amd64 7.0.0+dfsg-1build1 [28.4 kB]
+Get:42 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-pygments all 2.3.1+dfsg-1ubuntu2 [579 kB]
+Get:43 http://archive.ubuntu.com/ubuntu focal/universe amd64 cppcheck amd64 1.90-4build1 [1,646 kB]
+Fetched 67.0 MB in 3s (20.5 MB/s)
+Extracting templates from packages: 69%Extracting templates from packages: 100%
+Preconfiguring packages ...
+Selecting previously unselected package gcc-10-base:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 118522 files and directories currently installed.)
-Preparing to unpack .../clang-format-6.0_1%3a6.0-1ubuntu2_amd64.deb ...
-Unpacking clang-format-6.0 (1:6.0-1ubuntu2) ...
+Preparing to unpack .../gcc-10-base_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking gcc-10-base:amd64 (10-20200411-0ubuntu1) ...
+Setting up gcc-10-base:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libgcc-s1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 118527 files and directories currently installed.)
+Preparing to unpack .../libgcc-s1_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libgcc-s1:amd64 (10-20200411-0ubuntu1) ...
+Replacing files in old package libgcc1:amd64 (1:8.3.0-6ubuntu1~18.04.1) ...
+Setting up libgcc-s1:amd64 (10-20200411-0ubuntu1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 118529 files and directories currently installed.)
+Preparing to unpack .../locales_2.31-0ubuntu9_all.deb ...
+Unpacking locales (2.31-0ubuntu9) over (2.27-3ubuntu1) ...
+Preparing to unpack .../libc6_2.31-0ubuntu9_amd64.deb ...
+Checking for services that may need to be restarted...
+Checking init scripts...
+Checking for services that may need to be restarted...
+Checking init scripts...
+Stopping some services possibly affected by the upgrade (will be restarted later):
+  cron: stopping...done.
+
+Unpacking libc6:amd64 (2.31-0ubuntu9) over (2.27-3ubuntu1) ...
+Selecting previously unselected package libcrypt1:amd64.
+Preparing to unpack .../libcrypt1_1%3a4.4.10-10ubuntu4_amd64.deb ...
+Unpacking libcrypt1:amd64 (1:4.4.10-10ubuntu4) ...
+Setting up libcrypt1:amd64 (1:4.4.10-10ubuntu4) ...
+Setting up libc6:amd64 (2.31-0ubuntu9) ...
+Checking for services that may need to be restarted...
+Checking init scripts...
+Restarting services possibly affected by the upgrade:
+  cron: restarting...done.
+  atd: restarting...done.
+
+Services restarted successfully.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 118531 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.31-0ubuntu9_amd64.deb ...
+Unpacking libc-bin (2.31-0ubuntu9) over (2.27-3ubuntu1) ...
+Setting up libc-bin (2.31-0ubuntu9) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 118531 files and directories currently installed.)
+Preparing to unpack .../libc-dev-bin_2.31-0ubuntu9_amd64.deb ...
+Unpacking libc-dev-bin (2.31-0ubuntu9) over (2.27-3ubuntu1) ...
+Preparing to unpack .../libc6-dev_2.31-0ubuntu9_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.31-0ubuntu9) over (2.27-3ubuntu1) ...
+Selecting previously unselected package libcrypt-dev:amd64.
+Preparing to unpack .../libcrypt-dev_1%3a4.4.10-10ubuntu4_amd64.deb ...
+Unpacking libcrypt-dev:amd64 (1:4.4.10-10ubuntu4) ...
+Preparing to unpack .../libstdc++6_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libstdc++6:amd64 (10-20200411-0ubuntu1) over (8.3.0-6ubuntu1~18.04.1) ...
+Setting up libstdc++6:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libtinfo6:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 118574 files and directories currently installed.)
+Preparing to unpack .../00-libtinfo6_6.2-0ubuntu2_amd64.deb ...
+Unpacking libtinfo6:amd64 (6.2-0ubuntu2) ...
+Selecting previously unselected package libffi7:amd64.
+Preparing to unpack .../01-libffi7_3.3-4_amd64.deb ...
+Unpacking libffi7:amd64 (3.3-4) ...
+Selecting previously unselected package libllvm10:amd64.
+Preparing to unpack .../02-libllvm10_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Unpacking libllvm10:amd64 (1:10.0.0-4ubuntu1) ...
+Selecting previously unselected package libclang-cpp10.
+Preparing to unpack .../03-libclang-cpp10_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Unpacking libclang-cpp10 (1:10.0.0-4ubuntu1) ...
+Selecting previously unselected package gcc-9-base:amd64.
+Preparing to unpack .../04-gcc-9-base_9.3.0-10ubuntu2_amd64.deb ...
+Unpacking gcc-9-base:amd64 (9.3.0-10ubuntu2) ...
+Preparing to unpack .../05-libgomp1_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libgomp1:amd64 (10-20200411-0ubuntu1) over (8.3.0-6ubuntu1~18.04.1) ...
+Preparing to unpack .../06-libitm1_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libitm1:amd64 (10-20200411-0ubuntu1) over (8.3.0-6ubuntu1~18.04.1) ...
+Preparing to unpack .../07-libatomic1_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libatomic1:amd64 (10-20200411-0ubuntu1) over (8.3.0-6ubuntu1~18.04.1) ...
+Selecting previously unselected package libasan5:amd64.
+Preparing to unpack .../08-libasan5_9.3.0-10ubuntu2_amd64.deb ...
+Unpacking libasan5:amd64 (9.3.0-10ubuntu2) ...
+Preparing to unpack .../09-liblsan0_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking liblsan0:amd64 (10-20200411-0ubuntu1) over (8.3.0-6ubuntu1~18.04.1) ...
+Preparing to unpack .../10-libtsan0_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libtsan0:amd64 (10-20200411-0ubuntu1) over (8.3.0-6ubuntu1~18.04.1) ...
+Selecting previously unselected package libubsan1:amd64.
+Preparing to unpack .../11-libubsan1_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libubsan1:amd64 (10-20200411-0ubuntu1) ...
+Preparing to unpack .../12-libquadmath0_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libquadmath0:amd64 (10-20200411-0ubuntu1) over (8.3.0-6ubuntu1~18.04.1) ...
+Selecting previously unselected package libgcc-9-dev:amd64.
+Preparing to unpack .../13-libgcc-9-dev_9.3.0-10ubuntu2_amd64.deb ...
+Unpacking libgcc-9-dev:amd64 (9.3.0-10ubuntu2) ...
+Selecting previously unselected package libstdc++-9-dev:amd64.
+Preparing to unpack .../14-libstdc++-9-dev_9.3.0-10ubuntu2_amd64.deb ...
+Unpacking libstdc++-9-dev:amd64 (9.3.0-10ubuntu2) ...
+Selecting previously unselected package libobjc4:amd64.
+Preparing to unpack .../15-libobjc4_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libobjc4:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libobjc-9-dev:amd64.
+Preparing to unpack .../16-libobjc-9-dev_9.3.0-10ubuntu2_amd64.deb ...
+Unpacking libobjc-9-dev:amd64 (9.3.0-10ubuntu2) ...
+Selecting previously unselected package libc6-i386.
+Preparing to unpack .../17-libc6-i386_2.31-0ubuntu9_amd64.deb ...
+Unpacking libc6-i386 (2.31-0ubuntu9) ...
+Selecting previously unselected package lib32gcc-s1.
+Preparing to unpack .../18-lib32gcc-s1_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking lib32gcc-s1 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package lib32gcc1.
+Preparing to unpack .../19-lib32gcc1_1%3a10-20200411-0ubuntu1_amd64.deb ...
+Unpacking lib32gcc1 (1:10-20200411-0ubuntu1) ...
+Selecting previously unselected package lib32stdc++6.
+Preparing to unpack .../20-lib32stdc++6_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking lib32stdc++6 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libclang-common-10-dev.
+Preparing to unpack .../21-libclang-common-10-dev_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Unpacking libclang-common-10-dev (1:10.0.0-4ubuntu1) ...
+Selecting previously unselected package libclang1-10.
+Preparing to unpack .../22-libclang1-10_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Unpacking libclang1-10 (1:10.0.0-4ubuntu1) ...
+Selecting previously unselected package clang-10.
+Preparing to unpack .../23-clang-10_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Unpacking clang-10 (1:10.0.0-4ubuntu1) ...
+Selecting previously unselected package clang.
+Preparing to unpack .../24-clang_1%3a10.0-50~exp1_amd64.deb ...
+Unpacking clang (1:10.0-50~exp1) ...
+Selecting previously unselected package clang-format-10.
+Preparing to unpack .../25-clang-format-10_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Unpacking clang-format-10 (1:10.0.0-4ubuntu1) ...
 Selecting previously unselected package clang-format.
-Preparing to unpack .../clang-format_1%3a6.0-41~exp5~ubuntu1_amd64.deb ...
-Unpacking clang-format (1:6.0-41~exp5~ubuntu1) ...
-Selecting previously unselected package libtinyxml2-6:amd64.
-Preparing to unpack .../libtinyxml2-6_6.0.0+dfsg-1_amd64.deb ...
-Unpacking libtinyxml2-6:amd64 (6.0.0+dfsg-1) ...
+Preparing to unpack .../26-clang-format_1%3a10.0-50~exp1_amd64.deb ...
+Unpacking clang-format (1:10.0-50~exp1) ...
+Selecting previously unselected package clang-tools-10.
+Preparing to unpack .../27-clang-tools-10_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Unpacking clang-tools-10 (1:10.0.0-4ubuntu1) ...
+Selecting previously unselected package clang-tidy-10.
+Preparing to unpack .../28-clang-tidy-10_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Unpacking clang-tidy-10 (1:10.0.0-4ubuntu1) ...
+Selecting previously unselected package clang-tidy.
+Preparing to unpack .../29-clang-tidy_1%3a10.0-50~exp1_amd64.deb ...
+Unpacking clang-tidy (1:10.0-50~exp1) ...
+Selecting previously unselected package libtinyxml2-6a:amd64.
+Preparing to unpack .../30-libtinyxml2-6a_7.0.0+dfsg-1build1_amd64.deb ...
+Unpacking libtinyxml2-6a:amd64 (7.0.0+dfsg-1build1) ...
 Selecting previously unselected package python3-pygments.
-Preparing to unpack .../python3-pygments_2.3.1+dfsg-1ubuntu2_all.deb ...
+Preparing to unpack .../31-python3-pygments_2.3.1+dfsg-1ubuntu2_all.deb ...
 Unpacking python3-pygments (2.3.1+dfsg-1ubuntu2) ...
 Selecting previously unselected package cppcheck.
-Preparing to unpack .../cppcheck_1.82-1_amd64.deb ...
-Unpacking cppcheck (1.82-1) ...
-Setting up libtinyxml2-6:amd64 (6.0.0+dfsg-1) ...
-Setting up clang-format-6.0 (1:6.0-1ubuntu2) ...
-Setting up clang-format (1:6.0-41~exp5~ubuntu1) ...
+Preparing to unpack .../32-cppcheck_1.90-4build1_amd64.deb ...
+Unpacking cppcheck (1.90-4build1) ...
+Setting up libquadmath0:amd64 (10-20200411-0ubuntu1) ...
+Setting up libgomp1:amd64 (10-20200411-0ubuntu1) ...
+Setting up gcc-9-base:amd64 (9.3.0-10ubuntu2) ...
+Setting up libatomic1:amd64 (10-20200411-0ubuntu1) ...
+Setting up libobjc4:amd64 (10-20200411-0ubuntu1) ...
+Setting up libtsan0:amd64 (10-20200411-0ubuntu1) ...
+Setting up libtinfo6:amd64 (6.2-0ubuntu2) ...
+Setting up libc6-i386 (2.31-0ubuntu9) ...
+Setting up lib32gcc-s1 (10-20200411-0ubuntu1) ...
+Setting up libffi7:amd64 (3.3-4) ...
+Setting up liblsan0:amd64 (10-20200411-0ubuntu1) ...
+Setting up libcrypt-dev:amd64 (1:4.4.10-10ubuntu4) ...
+Setting up libc-dev-bin (2.31-0ubuntu9) ...
+Setting up libc6-dev:amd64 (2.31-0ubuntu9) ...
+Setting up libasan5:amd64 (9.3.0-10ubuntu2) ...
+Setting up locales (2.31-0ubuntu9) ...
+Installing new version of config file /etc/locale.alias ...
+Generating locales (this might take a while)...
+  ar_AE.UTF-8... done
+  ar_EG.UTF-8... done
+  de_AT.UTF-8... done
+  de_BE.UTF-8... done
+  de_CH.UTF-8... done
+  de_DE.UTF-8... done
+  en_AG.UTF-8... done
+  en_AU.UTF-8... done
+  en_BW.UTF-8... done
+  en_CA.UTF-8... done
+  en_DK.UTF-8... done
+  en_GB.UTF-8... done
+  en_HK.UTF-8... done
+  en_IE.UTF-8... done
+  en_IL.UTF-8... done
+  en_IN.UTF-8... done
+  en_NG.UTF-8... done
+  en_NZ.UTF-8... done
+  en_PH.UTF-8... done
+  en_SG.UTF-8... done
+  en_US.UTF-8... done
+  en_ZA.UTF-8... done
+  en_ZM.UTF-8... done
+  en_ZW.UTF-8... done
+  es_ES.UTF-8... done
+  es_MX.UTF-8... done
+  fr_BE.UTF-8... done
+  fr_CH.UTF-8... done
+  fr_FR.UTF-8... done
+  he_IL.UTF-8... done
+  hi_IN.UTF-8... done
+  ja_JP.UTF-8... done
+  ko_KR.UTF-8... done
+  ms_MY.UTF-8... done
+  pt_BR.UTF-8... done
+  pt_PT.UTF-8... done
+  ru_RU.UTF-8... done
+  ru_UA.UTF-8... done
+  uk_UA.UTF-8... done
+  zh_CN.UTF-8... done
+  zh_TW.UTF-8... done
+Generation complete.
+Setting up libitm1:amd64 (10-20200411-0ubuntu1) ...
+Setting up lib32gcc1 (1:10-20200411-0ubuntu1) ...
+Setting up libtinyxml2-6a:amd64 (7.0.0+dfsg-1build1) ...
+Setting up libubsan1:amd64 (10-20200411-0ubuntu1) ...
 Setting up python3-pygments (2.3.1+dfsg-1ubuntu2) ...
-Setting up cppcheck (1.82-1) ...
+Setting up cppcheck (1.90-4build1) ...
+Setting up libllvm10:amd64 (1:10.0.0-4ubuntu1) ...
+Setting up libgcc-9-dev:amd64 (9.3.0-10ubuntu2) ...
+Setting up libstdc++-9-dev:amd64 (9.3.0-10ubuntu2) ...
+Setting up libclang1-10 (1:10.0.0-4ubuntu1) ...
+Setting up libclang-cpp10 (1:10.0.0-4ubuntu1) ...
+Setting up lib32stdc++6 (10-20200411-0ubuntu1) ...
+Setting up clang-format-10 (1:10.0.0-4ubuntu1) ...
+Setting up libobjc-9-dev:amd64 (9.3.0-10ubuntu2) ...
+Setting up libclang-common-10-dev (1:10.0.0-4ubuntu1) ...
+Setting up clang-format (1:10.0-50~exp1) ...
+Setting up clang-10 (1:10.0.0-4ubuntu1) ...
+Setting up clang-tools-10 (1:10.0.0-4ubuntu1) ...
+Setting up clang (1:10.0-50~exp1) ...
+Setting up clang-tidy-10 (1:10.0.0-4ubuntu1) ...
+Setting up clang-tidy (1:10.0-50~exp1) ...
 Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
-Processing triggers for libc-bin (2.27-3ubuntu1) ...
-travis_time:end:0de13ef0:start=1592843628406305566,finish=1592843635542714952,duration=7136409386,event=prepare[0Ktravis_fold:end:apt[0Ktravis_time:start:0a1ec0e9[0Ktravis_fold:start:services[0Ktravis_time:start:006387fe[0K$ sudo systemctl start docker
-travis_time:end:006387fe:start=1592843635550929478,finish=1592843635564842262,duration=13912784,event=prepare[0Ktravis_fold:end:services[0Ktravis_time:end:006387fe:start=1592843635550929478,finish=1592843638571847051,duration=3020917573,event=services[0Ktravis_time:start:12d47d50[0Ktravis_time:end:12d47d50:start=1592843638575451893,finish=1592843638578034265,duration=2582372,event=fix_ps4[0Ktravis_time:start:19d50ab8[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:23c3eab5[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
+Processing triggers for ccache (3.4.1-1) ...
+Updating symlinks in /usr/lib/ccache ...
+Processing triggers for libc-bin (2.31-0ubuntu9) ...
+travis_time:end:02c77f48:start=1592860084557204347,finish=1592860180934452848,duration=96377248501,event=prepare[0Ktravis_fold:end:apt[0Ktravis_time:start:329e734c[0Ktravis_fold:start:services[0Ktravis_time:start:075c63c0[0K$ sudo systemctl start docker
+travis_time:end:075c63c0:start=1592860180941886364,finish=1592860180954866613,duration=12980249,event=prepare[0Ktravis_fold:end:services[0Ktravis_time:end:075c63c0:start=1592860180941886364,finish=1592860183961815431,duration=3019929067,event=services[0Ktravis_time:start:2f83b22a[0Ktravis_time:end:2f83b22a:start=1592860183965148098,finish=1592860183967474571,duration=2326473,event=fix_ps4[0Ktravis_time:start:2d62f511[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:03c4ef02[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
 Cloning into 'bansan85/wiki_le_garrec_fr'...
-remote: Enumerating objects: 66, done.[K
-remote: Counting objects:   1% (1/66)[Kremote: Counting objects:   3% (2/66)[Kremote: Counting objects:   4% (3/66)[Kremote: Counting objects:   6% (4/66)[Kremote: Counting objects:   7% (5/66)[Kremote: Counting objects:   9% (6/66)[Kremote: Counting objects:  10% (7/66)[Kremote: Counting objects:  12% (8/66)[Kremote: Counting objects:  13% (9/66)[Kremote: Counting objects:  15% (10/66)[Kremote: Counting objects:  16% (11/66)[Kremote: Counting objects:  18% (12/66)[Kremote: Counting objects:  19% (13/66)[Kremote: Counting objects:  21% (14/66)[Kremote: Counting objects:  22% (15/66)[Kremote: Counting objects:  24% (16/66)[Kremote: Counting objects:  25% (17/66)[Kremote: Counting objects:  27% (18/66)[Kremote: Counting objects:  28% (19/66)[Kremote: Counting objects:  30% (20/66)[Kremote: Counting objects:  31% (21/66)[Kremote: Counting objects:  33% (22/66)[Kremote: Counting objects:  34% (23/66)[Kremote: Counting objects:  36% (24/66)[Kremote: Counting objects:  37% (25/66)[Kremote: Counting objects:  39% (26/66)[Kremote: Counting objects:  40% (27/66)[Kremote: Counting objects:  42% (28/66)[Kremote: Counting objects:  43% (29/66)[Kremote: Counting objects:  45% (30/66)[Kremote: Counting objects:  46% (31/66)[Kremote: Counting objects:  48% (32/66)[Kremote: Counting objects:  50% (33/66)[Kremote: Counting objects:  51% (34/66)[Kremote: Counting objects:  53% (35/66)[Kremote: Counting objects:  54% (36/66)[Kremote: Counting objects:  56% (37/66)[Kremote: Counting objects:  57% (38/66)[Kremote: Counting objects:  59% (39/66)[Kremote: Counting objects:  60% (40/66)[Kremote: Counting objects:  62% (41/66)[Kremote: Counting objects:  63% (42/66)[Kremote: Counting objects:  65% (43/66)[Kremote: Counting objects:  66% (44/66)[Kremote: Counting objects:  68% (45/66)[Kremote: Counting objects:  69% (46/66)[Kremote: Counting objects:  71% (47/66)[Kremote: Counting objects:  72% (48/66)[Kremote: Counting objects:  74% (49/66)[Kremote: Counting objects:  75% (50/66)[Kremote: Counting objects:  77% (51/66)[Kremote: Counting objects:  78% (52/66)[Kremote: Counting objects:  80% (53/66)[Kremote: Counting objects:  81% (54/66)[Kremote: Counting objects:  83% (55/66)[Kremote: Counting objects:  84% (56/66)[Kremote: Counting objects:  86% (57/66)[Kremote: Counting objects:  87% (58/66)[Kremote: Counting objects:  89% (59/66)[Kremote: Counting objects:  90% (60/66)[Kremote: Counting objects:  92% (61/66)[Kremote: Counting objects:  93% (62/66)[Kremote: Counting objects:  95% (63/66)[Kremote: Counting objects:  96% (64/66)[Kremote: Counting objects:  98% (65/66)[Kremote: Counting objects: 100% (66/66)[Kremote: Counting objects: 100% (66/66), done.[K
-remote: Compressing objects:   2% (1/43)[Kremote: Compressing objects:   4% (2/43)[Kremote: Compressing objects:   6% (3/43)[Kremote: Compressing objects:   9% (4/43)[Kremote: Compressing objects:  11% (5/43)[Kremote: Compressing objects:  13% (6/43)[Kremote: Compressing objects:  16% (7/43)[Kremote: Compressing objects:  18% (8/43)[Kremote: Compressing objects:  20% (9/43)[Kremote: Compressing objects:  23% (10/43)[Kremote: Compressing objects:  25% (11/43)[Kremote: Compressing objects:  27% (12/43)[Kremote: Compressing objects:  30% (13/43)[Kremote: Compressing objects:  32% (14/43)[Kremote: Compressing objects:  34% (15/43)[Kremote: Compressing objects:  37% (16/43)[Kremote: Compressing objects:  39% (17/43)[Kremote: Compressing objects:  41% (18/43)[Kremote: Compressing objects:  44% (19/43)[Kremote: Compressing objects:  46% (20/43)[Kremote: Compressing objects:  48% (21/43)[Kremote: Compressing objects:  51% (22/43)[Kremote: Compressing objects:  53% (23/43)[Kremote: Compressing objects:  55% (24/43)[Kremote: Compressing objects:  58% (25/43)[Kremote: Compressing objects:  60% (26/43)[Kremote: Compressing objects:  62% (27/43)[Kremote: Compressing objects:  65% (28/43)[Kremote: Compressing objects:  67% (29/43)[Kremote: Compressing objects:  69% (30/43)[Kremote: Compressing objects:  72% (31/43)[Kremote: Compressing objects:  74% (32/43)[Kremote: Compressing objects:  76% (33/43)[Kremote: Compressing objects:  79% (34/43)[Kremote: Compressing objects:  81% (35/43)[Kremote: Compressing objects:  83% (36/43)[Kremote: Compressing objects:  86% (37/43)[Kremote: Compressing objects:  88% (38/43)[Kremote: Compressing objects:  90% (39/43)[Kremote: Compressing objects:  93% (40/43)[Kremote: Compressing objects:  95% (41/43)[Kremote: Compressing objects:  97% (42/43)[Kremote: Compressing objects: 100% (43/43)[Kremote: Compressing objects: 100% (43/43), done.[K
-remote: Total 66 (delta 15), reused 61 (delta 13), pack-reused 0[K
-Receiving objects:   1% (1/66)Receiving objects:   3% (2/66)Receiving objects:   4% (3/66)Receiving objects:   6% (4/66)Receiving objects:   7% (5/66)Receiving objects:   9% (6/66)Receiving objects:  10% (7/66)Receiving objects:  12% (8/66)Receiving objects:  13% (9/66)Receiving objects:  15% (10/66)Receiving objects:  16% (11/66)Receiving objects:  18% (12/66)Receiving objects:  19% (13/66)Receiving objects:  21% (14/66)Receiving objects:  22% (15/66)Receiving objects:  24% (16/66)Receiving objects:  25% (17/66)Receiving objects:  27% (18/66)Receiving objects:  28% (19/66)Receiving objects:  30% (20/66)Receiving objects:  31% (21/66)Receiving objects:  33% (22/66)Receiving objects:  34% (23/66)Receiving objects:  36% (24/66)Receiving objects:  37% (25/66)Receiving objects:  39% (26/66)Receiving objects:  40% (27/66)Receiving objects:  42% (28/66)Receiving objects:  43% (29/66)Receiving objects:  45% (30/66)Receiving objects:  46% (31/66)Receiving objects:  48% (32/66)Receiving objects:  50% (33/66)Receiving objects:  51% (34/66)Receiving objects:  53% (35/66)Receiving objects:  54% (36/66)Receiving objects:  56% (37/66)Receiving objects:  57% (38/66)Receiving objects:  59% (39/66)Receiving objects:  60% (40/66)Receiving objects:  62% (41/66)Receiving objects:  63% (42/66)Receiving objects:  65% (43/66)Receiving objects:  66% (44/66)Receiving objects:  68% (45/66)Receiving objects:  69% (46/66)Receiving objects:  71% (47/66)Receiving objects:  72% (48/66)Receiving objects:  74% (49/66)Receiving objects:  75% (50/66)Receiving objects:  77% (51/66)Receiving objects:  78% (52/66)Receiving objects:  80% (53/66)Receiving objects:  81% (54/66)Receiving objects:  83% (55/66)Receiving objects:  84% (56/66)Receiving objects:  86% (57/66)Receiving objects:  87% (58/66)Receiving objects:  89% (59/66)Receiving objects:  90% (60/66)Receiving objects:  92% (61/66)Receiving objects:  93% (62/66)Receiving objects:  95% (63/66)Receiving objects:  96% (64/66)Receiving objects:  98% (65/66)Receiving objects: 100% (66/66)Receiving objects: 100% (66/66), 9.89 KiB | 4.95 MiB/s, done.
-Resolving deltas:   0% (0/15)Resolving deltas:  13% (2/15)Resolving deltas:  46% (7/15)Resolving deltas:  53% (8/15)Resolving deltas:  60% (9/15)Resolving deltas:  66% (10/15)Resolving deltas:  80% (12/15)Resolving deltas:  86% (13/15)Resolving deltas:  93% (14/15)Resolving deltas: 100% (15/15)Resolving deltas: 100% (15/15), done.
-travis_time:end:23c3eab5:start=1592843638584969609,finish=1592843639032934250,duration=447964641,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
-$ git checkout -qf 0f52d44db3a7272ad99404433ffc9790008b4053
+remote: Enumerating objects: 76, done.[K
+remote: Counting objects:   1% (1/76)[Kremote: Counting objects:   2% (2/76)[Kremote: Counting objects:   3% (3/76)[Kremote: Counting objects:   5% (4/76)[Kremote: Counting objects:   6% (5/76)[Kremote: Counting objects:   7% (6/76)[Kremote: Counting objects:   9% (7/76)[Kremote: Counting objects:  10% (8/76)[Kremote: Counting objects:  11% (9/76)[Kremote: Counting objects:  13% (10/76)[Kremote: Counting objects:  14% (11/76)[Kremote: Counting objects:  15% (12/76)[Kremote: Counting objects:  17% (13/76)[Kremote: Counting objects:  18% (14/76)[Kremote: Counting objects:  19% (15/76)[Kremote: Counting objects:  21% (16/76)[Kremote: Counting objects:  22% (17/76)[Kremote: Counting objects:  23% (18/76)[Kremote: Counting objects:  25% (19/76)[Kremote: Counting objects:  26% (20/76)[Kremote: Counting objects:  27% (21/76)[Kremote: Counting objects:  28% (22/76)[Kremote: Counting objects:  30% (23/76)[Kremote: Counting objects:  31% (24/76)[Kremote: Counting objects:  32% (25/76)[Kremote: Counting objects:  34% (26/76)[Kremote: Counting objects:  35% (27/76)[Kremote: Counting objects:  36% (28/76)[Kremote: Counting objects:  38% (29/76)[Kremote: Counting objects:  39% (30/76)[Kremote: Counting objects:  40% (31/76)[Kremote: Counting objects:  42% (32/76)[Kremote: Counting objects:  43% (33/76)[Kremote: Counting objects:  44% (34/76)[Kremote: Counting objects:  46% (35/76)[Kremote: Counting objects:  47% (36/76)[Kremote: Counting objects:  48% (37/76)[Kremote: Counting objects:  50% (38/76)[Kremote: Counting objects:  51% (39/76)[Kremote: Counting objects:  52% (40/76)[Kremote: Counting objects:  53% (41/76)[Kremote: Counting objects:  55% (42/76)[Kremote: Counting objects:  56% (43/76)[Kremote: Counting objects:  57% (44/76)[Kremote: Counting objects:  59% (45/76)[Kremote: Counting objects:  60% (46/76)[Kremote: Counting objects:  61% (47/76)[Kremote: Counting objects:  63% (48/76)[Kremote: Counting objects:  64% (49/76)[Kremote: Counting objects:  65% (50/76)[Kremote: Counting objects:  67% (51/76)[Kremote: Counting objects:  68% (52/76)[Kremote: Counting objects:  69% (53/76)[Kremote: Counting objects:  71% (54/76)[Kremote: Counting objects:  72% (55/76)[Kremote: Counting objects:  73% (56/76)[Kremote: Counting objects:  75% (57/76)[Kremote: Counting objects:  76% (58/76)[Kremote: Counting objects:  77% (59/76)[Kremote: Counting objects:  78% (60/76)[Kremote: Counting objects:  80% (61/76)[Kremote: Counting objects:  81% (62/76)[Kremote: Counting objects:  82% (63/76)[Kremote: Counting objects:  84% (64/76)[Kremote: Counting objects:  85% (65/76)[Kremote: Counting objects:  86% (66/76)[Kremote: Counting objects:  88% (67/76)[Kremote: Counting objects:  89% (68/76)[Kremote: Counting objects:  90% (69/76)[Kremote: Counting objects:  92% (70/76)[Kremote: Counting objects:  93% (71/76)[Kremote: Counting objects:  94% (72/76)[Kremote: Counting objects:  96% (73/76)[Kremote: Counting objects:  97% (74/76)[Kremote: Counting objects:  98% (75/76)[Kremote: Counting objects: 100% (76/76)[Kremote: Counting objects: 100% (76/76), done.[K
+remote: Compressing objects:   2% (1/50)[Kremote: Compressing objects:   4% (2/50)[Kremote: Compressing objects:   6% (3/50)[Kremote: Compressing objects:   8% (4/50)[Kremote: Compressing objects:  10% (5/50)[Kremote: Compressing objects:  12% (6/50)[Kremote: Compressing objects:  14% (7/50)[Kremote: Compressing objects:  16% (8/50)[Kremote: Compressing objects:  18% (9/50)[Kremote: Compressing objects:  20% (10/50)[Kremote: Compressing objects:  22% (11/50)[Kremote: Compressing objects:  24% (12/50)[Kremote: Compressing objects:  26% (13/50)[Kremote: Compressing objects:  28% (14/50)[Kremote: Compressing objects:  30% (15/50)[Kremote: Compressing objects:  32% (16/50)[Kremote: Compressing objects:  34% (17/50)[Kremote: Compressing objects:  36% (18/50)[Kremote: Compressing objects:  38% (19/50)[Kremote: Compressing objects:  40% (20/50)[Kremote: Compressing objects:  42% (21/50)[Kremote: Compressing objects:  44% (22/50)[Kremote: Compressing objects:  46% (23/50)[Kremote: Compressing objects:  48% (24/50)[Kremote: Compressing objects:  50% (25/50)[Kremote: Compressing objects:  52% (26/50)[Kremote: Compressing objects:  54% (27/50)[Kremote: Compressing objects:  56% (28/50)[Kremote: Compressing objects:  58% (29/50)[Kremote: Compressing objects:  60% (30/50)[Kremote: Compressing objects:  62% (31/50)[Kremote: Compressing objects:  64% (32/50)[Kremote: Compressing objects:  66% (33/50)[Kremote: Compressing objects:  68% (34/50)[Kremote: Compressing objects:  70% (35/50)[Kremote: Compressing objects:  72% (36/50)[Kremote: Compressing objects:  74% (37/50)[Kremote: Compressing objects:  76% (38/50)[Kremote: Compressing objects:  78% (39/50)[Kremote: Compressing objects:  80% (40/50)[Kremote: Compressing objects:  82% (41/50)[Kremote: Compressing objects:  84% (42/50)[Kremote: Compressing objects:  86% (43/50)[Kremote: Compressing objects:  88% (44/50)[Kremote: Compressing objects:  90% (45/50)[Kremote: Compressing objects:  92% (46/50)[Kremote: Compressing objects:  94% (47/50)[Kremote: Compressing objects:  96% (48/50)[Kremote: Compressing objects:  98% (49/50)[Kremote: Compressing objects: 100% (50/50)[Kremote: Compressing objects: 100% (50/50), done.[K
+Receiving objects:   1% (1/76)Receiving objects:   2% (2/76)Receiving objects:   3% (3/76)Receiving objects:   5% (4/76)Receiving objects:   6% (5/76)Receiving objects:   7% (6/76)Receiving objects:   9% (7/76)Receiving objects:  10% (8/76)Receiving objects:  11% (9/76)Receiving objects:  13% (10/76)Receiving objects:  14% (11/76)Receiving objects:  15% (12/76)Receiving objects:  17% (13/76)Receiving objects:  18% (14/76)remote: Total 76 (delta 17), reused 71 (delta 15), pack-reused 0[K
+Receiving objects:  19% (15/76)Receiving objects:  21% (16/76)Receiving objects:  22% (17/76)Receiving objects:  23% (18/76)Receiving objects:  25% (19/76)Receiving objects:  26% (20/76)Receiving objects:  27% (21/76)Receiving objects:  28% (22/76)Receiving objects:  30% (23/76)Receiving objects:  31% (24/76)Receiving objects:  32% (25/76)Receiving objects:  34% (26/76)Receiving objects:  35% (27/76)Receiving objects:  36% (28/76)Receiving objects:  38% (29/76)Receiving objects:  39% (30/76)Receiving objects:  40% (31/76)Receiving objects:  42% (32/76)Receiving objects:  43% (33/76)Receiving objects:  44% (34/76)Receiving objects:  46% (35/76)Receiving objects:  47% (36/76)Receiving objects:  48% (37/76)Receiving objects:  50% (38/76)Receiving objects:  51% (39/76)Receiving objects:  52% (40/76)Receiving objects:  53% (41/76)Receiving objects:  55% (42/76)Receiving objects:  56% (43/76)Receiving objects:  57% (44/76)Receiving objects:  59% (45/76)Receiving objects:  60% (46/76)Receiving objects:  61% (47/76)Receiving objects:  63% (48/76)Receiving objects:  64% (49/76)Receiving objects:  65% (50/76)Receiving objects:  67% (51/76)Receiving objects:  68% (52/76)Receiving objects:  69% (53/76)Receiving objects:  71% (54/76)Receiving objects:  72% (55/76)Receiving objects:  73% (56/76)Receiving objects:  75% (57/76)Receiving objects:  76% (58/76)Receiving objects:  77% (59/76)Receiving objects:  78% (60/76)Receiving objects:  80% (61/76)Receiving objects:  81% (62/76)Receiving objects:  82% (63/76)Receiving objects:  84% (64/76)Receiving objects:  85% (65/76)Receiving objects:  86% (66/76)Receiving objects:  88% (67/76)Receiving objects:  89% (68/76)Receiving objects:  90% (69/76)Receiving objects:  92% (70/76)Receiving objects:  93% (71/76)Receiving objects:  94% (72/76)Receiving objects:  96% (73/76)Receiving objects:  97% (74/76)Receiving objects:  98% (75/76)Receiving objects: 100% (76/76)Receiving objects: 100% (76/76), 14.26 KiB | 2.85 MiB/s, done.
+Resolving deltas:   0% (0/17)Resolving deltas:  11% (2/17)Resolving deltas:  41% (7/17)Resolving deltas:  52% (9/17)Resolving deltas:  58% (10/17)Resolving deltas:  70% (12/17)Resolving deltas:  76% (13/17)Resolving deltas:  82% (14/17)Resolving deltas:  88% (15/17)Resolving deltas:  94% (16/17)Resolving deltas: 100% (17/17)Resolving deltas: 100% (17/17), done.
+travis_time:end:03c4ef02:start=1592860183973939638,finish=1592860184405683626,duration=431743988,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
+$ git checkout -qf 88a73f3a318f7943a12f2202079cd46b3c5e8ae2
 travis_fold:end:git.checkout[0K
-travis_time:end:23c3eab5:start=1592843638584969609,finish=1592843639039507707,duration=454538098,event=checkout[0Ktravis_time:start:04ad82db[0Ktravis_time:end:04ad82db:start=1592843639043496545,finish=1592843639049833521,duration=6336976,event=env[0K$ export TRAVIS_COMPILER=g++
+travis_time:end:03c4ef02:start=1592860183973939638,finish=1592860184411781101,duration=437841463,event=checkout[0Ktravis_time:start:199773c8[0Ktravis_time:end:199773c8:start=1592860184415035867,finish=1592860184421640844,duration=6604977,event=env[0K$ export TRAVIS_COMPILER=g++
 $ export CXX=${CXX:-g++}
 $ export CXX_FOR_BUILD=${CXX_FOR_BUILD:-g++}
 $ export CC=${CC:-gcc}
@@ -239,7 +502,7 @@ Copyright (C) 2017 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-travis_fold:start:before_install.1[0Ktravis_time:start:1883129d[0K$ docker pull gcc:latest
+travis_fold:start:before_install.1[0Ktravis_time:start:22010940[0K$ docker pull gcc:latest
 latest: Pulling from library/gcc
 
 [1A[1K[Ke9afc4f90ab0: Pulling fs layer [1B
@@ -250,9 +513,9 @@ latest: Pulling from library/gcc
 [1A[1K[Ke2983d3e9d87: Pulling fs layer [1B
 [1A[1K[Kb73e08d8a550: Pulling fs layer [1B
 [1A[1K[Kef564e387869: Pulling fs layer [1B
-[1A[1K[K2645c37e0992: Pulling fs layer [1B[6A[1K[K5573c4b30949: Waiting [6B[5A[1K[K11a88e764313: Waiting [5B[4A[1K[Ke2983d3e9d87: Waiting [4B[3A[1K[Kb73e08d8a550: Waiting [3B[2A[1K[Kef564e387869: Waiting [2B[1A[1K[K2645c37e0992: Waiting [1B[7A[1K[Kaf14b6c2f878: Downloading  101.6kB/9.996MB[7B[8A[1K[K989e6b19a265: Downloading  81.49kB/7.812MB[8B[9A[1K[Ke9afc4f90ab0: Downloading  515.3kB/50.39MB[9B[7A[1K[Kaf14b6c2f878: Downloading  7.019MB/9.996MB[7B[8A[1K[K989e6b19a265: Downloading  5.614MB/7.812MB[8B[8A[1K[K989e6b19a265: Verifying Checksum [8B[8A[1K[K989e6b19a265: Download complete [8B[7A[1K[Kaf14b6c2f878: Verifying Checksum [7B[7A[1K[Kaf14b6c2f878: Download complete [7B[9A[1K[Ke9afc4f90ab0: Downloading  9.173MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Downloading  23.03MB/50.39MB[9B[6A[1K[K5573c4b30949: Downloading  519.4kB/51.83MB[6B[5A[1K[K11a88e764313: Downloading  539.1kB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Downloading  36.33MB/50.39MB[9B[6A[1K[K5573c4b30949: Downloading  7.338MB/51.83MB[6B[9A[1K[Ke9afc4f90ab0: Downloading  47.08MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Verifying Checksum [9B[9A[1K[Ke9afc4f90ab0: Download complete [9B[5A[1K[K11a88e764313: Downloading  7.535MB/192.2MB[5B[6A[1K[K5573c4b30949: Downloading  15.25MB/51.83MB[6B[5A[1K[K11a88e764313: Downloading  14.48MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  524.3kB/50.39MB[9B[6A[1K[K5573c4b30949: Downloading   25.2MB/51.83MB[6B[5A[1K[K11a88e764313: Downloading  23.61MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  1.573MB/50.39MB[9B[6A[1K[K5573c4b30949: Downloading  33.08MB/51.83MB[6B[5A[1K[K11a88e764313: Downloading  33.79MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  2.621MB/50.39MB[9B[4A[1K[Ke2983d3e9d87: Downloading     422B/11.56kB[4B[6A[1K[K5573c4b30949: Downloading  41.49MB/51.83MB[6B[4A[1K[Ke2983d3e9d87: Downloading  11.56kB/11.56kB[4B[4A[1K[Ke2983d3e9d87: Verifying Checksum [4B[4A[1K[Ke2983d3e9d87: Download complete [4B[5A[1K[K11a88e764313: Downloading  41.86MB/192.2MB[5B[6A[1K[K5573c4b30949: Downloading  48.85MB/51.83MB[6B[6A[1K[K5573c4b30949: Verifying Checksum [6B[6A[1K[K5573c4b30949: Download complete [6B[9A[1K[Ke9afc4f90ab0: Extracting  3.146MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  49.88MB/192.2MB[5B[5A[1K[K11a88e764313: Downloading  60.59MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  5.243MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  72.38MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting   7.34MB/50.39MB[9B[2A[1K[Kef564e387869: Downloading     422B/11.58kB[2B[2A[1K[Kef564e387869: Downloading  11.58kB/11.58kB[2B[2A[1K[Kef564e387869: Verifying Checksum [2B[2A[1K[Kef564e387869: Download complete [2B[5A[1K[K11a88e764313: Downloading  83.68MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  530.9kB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  8.913MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  92.76MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  10.49MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  8.551MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading  100.3MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  17.12MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading  105.6MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  12.06MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  24.61MB/116.8MB[3B[1A[1K[K2645c37e0992: Downloading     423B/1.931kB[1B[1A[1K[K2645c37e0992: Downloading  1.931kB/1.931kB[1B[1A[1K[K2645c37e0992: Verifying Checksum [1B[1A[1K[K2645c37e0992: Download complete [1B[9A[1K[Ke9afc4f90ab0: Extracting  13.63MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  111.5MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  30.51MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading  120.1MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting   15.2MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading   37.5MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading  127.1MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  16.78MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  44.99MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading  133.6MB/192.2MB[5B[5A[1K[K11a88e764313: Downloading  140.6MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  55.18MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  17.83MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  63.76MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  18.87MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  144.9MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  70.15MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  20.45MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  151.3MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  74.95MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  22.02MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  158.9MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  81.39MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  23.59MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  165.3MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  25.17MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  89.43MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading  172.8MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  95.32MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading  183.5MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  100.7MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading  189.4MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  25.69MB/50.39MB[9B[5A[1K[K11a88e764313: Verifying Checksum [5B[5A[1K[K11a88e764313: Download complete [5B[3A[1K[Kb73e08d8a550: Downloading  109.8MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Verifying Checksum [3B[3A[1K[Kb73e08d8a550: Download complete [3B[9A[1K[Ke9afc4f90ab0: Extracting  26.74MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  33.03MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting   36.7MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting   38.8MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  40.89MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  42.47MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  44.56MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  46.66MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  48.23MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  49.28MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  50.33MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  50.39MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Pull complete [9B[8A[1K[K989e6b19a265: Extracting   98.3kB/7.812MB[8B[8A[1K[K989e6b19a265: Extracting  2.753MB/7.812MB[8B[8A[1K[K989e6b19a265: Extracting   5.21MB/7.812MB[8B[8A[1K[K989e6b19a265: Extracting  7.569MB/7.812MB[8B[8A[1K[K989e6b19a265: Extracting  7.812MB/7.812MB[8B[8A[1K[K989e6b19a265: Pull complete [8B[7A[1K[Kaf14b6c2f878: Extracting  131.1kB/9.996MB[7B[7A[1K[Kaf14b6c2f878: Extracting  2.753MB/9.996MB[7B[7A[1K[Kaf14b6c2f878: Extracting   8.52MB/9.996MB[7B[7A[1K[Kaf14b6c2f878: Extracting  9.996MB/9.996MB[7B[7A[1K[Kaf14b6c2f878: Pull complete [7B[6A[1K[K5573c4b30949: Extracting  524.3kB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting   3.67MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  6.291MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  9.437MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  12.58MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting   15.2MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  17.83MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting   19.4MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  20.97MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  22.54MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  24.12MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  25.69MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  27.26MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  29.36MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  31.46MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  33.03MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  35.13MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting   36.7MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  39.32MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  41.94MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  44.04MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  46.14MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  47.71MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  49.28MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  50.86MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  51.83MB/51.83MB[6B[6A[1K[K5573c4b30949: Pull complete [6B[5A[1K[K11a88e764313: Extracting  557.1kB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  3.342MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  6.128MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  8.913MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  10.03MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  11.14MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  12.26MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  13.37MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  14.48MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting   15.6MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  16.71MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  17.83MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  21.17MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  23.95MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting   27.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  29.52MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  32.87MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  35.65MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  38.99MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  41.22MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  44.56MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  46.79MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  49.58MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  52.36MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  55.71MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  57.93MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  60.16MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  61.83MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting   63.5MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  65.18MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  66.85MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  69.07MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  71.86MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  74.65MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  76.87MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  79.66MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  81.89MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  84.67MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting   86.9MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  89.13MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  91.36MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  94.14MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  97.48MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  100.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  103.6MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  106.4MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  109.2MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  112.5MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  115.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  117.5MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  119.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  122.6MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  125.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  127.6MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  129.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting    132MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  134.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  137.6MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  139.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting    142MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  144.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  149.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  153.7MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  163.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  168.2MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  172.7MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting    176MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  178.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  179.9MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  182.2MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  183.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  186.1MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  188.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  189.4MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  190.5MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  191.6MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  192.2MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  192.2MB/192.2MB[5B[5A[1K[K11a88e764313: Pull complete [5B[4A[1K[Ke2983d3e9d87: Extracting  11.56kB/11.56kB[4B[4A[1K[Ke2983d3e9d87: Extracting  11.56kB/11.56kB[4B[4A[1K[Ke2983d3e9d87: Pull complete [4B[3A[1K[Kb73e08d8a550: Extracting  557.1kB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  3.342MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  6.128MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting   9.47MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  12.26MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  14.48MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  16.15MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  17.27MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  20.05MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  21.73MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  22.84MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  24.51MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  26.74MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  28.41MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  30.08MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  31.75MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  33.42MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  35.09MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  36.77MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  38.44MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  40.67MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  42.89MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  45.68MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  47.91MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  50.14MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  52.92MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  55.71MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  58.49MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  60.72MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  62.95MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  65.73MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  68.52MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting   71.3MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  73.53MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  76.32MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting   79.1MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  82.44MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  85.23MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting   86.9MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  89.69MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  93.03MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  95.81MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting   98.6MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  101.4MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  104.2MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting    107MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  109.7MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting    112MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  114.2MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  116.4MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  116.8MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Pull complete [3B[2A[1K[Kef564e387869: Extracting  11.58kB/11.58kB[2B[2A[1K[Kef564e387869: Extracting  11.58kB/11.58kB[2B[2A[1K[Kef564e387869: Pull complete [2B[1A[1K[K2645c37e0992: Extracting  1.931kB/1.931kB[1B[1A[1K[K2645c37e0992: Extracting  1.931kB/1.931kB[1B[1A[1K[K2645c37e0992: Pull complete [1BDigest: sha256:02b1fc7bb48417e09574ad2dfbe6ea75c2f3637650068509ba4d4c3ebe199e40
+[1A[1K[K2645c37e0992: Pulling fs layer [1B[6A[1K[K5573c4b30949: Waiting [6B[5A[1K[K11a88e764313: Waiting [5B[4A[1K[Ke2983d3e9d87: Waiting [4B[3A[1K[Kb73e08d8a550: Waiting [3B[2A[1K[Kef564e387869: Waiting [2B[1A[1K[K2645c37e0992: Waiting [1B[8A[1K[K989e6b19a265: Downloading  78.22kB/7.812MB[8B[7A[1K[Kaf14b6c2f878: Downloading  101.8kB/9.996MB[7B[9A[1K[Ke9afc4f90ab0: Downloading  515.3kB/50.39MB[9B[8A[1K[K989e6b19a265: Downloading  5.045MB/7.812MB[8B[7A[1K[Kaf14b6c2f878: Downloading  8.862MB/9.996MB[7B[7A[1K[Kaf14b6c2f878: Verifying Checksum [7B[7A[1K[Kaf14b6c2f878: Download complete [7B[8A[1K[K989e6b19a265: Verifying Checksum [8B[8A[1K[K989e6b19a265: Download complete [8B[9A[1K[Ke9afc4f90ab0: Downloading  7.695MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Downloading  22.02MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Downloading  36.35MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading    535kB/192.2MB[5B[6A[1K[K5573c4b30949: Downloading  522.7kB/51.83MB[6B[9A[1K[Ke9afc4f90ab0: Downloading  47.11MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  11.77MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Verifying Checksum [9B[9A[1K[Ke9afc4f90ab0: Download complete [9B[6A[1K[K5573c4b30949: Downloading  5.798MB/51.83MB[6B[5A[1K[K11a88e764313: Downloading   19.8MB/192.2MB[5B[6A[1K[K5573c4b30949: Downloading  16.32MB/51.83MB[6B[9A[1K[Ke9afc4f90ab0: Extracting  524.3kB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  27.28MB/192.2MB[5B[6A[1K[K5573c4b30949: Downloading  22.63MB/51.83MB[6B[9A[1K[Ke9afc4f90ab0: Extracting  2.621MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  35.29MB/192.2MB[5B[6A[1K[K5573c4b30949: Downloading     31MB/51.83MB[6B[9A[1K[Ke9afc4f90ab0: Extracting  3.146MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  42.25MB/192.2MB[5B[6A[1K[K5573c4b30949: Downloading  35.74MB/51.83MB[6B[4A[1K[Ke2983d3e9d87: Downloading     422B/11.56kB[4B[4A[1K[Ke2983d3e9d87: Downloading  11.56kB/11.56kB[4B[4A[1K[Ke2983d3e9d87: Verifying Checksum [4B[4A[1K[Ke2983d3e9d87: Download complete [4B[5A[1K[K11a88e764313: Downloading  50.28MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  4.719MB/50.39MB[9B[6A[1K[K5573c4b30949: Downloading  42.06MB/51.83MB[6B[5A[1K[K11a88e764313: Downloading  58.33MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  6.291MB/50.39MB[9B[6A[1K[K5573c4b30949: Downloading  50.47MB/51.83MB[6B[6A[1K[K5573c4b30949: Verifying Checksum [6B[6A[1K[K5573c4b30949: Download complete [6B[5A[1K[K11a88e764313: Downloading  66.39MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  7.864MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  78.18MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  9.437MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  88.35MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  11.01MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  97.44MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  539.1kB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  12.58MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading    106MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  1.612MB/116.8MB[3B[2A[1K[Kef564e387869: Downloading     422B/11.58kB[2B[2A[1K[Kef564e387869: Downloading  11.58kB/11.58kB[2B[2A[1K[Kef564e387869: Verifying Checksum [2B[2A[1K[Kef564e387869: Download complete [2B[9A[1K[Ke9afc4f90ab0: Extracting  14.16MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  116.7MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  3.767MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting   15.2MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  126.9MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  5.921MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading  137.6MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  16.78MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  8.616MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading  147.8MB/192.2MB[5B[1A[1K[K2645c37e0992: Downloading     423B/1.931kB[1B[1A[1K[K2645c37e0992: Downloading  1.931kB/1.931kB[1B[1A[1K[K2645c37e0992: Verifying Checksum [1B[1A[1K[K2645c37e0992: Download complete [1B[3A[1K[Kb73e08d8a550: Downloading  12.38MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  17.83MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  155.8MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  18.87MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  164.9MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  17.22MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  20.45MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  171.8MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  22.07MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  22.02MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  27.98MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading  178.8MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  23.59MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  34.43MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading  186.3MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  25.17MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  41.93MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading    190MB/192.2MB[5B[5A[1K[K11a88e764313: Verifying Checksum [5B[5A[1K[K11a88e764313: Download complete [5B[9A[1K[Ke9afc4f90ab0: Extracting  25.69MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  51.05MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  26.74MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  62.34MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Downloading  74.73MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  31.46MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading     86MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  35.13MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  98.32MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  37.22MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  110.1MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Verifying Checksum [3B[3A[1K[Kb73e08d8a550: Download complete [3B[9A[1K[Ke9afc4f90ab0: Extracting   38.8MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  40.89MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  42.99MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  45.09MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  47.19MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  48.76MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  49.28MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  50.33MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  50.39MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Pull complete [9B[8A[1K[K989e6b19a265: Extracting   98.3kB/7.812MB[8B[8A[1K[K989e6b19a265: Extracting  2.753MB/7.812MB[8B[8A[1K[K989e6b19a265: Extracting  4.915MB/7.812MB[8B[8A[1K[K989e6b19a265: Extracting  7.668MB/7.812MB[8B[8A[1K[K989e6b19a265: Extracting  7.812MB/7.812MB[8B[8A[1K[K989e6b19a265: Pull complete [8B[7A[1K[Kaf14b6c2f878: Extracting  131.1kB/9.996MB[7B[7A[1K[Kaf14b6c2f878: Extracting  2.884MB/9.996MB[7B[7A[1K[Kaf14b6c2f878: Extracting  8.651MB/9.996MB[7B[7A[1K[Kaf14b6c2f878: Extracting  9.996MB/9.996MB[7B[7A[1K[Kaf14b6c2f878: Pull complete [7B[6A[1K[K5573c4b30949: Extracting  524.3kB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  3.146MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  5.767MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  8.913MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  11.53MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  14.68MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  17.83MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting   19.4MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  20.97MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  22.54MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  24.12MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  25.69MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  27.26MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  29.36MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  31.98MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  33.55MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  36.18MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  37.22MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  40.89MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  43.52MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  45.61MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  47.19MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  48.76MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  50.33MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  51.38MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  51.83MB/51.83MB[6B[6A[1K[K5573c4b30949: Pull complete [6B[5A[1K[K11a88e764313: Extracting  557.1kB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  3.342MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  6.128MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  8.913MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  10.03MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  11.14MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  12.26MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  13.37MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  14.48MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting   15.6MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  16.71MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  17.83MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  21.17MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  23.95MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting   27.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  30.08MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  33.42MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  36.77MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  39.55MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  41.78MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  45.12MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  47.35MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  50.69MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  53.48MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  56.82MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  59.05MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  60.72MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  61.83MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting   63.5MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  65.18MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  66.85MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  69.07MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting   71.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  73.53MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  75.76MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  77.99MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  80.77MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting     83MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  85.23MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  88.01MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  90.24MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  92.47MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  95.81MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  98.04MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  100.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  103.6MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  106.4MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  109.2MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  112.5MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  115.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  117.5MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  120.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  123.1MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  125.9MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  128.1MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  130.4MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  133.1MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  135.9MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  138.1MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  139.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting    142MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  144.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  149.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  154.9MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  164.9MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  169.9MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  173.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  176.6MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  178.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting    181MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  183.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  184.9MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  187.2MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  189.4MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  190.5MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  191.6MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  192.2MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  192.2MB/192.2MB[5B[5A[1K[K11a88e764313: Pull complete [5B[4A[1K[Ke2983d3e9d87: Extracting  11.56kB/11.56kB[4B[4A[1K[Ke2983d3e9d87: Extracting  11.56kB/11.56kB[4B[4A[1K[Ke2983d3e9d87: Pull complete [4B[3A[1K[Kb73e08d8a550: Extracting  557.1kB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  3.342MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  6.128MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting   9.47MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  12.26MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  14.48MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  16.15MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  17.27MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  20.05MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  21.73MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  22.84MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  24.51MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  26.74MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  28.97MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting   31.2MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  33.42MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  35.65MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  37.88MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  40.11MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  42.34MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  45.12MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  47.35MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  49.58MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  51.81MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  54.59MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  57.38MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  60.16MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  62.39MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  65.18MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  68.52MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  70.75MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  73.53MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  76.32MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  79.66MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  82.44MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  85.23MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  87.46MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  90.24MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  93.59MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  96.37MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting   98.6MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  101.4MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  104.7MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  107.5MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  110.3MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  112.5MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  114.8MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  116.8MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Pull complete [3B[2A[1K[Kef564e387869: Extracting  11.58kB/11.58kB[2B[2A[1K[Kef564e387869: Extracting  11.58kB/11.58kB[2B[2A[1K[Kef564e387869: Pull complete [2B[1A[1K[K2645c37e0992: Extracting  1.931kB/1.931kB[1B[1A[1K[K2645c37e0992: Extracting  1.931kB/1.931kB[1B[1A[1K[K2645c37e0992: Pull complete [1BDigest: sha256:02b1fc7bb48417e09574ad2dfbe6ea75c2f3637650068509ba4d4c3ebe199e40
 Status: Downloaded newer image for gcc:latest
-travis_time:end:1883129d:start=1592843639071466957,finish=1592843663525960190,duration=24454493233,event=before_install[0Ktravis_fold:end:before_install.1[0Ktravis_fold:start:before_install.2[0Ktravis_time:start:0f0345e4[0K$ docker pull clangbuiltlinux/ubuntu:latest
+travis_time:end:22010940:start=1592860184439321839,finish=1592860208711591253,duration=24272269414,event=before_install[0Ktravis_fold:end:before_install.1[0Ktravis_fold:start:before_install.2[0Ktravis_time:start:0e7d0492[0K$ docker pull clangbuiltlinux/ubuntu:latest
 latest: Pulling from clangbuiltlinux/ubuntu
 
 [1A[1K[Ka4a2a29f9ba4: Pulling fs layer [1B
@@ -264,28 +527,28 @@ latest: Pulling from clangbuiltlinux/ubuntu
 [1A[1K[K531d7219700b: Pulling fs layer [1B
 [1A[1K[K80bc5e0cb092: Pulling fs layer [1B
 [1A[1K[K7ff3bf1b4fb1: Pulling fs layer [1B
-[1A[1K[K07004629d7c2: Pulling fs layer [1B[5A[1K[Ke9c09fd1dd64: Waiting [5B[4A[1K[K531d7219700b: Waiting [4B[3A[1K[K80bc5e0cb092: Waiting [3B[2A[1K[K7ff3bf1b4fb1: Waiting [2B[1A[1K[K07004629d7c2: Waiting [1B[7A[1K[K4039240d2e0b: Waiting [7B[6A[1K[K6ff3fdecd2ff: Waiting [6B[8A[1K[Kd13bf203e905: Downloading     425B/844B[8B[8A[1K[Kd13bf203e905: Downloading     844B/844B[8B[8A[1K[Kd13bf203e905: Verifying Checksum [8B[8A[1K[Kd13bf203e905: Download complete [8B[9A[1K[K127c9761dcba: Downloading     423B/32.32kB[9B[9A[1K[K127c9761dcba: Downloading  32.32kB/32.32kB[9B[9A[1K[K127c9761dcba: Verifying Checksum [9B[9A[1K[K127c9761dcba: Download complete [9B[10A[1K[Ka4a2a29f9ba4: Downloading  294.1kB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Downloading  12.05MB/28.56MB[10B[7A[1K[K4039240d2e0b: Downloading     161B/161B[7B[7A[1K[K4039240d2e0b: Verifying Checksum [7B[7A[1K[K4039240d2e0b: Download complete [7B[6A[1K[K6ff3fdecd2ff: Downloading  539.7kB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Downloading  25.26MB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Verifying Checksum [10B[10A[1K[Ka4a2a29f9ba4: Download complete [10B[6A[1K[K6ff3fdecd2ff: Downloading  12.35MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  294.9kB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  22.49MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  1.769MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  539.7kB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  33.17MB/165.6MB[6B[4A[1K[K531d7219700b: Downloading     426B/865B[4B[4A[1K[K531d7219700b: Downloading     865B/865B[4B[4A[1K[K531d7219700b: Verifying Checksum [4B[4A[1K[K531d7219700b: Download complete [4B[10A[1K[Ka4a2a29f9ba4: Extracting  3.244MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  41.71MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Downloading  8.043MB/93.18MB[5B[10A[1K[Ka4a2a29f9ba4: Extracting  3.834MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  18.76MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  49.73MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  5.014MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  29.47MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  56.18MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  5.898MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  38.05MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  65.83MB/165.6MB[6B[3A[1K[K80bc5e0cb092: Downloading     104B/104B[3B[3A[1K[K80bc5e0cb092: Verifying Checksum [3B[3A[1K[K80bc5e0cb092: Download complete [3B[5A[1K[Ke9c09fd1dd64: Downloading  45.54MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  73.87MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  7.078MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  51.94MB/93.18MB[5B[10A[1K[Ka4a2a29f9ba4: Extracting  8.258MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  82.96MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Downloading  57.29MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  92.59MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Downloading  64.23MB/93.18MB[5B[10A[1K[Ka4a2a29f9ba4: Extracting  9.142MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  103.3MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Downloading  72.27MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  112.9MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  10.03MB/28.56MB[10B[2A[1K[K7ff3bf1b4fb1: Downloading     426B/462B[2B[5A[1K[Ke9c09fd1dd64: Downloading  80.81MB/93.18MB[5B[2A[1K[K7ff3bf1b4fb1: Downloading     462B/462B[2B[2A[1K[K7ff3bf1b4fb1: Verifying Checksum [2B[2A[1K[K7ff3bf1b4fb1: Download complete [2B[10A[1K[Ka4a2a29f9ba4: Extracting  11.21MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  118.3MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Downloading  86.16MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  129.6MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting   11.8MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading   92.6MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Verifying Checksum [5B[5A[1K[Ke9c09fd1dd64: Download complete [5B[10A[1K[Ka4a2a29f9ba4: Extracting  13.57MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  139.2MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Downloading  152.1MB/165.6MB[6B[1A[1K[K07004629d7c2: Downloading     425B/1.871kB[1B[1A[1K[K07004629d7c2: Downloading  1.871kB/1.871kB[1B[1A[1K[K07004629d7c2: Verifying Checksum [1B[10A[1K[Ka4a2a29f9ba4: Extracting  15.34MB/28.56MB[10B[1A[1K[K07004629d7c2: Download complete [1B[6A[1K[K6ff3fdecd2ff: Downloading  163.9MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Verifying Checksum [6B[6A[1K[K6ff3fdecd2ff: Download complete [6B[10A[1K[Ka4a2a29f9ba4: Extracting   17.1MB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Extracting  19.76MB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Extracting  22.12MB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Extracting  23.89MB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Extracting  24.48MB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Extracting  26.84MB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Extracting  28.02MB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Extracting  28.56MB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Pull complete [10B[9A[1K[K127c9761dcba: Extracting  32.32kB/32.32kB[9B[9A[1K[K127c9761dcba: Extracting  32.32kB/32.32kB[9B[9A[1K[K127c9761dcba: Pull complete [9B[8A[1K[Kd13bf203e905: Extracting     844B/844B[8B[8A[1K[Kd13bf203e905: Extracting     844B/844B[8B[8A[1K[Kd13bf203e905: Pull complete [8B[7A[1K[K4039240d2e0b: Extracting     161B/161B[7B[7A[1K[K4039240d2e0b: Extracting     161B/161B[7B[7A[1K[K4039240d2e0b: Pull complete [7B[6A[1K[K6ff3fdecd2ff: Extracting  557.1kB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  3.342MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  6.128MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  8.913MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting   11.7MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  14.48MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  16.71MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  18.94MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  21.73MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  23.95MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  26.18MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  28.41MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  30.64MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  32.87MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  35.65MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  37.88MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  40.67MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  42.34MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  45.12MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  47.35MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  50.14MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  52.36MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  55.15MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  57.38MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting   59.6MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  61.83MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  64.06MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  66.85MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  69.07MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting   71.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  73.53MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  75.76MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  77.99MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  80.22MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting     83MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  85.23MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting   86.9MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  88.01MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  89.69MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  92.47MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  95.26MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  98.04MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  100.8MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  103.6MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  105.8MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  107.5MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  110.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  113.1MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  115.9MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  118.1MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  120.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  123.1MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  125.9MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  128.7MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  131.5MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  133.7MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  135.9MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  138.7MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  141.5MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  144.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  145.9MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  148.2MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  150.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  153.7MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  155.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  157.6MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  159.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  160.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  163.2MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  163.8MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  164.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  165.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  165.6MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Pull complete [6B[5A[1K[Ke9c09fd1dd64: Extracting  557.1kB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  1.671MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  5.014MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  7.242MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  10.03MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  12.26MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  15.04MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  17.83MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  20.05MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  22.84MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  23.95MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  26.18MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  28.41MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  30.64MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  32.87MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  35.09MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  37.32MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  40.11MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  42.89MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  45.68MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  48.46MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  50.69MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  52.92MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  55.71MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  58.49MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  61.28MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  64.06MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  66.85MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  69.63MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting   71.3MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  73.53MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  75.76MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  77.99MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  80.77MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  83.56MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  85.79MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  88.01MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting   90.8MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  93.03MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  93.18MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Pull complete [5B[4A[1K[K531d7219700b: Extracting     865B/865B[4B[4A[1K[K531d7219700b: Extracting     865B/865B[4B[4A[1K[K531d7219700b: Pull complete [4B[3A[1K[K80bc5e0cb092: Extracting     104B/104B[3B[3A[1K[K80bc5e0cb092: Extracting     104B/104B[3B[3A[1K[K80bc5e0cb092: Pull complete [3B[2A[1K[K7ff3bf1b4fb1: Extracting     462B/462B[2B[2A[1K[K7ff3bf1b4fb1: Extracting     462B/462B[2B[2A[1K[K7ff3bf1b4fb1: Pull complete [2B[1A[1K[K07004629d7c2: Extracting  1.871kB/1.871kB[1B[1A[1K[K07004629d7c2: Extracting  1.871kB/1.871kB[1B[1A[1K[K07004629d7c2: Pull complete [1BDigest: sha256:098b12dcb0d9134d3c515aff9df1298e4e33408c7075dd98f671cb7200c1e9a9
+[1A[1K[K07004629d7c2: Pulling fs layer [1B[7A[1K[K4039240d2e0b: Waiting [7B[6A[1K[K6ff3fdecd2ff: Waiting [6B[5A[1K[Ke9c09fd1dd64: Waiting [5B[4A[1K[K531d7219700b: Waiting [4B[3A[1K[K80bc5e0cb092: Waiting [3B[2A[1K[K7ff3bf1b4fb1: Waiting [2B[1A[1K[K07004629d7c2: Waiting [1B[9A[1K[K127c9761dcba: Downloading     423B/32.32kB[9B[9A[1K[K127c9761dcba: Download complete [9B[8A[1K[Kd13bf203e905: Downloading     425B/844B[8B[8A[1K[Kd13bf203e905: Downloading     844B/844B[8B[8A[1K[Kd13bf203e905: Verifying Checksum [8B[8A[1K[Kd13bf203e905: Download complete [8B[10A[1K[Ka4a2a29f9ba4: Downloading  293.9kB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Downloading  11.11MB/28.56MB[10B[7A[1K[K4039240d2e0b: Downloading     161B/161B[7B[7A[1K[K4039240d2e0b: Verifying Checksum [7B[7A[1K[K4039240d2e0b: Download complete [7B[10A[1K[Ka4a2a29f9ba4: Downloading  24.02MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  539.1kB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Verifying Checksum [10B[10A[1K[Ka4a2a29f9ba4: Download complete [10B[10A[1K[Ka4a2a29f9ba4: Extracting  294.9kB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  8.027MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  2.064MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  13.92MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Downloading  539.7kB/93.18MB[5B[4A[1K[K531d7219700b: Downloading     426B/865B[4B[4A[1K[K531d7219700b: Downloading     865B/865B[4B[4A[1K[K531d7219700b: Verifying Checksum [4B[4A[1K[K531d7219700b: Download complete [4B[10A[1K[Ka4a2a29f9ba4: Extracting  3.539MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading   19.8MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Downloading  8.571MB/93.18MB[5B[10A[1K[Ka4a2a29f9ba4: Extracting  4.719MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading   26.2MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Downloading  16.62MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  31.55MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  5.898MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  26.82MB/93.18MB[5B[10A[1K[Ka4a2a29f9ba4: Extracting  6.783MB/28.56MB[10B[3A[1K[K80bc5e0cb092: Downloading     104B/104B[3B[3A[1K[K80bc5e0cb092: Verifying Checksum [3B[3A[1K[K80bc5e0cb092: Download complete [3B[6A[1K[K6ff3fdecd2ff: Downloading  38.01MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Downloading  38.56MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Downloading  48.72MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  42.29MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  7.963MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  47.09MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Downloading  56.74MB/93.18MB[5B[10A[1K[Ka4a2a29f9ba4: Extracting  9.142MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  68.58MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  52.95MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Downloading  76.62MB/93.18MB[5B[2A[1K[K7ff3bf1b4fb1: Downloading     426B/462B[2B[2A[1K[K7ff3bf1b4fb1: Downloading     462B/462B[2B[10A[1K[Ka4a2a29f9ba4: Extracting  10.03MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  59.91MB/165.6MB[6B[2A[1K[K7ff3bf1b4fb1: Verifying Checksum [2B[2A[1K[K7ff3bf1b4fb1: Download complete [2B[10A[1K[Ka4a2a29f9ba4: Extracting  11.21MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  83.04MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  65.78MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  12.09MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  88.92MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading   73.8MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Verifying Checksum [5B[5A[1K[Ke9c09fd1dd64: Download complete [5B[10A[1K[Ka4a2a29f9ba4: Extracting  13.57MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  86.09MB/165.6MB[6B[1A[1K[K07004629d7c2: Downloading     425B/1.871kB[1B[1A[1K[K07004629d7c2: Downloading  1.871kB/1.871kB[1B[1A[1K[K07004629d7c2: Verifying Checksum [1B[1A[1K[K07004629d7c2: Download complete [1B[6A[1K[K6ff3fdecd2ff: Downloading  94.16MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  15.63MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  101.7MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  17.69MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  110.8MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  19.76MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  119.3MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  21.53MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  126.8MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  23.59MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  135.4MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  24.18MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  144.5MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  25.95MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  154.7MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Downloading  163.2MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  27.43MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Verifying Checksum [6B[6A[1K[K6ff3fdecd2ff: Download complete [6B[10A[1K[Ka4a2a29f9ba4: Extracting  28.56MB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Pull complete [10B[9A[1K[K127c9761dcba: Extracting  32.32kB/32.32kB[9B[9A[1K[K127c9761dcba: Extracting  32.32kB/32.32kB[9B[9A[1K[K127c9761dcba: Pull complete [9B[8A[1K[Kd13bf203e905: Extracting     844B/844B[8B[8A[1K[Kd13bf203e905: Extracting     844B/844B[8B[8A[1K[Kd13bf203e905: Pull complete [8B[7A[1K[K4039240d2e0b: Extracting     161B/161B[7B[7A[1K[K4039240d2e0b: Extracting     161B/161B[7B[7A[1K[K4039240d2e0b: Pull complete [7B[6A[1K[K6ff3fdecd2ff: Extracting  557.1kB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  3.342MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  6.128MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  8.913MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting   11.7MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  14.48MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  16.71MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  18.94MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  21.73MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  23.95MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  26.18MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  28.97MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  31.75MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  34.54MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  36.77MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  39.55MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  41.78MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  44.56MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  46.79MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  49.58MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  51.81MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  54.59MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  56.82MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting   59.6MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  62.39MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  64.62MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting   67.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  69.63MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  72.42MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  74.65MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  77.43MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  79.66MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  81.89MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  84.12MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  86.34MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  87.46MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  88.57MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  91.36MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  94.14MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  96.93MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  99.71MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  102.5MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  105.8MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  106.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  109.2MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  111.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  114.2MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting    117MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  119.2MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting    122MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  124.8MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  127.6MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  130.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  132.6MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  135.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  138.1MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  140.9MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  143.7MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  145.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  147.6MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  149.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  150.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  153.2MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  154.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  157.1MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  158.8MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  160.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  163.2MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  163.8MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  164.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  165.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  165.6MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Pull complete [6B[5A[1K[Ke9c09fd1dd64: Extracting  557.1kB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  1.671MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  5.014MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  7.242MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  10.03MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  12.81MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting   15.6MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  18.38MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  21.17MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting   23.4MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  25.07MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting   27.3MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  29.52MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  31.75MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  33.98MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  36.21MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  38.44MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  41.22MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  44.01MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  46.79MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  49.58MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  51.81MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  54.59MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  57.93MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  60.72MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting   63.5MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  66.29MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  69.07MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting   71.3MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  73.53MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  75.76MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  77.99MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  80.77MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  83.56MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  85.79MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  88.01MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting   90.8MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  93.03MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  93.18MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Pull complete [5B[4A[1K[K531d7219700b: Extracting     865B/865B[4B[4A[1K[K531d7219700b: Extracting     865B/865B[4B[4A[1K[K531d7219700b: Pull complete [4B[3A[1K[K80bc5e0cb092: Extracting     104B/104B[3B[3A[1K[K80bc5e0cb092: Extracting     104B/104B[3B[3A[1K[K80bc5e0cb092: Pull complete [3B[2A[1K[K7ff3bf1b4fb1: Extracting     462B/462B[2B[2A[1K[K7ff3bf1b4fb1: Extracting     462B/462B[2B[2A[1K[K7ff3bf1b4fb1: Pull complete [2B[1A[1K[K07004629d7c2: Extracting  1.871kB/1.871kB[1B[1A[1K[K07004629d7c2: Extracting  1.871kB/1.871kB[1B[1A[1K[K07004629d7c2: Pull complete [1BDigest: sha256:098b12dcb0d9134d3c515aff9df1298e4e33408c7075dd98f671cb7200c1e9a9
 Status: Downloaded newer image for clangbuiltlinux/ubuntu:latest
-travis_time:end:0f0345e4:start=1592843663530388882,finish=1592843685949125637,duration=22418736755,event=before_install[0Ktravis_fold:end:before_install.2[0Ktravis_fold:start:before_install.3[0Ktravis_time:start:03b8ff14[0K$ docker run --rm gcc:latest g++ --version
+travis_time:end:0e7d0492:start=1592860208715413033,finish=1592860230817680276,duration=22102267243,event=before_install[0Ktravis_fold:end:before_install.2[0Ktravis_fold:start:before_install.3[0Ktravis_time:start:0b2648e0[0K$ docker run --rm gcc:latest g++ --version
 g++ (GCC) 10.1.0
 Copyright (C) 2020 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-travis_time:end:03b8ff14:start=1592843685953292255,finish=1592843708085131954,duration=22131839699,event=before_install[0Ktravis_fold:end:before_install.3[0Ktravis_fold:start:before_install.4[0Ktravis_time:start:00037b63[0K$ docker run --rm clangbuiltlinux/ubuntu:latest clang++-11 --version
+travis_time:end:0b2648e0:start=1592860230821819490,finish=1592860248579782230,duration=17757962740,event=before_install[0Ktravis_fold:end:before_install.3[0Ktravis_fold:start:before_install.4[0Ktravis_time:start:1e2fe2d5[0K$ docker run --rm clangbuiltlinux/ubuntu:latest clang++-11 --version
 Ubuntu clang version 11.0.0-++20200621052611+a45f713c673-1~exp1~20200621153220.79 
 Target: x86_64-pc-linux-gnu
 Thread model: posix
 InstalledDir: /usr/bin
-travis_time:end:00037b63:start=1592843708090784142,finish=1592843708793824253,duration=703040111,event=before_install[0Ktravis_fold:end:before_install.4[0Ktravis_fold:start:before_install.5[0Ktravis_time:start:13c2bcdc[0K$ cppcheck --version
-Cppcheck 1.82
-travis_time:end:13c2bcdc:start=1592843708797965845,finish=1592843708803662821,duration=5696976,event=before_install[0Ktravis_fold:end:before_install.5[0Ktravis_fold:start:before_install.6[0Ktravis_time:start:005e3ab0[0K$ clang-format --version
+travis_time:end:1e2fe2d5:start=1592860248584890717,finish=1592860249336761246,duration=751870529,event=before_install[0Ktravis_fold:end:before_install.4[0Ktravis_fold:start:before_install.5[0Ktravis_time:start:23a4c572[0K$ cppcheck --version
+Cppcheck 1.90
+travis_time:end:23a4c572:start=1592860249340717601,finish=1592860249345980025,duration=5262424,event=before_install[0Ktravis_fold:end:before_install.5[0Ktravis_fold:start:before_install.6[0Ktravis_time:start:06edfb0a[0K$ clang-format --version
 clang-format version 7.0.0 (tags/RELEASE_700/final)
-travis_time:end:005e3ab0:start=1592843708807679562,finish=1592843708828674979,duration=20995417,event=before_install[0Ktravis_fold:end:before_install.6[0Ktravis_time:start:36463f08[0K$ docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp gcc:latest g++ cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp -Wall -Werror -Wextra -Wpedantic -fsyntax-only -O2
-travis_time:end:36463f08:start=1592843708833390465,finish=1592843710234451319,duration=1401060854,event=script[0K[32;1mThe command "docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp gcc:latest g++ cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp -Wall -Werror -Wextra -Wpedantic -fsyntax-only -O2" exited with 0.[0m
-travis_time:start:00f3b19c[0K$ docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp clangbuiltlinux/ubuntu:latest clang++-11 cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp -Weverything -Werror -fsyntax-only -O2
-travis_time:end:00f3b19c:start=1592843710238873081,finish=1592843711669604363,duration=1430731282,event=script[0K[32;1mThe command "docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp clangbuiltlinux/ubuntu:latest clang++-11 cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp -Weverything -Werror -fsyntax-only -O2" exited with 0.[0m
-travis_time:start:11b9d0a9[0K$ cppcheck --inconclusive --enable=all cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp
+travis_time:end:06edfb0a:start=1592860249349807217,finish=1592860249373584758,duration=23777541,event=before_install[0Ktravis_fold:end:before_install.6[0Ktravis_time:start:01e7a8af[0K$ docker run --rm -v "$PWD":/usr/src/templateweak -w /usr/src/templateweak gcc:latest g++ cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp -Wall -Werror -Wextra -Wpedantic -fsyntax-only -O2
+travis_time:end:01e7a8af:start=1592860249377827416,finish=1592860250787224843,duration=1409397427,event=script[0K[32;1mThe command "docker run --rm -v "$PWD":/usr/src/templateweak -w /usr/src/templateweak gcc:latest g++ cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp -Wall -Werror -Wextra -Wpedantic -fsyntax-only -O2" exited with 0.[0m
+travis_time:start:083b0b64[0K$ docker run --rm -v "$PWD":/usr/src/templateweak -w /usr/src/templateweak clangbuiltlinux/ubuntu:latest clang++-11 cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp -Weverything -Werror -fsyntax-only -O2
+travis_time:end:083b0b64:start=1592860250791147803,finish=1592860252153098912,duration=1361951109,event=script[0K[32;1mThe command "docker run --rm -v "$PWD":/usr/src/templateweak -w /usr/src/templateweak clangbuiltlinux/ubuntu:latest clang++-11 cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp -Weverything -Werror -fsyntax-only -O2" exited with 0.[0m
+travis_time:start:19a462bb[0K$ cppcheck --inconclusive --enable=all cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp
 Checking cpp/template/weak/ClasseA.cpp ...
 1/3 files checked 32% done
 Checking cpp/template/weak/ClasseB.cpp ...
@@ -293,20 +556,470 @@ Checking cpp/template/weak/ClasseB.cpp: HACK...
 2/3 files checked 63% done
 Checking cpp/template/weak/main.cpp ...
 3/3 files checked 100% done
-(information) Cppcheck cannot find all the include files (use --check-config for details)
-travis_time:end:11b9d0a9:start=1592843711674071342,finish=1592843711690325685,duration=16254343,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp" exited with 0.[0m
-travis_time:start:1677ed38[0K$ if [ $(clang-format -style=file cpp/template/weak/ClasseA.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseA.cpp | diff -pu cpp/template/weak/ClasseA.cpp - ; exit 1; fi
-travis_time:end:1677ed38:start=1592843711694451789,finish=1592843711708061865,duration=13610076,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/ClasseA.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseA.cpp | diff -pu cpp/template/weak/ClasseA.cpp - ; exit 1; fi" exited with 0.[0m
-travis_time:start:1fb76898[0K$ if [ $(clang-format -style=file cpp/template/weak/ClasseB.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseB.cpp | diff -pu cpp/template/weak/ClasseB.cpp - ; exit 1; fi
-travis_time:end:1fb76898:start=1592843711712709854,finish=1592843711721678996,duration=8969142,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/ClasseB.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseB.cpp | diff -pu cpp/template/weak/ClasseB.cpp - ; exit 1; fi" exited with 0.[0m
-travis_time:start:0dd85d75[0K$ if [ $(clang-format -style=file cpp/template/weak/ClasseA.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseA.h | diff -pu cpp/template/weak/ClasseA.h - ; exit 1; fi
-travis_time:end:0dd85d75:start=1592843711725764518,finish=1592843711735212602,duration=9448084,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/ClasseA.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseA.h | diff -pu cpp/template/weak/ClasseA.h - ; exit 1; fi" exited with 0.[0m
-travis_time:start:0af17678[0K$ if [ $(clang-format -style=file cpp/template/weak/ClasseB.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseB.h | diff -pu cpp/template/weak/ClasseB.h - ; exit 1; fi
-travis_time:end:0af17678:start=1592843711739244863,finish=1592843711747321385,duration=8076522,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/ClasseB.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseB.h | diff -pu cpp/template/weak/ClasseB.h - ; exit 1; fi" exited with 0.[0m
-travis_time:start:0a206ea0[0K$ if [ $(clang-format -style=file cpp/template/weak/main.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/main.cpp | diff -pu cpp/template/weak/main.cpp - ; exit 1; fi
-travis_time:end:0a206ea0:start=1592843711751272338,finish=1592843711759905162,duration=8632824,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/main.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/main.cpp | diff -pu cpp/template/weak/main.cpp - ; exit 1; fi" exited with 0.[0m
-travis_time:start:2c6a4edf[0K$ if [ $(clang-format -style=file cpp/template/weak/Template.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/Template.h | diff -pu cpp/template/weak/Template.h - ; exit 1; fi
-travis_time:end:2c6a4edf:start=1592843711763996114,finish=1592843711772748564,duration=8752450,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/Template.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/Template.h | diff -pu cpp/template/weak/Template.h - ; exit 1; fi" exited with 0.[0m
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
+travis_time:end:19a462bb:start=1592860252157164764,finish=1592860252171765031,duration=14600267,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp" exited with 0.[0m
+travis_time:start:0534eba0[0K$ if [ $(clang-format -style=file cpp/template/weak/ClasseA.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseA.cpp | diff -pu cpp/template/weak/ClasseA.cpp - ; exit 1; fi
+travis_time:end:0534eba0:start=1592860252175810417,finish=1592860252187614534,duration=11804117,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/ClasseA.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseA.cpp | diff -pu cpp/template/weak/ClasseA.cpp - ; exit 1; fi" exited with 0.[0m
+travis_time:start:26045134[0K$ if [ $(clang-format -style=file cpp/template/weak/ClasseB.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseB.cpp | diff -pu cpp/template/weak/ClasseB.cpp - ; exit 1; fi
+travis_time:end:26045134:start=1592860252191792664,finish=1592860252201200960,duration=9408296,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/ClasseB.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseB.cpp | diff -pu cpp/template/weak/ClasseB.cpp - ; exit 1; fi" exited with 0.[0m
+travis_time:start:1242d729[0K$ if [ $(clang-format -style=file cpp/template/weak/ClasseA.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseA.h | diff -pu cpp/template/weak/ClasseA.h - ; exit 1; fi
+travis_time:end:1242d729:start=1592860252205376535,finish=1592860252213868701,duration=8492166,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/ClasseA.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseA.h | diff -pu cpp/template/weak/ClasseA.h - ; exit 1; fi" exited with 0.[0m
+travis_time:start:02bec0f2[0K$ if [ $(clang-format -style=file cpp/template/weak/ClasseB.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseB.h | diff -pu cpp/template/weak/ClasseB.h - ; exit 1; fi
+travis_time:end:02bec0f2:start=1592860252218047091,finish=1592860252227201093,duration=9154002,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/ClasseB.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseB.h | diff -pu cpp/template/weak/ClasseB.h - ; exit 1; fi" exited with 0.[0m
+travis_time:start:0259606e[0K$ if [ $(clang-format -style=file cpp/template/weak/main.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/main.cpp | diff -pu cpp/template/weak/main.cpp - ; exit 1; fi
+travis_time:end:0259606e:start=1592860252230890565,finish=1592860252238629706,duration=7739141,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/main.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/main.cpp | diff -pu cpp/template/weak/main.cpp - ; exit 1; fi" exited with 0.[0m
+travis_time:start:08a6770a[0K$ if [ $(clang-format -style=file cpp/template/weak/Template.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/Template.h | diff -pu cpp/template/weak/Template.h - ; exit 1; fi
+travis_time:end:08a6770a:start=1592860252242189115,finish=1592860252250224868,duration=8035753,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/Template.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/Template.h | diff -pu cpp/template/weak/Template.h - ; exit 1; fi" exited with 0.[0m
+travis_time:start:03dcd65e[0K$ cd cpp; mkdir buildcpp; cd buildcpp; CC=/usr/bin/clang CXX=/usr/bin/clang++ cmake ..; make
+-- The C compiler identification is Clang 10.0.0
+-- The CXX compiler identification is Clang 10.0.0
+-- Check for working C compiler: /usr/bin/clang
+-- Check for working C compiler: /usr/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/clang++
+-- Check for working CXX compiler: /usr/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/buildcpp
+[35m[1mScanning dependencies of target templateweak[0m
+[ 25%] [32mBuilding CXX object template/weak/CMakeFiles/templateweak.dir/ClasseA.cpp.o[0m
+[ 50%] [32mBuilding CXX object template/weak/CMakeFiles/templateweak.dir/ClasseB.cpp.o[0m
+[ 75%] [32mBuilding CXX object template/weak/CMakeFiles/templateweak.dir/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable templateweak[0m
+[100%] Built target templateweak
+travis_time:end:03dcd65e:start=1592860252253868223,finish=1592860254591145059,duration=2337276836,event=script[0K[32;1mThe command "cd cpp; mkdir buildcpp; cd buildcpp; CC=/usr/bin/clang CXX=/usr/bin/clang++ cmake ..; make" exited with 0.[0m
+travis_time:start:0857cd05[0K$ python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py
+Enabled checks:
+    abseil-duration-addition
+    abseil-duration-comparison
+    abseil-duration-conversion-cast
+    abseil-duration-division
+    abseil-duration-factory-float
+    abseil-duration-factory-scale
+    abseil-duration-subtraction
+    abseil-duration-unnecessary-conversion
+    abseil-faster-strsplit-delimiter
+    abseil-no-internal-dependencies
+    abseil-no-namespace
+    abseil-redundant-strcat-calls
+    abseil-str-cat-append
+    abseil-string-find-startswith
+    abseil-time-comparison
+    abseil-time-subtraction
+    abseil-upgrade-duration-conversions
+    android-cloexec-accept
+    android-cloexec-accept4
+    android-cloexec-creat
+    android-cloexec-dup
+    android-cloexec-epoll-create
+    android-cloexec-epoll-create1
+    android-cloexec-fopen
+    android-cloexec-inotify-init
+    android-cloexec-inotify-init1
+    android-cloexec-memfd-create
+    android-cloexec-open
+    android-cloexec-pipe
+    android-cloexec-pipe2
+    android-cloexec-socket
+    android-comparison-in-temp-failure-retry
+    boost-use-to-string
+    bugprone-argument-comment
+    bugprone-assert-side-effect
+    bugprone-bad-signal-to-kill-thread
+    bugprone-bool-pointer-implicit-conversion
+    bugprone-branch-clone
+    bugprone-copy-constructor-init
+    bugprone-dangling-handle
+    bugprone-dynamic-static-initializers
+    bugprone-exception-escape
+    bugprone-fold-init-type
+    bugprone-forward-declaration-namespace
+    bugprone-forwarding-reference-overload
+    bugprone-inaccurate-erase
+    bugprone-incorrect-roundings
+    bugprone-infinite-loop
+    bugprone-integer-division
+    bugprone-lambda-function-name
+    bugprone-macro-parentheses
+    bugprone-macro-repeated-side-effects
+    bugprone-misplaced-operator-in-strlen-in-alloc
+    bugprone-misplaced-widening-cast
+    bugprone-move-forwarding-reference
+    bugprone-multiple-statement-macro
+    bugprone-narrowing-conversions
+    bugprone-not-null-terminated-result
+    bugprone-parent-virtual-call
+    bugprone-posix-return
+    bugprone-signed-char-misuse
+    bugprone-sizeof-container
+    bugprone-sizeof-expression
+    bugprone-string-constructor
+    bugprone-string-integer-assignment
+    bugprone-string-literal-with-embedded-nul
+    bugprone-suspicious-enum-usage
+    bugprone-suspicious-memset-usage
+    bugprone-suspicious-missing-comma
+    bugprone-suspicious-semicolon
+    bugprone-suspicious-string-compare
+    bugprone-swapped-arguments
+    bugprone-terminating-continue
+    bugprone-throw-keyword-missing
+    bugprone-too-small-loop-variable
+    bugprone-undefined-memory-manipulation
+    bugprone-undelegated-constructor
+    bugprone-unhandled-self-assignment
+    bugprone-unused-raii
+    bugprone-unused-return-value
+    bugprone-use-after-move
+    bugprone-virtual-near-miss
+    cert-dcl03-c
+    cert-dcl16-c
+    cert-dcl21-cpp
+    cert-dcl50-cpp
+    cert-dcl54-cpp
+    cert-dcl58-cpp
+    cert-dcl59-cpp
+    cert-env33-c
+    cert-err09-cpp
+    cert-err34-c
+    cert-err52-cpp
+    cert-err58-cpp
+    cert-err60-cpp
+    cert-err61-cpp
+    cert-fio38-c
+    cert-flp30-c
+    cert-mem57-cpp
+    cert-msc30-c
+    cert-msc32-c
+    cert-msc50-cpp
+    cert-msc51-cpp
+    cert-oop11-cpp
+    cert-oop54-cpp
+    cert-oop58-cpp
+    cert-pos44-c
+    clang-analyzer-apiModeling.StdCLibraryFunctions
+    clang-analyzer-apiModeling.TrustNonnull
+    clang-analyzer-apiModeling.google.GTest
+    clang-analyzer-apiModeling.llvm.CastValue
+    clang-analyzer-apiModeling.llvm.ReturnValue
+    clang-analyzer-core.CallAndMessage
+    clang-analyzer-core.DivideZero
+    clang-analyzer-core.DynamicTypePropagation
+    clang-analyzer-core.NonNullParamChecker
+    clang-analyzer-core.NonnilStringConstants
+    clang-analyzer-core.NullDereference
+    clang-analyzer-core.StackAddrEscapeBase
+    clang-analyzer-core.StackAddressEscape
+    clang-analyzer-core.UndefinedBinaryOperatorResult
+    clang-analyzer-core.VLASize
+    clang-analyzer-core.builtin.BuiltinFunctions
+    clang-analyzer-core.builtin.NoReturnFunctions
+    clang-analyzer-core.uninitialized.ArraySubscript
+    clang-analyzer-core.uninitialized.Assign
+    clang-analyzer-core.uninitialized.Branch
+    clang-analyzer-core.uninitialized.CapturedBlockVariable
+    clang-analyzer-core.uninitialized.UndefReturn
+    clang-analyzer-cplusplus.InnerPointer
+    clang-analyzer-cplusplus.Move
+    clang-analyzer-cplusplus.NewDelete
+    clang-analyzer-cplusplus.NewDeleteLeaks
+    clang-analyzer-cplusplus.PureVirtualCall
+    clang-analyzer-cplusplus.SelfAssignment
+    clang-analyzer-cplusplus.SmartPtr
+    clang-analyzer-cplusplus.VirtualCallModeling
+    clang-analyzer-deadcode.DeadStores
+    clang-analyzer-fuchsia.HandleChecker
+    clang-analyzer-nullability.NullPassedToNonnull
+    clang-analyzer-nullability.NullReturnedFromNonnull
+    clang-analyzer-nullability.NullabilityBase
+    clang-analyzer-nullability.NullableDereferenced
+    clang-analyzer-nullability.NullablePassedToNonnull
+    clang-analyzer-nullability.NullableReturnedFromNonnull
+    clang-analyzer-optin.cplusplus.UninitializedObject
+    clang-analyzer-optin.cplusplus.VirtualCall
+    clang-analyzer-optin.mpi.MPI-Checker
+    clang-analyzer-optin.osx.OSObjectCStyleCast
+    clang-analyzer-optin.osx.cocoa.localizability.EmptyLocalizationContextChecker
+    clang-analyzer-optin.osx.cocoa.localizability.NonLocalizedStringChecker
+    clang-analyzer-optin.performance.GCDAntipattern
+    clang-analyzer-optin.performance.Padding
+    clang-analyzer-optin.portability.UnixAPI
+    clang-analyzer-osx.API
+    clang-analyzer-osx.MIG
+    clang-analyzer-osx.NSOrCFErrorDerefChecker
+    clang-analyzer-osx.NumberObjectConversion
+    clang-analyzer-osx.OSObjectRetainCount
+    clang-analyzer-osx.ObjCProperty
+    clang-analyzer-osx.SecKeychainAPI
+    clang-analyzer-osx.cocoa.AtSync
+    clang-analyzer-osx.cocoa.AutoreleaseWrite
+    clang-analyzer-osx.cocoa.ClassRelease
+    clang-analyzer-osx.cocoa.Dealloc
+    clang-analyzer-osx.cocoa.IncompatibleMethodTypes
+    clang-analyzer-osx.cocoa.Loops
+    clang-analyzer-osx.cocoa.MissingSuperCall
+    clang-analyzer-osx.cocoa.NSAutoreleasePool
+    clang-analyzer-osx.cocoa.NSError
+    clang-analyzer-osx.cocoa.NilArg
+    clang-analyzer-osx.cocoa.NonNilReturnValue
+    clang-analyzer-osx.cocoa.ObjCGenerics
+    clang-analyzer-osx.cocoa.RetainCount
+    clang-analyzer-osx.cocoa.RetainCountBase
+    clang-analyzer-osx.cocoa.RunLoopAutoreleaseLeak
+    clang-analyzer-osx.cocoa.SelfInit
+    clang-analyzer-osx.cocoa.SuperDealloc
+    clang-analyzer-osx.cocoa.UnusedIvars
+    clang-analyzer-osx.cocoa.VariadicMethodTypes
+    clang-analyzer-osx.coreFoundation.CFError
+    clang-analyzer-osx.coreFoundation.CFNumber
+    clang-analyzer-osx.coreFoundation.CFRetainRelease
+    clang-analyzer-osx.coreFoundation.containers.OutOfBounds
+    clang-analyzer-osx.coreFoundation.containers.PointerSizedValues
+    clang-analyzer-security.FloatLoopCounter
+    clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling
+    clang-analyzer-security.insecureAPI.SecuritySyntaxChecker
+    clang-analyzer-security.insecureAPI.UncheckedReturn
+    clang-analyzer-security.insecureAPI.bcmp
+    clang-analyzer-security.insecureAPI.bcopy
+    clang-analyzer-security.insecureAPI.bzero
+    clang-analyzer-security.insecureAPI.decodeValueOfObjCType
+    clang-analyzer-security.insecureAPI.getpw
+    clang-analyzer-security.insecureAPI.gets
+    clang-analyzer-security.insecureAPI.mkstemp
+    clang-analyzer-security.insecureAPI.mktemp
+    clang-analyzer-security.insecureAPI.rand
+    clang-analyzer-security.insecureAPI.strcpy
+    clang-analyzer-security.insecureAPI.vfork
+    clang-analyzer-unix.API
+    clang-analyzer-unix.DynamicMemoryModeling
+    clang-analyzer-unix.Malloc
+    clang-analyzer-unix.MallocSizeof
+    clang-analyzer-unix.MismatchedDeallocator
+    clang-analyzer-unix.Vfork
+    clang-analyzer-unix.cstring.BadSizeArg
+    clang-analyzer-unix.cstring.CStringModeling
+    clang-analyzer-unix.cstring.NullArg
+    clang-analyzer-valist.CopyToSelf
+    clang-analyzer-valist.Uninitialized
+    clang-analyzer-valist.Unterminated
+    clang-analyzer-valist.ValistBase
+    cppcoreguidelines-avoid-c-arrays
+    cppcoreguidelines-avoid-goto
+    cppcoreguidelines-avoid-magic-numbers
+    cppcoreguidelines-c-copy-assignment-signature
+    cppcoreguidelines-explicit-virtual-functions
+    cppcoreguidelines-init-variables
+    cppcoreguidelines-interfaces-global-init
+    cppcoreguidelines-macro-usage
+    cppcoreguidelines-narrowing-conversions
+    cppcoreguidelines-no-malloc
+    cppcoreguidelines-non-private-member-variables-in-classes
+    cppcoreguidelines-owning-memory
+    cppcoreguidelines-pro-bounds-array-to-pointer-decay
+    cppcoreguidelines-pro-bounds-constant-array-index
+    cppcoreguidelines-pro-bounds-pointer-arithmetic
+    cppcoreguidelines-pro-type-const-cast
+    cppcoreguidelines-pro-type-cstyle-cast
+    cppcoreguidelines-pro-type-member-init
+    cppcoreguidelines-pro-type-reinterpret-cast
+    cppcoreguidelines-pro-type-static-cast-downcast
+    cppcoreguidelines-pro-type-union-access
+    cppcoreguidelines-pro-type-vararg
+    cppcoreguidelines-slicing
+    cppcoreguidelines-special-member-functions
+    darwin-avoid-spinlock
+    darwin-dispatch-once-nonstatic
+    fuchsia-default-arguments-calls
+    fuchsia-default-arguments-declarations
+    fuchsia-header-anon-namespaces
+    fuchsia-multiple-inheritance
+    fuchsia-overloaded-operator
+    fuchsia-restrict-system-includes
+    fuchsia-statically-constructed-objects
+    fuchsia-trailing-return
+    fuchsia-virtual-inheritance
+    google-build-explicit-make-pair
+    google-build-namespaces
+    google-build-using-namespace
+    google-default-arguments
+    google-explicit-constructor
+    google-global-names-in-headers
+    google-objc-avoid-nsobject-new
+    google-objc-avoid-throwing-exception
+    google-objc-function-naming
+    google-objc-global-variable-declaration
+    google-readability-avoid-underscore-in-googletest-name
+    google-readability-braces-around-statements
+    google-readability-casting
+    google-readability-function-size
+    google-readability-namespace-comments
+    google-readability-todo
+    google-runtime-int
+    google-runtime-operator
+    google-runtime-references
+    google-upgrade-googletest-case
+    hicpp-avoid-c-arrays
+    hicpp-avoid-goto
+    hicpp-braces-around-statements
+    hicpp-deprecated-headers
+    hicpp-exception-baseclass
+    hicpp-explicit-conversions
+    hicpp-function-size
+    hicpp-invalid-access-moved
+    hicpp-member-init
+    hicpp-move-const-arg
+    hicpp-multiway-paths-covered
+    hicpp-named-parameter
+    hicpp-new-delete-operators
+    hicpp-no-array-decay
+    hicpp-no-assembler
+    hicpp-no-malloc
+    hicpp-noexcept-move
+    hicpp-signed-bitwise
+    hicpp-special-member-functions
+    hicpp-static-assert
+    hicpp-undelegated-constructor
+    hicpp-uppercase-literal-suffix
+    hicpp-use-auto
+    hicpp-use-emplace
+    hicpp-use-equals-default
+    hicpp-use-equals-delete
+    hicpp-use-noexcept
+    hicpp-use-nullptr
+    hicpp-use-override
+    hicpp-vararg
+    linuxkernel-must-check-errs
+    llvm-include-order
+    llvm-namespace-comment
+    llvm-prefer-isa-or-dyn-cast-in-conditionals
+    llvm-prefer-register-over-unsigned
+    llvm-qualified-auto
+    llvm-twine-local
+    misc-definitions-in-headers
+    misc-misplaced-const
+    misc-new-delete-overloads
+    misc-non-copyable-objects
+    misc-non-private-member-variables-in-classes
+    misc-redundant-expression
+    misc-static-assert
+    misc-throw-by-value-catch-by-reference
+    misc-unconventional-assign-operator
+    misc-uniqueptr-reset-release
+    misc-unused-alias-decls
+    misc-unused-parameters
+    misc-unused-using-decls
+    modernize-avoid-bind
+    modernize-avoid-c-arrays
+    modernize-concat-nested-namespaces
+    modernize-deprecated-headers
+    modernize-deprecated-ios-base-aliases
+    modernize-loop-convert
+    modernize-make-shared
+    modernize-make-unique
+    modernize-pass-by-value
+    modernize-raw-string-literal
+    modernize-redundant-void-arg
+    modernize-replace-auto-ptr
+    modernize-replace-random-shuffle
+    modernize-return-braced-init-list
+    modernize-shrink-to-fit
+    modernize-unary-static-assert
+    modernize-use-auto
+    modernize-use-bool-literals
+    modernize-use-default-member-init
+    modernize-use-emplace
+    modernize-use-equals-default
+    modernize-use-equals-delete
+    modernize-use-nodiscard
+    modernize-use-noexcept
+    modernize-use-nullptr
+    modernize-use-override
+    modernize-use-transparent-functors
+    modernize-use-uncaught-exceptions
+    modernize-use-using
+    mpi-buffer-deref
+    mpi-type-mismatch
+    objc-avoid-nserror-init
+    objc-forbidden-subclassing
+    objc-missing-hash
+    objc-property-declaration
+    objc-super-self
+    openmp-exception-escape
+    openmp-use-default-none
+    performance-faster-string-find
+    performance-for-range-copy
+    performance-implicit-conversion-in-loop
+    performance-inefficient-algorithm
+    performance-inefficient-string-concatenation
+    performance-inefficient-vector-operation
+    performance-move-const-arg
+    performance-move-constructor-init
+    performance-no-automatic-move
+    performance-noexcept-move-constructor
+    performance-trivially-destructible
+    performance-type-promotion-in-math-fn
+    performance-unnecessary-copy-initialization
+    performance-unnecessary-value-param
+    portability-simd-intrinsics
+    readability-avoid-const-params-in-decls
+    readability-braces-around-statements
+    readability-const-return-type
+    readability-container-size-empty
+    readability-convert-member-functions-to-static
+    readability-delete-null-pointer
+    readability-deleted-default
+    readability-else-after-return
+    readability-function-size
+    readability-identifier-naming
+    readability-implicit-bool-conversion
+    readability-inconsistent-declaration-parameter-name
+    readability-isolate-declaration
+    readability-magic-numbers
+    readability-make-member-function-const
+    readability-misleading-indentation
+    readability-misplaced-array-index
+    readability-named-parameter
+    readability-non-const-parameter
+    readability-qualified-auto
+    readability-redundant-access-specifiers
+    readability-redundant-control-flow
+    readability-redundant-declaration
+    readability-redundant-function-ptr-dereference
+    readability-redundant-member-init
+    readability-redundant-preprocessor
+    readability-redundant-smartptr-get
+    readability-redundant-string-cstr
+    readability-redundant-string-init
+    readability-simplify-boolean-expr
+    readability-simplify-subscript-expr
+    readability-static-accessed-through-instance
+    readability-static-definition-in-anonymous-namespace
+    readability-string-compare
+    readability-uniqueptr-delete-release
+    readability-uppercase-literal-suffix
+    zircon-temporary-objects
+
+clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/buildcpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.cpp
+8703 warnings generated.
+Suppressed 8703 warnings (8703 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/buildcpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseB.cpp
+8703 warnings generated.
+Suppressed 8703 warnings (8703 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/buildcpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/main.cpp
+8693 warnings generated.
+Suppressed 8693 warnings (8693 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+travis_time:end:0857cd05:start=1592860254595741653,finish=1592860259093346645,duration=4497604992,event=script[0K[32;1mThe command "python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py" exited with 0.[0m
 
 
 Done. Your build exited with 0.
