@@ -1,0 +1,284 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 189b9e82-ece5-445c-938a-eec5a95a8397@1.worker-com-855f4bcbbb-zvzr9.gce-production-2
+version: v6.2.17 https://github.com/travis-ci/worker/tree/bc420764f334fe0d096a417c80426f672f1b7d18
+instance: travis-job-9e9aa980-e18f-42f1-a524-e1153b8dd644 travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
+startup: 6.113427431s
+travis_fold:end:worker_info[0Ktravis_time:start:033aeda0[0Ktravis_time:end:033aeda0:start=1592995532445379075,finish=1592995532620713543,duration=175334468,event=no_world_writable_dirs[0Ktravis_time:start:11c455d4[0Ktravis_time:end:11c455d4:start=1592995532623541899,finish=1592995532630534015,duration=6992116,event=agent[0Ktravis_time:start:01e95890[0Ktravis_time:end:01e95890:start=1592995532633095969,finish=1592995532634887759,duration=1791790,event=check_unsupported[0Ktravis_time:start:01aa2300[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: python
+Build dist: bionic
+Build id: 172822875
+Job id: 353065265
+Runtime kernel version: 5.0.0-1031-gcp
+travis-build version: 8e9c8035
+[34m[1mBuild image provisioning date and time[0m
+Mon Feb 24 21:21:37 UTC 2020
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.4 LTS
+Release:	18.04
+Codename:	bionic
+[34m[1mSystemd Version[0m
+systemd 237
+[34m[1mCookbooks Version[0m
+b5e4fc1 https://github.com/travis-ci/travis-cookbooks/tree/b5e4fc1
+[34m[1mgit version[0m
+git version 2.25.1
+[34m[1mbash version[0m
+GNU bash, version 4.4.20(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:09:54 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:07:56 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.7.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.4.1
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.38.2 linux-x64 node-v12.13.0
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.9.7-4 Q16 x86_64 20170114 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.29, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.1.1  11 Sep 2018
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 11.7 (Ubuntu 11.7-2.pgdg18.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.10 March 2017
+[34m[1msudo version[0m
+1.8.21p2
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 8.0 (2016 Sep 12, compiled Jun 06 2019 17:31:41)
+[34m[1miptables version[0m
+iptables v1.6.1
+[34m[1mcurl version[0m
+curl 7.58.0 (x86_64-pc-linux-gnu) libcurl/7.58.0 OpenSSL/1.1.1 zlib/1.2.11 libidn2/2.0.4 libpsl/0.19.1 (+libidn2/2.0.4) nghttp2/1.30.0 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.19.4 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.2  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.35.2
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.87
+[34m[1mphpenv version[0m
+rbenv 1.1.2-26-gc6324ff
+[34m[1mrvm version[0m
+rvm 1.29.9 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.16
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.3.25
+9.4.26
+9.5.21
+9.6.17
+[34m[1mRedis version[0m
+redis-server 5.0.7
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mant version[0m
+Apache Ant(TM) version 1.10.5 compiled on March 28 2019
+[34m[1mmvn version[0m
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+[34m[1mgradle version[0m
+Gradle 5.1.1!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.16.0
+v10.19.0
+v11.15.0
+v12.13.1
+v12.16.1
+v13.3.0
+v4.9.1
+v6.17.1
+v8.16.2
+v8.17.0
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  7.1
+  7.1.33
+  7.2
+* 7.2.27 (set by /home/travis/.phpenv/version)
+  7.3
+  7.3.14
+  7.4
+  7.4.2
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.9.2 2020-01-14 16:30:31
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.4.9
+ruby-2.5.3
+ruby-2.5.7
+ruby-2.6.5
+ruby-2.7.0
+travis_fold:end:system_info[0K
+travis_time:end:01aa2300:start=1592995532637486176,finish=1592995532645110977,duration=7624801,event=show_system_info[0Ktravis_time:start:01fc2987[0Ktravis_time:end:01fc2987:start=1592995532647456946,finish=1592995532661102583,duration=13645637,event=rm_riak_source[0Ktravis_time:start:02737a40[0Ktravis_time:end:02737a40:start=1592995532664249113,finish=1592995532669169448,duration=4920335,event=fix_rwky_redis[0Ktravis_time:start:171b9490[0Ktravis_time:end:171b9490:start=1592995532671885471,finish=1592995532972659145,duration=300773674,event=wait_for_network[0Ktravis_time:start:08f45aa2[0Ktravis_time:end:08f45aa2:start=1592995532975293347,finish=1592995533202779993,duration=227486646,event=update_apt_keys[0Ktravis_time:start:07d81790[0Ktravis_time:end:07d81790:start=1592995533205656798,finish=1592995533254499797,duration=48842999,event=fix_hhvm_source[0Ktravis_time:start:0689d61a[0Ktravis_time:end:0689d61a:start=1592995533256998528,finish=1592995533259104101,duration=2105573,event=update_mongo_arch[0Ktravis_time:start:151ef09c[0Ktravis_time:end:151ef09c:start=1592995533261577685,finish=1592995533297625806,duration=36048121,event=fix_sudo_enabled_trusty[0Ktravis_time:start:1cdc9250[0Ktravis_time:end:1cdc9250:start=1592995533300053189,finish=1592995533301875165,duration=1821976,event=update_glibc[0Ktravis_time:start:1fd12628[0Ktravis_time:end:1fd12628:start=1592995533304341879,finish=1592995533311071135,duration=6729256,event=clean_up_path[0Ktravis_time:start:00394d6a[0Ktravis_time:end:00394d6a:start=1592995533313492718,finish=1592995533320708168,duration=7215450,event=fix_resolv_conf[0Ktravis_time:start:1fa883e4[0Ktravis_time:end:1fa883e4:start=1592995533323068751,finish=1592995533348023810,duration=24955059,event=fix_etc_hosts[0Ktravis_time:start:109ed512[0Ktravis_time:end:109ed512:start=1592995533350422348,finish=1592995533357588242,duration=7165894,event=fix_mvn_settings_xml[0Ktravis_time:start:03f33c92[0Ktravis_time:end:03f33c92:start=1592995533359992017,finish=1592995533368038152,duration=8046135,event=no_ipv6_localhost[0Ktravis_time:start:1a97c0c0[0Ktravis_time:end:1a97c0c0:start=1592995533370452365,finish=1592995533372282551,duration=1830186,event=fix_etc_mavenrc[0Ktravis_time:start:062607d4[0Ktravis_time:end:062607d4:start=1592995533374655708,finish=1592995533377113592,duration=2457884,event=fix_wwdr_certificate[0Ktravis_time:start:179543c9[0Ktravis_time:end:179543c9:start=1592995533379494936,finish=1592995533421597305,duration=42102369,event=put_localhost_first[0Ktravis_time:start:054eaea0[0Ktravis_time:end:054eaea0:start=1592995533424057738,finish=1592995533426909945,duration=2852207,event=home_paths[0Ktravis_time:start:072c6b72[0Ktravis_time:end:072c6b72:start=1592995533429638724,finish=1592995533440171941,duration=10533217,event=disable_initramfs[0Ktravis_time:start:039c2640[0Ktravis_time:end:039c2640:start=1592995533442603241,finish=1592995533575603802,duration=133000561,event=disable_ssh_roaming[0Ktravis_time:start:17c2b74a[0Ktravis_time:end:17c2b74a:start=1592995533578307787,finish=1592995533580214850,duration=1907063,event=debug_tools[0Ktravis_time:start:259d5dee[0Ktravis_time:end:259d5dee:start=1592995533582686843,finish=1592995533585205358,duration=2518515,event=uninstall_oclint[0Ktravis_time:start:0de44400[0Ktravis_time:end:0de44400:start=1592995533587630570,finish=1592995533590004711,duration=2374141,event=rvm_use[0Ktravis_time:start:12bb528a[0Ktravis_time:end:12bb528a:start=1592995533592463152,finish=1592995533599332940,duration=6869788,event=rm_etc_boto_cfg[0Ktravis_time:start:2778360c[0Ktravis_time:end:2778360c:start=1592995533601737267,finish=1592995533603499292,duration=1762025,event=rm_oraclejdk8_symlink[0Ktravis_time:start:0f101be3[0Ktravis_time:end:0f101be3:start=1592995533605919504,finish=1592995533691935789,duration=86016285,event=enable_i386[0Ktravis_time:start:2659afe8[0Ktravis_time:end:2659afe8:start=1592995533694423857,finish=1592995533697383829,duration=2959972,event=update_rubygems[0Ktravis_time:start:03c7351f[0Ktravis_time:end:03c7351f:start=1592995533699773952,finish=1592995534432041125,duration=732267173,event=ensure_path_components[0Ktravis_time:start:3622e1c0[0Ktravis_time:end:3622e1c0:start=1592995534434997438,finish=1592995534436927976,duration=1930538,event=redefine_curl[0Ktravis_time:start:05f3a908[0Ktravis_time:end:05f3a908:start=1592995534439443767,finish=1592995534441284636,duration=1840869,event=nonblock_pipe[0Ktravis_time:start:2cb1ea22[0Ktravis_time:end:2cb1ea22:start=1592995534443658744,finish=1592995540477044951,duration=6033386207,event=apt_get_update[0Ktravis_time:start:158c754d[0Ktravis_time:end:158c754d:start=1592995540480242899,finish=1592995540482472912,duration=2230013,event=deprecate_xcode_64[0Ktravis_time:start:195cba1b[0Ktravis_time:end:195cba1b:start=1592995540485160088,finish=1592995542831833763,duration=2346673675,event=update_heroku[0Ktravis_time:start:0a80c688[0Ktravis_time:end:0a80c688:start=1592995542834925104,finish=1592995542836976047,duration=2050943,event=shell_session_update[0Ktravis_time:start:03d1c499[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:03d1c499:start=1592995542839437003,finish=1592995544973720255,duration=2134283252,event=set_docker_mtu[0Ktravis_time:start:2d802550[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:2d802550:start=1592995544977115102,finish=1592995545060704018,duration=83588916,event=resolvconf[0Ktravis_time:start:0011098e[0Ktravis_time:end:0011098e:start=1592995545066095952,finish=1592995545198946359,duration=132850407,event=maven_central_mirror[0Ktravis_time:start:00c6aecc[0Ktravis_time:end:00c6aecc:start=1592995545201649272,finish=1592995545292861602,duration=91212330,event=maven_https[0Ktravis_time:start:04479011[0Ktravis_time:end:04479011:start=1592995545300496311,finish=1592995545302696791,duration=2200480,event=fix_ps4[0Ktravis_time:start:114a0d80[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:0b828a18[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
+Cloning into 'bansan85/wiki_le_garrec_fr'...
+remote: Enumerating objects: 20, done.[K
+remote: Counting objects:   5% (1/20)[Kremote: Counting objects:  10% (2/20)[Kremote: Counting objects:  15% (3/20)[Kremote: Counting objects:  20% (4/20)[Kremote: Counting objects:  25% (5/20)[Kremote: Counting objects:  30% (6/20)[Kremote: Counting objects:  35% (7/20)[Kremote: Counting objects:  40% (8/20)[Kremote: Counting objects:  45% (9/20)[Kremote: Counting objects:  50% (10/20)[Kremote: Counting objects:  55% (11/20)[Kremote: Counting objects:  60% (12/20)[Kremote: Counting objects:  65% (13/20)[Kremote: Counting objects:  70% (14/20)[Kremote: Counting objects:  75% (15/20)[Kremote: Counting objects:  80% (16/20)[Kremote: Counting objects:  85% (17/20)[Kremote: Counting objects:  90% (18/20)[Kremote: Counting objects:  95% (19/20)[Kremote: Counting objects: 100% (20/20)[Kremote: Counting objects: 100% (20/20), done.[K
+remote: Compressing objects:   6% (1/15)[Kremote: Compressing objects:  13% (2/15)[Kremote: Compressing objects:  20% (3/15)[Kremote: Compressing objects:  26% (4/15)[Kremote: Compressing objects:  33% (5/15)[Kremote: Compressing objects:  40% (6/15)[Kremote: Compressing objects:  46% (7/15)[Kremote: Compressing objects:  53% (8/15)[Kremote: Compressing objects:  60% (9/15)[Kremote: Compressing objects:  66% (10/15)[Kremote: Compressing objects:  73% (11/15)[Kremote: Compressing objects:  80% (12/15)[Kremote: Compressing objects:  86% (13/15)[Kremote: Compressing objects:  93% (14/15)[Kremote: Compressing objects: 100% (15/15)[Kremote: Compressing objects: 100% (15/15), done.[K
+remote: Total 111 (delta 6), reused 17 (delta 4), pack-reused 91[K
+Receiving objects:   0% (1/111)Receiving objects:   1% (2/111)Receiving objects:   2% (3/111)Receiving objects:   3% (4/111)Receiving objects:   4% (5/111)Receiving objects:   5% (6/111)Receiving objects:   6% (7/111)Receiving objects:   7% (8/111)Receiving objects:   8% (9/111)Receiving objects:   9% (10/111)Receiving objects:  10% (12/111)Receiving objects:  11% (13/111)Receiving objects:  12% (14/111)Receiving objects:  13% (15/111)Receiving objects:  14% (16/111)Receiving objects:  15% (17/111)Receiving objects:  16% (18/111)Receiving objects:  17% (19/111)Receiving objects:  18% (20/111)Receiving objects:  19% (22/111)Receiving objects:  20% (23/111)Receiving objects:  21% (24/111)Receiving objects:  22% (25/111)Receiving objects:  23% (26/111)Receiving objects:  24% (27/111)Receiving objects:  25% (28/111)Receiving objects:  26% (29/111)Receiving objects:  27% (30/111)Receiving objects:  28% (32/111)Receiving objects:  29% (33/111)Receiving objects:  30% (34/111)Receiving objects:  31% (35/111)Receiving objects:  32% (36/111)Receiving objects:  33% (37/111)Receiving objects:  34% (38/111)Receiving objects:  35% (39/111)Receiving objects:  36% (40/111)Receiving objects:  37% (42/111)Receiving objects:  38% (43/111)Receiving objects:  39% (44/111)Receiving objects:  40% (45/111)Receiving objects:  41% (46/111)Receiving objects:  42% (47/111)Receiving objects:  43% (48/111)Receiving objects:  44% (49/111)Receiving objects:  45% (50/111)Receiving objects:  46% (52/111)Receiving objects:  47% (53/111)Receiving objects:  48% (54/111)Receiving objects:  49% (55/111)Receiving objects:  50% (56/111)Receiving objects:  51% (57/111)Receiving objects:  52% (58/111)Receiving objects:  53% (59/111)Receiving objects:  54% (60/111)Receiving objects:  55% (62/111)Receiving objects:  56% (63/111)Receiving objects:  57% (64/111)Receiving objects:  58% (65/111)Receiving objects:  59% (66/111)Receiving objects:  60% (67/111)Receiving objects:  61% (68/111)Receiving objects:  62% (69/111)Receiving objects:  63% (70/111)Receiving objects:  64% (72/111)Receiving objects:  65% (73/111)Receiving objects:  66% (74/111)Receiving objects:  67% (75/111)Receiving objects:  68% (76/111)Receiving objects:  69% (77/111)Receiving objects:  70% (78/111)Receiving objects:  71% (79/111)Receiving objects:  72% (80/111)Receiving objects:  73% (82/111)Receiving objects:  74% (83/111)Receiving objects:  75% (84/111)Receiving objects:  76% (85/111)Receiving objects:  77% (86/111)Receiving objects:  78% (87/111)Receiving objects:  79% (88/111)Receiving objects:  80% (89/111)Receiving objects:  81% (90/111)Receiving objects:  82% (92/111)Receiving objects:  83% (93/111)Receiving objects:  84% (94/111)Receiving objects:  85% (95/111)Receiving objects:  86% (96/111)Receiving objects:  87% (97/111)Receiving objects:  88% (98/111)Receiving objects:  89% (99/111)Receiving objects:  90% (100/111)Receiving objects:  91% (102/111)Receiving objects:  92% (103/111)Receiving objects:  93% (104/111)Receiving objects:  94% (105/111)Receiving objects:  95% (106/111)Receiving objects:  96% (107/111)Receiving objects:  97% (108/111)Receiving objects:  98% (109/111)Receiving objects:  99% (110/111)Receiving objects: 100% (111/111)Receiving objects: 100% (111/111), 22.19 KiB | 3.70 MiB/s, done.
+Resolving deltas:   0% (0/33)Resolving deltas:   6% (2/33)Resolving deltas:  12% (4/33)Resolving deltas:  21% (7/33)Resolving deltas:  30% (10/33)Resolving deltas:  33% (11/33)Resolving deltas:  42% (14/33)Resolving deltas:  45% (15/33)Resolving deltas:  48% (16/33)Resolving deltas:  51% (17/33)Resolving deltas:  54% (18/33)Resolving deltas:  57% (19/33)Resolving deltas:  60% (20/33)Resolving deltas:  66% (22/33)Resolving deltas:  72% (24/33)Resolving deltas:  75% (25/33)Resolving deltas:  78% (26/33)Resolving deltas: 100% (33/33)Resolving deltas: 100% (33/33), done.
+travis_time:end:0b828a18:start=1592995545308775379,finish=1592995545631873667,duration=323098288,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
+$ git checkout -qf 1969ec285452f0cdc5206080389683e0edd9570f
+travis_fold:end:git.checkout[0K
+travis_time:end:0b828a18:start=1592995545308775379,finish=1592995545638104898,duration=329329519,event=checkout[0Ktravis_time:start:02978ff4[0Ktravis_time:end:02978ff4:start=1592995545641462209,finish=1592995545647000981,duration=5538772,event=env[0Ktravis_time:start:18ac5c00[0K$ source ~/virtualenv/python3.8/bin/activate
+travis_time:end:18ac5c00:start=1592995545650404395,finish=1592995545655769545,duration=5365150,event=[0K$ python --version
+Python 3.8.1
+$ pip --version
+pip 20.0.2 from /home/travis/virtualenv/python3.8.1/lib/python3.8/site-packages/pip (python 3.8)
+travis_fold:start:before_install[0Ktravis_time:start:01c84698[0K$ python3 -m pip install --upgrade pip
+Collecting pip
+  Downloading pip-20.1.1-py2.py3-none-any.whl (1.5 MB)
+[?25l
+[?25hInstalling collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-20.1.1
+travis_time:end:01c84698:start=1592995546148137074,finish=1592995548451209140,duration=2303072066,event=before_install[0Ktravis_fold:end:before_install[0Ktravis_fold:start:install[0Ktravis_time:start:125d1ebe[0K$ pip install -r requirements.txt
+Collecting cmake_format
+  Downloading cmake_format-0.6.10-py3-none-any.whl (163 kB)
+[?25l
+[?25hRequirement already satisfied: six>=1.13.0 in /home/travis/virtualenv/python3.8.1/lib/python3.8/site-packages (from cmake_format->-r requirements.txt (line 1)) (1.13.0)
+Installing collected packages: cmake-format
+Successfully installed cmake-format-0.6.10
+travis_time:end:125d1ebe:start=1592995548455240626,finish=1592995549247604329,duration=792363703,event=install[0Ktravis_fold:end:install[0Ktravis_time:start:085bf369[0K$ mkdir buildcppgcc; cd buildcppgcc
+travis_time:end:085bf369:start=1592995549251589869,finish=1592995549255204306,duration=3614437,event=script[0K[32;1mThe command "mkdir buildcppgcc; cd buildcppgcc" exited with 0.[0m
+travis_time:start:21110c92[0K$ cmake ../cpp
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc
+travis_time:end:21110c92:start=1592995549258652872,finish=1592995550494710251,duration=1236057379,event=script[0K[32;1mThe command "cmake ../cpp" exited with 0.[0m
+travis_time:start:00c48573[0K$ make cmake_fmt
+/usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc --check-build-system CMakeFiles/Makefile.cmake 0
+make -f CMakeFiles/Makefile2 cmake_fmt
+make[1]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+/usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/CMakeFiles 3
+make -f CMakeFiles/Makefile2 CMakeFiles/cmake_fmt.dir/all
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+make -f CMakeFiles/cmake_fmt.dir/build.make CMakeFiles/cmake_fmt.dir/depend
+make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/CMakeFiles/cmake_fmt.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target cmake_fmt[0m
+make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+make -f CMakeFiles/cmake_fmt.dir/build.make CMakeFiles/cmake_fmt.dir/build
+make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+[ 33%] [34m[1mGenerating /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/CMakeLists.txt.stamp[0m
+sh -c sh\ /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/cmake-format-check.sh\ /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/CMakeLists.txt\ &&\ cmake\ -E\ touch\ /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/CMakeLists.txt.stamp
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/cmake-format-check.sh: 1: /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/cmake-format-check.sh: 19c19: not found
+--- /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/CMakeLists.txt	2020-06-24 10:45:45.625553378 +0000
++++ -	2020-06-24 10:45:50.648927055 +0000
+@@ -16,7 +16,7 @@ if(CMAKE_CXX_COMPILER_ID STREQUAL "Clang
+       TARGET clang_fmt
+       COMMAND sh ${CMAKE_CURRENT_SOURCE_DIR}/clang-format-check.sh ${filei})
+   endforeach()
+-  
++
+ elseif(CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+   set(ALL_CMAKELISTS_STAMP "")
+ 
+@@ -24,9 +24,12 @@ elseif(CMAKE_CXX_COMPILER_ID STREQUAL "G
+   foreach(filei ${allfilescmake})
+     add_custom_command(
+       OUTPUT ${filei}.stamp
+-      COMMAND sh -c "sh ${CMAKE_CURRENT_SOURCE_DIR}/cmake-format-check.sh ${filei} && cmake -E touch ${filei}.stamp")
++      COMMAND
++        sh -c
++        "sh ${CMAKE_CURRENT_SOURCE_DIR}/cmake-format-check.sh ${filei} && cmake -E touch ${filei}.stamp"
++    )
+     list(APPEND ALL_CMAKELISTS_STAMP ${filei}.stamp)
+   endforeach()
+-  
++
+   add_custom_target(cmake_fmt DEPENDS ${ALL_CMAKELISTS_STAMP})
+-endif()
+\ No newline at end of file
++endif()
+CMakeFiles/cmake_fmt.dir/build.make:65: recipe for target '/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/CMakeLists.txt.stamp' failed
+make[3]: *** [/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/CMakeLists.txt.stamp] Error 1
+make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+CMakeFiles/Makefile2:75: recipe for target 'CMakeFiles/cmake_fmt.dir/all' failed
+make[2]: *** [CMakeFiles/cmake_fmt.dir/all] Error 2
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+CMakeFiles/Makefile2:82: recipe for target 'CMakeFiles/cmake_fmt.dir/rule' failed
+make[1]: *** [CMakeFiles/cmake_fmt.dir/rule] Error 2
+make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+Makefile:121: recipe for target 'cmake_fmt' failed
+make: *** [cmake_fmt] Error 2
+travis_time:end:00c48573:start=1592995550498447012,finish=1592995550777361950,duration=278914938,event=script[0K[31;1mThe command "make cmake_fmt" exited with 2.[0m
+travis_time:start:110c1a80[0K$ cd ..
+travis_time:end:110c1a80:start=1592995550780699682,finish=1592995550782726791,duration=2027109,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
+
+
+Done. Your build exited with 1.
