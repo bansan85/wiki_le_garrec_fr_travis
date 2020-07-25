@@ -1,13 +1,13 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: 3b6a7a03-b484-48c9-9148-b07c79b612c0@1.worker-com-668464d7c8-chm5p.gce-production-2
+hostname: 2ce5f375-ca6b-4202-ab34-002651d1ddbd@1.worker-com-5686bd95fc-h7pxz.gce-production-3
 version: v6.2.17 https://github.com/travis-ci/worker/tree/bc420764f334fe0d096a417c80426f672f1b7d18
-instance: travis-job-6d7eb649-c2ac-4ae7-9f92-92e97e19a3e6 travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
-startup: 6.004484653s
-travis_fold:end:worker_info[0Ktravis_time:start:01dea9e9[0Ktravis_time:end:01dea9e9:start=1594621316791723619,finish=1594621316984789882,duration=193066263,event=no_world_writable_dirs[0Ktravis_time:start:05467c53[0Ktravis_time:end:05467c53:start=1594621316987686809,finish=1594621316990905618,duration=3218809,event=setup_filter[0Ktravis_time:start:098edc8e[0Ktravis_time:end:098edc8e:start=1594621316998137540,finish=1594621317006567602,duration=8430062,event=agent[0Ktravis_time:start:03d8d74a[0Ktravis_time:end:03d8d74a:start=1594621317009062444,finish=1594621317010675722,duration=1613278,event=check_unsupported[0Ktravis_time:start:20fe1acc[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+instance: travis-job-2ea780ca-b315-4987-ac6d-65bd9375e799 travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
+startup: 6.362173836s
+travis_fold:end:worker_info[0Ktravis_time:start:0628b968[0Ktravis_time:end:0628b968:start=1594671904089324926,finish=1594671904283915214,duration=194590288,event=no_world_writable_dirs[0Ktravis_time:start:023f4471[0Ktravis_time:end:023f4471:start=1594671904287064121,finish=1594671904290197222,duration=3133101,event=setup_filter[0Ktravis_time:start:0276156c[0Ktravis_time:end:0276156c:start=1594671904299004106,finish=1594671904309443644,duration=10439538,event=agent[0Ktravis_time:start:04dcdafa[0Ktravis_time:end:04dcdafa:start=1594671904313984402,finish=1594671904316141101,duration=2156699,event=check_unsupported[0Ktravis_time:start:0e46767b[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: ruby
 Build dist: bionic
-Build id: 175348890
-Job id: 360341547
+Build id: 175458610
+Job id: 360640605
 Runtime kernel version: 5.0.0-1031-gcp
 travis-build version: 53c9fddd
 [34m[1mBuild image provisioning date and time[0m
@@ -164,20 +164,20 @@ ruby-2.5.7
 ruby-2.6.5
 ruby-2.7.0
 travis_fold:end:system_info[0K
-travis_time:end:20fe1acc:start=1594621317012983894,finish=1594621317019877923,duration=6894029,event=show_system_info[0Ktravis_time:start:2adc9110[0Ktravis_time:end:2adc9110:start=1594621317022828469,finish=1594621317045054761,duration=22226292,event=rm_riak_source[0Ktravis_time:start:0d0cd8cc[0Ktravis_time:end:0d0cd8cc:start=1594621317050602843,finish=1594621317055987710,duration=5384867,event=fix_rwky_redis[0Ktravis_time:start:044ee54c[0Ktravis_time:end:044ee54c:start=1594621317058898866,finish=1594621317641783797,duration=582884931,event=wait_for_network[0Ktravis_time:start:0bac86cc[0Ktravis_time:end:0bac86cc:start=1594621317645508329,finish=1594621317893590604,duration=248082275,event=update_apt_keys[0Ktravis_time:start:2db24850[0Ktravis_time:end:2db24850:start=1594621317897596773,finish=1594621317951349085,duration=53752312,event=fix_hhvm_source[0Ktravis_time:start:005370f0[0Ktravis_time:end:005370f0:start=1594621317955198663,finish=1594621317957765081,duration=2566418,event=update_mongo_arch[0Ktravis_time:start:007c3050[0Ktravis_time:end:007c3050:start=1594621317960948291,finish=1594621318001818309,duration=40870018,event=fix_sudo_enabled_trusty[0Ktravis_time:start:31235be0[0Ktravis_time:end:31235be0:start=1594621318006731857,finish=1594621318008920259,duration=2188402,event=update_glibc[0Ktravis_time:start:0e37a50e[0Ktravis_time:end:0e37a50e:start=1594621318013933654,finish=1594621318022034985,duration=8101331,event=clean_up_path[0Ktravis_time:start:0b265a65[0Ktravis_time:end:0b265a65:start=1594621318026190486,finish=1594621318035063629,duration=8873143,event=fix_resolv_conf[0Ktravis_time:start:0b023c98[0Ktravis_time:end:0b023c98:start=1594621318039593507,finish=1594621318054360621,duration=14767114,event=fix_etc_hosts[0Ktravis_time:start:03b86a8e[0Ktravis_time:end:03b86a8e:start=1594621318058258214,finish=1594621318066672576,duration=8414362,event=fix_mvn_settings_xml[0Ktravis_time:start:055537c8[0Ktravis_time:end:055537c8:start=1594621318072350311,finish=1594621318082738661,duration=10388350,event=no_ipv6_localhost[0Ktravis_time:start:20e87f72[0Ktravis_time:end:20e87f72:start=1594621318086741262,finish=1594621318088835181,duration=2093919,event=fix_etc_mavenrc[0Ktravis_time:start:0a0a9600[0Ktravis_time:end:0a0a9600:start=1594621318092899226,finish=1594621318095595456,duration=2696230,event=fix_wwdr_certificate[0Ktravis_time:start:18d1ad77[0Ktravis_time:end:18d1ad77:start=1594621318099485005,finish=1594621318164047385,duration=64562380,event=put_localhost_first[0Ktravis_time:start:00a0ca04[0Ktravis_time:end:00a0ca04:start=1594621318169283927,finish=1594621318172884294,duration=3600367,event=home_paths[0Ktravis_time:start:08562318[0Ktravis_time:end:08562318:start=1594621318178089715,finish=1594621318191599741,duration=13510026,event=disable_initramfs[0Ktravis_time:start:044cc044[0Ktravis_time:end:044cc044:start=1594621318196991605,finish=1594621318351971791,duration=154980186,event=disable_ssh_roaming[0Ktravis_time:start:1412778f[0Ktravis_time:end:1412778f:start=1594621318356942278,finish=1594621318359051145,duration=2108867,event=debug_tools[0Ktravis_time:start:058157af[0Ktravis_time:end:058157af:start=1594621318363143545,finish=1594621318366062213,duration=2918668,event=uninstall_oclint[0Ktravis_time:start:1a4e949c[0Ktravis_time:end:1a4e949c:start=1594621318370258207,finish=1594621318373008980,duration=2750773,event=rvm_use[0Ktravis_time:start:0e7cbe00[0Ktravis_time:end:0e7cbe00:start=1594621318376994270,finish=1594621318385230393,duration=8236123,event=rm_etc_boto_cfg[0Ktravis_time:start:2cc6e8b0[0Ktravis_time:end:2cc6e8b0:start=1594621318388977723,finish=1594621318391024378,duration=2046655,event=rm_oraclejdk8_symlink[0Ktravis_time:start:11b4214b[0Ktravis_time:end:11b4214b:start=1594621318395362301,finish=1594621318488287487,duration=92925186,event=enable_i386[0Ktravis_time:start:0292cbcb[0Ktravis_time:end:0292cbcb:start=1594621318492803778,finish=1594621318496282476,duration=3478698,event=update_rubygems[0Ktravis_time:start:25db4b80[0Ktravis_time:end:25db4b80:start=1594621318499753119,finish=1594621319281089179,duration=781336060,event=ensure_path_components[0Ktravis_time:start:2b3895d2[0Ktravis_time:end:2b3895d2:start=1594621319285259761,finish=1594621319287387001,duration=2127240,event=redefine_curl[0Ktravis_time:start:01f32484[0Ktravis_time:end:01f32484:start=1594621319291584933,finish=1594621319386983535,duration=95398602,event=nonblock_pipe[0Ktravis_time:start:0b67bac9[0Ktravis_time:end:0b67bac9:start=1594621319391961276,finish=1594621325424247145,duration=6032285869,event=apt_get_update[0Ktravis_time:start:05f9b5b4[0Ktravis_time:end:05f9b5b4:start=1594621325428493999,finish=1594621325430947691,duration=2453692,event=deprecate_xcode_64[0Ktravis_time:start:00f1ff38[0Ktravis_time:end:00f1ff38:start=1594621325435554588,finish=1594621327967228266,duration=2531673678,event=update_heroku[0Ktravis_time:start:1f4f0dac[0Ktravis_time:end:1f4f0dac:start=1594621327973739060,finish=1594621327976355198,duration=2616138,event=shell_session_update[0Ktravis_time:start:020bbbe8[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:020bbbe8:start=1594621327981079540,finish=1594621330081546576,duration=2100467036,event=set_docker_mtu[0Ktravis_time:start:08d0fa50[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:08d0fa50:start=1594621330085648137,finish=1594621330159047311,duration=73399174,event=resolvconf[0Ktravis_time:start:1a4d09d3[0Ktravis_time:end:1a4d09d3:start=1594621330165441833,finish=1594621330329884734,duration=164442901,event=maven_central_mirror[0Ktravis_time:start:23e70b50[0Ktravis_time:end:23e70b50:start=1594621330334098342,finish=1594621330435227045,duration=101128703,event=maven_https[0Ktravis_time:start:13a52978[0Ktravis_time:end:13a52978:start=1594621330440311572,finish=1594621330443526679,duration=3215107,event=fix_ps4[0Ktravis_time:start:02410ca4[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:1c01e19a[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
+travis_time:end:0e46767b:start=1594671904319104874,finish=1594671904325380540,duration=6275666,event=show_system_info[0Ktravis_time:start:0aeadc9b[0Ktravis_time:end:0aeadc9b:start=1594671904328158836,finish=1594671904345804755,duration=17645919,event=rm_riak_source[0Ktravis_time:start:109fe1b8[0Ktravis_time:end:109fe1b8:start=1594671904350241789,finish=1594671904355807851,duration=5566062,event=fix_rwky_redis[0Ktravis_time:start:1699666d[0Ktravis_time:end:1699666d:start=1594671904358833728,finish=1594671904697629626,duration=338795898,event=wait_for_network[0Ktravis_time:start:020259cc[0Ktravis_time:end:020259cc:start=1594671904703385501,finish=1594671904950606887,duration=247221386,event=update_apt_keys[0Ktravis_time:start:01d279e5[0Ktravis_time:end:01d279e5:start=1594671904954522101,finish=1594671905005711030,duration=51188929,event=fix_hhvm_source[0Ktravis_time:start:212c15d0[0Ktravis_time:end:212c15d0:start=1594671905010166191,finish=1594671905012961618,duration=2795427,event=update_mongo_arch[0Ktravis_time:start:024477f7[0Ktravis_time:end:024477f7:start=1594671905017752596,finish=1594671905057147149,duration=39394553,event=fix_sudo_enabled_trusty[0Ktravis_time:start:0b5b25e8[0Ktravis_time:end:0b5b25e8:start=1594671905061738302,finish=1594671905064212635,duration=2474333,event=update_glibc[0Ktravis_time:start:00685eb4[0Ktravis_time:end:00685eb4:start=1594671905068302608,finish=1594671905076426421,duration=8123813,event=clean_up_path[0Ktravis_time:start:137deac0[0Ktravis_time:end:137deac0:start=1594671905080623077,finish=1594671905089960396,duration=9337319,event=fix_resolv_conf[0Ktravis_time:start:0eb89a68[0Ktravis_time:end:0eb89a68:start=1594671905094400549,finish=1594671905110543659,duration=16143110,event=fix_etc_hosts[0Ktravis_time:start:1ac19cc0[0Ktravis_time:end:1ac19cc0:start=1594671905114915953,finish=1594671905122656711,duration=7740758,event=fix_mvn_settings_xml[0Ktravis_time:start:16c16e8c[0Ktravis_time:end:16c16e8c:start=1594671905128041449,finish=1594671905137317229,duration=9275780,event=no_ipv6_localhost[0Ktravis_time:start:1d660fa9[0Ktravis_time:end:1d660fa9:start=1594671905141386315,finish=1594671905143947103,duration=2560788,event=fix_etc_mavenrc[0Ktravis_time:start:24a0f176[0Ktravis_time:end:24a0f176:start=1594671905149225158,finish=1594671905152027524,duration=2802366,event=fix_wwdr_certificate[0Ktravis_time:start:11f3d228[0Ktravis_time:end:11f3d228:start=1594671905157935897,finish=1594671905218891699,duration=60955802,event=put_localhost_first[0Ktravis_time:start:09baf8fc[0Ktravis_time:end:09baf8fc:start=1594671905224213564,finish=1594671905227285078,duration=3071514,event=home_paths[0Ktravis_time:start:10e68b9d[0Ktravis_time:end:10e68b9d:start=1594671905231085314,finish=1594671905242956439,duration=11871125,event=disable_initramfs[0Ktravis_time:start:03cb17ec[0Ktravis_time:end:03cb17ec:start=1594671905246828072,finish=1594671905440458574,duration=193630502,event=disable_ssh_roaming[0Ktravis_time:start:034d6937[0Ktravis_time:end:034d6937:start=1594671905443973503,finish=1594671905446582740,duration=2609237,event=debug_tools[0Ktravis_time:start:0e0b7e58[0Ktravis_time:end:0e0b7e58:start=1594671905450016197,finish=1594671905452764895,duration=2748698,event=uninstall_oclint[0Ktravis_time:start:17ce9000[0Ktravis_time:end:17ce9000:start=1594671905456453521,finish=1594671905459167426,duration=2713905,event=rvm_use[0Ktravis_time:start:023a36a8[0Ktravis_time:end:023a36a8:start=1594671905464031197,finish=1594671905472057400,duration=8026203,event=rm_etc_boto_cfg[0Ktravis_time:start:17612b74[0Ktravis_time:end:17612b74:start=1594671905476058739,finish=1594671905478086947,duration=2028208,event=rm_oraclejdk8_symlink[0Ktravis_time:start:082809e4[0Ktravis_time:end:082809e4:start=1594671905482269447,finish=1594671905581056237,duration=98786790,event=enable_i386[0Ktravis_time:start:05d13aa0[0Ktravis_time:end:05d13aa0:start=1594671905585346688,finish=1594671905589131969,duration=3785281,event=update_rubygems[0Ktravis_time:start:157e3e10[0Ktravis_time:end:157e3e10:start=1594671905592355301,finish=1594671906387109908,duration=794754607,event=ensure_path_components[0Ktravis_time:start:024bea1c[0Ktravis_time:end:024bea1c:start=1594671906391567648,finish=1594671906394606748,duration=3039100,event=redefine_curl[0Ktravis_time:start:20b6cf38[0Ktravis_time:end:20b6cf38:start=1594671906399961584,finish=1594671906529378904,duration=129417320,event=nonblock_pipe[0Ktravis_time:start:02778d3f[0Ktravis_time:end:02778d3f:start=1594671906533390154,finish=1594671912565050759,duration=6031660605,event=apt_get_update[0Ktravis_time:start:1768c5ff[0Ktravis_time:end:1768c5ff:start=1594671912569219373,finish=1594671912571771459,duration=2552086,event=deprecate_xcode_64[0Ktravis_time:start:02489588[0Ktravis_time:end:02489588:start=1594671912575605752,finish=1594671915095631923,duration=2520026171,event=update_heroku[0Ktravis_time:start:00fb60b9[0Ktravis_time:end:00fb60b9:start=1594671915100508415,finish=1594671915103237032,duration=2728617,event=shell_session_update[0Ktravis_time:start:06466f7c[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:06466f7c:start=1594671915107771358,finish=1594671917197261907,duration=2089490549,event=set_docker_mtu[0Ktravis_time:start:1c584a4a[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:1c584a4a:start=1594671917202754979,finish=1594671917295922620,duration=93167641,event=resolvconf[0Ktravis_time:start:03f60c5a[0Ktravis_time:end:03f60c5a:start=1594671917299810503,finish=1594671917447998119,duration=148187616,event=maven_central_mirror[0Ktravis_time:start:0b3174d4[0Ktravis_time:end:0b3174d4:start=1594671917452041028,finish=1594671917550609802,duration=98568774,event=maven_https[0Ktravis_time:start:0ac0a087[0Ktravis_time:end:0ac0a087:start=1594671917555653648,finish=1594671917558605915,duration=2952267,event=fix_ps4[0Ktravis_time:start:03ba9ee8[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:15d1ce22[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
 Cloning into 'bansan85/wiki_le_garrec_fr'...
-travis_time:end:1c01e19a:start=1594621330453105315,finish=1594621330935037662,duration=481932347,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
-$ git checkout -qf 7efc0926604c37e973d33e60532fc8cc1511bda9
+travis_time:end:15d1ce22:start=1594671917565922631,finish=1594671917930409146,duration=364486515,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
+$ git checkout -qf 6102594e93094d1a0122c5fcb622abdbee5ebe42
 travis_fold:end:git.checkout[0K
-travis_time:end:1c01e19a:start=1594621330453105315,finish=1594621330944239903,duration=491134588,event=checkout[0Ktravis_time:start:009c8137[0K
+travis_time:end:15d1ce22:start=1594671917565922631,finish=1594671917938600080,duration=372677449,event=checkout[0Ktravis_time:start:0b3c1328[0K
 [33;1mSetting environment variables from .travis.yml[0m
 $ export GITHUB_PERSONAL_TOKEN=[secure]
 
-travis_time:end:009c8137:start=1594621330949833556,finish=1594621330956424974,duration=6591418,event=env[0Ktravis_time:start:018e79d8[0K$ rvm alias create 2.7 ruby-2.7.1
+travis_time:end:0b3c1328:start=1594671917943092864,finish=1594671917951270678,duration=8177814,event=env[0Ktravis_time:start:0ef73614[0K$ rvm alias create 2.7 ruby-2.7.1
 Required ruby-2.7.1 is not installed.
 [32mCreating alias 2.7 for ruby-2.7.1[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|.
-travis_time:end:018e79d8:start=1594621331126892665,finish=1594621331385704343,duration=258811678,event=setup[0Ktravis_fold:start:rvm[0Ktravis_time:start:01aebadb[0K$ rvm use 2.7 --install --binary --fuzzy
+travis_time:end:0ef73614:start=1594671918115196529,finish=1594671918380071306,duration=264874777,event=setup[0Ktravis_fold:start:rvm[0Ktravis_time:start:0081455f[0K$ rvm use 2.7 --install --binary --fuzzy
 curl: (22) The requested URL returned error: 404 Not Found
 Required ruby-2.7.1 is not installed - installing.
 curl: (22) The requested URL returned error: 404 Not Found
@@ -189,7 +189,7 @@ ruby-2.7.1 - #configure
 ruby-2.7.1 - #download
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 12 21.0M   12 2695k    0     0  8371k      0  0:00:02 --:--:--  0:00:02 8345k 81 21.0M   81 17.2M    0     0  13.0M      0  0:00:01  0:00:01 --:--:-- 13.0M100 21.0M  100 21.0M    0     0  13.7M      0  0:00:01  0:00:01 --:--:-- 13.6M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 54 21.0M   54 11.3M    0     0  17.6M      0  0:00:01 --:--:--  0:00:01 17.6M100 21.0M  100 21.0M    0     0  26.4M      0 --:--:-- --:--:-- --:--:-- 26.4M
 No checksum for downloaded archive, recording checksum in user configuration.
 ruby-2.7.1 - #validate archive
 ruby-2.7.1 - #extract
@@ -203,7 +203,7 @@ ruby-2.7.1 - #gemset created /home/travis/.rvm/gems/ruby-2.7.1
 [32mruby-2.7.1 - #importing gemset /home/travis/.rvm/gemsets/default.gems[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\.
 [32mruby-2.7.1 - #generating default wrappers[0m|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/-\|/-.|/-\|/-\.
 Using /home/travis/.rvm/gems/ruby-2.7.1
-travis_time:end:01aebadb:start=1594621331392507180,finish=1594621348264189127,duration=16871681947,event=[0Ktravis_fold:end:rvm[0K
+travis_time:end:0081455f:start=1594671918387440115,finish=1594671931174374161,duration=12786934046,event=[0Ktravis_fold:end:rvm[0K
 $ export BUNDLE_GEMFILE=$PWD/Gemfile
 travis_fold:start:ruby.versions[0K$ ruby --version
 ruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c) [x86_64-linux]
@@ -214,14 +214,14 @@ Bundler version 2.1.4
 $ gem --version
 3.1.2
 travis_fold:end:ruby.versions[0K
-travis_fold:start:before_install[0Ktravis_time:start:03a8d0ec[0K$ gem install bundler
+travis_fold:start:before_install[0Ktravis_time:start:31bf452a[0K$ gem install bundler
 Successfully installed bundler-2.1.4
 1 gem installed
-travis_time:end:03a8d0ec:start=1594621348691542915,finish=1594621349256184240,duration=564641325,event=before_install[0Ktravis_fold:end:before_install[0Ktravis_fold:start:install.bundler[0Ktravis_time:start:1e331414[0K$ bundle install --jobs=3 --retry=3
+travis_time:end:31bf452a:start=1594671931554402237,finish=1594671932124233210,duration=569830973,event=before_install[0Ktravis_fold:end:before_install[0Ktravis_fold:start:install.bundler[0Ktravis_time:start:0aeb6d58[0K$ bundle install --jobs=3 --retry=3
 Fetching gem metadata from https://rubygems.org/........
 Resolving dependencies...
-Fetching minitest 5.14.1
 Fetching concurrent-ruby 1.1.6
+Fetching minitest 5.14.1
 Installing minitest 5.14.1
 Fetching thread_safe 0.3.6
 Installing concurrent-ruby 1.1.6
@@ -232,8 +232,8 @@ Fetching ffi 1.13.1
 Installing public_suffix 4.0.5
 Fetching multipart-post 2.1.1
 Installing multipart-post 2.1.1
-Installing ffi 1.13.1 with native extensions
 Fetching multi_json 1.15.0
+Installing ffi 1.13.1 with native extensions
 Installing multi_json 1.15.0
 Fetching net-http-persistent 2.9.4
 Installing net-http-persistent 2.9.4
@@ -288,13 +288,13 @@ If you are starting a NEW Rails application, you can ignore this notice.
 For more info see:
 https://github.com/svenfuchs/i18n/releases/tag/v1.1.0
 
-travis_time:end:1e331414:start=1594621349261622365,finish=1594621361002788619,duration=11741166254,event=install[0Ktravis_fold:end:install.bundler[0K
-travis_time:start:02dada34[0K$ bash ./travis-lint-check.sh
+travis_time:end:0aeb6d58:start=1594671932130077512,finish=1594671943355135814,duration=11225058302,event=install[0Ktravis_fold:end:install.bundler[0K
+travis_time:start:0410995e[0K$ bash ./travis-lint-check.sh
 travis/helloworld.yml
 valid
 .travis.yml
 valid
-travis_time:end:02dada34:start=1594621361009155254,finish=1594621365562279818,duration=4553124564,event=script[0K[32;1mThe command "bash ./travis-lint-check.sh" exited with 0.[0m
+travis_time:end:0410995e:start=1594671943361794461,finish=1594671946689338603,duration=3327544142,event=script[0K[32;1mThe command "bash ./travis-lint-check.sh" exited with 0.[0m
 
 
 Done. Your build exited with 0.
