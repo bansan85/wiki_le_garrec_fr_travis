@@ -1,13 +1,13 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: 7069dd70-be98-4607-ae2b-c36031c311c3@1.worker-com-75b8f7d6f5-mjdrx.gce-production-1
+hostname: 2bf5c9ae-a9cd-4b71-b2e2-c1bf0bbb1470@1.worker-com-fb897bfbc-7gf7b.gce-production-1
 version: v6.2.17 https://github.com/travis-ci/worker/tree/bc420764f334fe0d096a417c80426f672f1b7d18
-instance: travis-job-d0e2cf60-3458-4d07-8d4b-ba42bcfe2737 travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
-startup: 6.007553579s
-travis_fold:end:worker_info[0Ktravis_time:start:0240db46[0Ktravis_time:end:0240db46:start=1595145484830897789,finish=1595145485036856690,duration=205958901,event=no_world_writable_dirs[0Ktravis_time:start:0d835616[0Ktravis_time:end:0d835616:start=1595145485040067715,finish=1595145485043385484,duration=3317769,event=setup_filter[0Ktravis_time:start:05c7da10[0Ktravis_time:end:05c7da10:start=1595145485052423483,finish=1595145485063250505,duration=10827022,event=agent[0Ktravis_time:start:0eeabad8[0Ktravis_time:end:0eeabad8:start=1595145485067102527,finish=1595145485069244842,duration=2142315,event=check_unsupported[0Ktravis_time:start:075c7c2e[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+instance: travis-job-97dc31b3-4563-4dad-9c36-1ef227ceb161 travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
+startup: 6.563460038s
+travis_fold:end:worker_info[0Ktravis_time:start:1d69fb65[0Ktravis_time:end:1d69fb65:start=1595147875699584686,finish=1595147875931447084,duration=231862398,event=no_world_writable_dirs[0Ktravis_time:start:06057c72[0Ktravis_time:end:06057c72:start=1595147875934837248,finish=1595147875938126003,duration=3288755,event=setup_filter[0Ktravis_time:start:0783b99c[0Ktravis_time:end:0783b99c:start=1595147875949860361,finish=1595147875959200802,duration=9340441,event=agent[0Ktravis_time:start:03429cca[0Ktravis_time:end:03429cca:start=1595147875962210663,finish=1595147875964260394,duration=2049731,event=check_unsupported[0Ktravis_time:start:15719af0[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: cpp
 Build dist: bionic
-Build id: 176199909
-Job id: 362497117
+Build id: 176201193
+Job id: 362500224
 Runtime kernel version: 5.0.0-1031-gcp
 travis-build version: 01e86bea
 [34m[1mBuild image provisioning date and time[0m
@@ -164,13 +164,13 @@ ruby-2.5.7
 ruby-2.6.5
 ruby-2.7.0
 travis_fold:end:system_info[0K
-travis_time:end:075c7c2e:start=1595145485071998888,finish=1595145485078952129,duration=6953241,event=show_system_info[0Ktravis_time:start:01e647ae[0Ktravis_time:end:01e647ae:start=1595145485081570322,finish=1595145485101526656,duration=19956334,event=rm_riak_source[0Ktravis_time:start:0228eb6c[0Ktravis_time:end:0228eb6c:start=1595145485104824027,finish=1595145485109978369,duration=5154342,event=fix_rwky_redis[0Ktravis_time:start:3543c5f8[0Ktravis_time:end:3543c5f8:start=1595145485112736144,finish=1595145485457604393,duration=344868249,event=wait_for_network[0Ktravis_time:start:1c428d80[0Ktravis_time:end:1c428d80:start=1595145485462648431,finish=1595145485717536568,duration=254888137,event=update_apt_keys[0Ktravis_time:start:39fe2292[0Ktravis_time:end:39fe2292:start=1595145485722164389,finish=1595145485778016399,duration=55852010,event=fix_hhvm_source[0Ktravis_time:start:06f4e600[0Ktravis_time:end:06f4e600:start=1595145485782202760,finish=1595145485785046814,duration=2844054,event=update_mongo_arch[0Ktravis_time:start:1cd606a9[0Ktravis_time:end:1cd606a9:start=1595145485788882422,finish=1595145485830356482,duration=41474060,event=fix_sudo_enabled_trusty[0Ktravis_time:start:049efec0[0Ktravis_time:end:049efec0:start=1595145485834735941,finish=1595145485837091145,duration=2355204,event=update_glibc[0Ktravis_time:start:0c1574b7[0Ktravis_time:end:0c1574b7:start=1595145485840988733,finish=1595145485848671188,duration=7682455,event=clean_up_path[0Ktravis_time:start:0a73c15e[0Ktravis_time:end:0a73c15e:start=1595145485852282111,finish=1595145485861172642,duration=8890531,event=fix_resolv_conf[0Ktravis_time:start:0d6e435a[0Ktravis_time:end:0d6e435a:start=1595145485864940213,finish=1595145485892289847,duration=27349634,event=fix_etc_hosts[0Ktravis_time:start:01768ce0[0Ktravis_time:end:01768ce0:start=1595145485897119177,finish=1595145485905657312,duration=8538135,event=fix_mvn_settings_xml[0Ktravis_time:start:00688143[0Ktravis_time:end:00688143:start=1595145485909692093,finish=1595145485919853620,duration=10161527,event=no_ipv6_localhost[0Ktravis_time:start:04cbc1da[0Ktravis_time:end:04cbc1da:start=1595145485924323258,finish=1595145485926615778,duration=2292520,event=fix_etc_mavenrc[0Ktravis_time:start:027547c6[0Ktravis_time:end:027547c6:start=1595145485930530063,finish=1595145485933468810,duration=2938747,event=fix_wwdr_certificate[0Ktravis_time:start:0b8be0e4[0Ktravis_time:end:0b8be0e4:start=1595145485937277339,finish=1595145485998538428,duration=61261089,event=put_localhost_first[0Ktravis_time:start:18ff28ac[0Ktravis_time:end:18ff28ac:start=1595145486003081444,finish=1595145486006751833,duration=3670389,event=home_paths[0Ktravis_time:start:02138fa2[0Ktravis_time:end:02138fa2:start=1595145486010680077,finish=1595145486023533469,duration=12853392,event=disable_initramfs[0Ktravis_time:start:13b03ca0[0Ktravis_time:end:13b03ca0:start=1595145486027663559,finish=1595145486181447928,duration=153784369,event=disable_ssh_roaming[0Ktravis_time:start:01d5fafc[0Ktravis_time:end:01d5fafc:start=1595145486185428466,finish=1595145486188024523,duration=2596057,event=debug_tools[0Ktravis_time:start:1055c4b4[0Ktravis_time:end:1055c4b4:start=1595145486191872426,finish=1595145486195079707,duration=3207281,event=uninstall_oclint[0Ktravis_time:start:0a2cd437[0Ktravis_time:end:0a2cd437:start=1595145486199363950,finish=1595145486202666066,duration=3302116,event=rvm_use[0Ktravis_time:start:2c8b25c2[0Ktravis_time:end:2c8b25c2:start=1595145486206529062,finish=1595145486214430129,duration=7901067,event=rm_etc_boto_cfg[0Ktravis_time:start:08f3357d[0Ktravis_time:end:08f3357d:start=1595145486218297820,finish=1595145486220639285,duration=2341465,event=rm_oraclejdk8_symlink[0Ktravis_time:start:2d08429c[0Ktravis_time:end:2d08429c:start=1595145486224680618,finish=1595145486328477451,duration=103796833,event=enable_i386[0Ktravis_time:start:0219343c[0Ktravis_time:end:0219343c:start=1595145486332567307,finish=1595145486336582153,duration=4014846,event=update_rubygems[0Ktravis_time:start:048737cc[0Ktravis_time:end:048737cc:start=1595145486340646443,finish=1595145487144279348,duration=803632905,event=ensure_path_components[0Ktravis_time:start:13e1a28c[0Ktravis_time:end:13e1a28c:start=1595145487148123762,finish=1595145487150768605,duration=2644843,event=redefine_curl[0Ktravis_time:start:0ac3567e[0Ktravis_time:end:0ac3567e:start=1595145487154604999,finish=1595145487268890155,duration=114285156,event=nonblock_pipe[0Ktravis_time:start:09e53d09[0Ktravis_time:end:09e53d09:start=1595145487273298398,finish=1595145493309858282,duration=6036559884,event=apt_get_update[0Ktravis_time:start:01a9dacf[0Ktravis_time:end:01a9dacf:start=1595145493313323988,finish=1595145493315675878,duration=2351890,event=deprecate_xcode_64[0Ktravis_time:start:01668115[0Ktravis_time:end:01668115:start=1595145493319310800,finish=1595145495837790938,duration=2518480138,event=update_heroku[0Ktravis_time:start:00610e1d[0Ktravis_time:end:00610e1d:start=1595145495842206344,finish=1595145495845015969,duration=2809625,event=shell_session_update[0Ktravis_time:start:237ab2dc[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:237ab2dc:start=1595145495849693884,finish=1595145498003547113,duration=2153853229,event=set_docker_mtu[0Ktravis_time:start:33860a4e[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:33860a4e:start=1595145498006929512,finish=1595145498094969149,duration=88039637,event=resolvconf[0Ktravis_time:start:0e1b5c52[0Ktravis_time:end:0e1b5c52:start=1595145498102443332,finish=1595145498270872020,duration=168428688,event=maven_central_mirror[0Ktravis_time:start:06e73ae0[0Ktravis_time:end:06e73ae0:start=1595145498275819943,finish=1595145498379479256,duration=103659313,event=maven_https[0Ktravis_fold:start:apt[0K[33;1mAdding APT Sources[0m
-travis_time:start:0da97770[0K$ curl -sSL "https://build.travis-ci.com/files/gpg/travis-security.asc" | sudo -E apt-key add -
+travis_time:end:15719af0:start=1595147875967889052,finish=1595147875975424386,duration=7535334,event=show_system_info[0Ktravis_time:start:125698a5[0Ktravis_time:end:125698a5:start=1595147875981056055,finish=1595147876011855547,duration=30799492,event=rm_riak_source[0Ktravis_time:start:13188588[0Ktravis_time:end:13188588:start=1595147876022615635,finish=1595147876028085390,duration=5469755,event=fix_rwky_redis[0Ktravis_time:start:03911853[0Ktravis_time:end:03911853:start=1595147876037012968,finish=1595147876640548129,duration=603535161,event=wait_for_network[0Ktravis_time:start:21aba31a[0Ktravis_time:end:21aba31a:start=1595147876645196345,finish=1595147876948745796,duration=303549451,event=update_apt_keys[0Ktravis_time:start:02b55a1b[0Ktravis_time:end:02b55a1b:start=1595147876952100452,finish=1595147877028605244,duration=76504792,event=fix_hhvm_source[0Ktravis_time:start:041eb606[0Ktravis_time:end:041eb606:start=1595147877036070653,finish=1595147877040079874,duration=4009221,event=update_mongo_arch[0Ktravis_time:start:0b787e31[0Ktravis_time:end:0b787e31:start=1595147877046452835,finish=1595147877105228274,duration=58775439,event=fix_sudo_enabled_trusty[0Ktravis_time:start:16323b22[0Ktravis_time:end:16323b22:start=1595147877110770478,finish=1595147877114548196,duration=3777718,event=update_glibc[0Ktravis_time:start:0ce5bdc8[0Ktravis_time:end:0ce5bdc8:start=1595147877121717126,finish=1595147877142487282,duration=20770156,event=clean_up_path[0Ktravis_time:start:2e8262e0[0Ktravis_time:end:2e8262e0:start=1595147877153192577,finish=1595147877167909885,duration=14717308,event=fix_resolv_conf[0Ktravis_time:start:30b31540[0Ktravis_time:end:30b31540:start=1595147877173846336,finish=1595147877191279902,duration=17433566,event=fix_etc_hosts[0Ktravis_time:start:0c8425d4[0Ktravis_time:end:0c8425d4:start=1595147877194806644,finish=1595147877205082395,duration=10275751,event=fix_mvn_settings_xml[0Ktravis_time:start:05ee84e2[0Ktravis_time:end:05ee84e2:start=1595147877212779450,finish=1595147877230539511,duration=17760061,event=no_ipv6_localhost[0Ktravis_time:start:1b880cc0[0Ktravis_time:end:1b880cc0:start=1595147877234831859,finish=1595147877238327469,duration=3495610,event=fix_etc_mavenrc[0Ktravis_time:start:0f087dbe[0Ktravis_time:end:0f087dbe:start=1595147877244977650,finish=1595147877248995217,duration=4017567,event=fix_wwdr_certificate[0Ktravis_time:start:0da2be0a[0Ktravis_time:end:0da2be0a:start=1595147877257499282,finish=1595147877312989121,duration=55489839,event=put_localhost_first[0Ktravis_time:start:1ed9f815[0Ktravis_time:end:1ed9f815:start=1595147877320917539,finish=1595147877324866292,duration=3948753,event=home_paths[0Ktravis_time:start:0633a270[0Ktravis_time:end:0633a270:start=1595147877334184259,finish=1595147877356949942,duration=22765683,event=disable_initramfs[0Ktravis_time:start:1a87bd4b[0Ktravis_time:end:1a87bd4b:start=1595147877366566774,finish=1595147877599880431,duration=233313657,event=disable_ssh_roaming[0Ktravis_time:start:031e38a6[0Ktravis_time:end:031e38a6:start=1595147877609912381,finish=1595147877614737335,duration=4824954,event=debug_tools[0Ktravis_time:start:03182c20[0Ktravis_time:end:03182c20:start=1595147877624073176,finish=1595147877627731578,duration=3658402,event=uninstall_oclint[0Ktravis_time:start:09747c59[0Ktravis_time:end:09747c59:start=1595147877630809693,finish=1595147877633806277,duration=2996584,event=rvm_use[0Ktravis_time:start:050a5e2e[0Ktravis_time:end:050a5e2e:start=1595147877637305426,finish=1595147877655140455,duration=17835029,event=rm_etc_boto_cfg[0Ktravis_time:start:07cc3998[0Ktravis_time:end:07cc3998:start=1595147877658541756,finish=1595147877661649888,duration=3108132,event=rm_oraclejdk8_symlink[0Ktravis_time:start:163e4368[0Ktravis_time:end:163e4368:start=1595147877665857333,finish=1595147877835524272,duration=169666939,event=enable_i386[0Ktravis_time:start:316fd039[0Ktravis_time:end:316fd039:start=1595147877843242923,finish=1595147877848673230,duration=5430307,event=update_rubygems[0Ktravis_time:start:2387ac00[0Ktravis_time:end:2387ac00:start=1595147877856518620,finish=1595147878994730286,duration=1138211666,event=ensure_path_components[0Ktravis_time:start:05e6b612[0Ktravis_time:end:05e6b612:start=1595147878998581678,finish=1595147879001095730,duration=2514052,event=redefine_curl[0Ktravis_time:start:14d60200[0Ktravis_time:end:14d60200:start=1595147879004626089,finish=1595147879123600050,duration=118973961,event=nonblock_pipe[0Ktravis_time:start:28c83270[0Ktravis_time:end:28c83270:start=1595147879127148732,finish=1595147885164257016,duration=6037108284,event=apt_get_update[0Ktravis_time:start:0452969e[0Ktravis_time:end:0452969e:start=1595147885168096903,finish=1595147885170225766,duration=2128863,event=deprecate_xcode_64[0Ktravis_time:start:144a5509[0Ktravis_time:end:144a5509:start=1595147885173614463,finish=1595147887583376280,duration=2409761817,event=update_heroku[0Ktravis_time:start:1dd5478e[0Ktravis_time:end:1dd5478e:start=1595147887587296670,finish=1595147887589210419,duration=1913749,event=shell_session_update[0Ktravis_time:start:060e3640[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:060e3640:start=1595147887592359351,finish=1595147889615691601,duration=2023332250,event=set_docker_mtu[0Ktravis_time:start:0573da58[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:0573da58:start=1595147889622020780,finish=1595147889698936191,duration=76915411,event=resolvconf[0Ktravis_time:start:0aff01be[0Ktravis_time:end:0aff01be:start=1595147889702310397,finish=1595147889853719405,duration=151409008,event=maven_central_mirror[0Ktravis_time:start:1098ccd0[0Ktravis_time:end:1098ccd0:start=1595147889857661205,finish=1595147889954573257,duration=96912052,event=maven_https[0Ktravis_fold:start:apt[0K[33;1mAdding APT Sources[0m
+travis_time:start:0f25d052[0K$ curl -sSL "https://build.travis-ci.com/files/gpg/travis-security.asc" | sudo -E apt-key add -
 OK
-travis_time:end:0da97770:start=1595145498384258754,finish=1595145498717892813,duration=333634059,event=prepare[0Ktravis_time:start:07d8104e[0K$ echo "deb http://archive.ubuntu.com/ubuntu/ focal main universe" | sudo tee -a ${TRAVIS_ROOT}/etc/apt/sources.list >/dev/null
-travis_time:end:07d8104e:start=1595145498723708207,finish=1595145498735073949,duration=11365742,event=prepare[0Ktravis_time:start:16ef096c[0K$ travis_apt_get_update
-travis_time:end:16ef096c:start=1595145498740131617,finish=1595145515479493778,duration=16739362161,event=prepare[0K[33;1mInstalling APT Packages[0m
-travis_time:start:0fab8c74[0K$ sudo -E apt-get -yq --no-install-suggests --no-install-recommends $(travis_apt_get_options) install cppcheck clang-10 gcc-10 g++-10 clang-format clang-tidy clang-tools iwyu libboost-dev
+travis_time:end:0f25d052:start=1595147889959331792,finish=1595147890348503060,duration=389171268,event=prepare[0Ktravis_time:start:216584f4[0K$ echo "deb http://archive.ubuntu.com/ubuntu/ focal main universe" | sudo tee -a ${TRAVIS_ROOT}/etc/apt/sources.list >/dev/null
+travis_time:end:216584f4:start=1595147890353578837,finish=1595147890363821575,duration=10242738,event=prepare[0Ktravis_time:start:162dc4ac[0K$ travis_apt_get_update
+travis_time:end:162dc4ac:start=1595147890368750702,finish=1595147905411020742,duration=15042270040,event=prepare[0K[33;1mInstalling APT Packages[0m
+travis_time:start:0b8cf70a[0K$ sudo -E apt-get -yq --no-install-suggests --no-install-recommends $(travis_apt_get_options) install cppcheck clang-10 gcc-10 g++-10 clang-format clang-tidy clang-tools iwyu libboost-dev
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -284,7 +284,7 @@ Get:58 http://archive.ubuntu.com/ubuntu focal/main amd64 libboost1.71-dev amd64 
 Get:59 http://archive.ubuntu.com/ubuntu focal/main amd64 libboost-dev amd64 1.71.0.0ubuntu2 [3,596 B]
 Get:60 http://archive.ubuntu.com/ubuntu focal/universe amd64 iwyu amd64 8.0-3build1 [5,068 kB]
 Preconfiguring packages ...
-Fetched 122 MB in 4s (27.2 MB/s)
+Fetched 122 MB in 5s (24.1 MB/s)
 Selecting previously unselected package gcc-10-base:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 118522 files and directories currently installed.)
 Preparing to unpack .../gcc-10-base_10-20200411-0ubuntu1_amd64.deb ...
@@ -577,17 +577,17 @@ Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
 Processing triggers for ccache (3.4.1-1) ...
 Updating symlinks in /usr/lib/ccache ...
 Processing triggers for libc-bin (2.31-0ubuntu9) ...
-travis_time:end:0fab8c74:start=1595145515485676766,finish=1595145621613609666,duration=106127932900,event=prepare[0Ktravis_fold:end:apt[0Ktravis_time:start:15f14e05[0Ktravis_time:end:15f14e05:start=1595145621618734260,finish=1595145621621488578,duration=2754318,event=fix_ps4[0Ktravis_time:start:217873c0[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:28ffd452[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
+travis_time:end:0b8cf70a:start=1595147905415660389,finish=1595148004746087078,duration=99330426689,event=prepare[0Ktravis_fold:end:apt[0Ktravis_time:start:025301dc[0Ktravis_time:end:025301dc:start=1595148004751311756,finish=1595148004753797261,duration=2485505,event=fix_ps4[0Ktravis_time:start:18b88257[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:33041f16[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
 Cloning into 'bansan85/wiki_le_garrec_fr'...
-travis_time:end:28ffd452:start=1595145621629650609,finish=1595145622021609826,duration=391959217,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
-$ git checkout -qf 059c91c1bd66339393095ca12425c6501f71fb56
+travis_time:end:33041f16:start=1595148004761920635,finish=1595148005399654525,duration=637733890,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
+$ git checkout -qf 99dad0595c5bde0687302f622dd54ba2d64a7c6a
 travis_fold:end:git.checkout[0K
-travis_time:end:28ffd452:start=1595145621629650609,finish=1595145622030762269,duration=401111660,event=checkout[0Ktravis_time:start:0971461c[0K
+travis_time:end:33041f16:start=1595148004761920635,finish=1595148005409461196,duration=647540561,event=checkout[0Ktravis_time:start:1d73f81c[0K
 [33;1mSetting environment variables from .travis.yml[0m
 $ export PASSWORD_OPENSSL=[secure]
 
-travis_time:end:0971461c:start=1595145622035114973,finish=1595145622042026351,duration=6911378,event=env[0K$ export TRAVIS_COMPILER=g++
+travis_time:end:1d73f81c:start=1595148005413402585,finish=1595148005421672836,duration=8270251,event=env[0K$ export TRAVIS_COMPILER=g++
 $ export CXX=${CXX:-g++}
 $ export CXX_FOR_BUILD=${CXX_FOR_BUILD:-g++}
 $ export CC=${CC:-gcc}
@@ -598,15 +598,15 @@ Copyright (C) 2017 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-travis_fold:start:before_install.1[0Ktravis_time:start:0f42073e[0K$ cppcheck --version
+travis_fold:start:before_install.1[0Ktravis_time:start:003187b8[0K$ cppcheck --version
 Cppcheck 1.90
-travis_time:end:0f42073e:start=1595145622064936468,finish=1595145622072420484,duration=7484016,event=before_install[0Ktravis_fold:end:before_install.1[0Ktravis_fold:start:before_install.2[0Ktravis_time:start:14a4d71f[0K$ clang-format --version
+travis_time:end:003187b8:start=1595148005441338217,finish=1595148005447557999,duration=6219782,event=before_install[0Ktravis_fold:end:before_install.1[0Ktravis_fold:start:before_install.2[0Ktravis_time:start:28512228[0K$ clang-format --version
 clang-format version 7.0.0 (tags/RELEASE_700/final)
-travis_time:end:14a4d71f:start=1595145622078257531,finish=1595145622099081397,duration=20823866,event=before_install[0Ktravis_fold:end:before_install.2[0Ktravis_fold:start:before_install.3[0Ktravis_time:start:25e90f00[0K$ eval "$(ssh-agent -s)"
-Agent pid 9495
-travis_time:end:25e90f00:start=1595145622105594062,finish=1595145622115062856,duration=9468794,event=before_install[0Ktravis_fold:end:before_install.3[0Ktravis_fold:start:before_install.4[0Ktravis_time:start:0554d250[0K$ sh travis/register_ssh_key.sh
+travis_time:end:28512228:start=1595148005454057443,finish=1595148005475613599,duration=21556156,event=before_install[0Ktravis_fold:end:before_install.2[0Ktravis_fold:start:before_install.3[0Ktravis_time:start:1322af05[0K$ eval "$(ssh-agent -s)"
+Agent pid 9572
+travis_time:end:1322af05:start=1595148005480751814,finish=1595148005489843796,duration=9091982,event=before_install[0Ktravis_fold:end:before_install.3[0Ktravis_fold:start:before_install.4[0Ktravis_time:start:0ad0bb09[0K$ sh travis/register_ssh_key.sh
 Identity added: travis/ci/github_wiki_le_garrec_fr.key (travis-ci@le-garrec.fr)
-travis_time:end:0554d250:start=1595145622119807818,finish=1595145622219543081,duration=99735263,event=before_install[0Ktravis_fold:end:before_install.4[0Ktravis_time:start:02ef9e99[0K$ sh travis/cpp.sh
+travis_time:end:0ad0bb09:start=1595148005497996560,finish=1595148005596217585,duration=98221025,event=before_install[0Ktravis_fold:end:before_install.4[0Ktravis_time:start:0825f474[0K$ sh travis/cpp.sh
 -- The C compiler identification is GNU 10.0.1
 -- The CXX compiler identification is GNU 10.0.1
 -- Check for working C compiler: /usr/bin/gcc-10
@@ -645,10 +645,10 @@ Scanning dependencies of target weak1_obj
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 make -f attribute/CMakeFiles/weak1_obj.dir/build.make attribute/CMakeFiles/weak1_obj.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[ 12%] Building CXX object attribute/CMakeFiles/weak1_obj.dir/weak1.cpp.o
+[ 11%] Building CXX object attribute/CMakeFiles/weak1_obj.dir/weak1.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -o CMakeFiles/weak1_obj.dir/weak1.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/weak1.cpp
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[ 12%] Built target weak1_obj
+[ 11%] Built target weak1_obj
 make -f attribute/CMakeFiles/unlikely1.dir/build.make attribute/CMakeFiles/unlikely1.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute/CMakeFiles/unlikely1.dir/DependInfo.cmake --color=
@@ -660,12 +660,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && make u
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && make -f attribute/CMakeFiles/unlikely1_obj.dir/build.make attribute/CMakeFiles/unlikely1_obj.dir/un-likely1.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[ 25%] Building CXX object attribute/CMakeFiles/unlikely1_obj.dir/un-likely1.cpp.o
+[ 22%] Building CXX object attribute/CMakeFiles/unlikely1_obj.dir/un-likely1.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -Wno-unknown-attributes -o CMakeFiles/unlikely1_obj.dir/un-likely1.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/un-likely1.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[ 25%] Built target unlikely1
+[ 22%] Built target unlikely1
 make -f attribute/CMakeFiles/unlikely2.dir/build.make attribute/CMakeFiles/unlikely2.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute/CMakeFiles/unlikely2.dir/DependInfo.cmake --color=
@@ -677,12 +677,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && make u
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && make -f attribute/CMakeFiles/unlikely2_obj.dir/build.make attribute/CMakeFiles/unlikely2_obj.dir/un-likely2.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[ 37%] Building CXX object attribute/CMakeFiles/unlikely2_obj.dir/un-likely2.cpp.o
+[ 33%] Building CXX object attribute/CMakeFiles/unlikely2_obj.dir/un-likely2.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -Wno-unknown-attributes -o CMakeFiles/unlikely2_obj.dir/un-likely2.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/un-likely2.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[ 37%] Built target unlikely2
+[ 33%] Built target unlikely2
 make -f attribute/CMakeFiles/pure1.dir/build.make attribute/CMakeFiles/pure1.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute/CMakeFiles/pure1.dir/DependInfo.cmake --color=
@@ -694,12 +694,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && make p
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && make -f attribute/CMakeFiles/pure1_internal.dir/build.make attribute/CMakeFiles/pure1_internal.dir/pure1.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[ 50%] Building CXX object attribute/CMakeFiles/pure1_internal.dir/pure1.cpp.o
+[ 44%] Building CXX object attribute/CMakeFiles/pure1_internal.dir/pure1.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -o CMakeFiles/pure1_internal.dir/pure1.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure1.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[ 50%] Built target pure1
+[ 44%] Built target pure1
 make -f attribute/CMakeFiles/pure5.dir/build.make attribute/CMakeFiles/pure5.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute/CMakeFiles/pure5.dir/DependInfo.cmake --color=
@@ -711,12 +711,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && make p
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && make -f attribute/CMakeFiles/pure5_internal.dir/build.make attribute/CMakeFiles/pure5_internal.dir/pure5.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[ 62%] Building CXX object attribute/CMakeFiles/pure5_internal.dir/pure5.cpp.o
+[ 55%] Building CXX object attribute/CMakeFiles/pure5_internal.dir/pure5.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -o CMakeFiles/pure5_internal.dir/pure5.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure5.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[ 62%] Built target pure5
+[ 55%] Built target pure5
 make -f attribute/CMakeFiles/pure6.dir/build.make attribute/CMakeFiles/pure6.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute/CMakeFiles/pure6.dir/DependInfo.cmake --color=
@@ -728,12 +728,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && make p
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && make -f attribute/CMakeFiles/pure6_internal.dir/build.make attribute/CMakeFiles/pure6_internal.dir/pure6.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[ 75%] Building CXX object attribute/CMakeFiles/pure6_internal.dir/pure6.cpp.o
+[ 66%] Building CXX object attribute/CMakeFiles/pure6_internal.dir/pure6.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -o CMakeFiles/pure6_internal.dir/pure6.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure6.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[ 75%] Built target pure6
+[ 66%] Built target pure6
 make -f attribute/CMakeFiles/pure2.dir/build.make attribute/CMakeFiles/pure2.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute/CMakeFiles/pure2.dir/DependInfo.cmake --color=
@@ -745,12 +745,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && make p
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && make -f attribute/CMakeFiles/pure2_internal.dir/build.make attribute/CMakeFiles/pure2_internal.dir/pure2.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[ 87%] Building CXX object attribute/CMakeFiles/pure2_internal.dir/pure2.cpp.o
+[ 77%] Building CXX object attribute/CMakeFiles/pure2_internal.dir/pure2.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -o CMakeFiles/pure2_internal.dir/pure2.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure2.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[ 87%] Built target pure2
+[ 77%] Built target pure2
 make -f attribute/CMakeFiles/pure3.dir/build.make attribute/CMakeFiles/pure3.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute/CMakeFiles/pure3.dir/DependInfo.cmake --color=
@@ -762,12 +762,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && make p
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && make -f attribute/CMakeFiles/pure3_internal.dir/build.make attribute/CMakeFiles/pure3_internal.dir/pure3.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[100%] Building CXX object attribute/CMakeFiles/pure3_internal.dir/pure3.cpp.o
+[ 88%] Building CXX object attribute/CMakeFiles/pure3_internal.dir/pure3.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -o CMakeFiles/pure3_internal.dir/pure3.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure3.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[100%] Built target pure3
+[ 88%] Built target pure3
 make -f attribute/CMakeFiles/weak1.dir/build.make attribute/CMakeFiles/weak1.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute/CMakeFiles/weak1.dir/DependInfo.cmake --color=
@@ -775,11 +775,11 @@ Scanning dependencies of target weak1
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 make -f attribute/CMakeFiles/weak1.dir/build.make attribute/CMakeFiles/weak1.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[112%] Linking CXX executable weak1
+[100%] Linking CXX executable weak1
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/weak1.dir/link.txt --verbose=1
 /usr/bin/g++-10  -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   CMakeFiles/weak1_obj.dir/weak1.cpp.o  -o weak1 
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[112%] Built target weak1
+[100%] Built target weak1
 make -f attribute/CMakeFiles/pure4.dir/build.make attribute/CMakeFiles/pure4.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute/CMakeFiles/pure4.dir/DependInfo.cmake --color=
@@ -791,12 +791,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && make p
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && make -f attribute/CMakeFiles/pure4_internal.dir/build.make attribute/CMakeFiles/pure4_internal.dir/pure4.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[125%] Building CXX object attribute/CMakeFiles/pure4_internal.dir/pure4.cpp.o
+[111%] Building CXX object attribute/CMakeFiles/pure4_internal.dir/pure4.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -o CMakeFiles/pure4_internal.dir/pure4.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure4.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[125%] Built target pure4
+[111%] Built target pure4
 make -f boost/executor/CMakeFiles/boostexecutor.dir/build.make boost/executor/CMakeFiles/boostexecutor.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/boost/executor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/boost/executor/CMakeFiles/boostexecutor.dir/DependInfo.cmake --color=
@@ -804,15 +804,15 @@ Scanning dependencies of target boostexecutor
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 make -f boost/executor/CMakeFiles/boostexecutor.dir/build.make boost/executor/CMakeFiles/boostexecutor.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[137%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o
+[122%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/boost/executor && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -o CMakeFiles/boostexecutor.dir/executor.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
-[150%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/main.cpp.o
+[133%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/main.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/boost/executor && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -o CMakeFiles/boostexecutor.dir/main.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp
-[162%] Linking CXX executable boostexecutor
+[144%] Linking CXX executable boostexecutor
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/boost/executor && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/boostexecutor.dir/link.txt --verbose=1
 /usr/bin/g++-10  -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   CMakeFiles/boostexecutor.dir/executor.cpp.o CMakeFiles/boostexecutor.dir/main.cpp.o  -o boostexecutor -lpthread 
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[162%] Built target boostexecutor
+[144%] Built target boostexecutor
 make -f linker/weak/CMakeFiles/linkerweak_obj.dir/build.make linker/weak/CMakeFiles/linkerweak_obj.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak/CMakeFiles/linkerweak_obj.dir/DependInfo.cmake --color=
@@ -820,14 +820,14 @@ Scanning dependencies of target linkerweak_obj
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 make -f linker/weak/CMakeFiles/linkerweak_obj.dir/build.make linker/weak/CMakeFiles/linkerweak_obj.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[175%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/ClasseA.cpp.o
+[155%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/ClasseA.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -O0 -o CMakeFiles/linkerweak_obj.dir/ClasseA.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseA.cpp
-[187%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/ClasseB.cpp.o
+[166%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/ClasseB.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -O0 -o CMakeFiles/linkerweak_obj.dir/ClasseB.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseB.cpp
-[200%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/main.cpp.o
+[177%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/main.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -O0 -o CMakeFiles/linkerweak_obj.dir/main.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/main.cpp
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[200%] Built target linkerweak_obj
+[177%] Built target linkerweak_obj
 make -f preprocessor/CMakeFiles/bracket.dir/build.make preprocessor/CMakeFiles/bracket.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor/CMakeFiles/bracket.dir/DependInfo.cmake --color=
@@ -844,7 +844,7 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor && /us
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[200%] Built target bracket
+[177%] Built target bracket
 make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor/CMakeFiles/macro_and_spaces.dir/DependInfo.cmake --color=
@@ -861,7 +861,7 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor && /us
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[200%] Built target macro_and_spaces
+[177%] Built target macro_and_spaces
 make -f preprocessor/CMakeFiles/str_helper.dir/build.make preprocessor/CMakeFiles/str_helper.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor/CMakeFiles/str_helper.dir/DependInfo.cmake --color=
@@ -878,11 +878,22 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor && /us
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-[200%] Built target str_helper
+[177%] Built target str_helper
+make -f variable/CMakeFiles/pointer_function.dir/build.make variable/CMakeFiles/pointer_function.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/variable /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/variable /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/variable/CMakeFiles/pointer_function.dir/DependInfo.cmake --color=
+Scanning dependencies of target pointer_function
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+make -f variable/CMakeFiles/pointer_function.dir/build.make variable/CMakeFiles/pointer_function.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+[188%] Building CXX object variable/CMakeFiles/pointer_function.dir/pointer_function.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/variable && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -o CMakeFiles/pointer_function.dir/pointer_function.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/variable/pointer_function.cpp
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+[188%] Built target pointer_function
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/CMakeFiles 0
 Cloning into 'wiki_le_garrec_fr_travis'...
-Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the list of known hosts.
+Warning: Permanently added the RSA host key for IP address '140.82.113.3' to the list of known hosts.
 /usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc --check-build-system CMakeFiles/Makefile.cmake 0
 make -f CMakeFiles/Makefile2 data_for_travis
 make[1]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
@@ -1240,6 +1251,7 @@ sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.h
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/variable/pointer_function.cpp
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 [  0%] Built target clang_fmt
 make -f attribute/CMakeFiles/weak1_obj.dir/build.make attribute/CMakeFiles/weak1_obj.dir/depend
@@ -1249,10 +1261,10 @@ Scanning dependencies of target weak1_obj
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make -f attribute/CMakeFiles/weak1_obj.dir/build.make attribute/CMakeFiles/weak1_obj.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 12%] Building CXX object attribute/CMakeFiles/weak1_obj.dir/weak1.cpp.o
+[ 11%] Building CXX object attribute/CMakeFiles/weak1_obj.dir/weak1.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/weak1_obj.dir/weak1.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/weak1.cpp
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 12%] Built target weak1_obj
+[ 11%] Built target weak1_obj
 make -f attribute/CMakeFiles/unlikely1.dir/build.make attribute/CMakeFiles/unlikely1.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/unlikely1.dir/DependInfo.cmake --color=
@@ -1264,12 +1276,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/unlikely1_obj.dir/build.make attribute/CMakeFiles/unlikely1_obj.dir/un-likely1.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 25%] Building CXX object attribute/CMakeFiles/unlikely1_obj.dir/un-likely1.cpp.o
+[ 22%] Building CXX object attribute/CMakeFiles/unlikely1_obj.dir/un-likely1.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -Wno-unknown-attributes -o CMakeFiles/unlikely1_obj.dir/un-likely1.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/un-likely1.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 25%] Built target unlikely1
+[ 22%] Built target unlikely1
 make -f attribute/CMakeFiles/unlikely2.dir/build.make attribute/CMakeFiles/unlikely2.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/unlikely2.dir/DependInfo.cmake --color=
@@ -1281,12 +1293,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/unlikely2_obj.dir/build.make attribute/CMakeFiles/unlikely2_obj.dir/un-likely2.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 37%] Building CXX object attribute/CMakeFiles/unlikely2_obj.dir/un-likely2.cpp.o
+[ 33%] Building CXX object attribute/CMakeFiles/unlikely2_obj.dir/un-likely2.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -Wno-unknown-attributes -o CMakeFiles/unlikely2_obj.dir/un-likely2.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/un-likely2.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 37%] Built target unlikely2
+[ 33%] Built target unlikely2
 make -f attribute/CMakeFiles/pure1.dir/build.make attribute/CMakeFiles/pure1.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/pure1.dir/DependInfo.cmake --color=
@@ -1298,12 +1310,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/pure1_internal.dir/build.make attribute/CMakeFiles/pure1_internal.dir/pure1.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 50%] Building CXX object attribute/CMakeFiles/pure1_internal.dir/pure1.cpp.o
+[ 44%] Building CXX object attribute/CMakeFiles/pure1_internal.dir/pure1.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/pure1_internal.dir/pure1.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure1.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 50%] Built target pure1
+[ 44%] Built target pure1
 make -f attribute/CMakeFiles/pure5.dir/build.make attribute/CMakeFiles/pure5.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/pure5.dir/DependInfo.cmake --color=
@@ -1315,12 +1327,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/pure5_internal.dir/build.make attribute/CMakeFiles/pure5_internal.dir/pure5.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 62%] Building CXX object attribute/CMakeFiles/pure5_internal.dir/pure5.cpp.o
+[ 55%] Building CXX object attribute/CMakeFiles/pure5_internal.dir/pure5.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/pure5_internal.dir/pure5.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure5.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 62%] Built target pure5
+[ 55%] Built target pure5
 make -f attribute/CMakeFiles/pure6.dir/build.make attribute/CMakeFiles/pure6.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/pure6.dir/DependInfo.cmake --color=
@@ -1332,12 +1344,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/pure6_internal.dir/build.make attribute/CMakeFiles/pure6_internal.dir/pure6.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 75%] Building CXX object attribute/CMakeFiles/pure6_internal.dir/pure6.cpp.o
+[ 66%] Building CXX object attribute/CMakeFiles/pure6_internal.dir/pure6.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/pure6_internal.dir/pure6.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure6.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 75%] Built target pure6
+[ 66%] Built target pure6
 make -f attribute/CMakeFiles/pure2.dir/build.make attribute/CMakeFiles/pure2.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/pure2.dir/DependInfo.cmake --color=
@@ -1349,12 +1361,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/pure2_internal.dir/build.make attribute/CMakeFiles/pure2_internal.dir/pure2.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 87%] Building CXX object attribute/CMakeFiles/pure2_internal.dir/pure2.cpp.o
+[ 77%] Building CXX object attribute/CMakeFiles/pure2_internal.dir/pure2.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/pure2_internal.dir/pure2.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure2.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 87%] Built target pure2
+[ 77%] Built target pure2
 make -f attribute/CMakeFiles/pure3.dir/build.make attribute/CMakeFiles/pure3.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/pure3.dir/DependInfo.cmake --color=
@@ -1366,12 +1378,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/pure3_internal.dir/build.make attribute/CMakeFiles/pure3_internal.dir/pure3.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[100%] Building CXX object attribute/CMakeFiles/pure3_internal.dir/pure3.cpp.o
+[ 88%] Building CXX object attribute/CMakeFiles/pure3_internal.dir/pure3.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/pure3_internal.dir/pure3.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure3.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[100%] Built target pure3
+[ 88%] Built target pure3
 make -f attribute/CMakeFiles/weak1.dir/build.make attribute/CMakeFiles/weak1.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/weak1.dir/DependInfo.cmake --color=
@@ -1379,11 +1391,11 @@ Scanning dependencies of target weak1
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make -f attribute/CMakeFiles/weak1.dir/build.make attribute/CMakeFiles/weak1.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[112%] Linking CXX executable weak1
+[100%] Linking CXX executable weak1
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/weak1.dir/link.txt --verbose=1
 /usr/bin/clang++-10  -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   CMakeFiles/weak1_obj.dir/weak1.cpp.o  -o weak1 
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[112%] Built target weak1
+[100%] Built target weak1
 make -f attribute/CMakeFiles/pure4.dir/build.make attribute/CMakeFiles/pure4.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/pure4.dir/DependInfo.cmake --color=
@@ -1395,12 +1407,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/pure4_internal.dir/build.make attribute/CMakeFiles/pure4_internal.dir/pure4.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[125%] Building CXX object attribute/CMakeFiles/pure4_internal.dir/pure4.cpp.o
+[111%] Building CXX object attribute/CMakeFiles/pure4_internal.dir/pure4.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/pure4_internal.dir/pure4.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure4.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[125%] Built target pure4
+[111%] Built target pure4
 make -f boost/executor/CMakeFiles/boostexecutor.dir/build.make boost/executor/CMakeFiles/boostexecutor.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor/CMakeFiles/boostexecutor.dir/DependInfo.cmake --color=
@@ -1408,15 +1420,15 @@ Scanning dependencies of target boostexecutor
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make -f boost/executor/CMakeFiles/boostexecutor.dir/build.make boost/executor/CMakeFiles/boostexecutor.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[137%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o
+[122%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/boostexecutor.dir/executor.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
-[150%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/main.cpp.o
+[133%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/main.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/boostexecutor.dir/main.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp
-[162%] Linking CXX executable boostexecutor
+[144%] Linking CXX executable boostexecutor
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/boostexecutor.dir/link.txt --verbose=1
 /usr/bin/clang++-10  -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   CMakeFiles/boostexecutor.dir/executor.cpp.o CMakeFiles/boostexecutor.dir/main.cpp.o  -o boostexecutor -lpthread 
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[162%] Built target boostexecutor
+[144%] Built target boostexecutor
 make -f linker/weak/CMakeFiles/linkerweak_obj.dir/build.make linker/weak/CMakeFiles/linkerweak_obj.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak/CMakeFiles/linkerweak_obj.dir/DependInfo.cmake --color=
@@ -1424,14 +1436,14 @@ Scanning dependencies of target linkerweak_obj
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make -f linker/weak/CMakeFiles/linkerweak_obj.dir/build.make linker/weak/CMakeFiles/linkerweak_obj.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[175%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/ClasseA.cpp.o
+[155%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/ClasseA.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -O0 -o CMakeFiles/linkerweak_obj.dir/ClasseA.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseA.cpp
-[187%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/ClasseB.cpp.o
+[166%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/ClasseB.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -O0 -o CMakeFiles/linkerweak_obj.dir/ClasseB.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseB.cpp
-[200%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/main.cpp.o
+[177%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/main.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -O0 -o CMakeFiles/linkerweak_obj.dir/main.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/main.cpp
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[200%] Built target linkerweak_obj
+[177%] Built target linkerweak_obj
 make -f preprocessor/CMakeFiles/bracket.dir/build.make preprocessor/CMakeFiles/bracket.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor/CMakeFiles/bracket.dir/DependInfo.cmake --color=
@@ -1448,7 +1460,7 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[200%] Built target bracket
+[177%] Built target bracket
 make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor/CMakeFiles/macro_and_spaces.dir/DependInfo.cmake --color=
@@ -1465,7 +1477,7 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[200%] Built target macro_and_spaces
+[177%] Built target macro_and_spaces
 make -f preprocessor/CMakeFiles/str_helper.dir/build.make preprocessor/CMakeFiles/str_helper.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor/CMakeFiles/str_helper.dir/DependInfo.cmake --color=
@@ -1482,7 +1494,18 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[200%] Built target str_helper
+[177%] Built target str_helper
+make -f variable/CMakeFiles/pointer_function.dir/build.make variable/CMakeFiles/pointer_function.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/variable /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/variable /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/variable/CMakeFiles/pointer_function.dir/DependInfo.cmake --color=
+Scanning dependencies of target pointer_function
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f variable/CMakeFiles/pointer_function.dir/build.make variable/CMakeFiles/pointer_function.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[188%] Building CXX object variable/CMakeFiles/pointer_function.dir/pointer_function.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/variable && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/pointer_function.dir/pointer_function.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/variable/pointer_function.cpp
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[188%] Built target pointer_function
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles 0
 Enabled checks:
@@ -1910,6 +1933,7 @@ clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /ho
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/bracket.cpp
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp
+clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/variable/pointer_function.cpp
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
 Suppressed 1 warnings (1 NOLINT).
 Suppressed 1 warnings (1 NOLINT).
@@ -1936,6 +1960,7 @@ Suppressed 1 warnings (1 NOLINT).
 Suppressed 1910 warnings (1904 in non-user code, 6 NOLINT).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
 Suppressed 3 warnings (3 NOLINT).
+Suppressed 1 warnings (1 NOLINT).
 18651 warnings generated.
 Suppressed 18657 warnings (18651 in non-user code, 6 NOLINT).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
@@ -2081,9 +2106,13 @@ make -f preprocessor/CMakeFiles/str_helper.dir/build.make preprocessor/CMakeFile
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /usr/local/cmake-3.12.4/bin/cmake -P CMakeFiles/str_helper.dir/cmake_clean.cmake
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f variable/CMakeFiles/pointer_function.dir/build.make variable/CMakeFiles/pointer_function.dir/clean
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/variable && /usr/local/cmake-3.12.4/bin/cmake -P CMakeFiles/pointer_function.dir/cmake_clean.cmake
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 scan-build: Using '/usr/local/clang-7.0.0/bin/clang-7' for static analysis
-scan-build: Emitting reports for this run to '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-19-080101-10949-1'.
+scan-build: Emitting reports for this run to '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-19-084042-11045-1'.
 /usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang --check-build-system CMakeFiles/Makefile.cmake 0
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles/progress.marks
 make -f CMakeFiles/Makefile2 all
@@ -2116,6 +2145,7 @@ sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.h
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/variable/pointer_function.cpp
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 [  0%] Built target clang_fmt
 make -f attribute/CMakeFiles/weak1_obj.dir/build.make attribute/CMakeFiles/weak1_obj.dir/depend
@@ -2124,10 +2154,10 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cma
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make -f attribute/CMakeFiles/weak1_obj.dir/build.make attribute/CMakeFiles/weak1_obj.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 12%] Building CXX object attribute/CMakeFiles/weak1_obj.dir/weak1.cpp.o
+[ 11%] Building CXX object attribute/CMakeFiles/weak1_obj.dir/weak1.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/weak1_obj.dir/weak1.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/weak1.cpp
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 12%] Built target weak1_obj
+[ 11%] Built target weak1_obj
 make -f attribute/CMakeFiles/unlikely1.dir/build.make attribute/CMakeFiles/unlikely1.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/unlikely1.dir/DependInfo.cmake --color=
@@ -2138,12 +2168,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/unlikely1_obj.dir/build.make attribute/CMakeFiles/unlikely1_obj.dir/un-likely1.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 25%] Building CXX object attribute/CMakeFiles/unlikely1_obj.dir/un-likely1.cpp.o
+[ 22%] Building CXX object attribute/CMakeFiles/unlikely1_obj.dir/un-likely1.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -Wno-unknown-attributes -o CMakeFiles/unlikely1_obj.dir/un-likely1.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/un-likely1.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 25%] Built target unlikely1
+[ 22%] Built target unlikely1
 make -f attribute/CMakeFiles/unlikely2.dir/build.make attribute/CMakeFiles/unlikely2.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/unlikely2.dir/DependInfo.cmake --color=
@@ -2154,12 +2184,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/unlikely2_obj.dir/build.make attribute/CMakeFiles/unlikely2_obj.dir/un-likely2.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 37%] Building CXX object attribute/CMakeFiles/unlikely2_obj.dir/un-likely2.cpp.o
+[ 33%] Building CXX object attribute/CMakeFiles/unlikely2_obj.dir/un-likely2.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -Wno-unknown-attributes -o CMakeFiles/unlikely2_obj.dir/un-likely2.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/un-likely2.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 37%] Built target unlikely2
+[ 33%] Built target unlikely2
 make -f attribute/CMakeFiles/pure1.dir/build.make attribute/CMakeFiles/pure1.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/pure1.dir/DependInfo.cmake --color=
@@ -2170,12 +2200,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/pure1_internal.dir/build.make attribute/CMakeFiles/pure1_internal.dir/pure1.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 50%] Building CXX object attribute/CMakeFiles/pure1_internal.dir/pure1.cpp.o
+[ 44%] Building CXX object attribute/CMakeFiles/pure1_internal.dir/pure1.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/pure1_internal.dir/pure1.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure1.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 50%] Built target pure1
+[ 44%] Built target pure1
 make -f attribute/CMakeFiles/pure5.dir/build.make attribute/CMakeFiles/pure5.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/pure5.dir/DependInfo.cmake --color=
@@ -2186,12 +2216,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/pure5_internal.dir/build.make attribute/CMakeFiles/pure5_internal.dir/pure5.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 62%] Building CXX object attribute/CMakeFiles/pure5_internal.dir/pure5.cpp.o
+[ 55%] Building CXX object attribute/CMakeFiles/pure5_internal.dir/pure5.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/pure5_internal.dir/pure5.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure5.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 62%] Built target pure5
+[ 55%] Built target pure5
 make -f attribute/CMakeFiles/pure6.dir/build.make attribute/CMakeFiles/pure6.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/pure6.dir/DependInfo.cmake --color=
@@ -2202,12 +2232,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/pure6_internal.dir/build.make attribute/CMakeFiles/pure6_internal.dir/pure6.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 75%] Building CXX object attribute/CMakeFiles/pure6_internal.dir/pure6.cpp.o
+[ 66%] Building CXX object attribute/CMakeFiles/pure6_internal.dir/pure6.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/pure6_internal.dir/pure6.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure6.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 75%] Built target pure6
+[ 66%] Built target pure6
 make -f attribute/CMakeFiles/pure2.dir/build.make attribute/CMakeFiles/pure2.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/pure2.dir/DependInfo.cmake --color=
@@ -2218,12 +2248,12 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/pure2_internal.dir/build.make attribute/CMakeFiles/pure2_internal.dir/pure2.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 87%] Building CXX object attribute/CMakeFiles/pure2_internal.dir/pure2.cpp.o
+[ 77%] Building CXX object attribute/CMakeFiles/pure2_internal.dir/pure2.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/pure2_internal.dir/pure2.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure2.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[ 87%] Built target pure2
+[ 77%] Built target pure2
 make -f attribute/CMakeFiles/pure3.dir/build.make attribute/CMakeFiles/pure3.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/pure3.dir/DependInfo.cmake --color=
@@ -2234,23 +2264,23 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/pure3_internal.dir/build.make attribute/CMakeFiles/pure3_internal.dir/pure3.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[100%] Building CXX object attribute/CMakeFiles/pure3_internal.dir/pure3.cpp.o
+[ 88%] Building CXX object attribute/CMakeFiles/pure3_internal.dir/pure3.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/pure3_internal.dir/pure3.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure3.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[100%] Built target pure3
+[ 88%] Built target pure3
 make -f attribute/CMakeFiles/weak1.dir/build.make attribute/CMakeFiles/weak1.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/weak1.dir/DependInfo.cmake --color=
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make -f attribute/CMakeFiles/weak1.dir/build.make attribute/CMakeFiles/weak1.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[112%] Linking CXX executable weak1
+[100%] Linking CXX executable weak1
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/weak1.dir/link.txt --verbose=1
 /usr/bin/clang++-10  -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   CMakeFiles/weak1_obj.dir/weak1.cpp.o  -o weak1 
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[112%] Built target weak1
+[100%] Built target weak1
 make -f attribute/CMakeFiles/pure4.dir/build.make attribute/CMakeFiles/pure4.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute/CMakeFiles/pure4.dir/DependInfo.cmake --color=
@@ -2261,41 +2291,41 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && make
 make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f attribute/CMakeFiles/pure4_internal.dir/build.make attribute/CMakeFiles/pure4_internal.dir/pure4.cpp.o
 make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[125%] Building CXX object attribute/CMakeFiles/pure4_internal.dir/pure4.cpp.o
+[111%] Building CXX object attribute/CMakeFiles/pure4_internal.dir/pure4.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/pure4_internal.dir/pure4.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure4.cpp
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/attribute'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[125%] Built target pure4
+[111%] Built target pure4
 make -f boost/executor/CMakeFiles/boostexecutor.dir/build.make boost/executor/CMakeFiles/boostexecutor.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor/CMakeFiles/boostexecutor.dir/DependInfo.cmake --color=
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make -f boost/executor/CMakeFiles/boostexecutor.dir/build.make boost/executor/CMakeFiles/boostexecutor.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[137%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o
+[122%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/boostexecutor.dir/executor.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
-[150%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/main.cpp.o
+[133%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/main.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/boostexecutor.dir/main.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp
-[162%] Linking CXX executable boostexecutor
+[144%] Linking CXX executable boostexecutor
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/boostexecutor.dir/link.txt --verbose=1
 /usr/bin/clang++-10  -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   CMakeFiles/boostexecutor.dir/executor.cpp.o CMakeFiles/boostexecutor.dir/main.cpp.o  -o boostexecutor -lpthread 
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[162%] Built target boostexecutor
+[144%] Built target boostexecutor
 make -f linker/weak/CMakeFiles/linkerweak_obj.dir/build.make linker/weak/CMakeFiles/linkerweak_obj.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak/CMakeFiles/linkerweak_obj.dir/DependInfo.cmake --color=
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make -f linker/weak/CMakeFiles/linkerweak_obj.dir/build.make linker/weak/CMakeFiles/linkerweak_obj.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[175%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/ClasseA.cpp.o
+[155%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/ClasseA.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -O0 -o CMakeFiles/linkerweak_obj.dir/ClasseA.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseA.cpp
-[187%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/ClasseB.cpp.o
+[166%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/ClasseB.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -O0 -o CMakeFiles/linkerweak_obj.dir/ClasseB.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseB.cpp
-[200%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/main.cpp.o
+[177%] Building CXX object linker/weak/CMakeFiles/linkerweak_obj.dir/main.cpp.o
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -O0 -o CMakeFiles/linkerweak_obj.dir/main.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/main.cpp
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[200%] Built target linkerweak_obj
+[177%] Built target linkerweak_obj
 make -f preprocessor/CMakeFiles/bracket.dir/build.make preprocessor/CMakeFiles/bracket.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor/CMakeFiles/bracket.dir/DependInfo.cmake --color=
@@ -2311,7 +2341,7 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[200%] Built target bracket
+[177%] Built target bracket
 make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor/CMakeFiles/macro_and_spaces.dir/DependInfo.cmake --color=
@@ -2327,7 +2357,7 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[200%] Built target macro_and_spaces
+[177%] Built target macro_and_spaces
 make -f preprocessor/CMakeFiles/str_helper.dir/build.make preprocessor/CMakeFiles/str_helper.dir/depend
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor/CMakeFiles/str_helper.dir/DependInfo.cmake --color=
@@ -2343,47 +2373,59 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /
 make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-[200%] Built target str_helper
+[177%] Built target str_helper
+make -f variable/CMakeFiles/pointer_function.dir/build.make variable/CMakeFiles/pointer_function.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/variable /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/variable /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/variable/CMakeFiles/pointer_function.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f variable/CMakeFiles/pointer_function.dir/build.make variable/CMakeFiles/pointer_function.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[188%] Building CXX object variable/CMakeFiles/pointer_function.dir/pointer_function.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/variable && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded -Wno-c++98-compat-pedantic   -o CMakeFiles/pointer_function.dir/pointer_function.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/variable/pointer_function.cpp
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[188%] Built target pointer_function
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles 0
-scan-build: Removing directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-19-080101-10949-1' because it contains no reports.
+scan-build: Removing directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-19-084042-11045-1' because it contains no reports.
 scan-build: No bugs found.
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/weak1.cpp ...
-1/17 files checked 5% done
+1/18 files checked 5% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/un-likely2.cpp ...
-2/17 files checked 11% done
+2/18 files checked 11% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/un-likely1.cpp ...
-3/17 files checked 17% done
+3/18 files checked 16% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure1.cpp ...
-4/17 files checked 23% done
+4/18 files checked 22% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure2.cpp ...
-5/17 files checked 29% done
+5/18 files checked 27% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure4.cpp ...
-6/17 files checked 35% done
+6/18 files checked 33% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure6.cpp ...
-7/17 files checked 41% done
+7/18 files checked 38% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure5.cpp ...
-8/17 files checked 47% done
+8/18 files checked 44% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/attribute/pure3.cpp ...
-9/17 files checked 52% done
+9/18 files checked 50% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp ...
-10/17 files checked 58% done
+10/18 files checked 55% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp ...
-11/17 files checked 64% done
+11/18 files checked 61% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseA.cpp ...
-12/17 files checked 70% done
+12/18 files checked 66% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseB.cpp ...
-13/17 files checked 76% done
+13/18 files checked 72% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/main.cpp ...
-14/17 files checked 82% done
+14/18 files checked 77% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp ...
-15/17 files checked 88% done
+15/18 files checked 83% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/bracket.cpp ...
-16/17 files checked 94% done
+16/18 files checked 88% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp ...
-17/17 files checked 100% done
+17/18 files checked 94% done
+Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/variable/pointer_function.cpp ...
+18/18 files checked 100% done
 nofile,0,information,missingIncludeSystem,Cppcheck cannot find all the include files (use --check-config for details)
-travis_time:end:02ef9e99:start=1595145622224897830,finish=1595145670680513446,duration=48455615616,event=script[0K[32;1mThe command "sh travis/cpp.sh" exited with 0.[0m
+travis_time:end:0825f474:start=1595148005600656714,finish=1595148051402595991,duration=45801939277,event=script[0K[32;1mThe command "sh travis/cpp.sh" exited with 0.[0m
 
 
 Done. Your build exited with 0.
