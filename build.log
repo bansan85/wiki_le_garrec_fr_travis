@@ -1,13 +1,13 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: b3247dc0-3552-4995-851f-0648f3448d97@1.worker-com-668464d7c8-7n9pz.gce-production-2
+hostname: 5bd809ce-d240-44a2-b63f-9445b21f0fa6@1.worker-com-78f4bfd8fc-8hfxh.gce-production-3
 version: v6.2.17 https://github.com/travis-ci/worker/tree/bc420764f334fe0d096a417c80426f672f1b7d18
-instance: travis-job-dd989a05-5108-4a64-88c6-2d7796351482 travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
-startup: 6.167287621s
-travis_fold:end:worker_info[0Ktravis_time:start:10ed1d6c[0Ktravis_time:end:10ed1d6c:start=1593878189851631162,finish=1593878190027309388,duration=175678226,event=no_world_writable_dirs[0Ktravis_time:start:0f4a351c[0Ktravis_time:end:0f4a351c:start=1593878190030146502,finish=1593878190037242540,duration=7096038,event=setup_filter[0Ktravis_time:start:0da7668f[0Ktravis_time:end:0da7668f:start=1593878190040646284,finish=1593878190048467153,duration=7820869,event=agent[0Ktravis_time:start:23667f6f[0Ktravis_time:end:23667f6f:start=1593878190050695453,finish=1593878190056027760,duration=5332307,event=check_unsupported[0Ktravis_time:start:0e56af19[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+instance: travis-job-04403930-ffc4-4143-89a9-46a026cbd373 travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
+startup: 6.269947056s
+travis_fold:end:worker_info[0Ktravis_time:start:2b5e5c24[0Ktravis_time:end:2b5e5c24:start=1593894611955828530,finish=1593894612141388362,duration=185559832,event=no_world_writable_dirs[0Ktravis_time:start:1376848d[0Ktravis_time:end:1376848d:start=1593894612144428744,finish=1593894612151445566,duration=7016822,event=setup_filter[0Ktravis_time:start:05dfc546[0Ktravis_time:end:05dfc546:start=1593894612155150494,finish=1593894612163977490,duration=8826996,event=agent[0Ktravis_time:start:0c20af24[0Ktravis_time:end:0c20af24:start=1593894612166509036,finish=1593894612168438143,duration=1929107,event=check_unsupported[0Ktravis_time:start:2166cdaa[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: cpp
 Build dist: bionic
-Build id: 174292483
-Job id: 357566149
+Build id: 174301243
+Job id: 357590664
 Runtime kernel version: 5.0.0-1031-gcp
 travis-build version: 53c9fddd
 [34m[1mBuild image provisioning date and time[0m
@@ -164,13 +164,13 @@ ruby-2.5.7
 ruby-2.6.5
 ruby-2.7.0
 travis_fold:end:system_info[0K
-travis_time:end:0e56af19:start=1593878190060614615,finish=1593878190065880836,duration=5266221,event=show_system_info[0Ktravis_time:start:0845df66[0Ktravis_time:end:0845df66:start=1593878190069066373,finish=1593878190086627707,duration=17561334,event=rm_riak_source[0Ktravis_time:start:01c6d6be[0Ktravis_time:end:01c6d6be:start=1593878190089041766,finish=1593878190093448928,duration=4407162,event=fix_rwky_redis[0Ktravis_time:start:00cf8efc[0Ktravis_time:end:00cf8efc:start=1593878190096841730,finish=1593878190711180872,duration=614339142,event=wait_for_network[0Ktravis_time:start:0a555052[0Ktravis_time:end:0a555052:start=1593878190718266352,finish=1593878191134184311,duration=415917959,event=update_apt_keys[0Ktravis_time:start:27f6fd4a[0Ktravis_time:end:27f6fd4a:start=1593878191138342605,finish=1593878191218990213,duration=80647608,event=fix_hhvm_source[0Ktravis_time:start:1ea00940[0Ktravis_time:end:1ea00940:start=1593878191227580162,finish=1593878191230356463,duration=2776301,event=update_mongo_arch[0Ktravis_time:start:03dfc580[0Ktravis_time:end:03dfc580:start=1593878191235426001,finish=1593878191291845050,duration=56419049,event=fix_sudo_enabled_trusty[0Ktravis_time:start:0acf925a[0Ktravis_time:end:0acf925a:start=1593878191295031282,finish=1593878191297425135,duration=2393853,event=update_glibc[0Ktravis_time:start:1d7b62b0[0Ktravis_time:end:1d7b62b0:start=1593878191300810185,finish=1593878191310139545,duration=9329360,event=clean_up_path[0Ktravis_time:start:2270d6f3[0Ktravis_time:end:2270d6f3:start=1593878191313159557,finish=1593878191323624259,duration=10464702,event=fix_resolv_conf[0Ktravis_time:start:1c6b4268[0Ktravis_time:end:1c6b4268:start=1593878191327060820,finish=1593878191343932740,duration=16871920,event=fix_etc_hosts[0Ktravis_time:start:1b0fd43a[0Ktravis_time:end:1b0fd43a:start=1593878191347894494,finish=1593878191357107040,duration=9212546,event=fix_mvn_settings_xml[0Ktravis_time:start:03b70e6a[0Ktravis_time:end:03b70e6a:start=1593878191361694838,finish=1593878191376236598,duration=14541760,event=no_ipv6_localhost[0Ktravis_time:start:3229a8f1[0Ktravis_time:end:3229a8f1:start=1593878191381194655,finish=1593878191383687293,duration=2492638,event=fix_etc_mavenrc[0Ktravis_time:start:02f03a00[0Ktravis_time:end:02f03a00:start=1593878191387611115,finish=1593878191390940481,duration=3329366,event=fix_wwdr_certificate[0Ktravis_time:start:0b4fcc73[0Ktravis_time:end:0b4fcc73:start=1593878191394996163,finish=1593878191454040177,duration=59044014,event=put_localhost_first[0Ktravis_time:start:02686002[0Ktravis_time:end:02686002:start=1593878191458125230,finish=1593878191461405309,duration=3280079,event=home_paths[0Ktravis_time:start:01b6eaf7[0Ktravis_time:end:01b6eaf7:start=1593878191470128382,finish=1593878191488409288,duration=18280906,event=disable_initramfs[0Ktravis_time:start:01597542[0Ktravis_time:end:01597542:start=1593878191502362177,finish=1593878191722117476,duration=219755299,event=disable_ssh_roaming[0Ktravis_time:start:07b7171b[0Ktravis_time:end:07b7171b:start=1593878191729483374,finish=1593878191733310590,duration=3827216,event=debug_tools[0Ktravis_time:start:126c7e53[0Ktravis_time:end:126c7e53:start=1593878191736336202,finish=1593878191739825510,duration=3489308,event=uninstall_oclint[0Ktravis_time:start:06bc0052[0Ktravis_time:end:06bc0052:start=1593878191742799401,finish=1593878191746244468,duration=3445067,event=rvm_use[0Ktravis_time:start:07fc03f8[0Ktravis_time:end:07fc03f8:start=1593878191750083918,finish=1593878191758834791,duration=8750873,event=rm_etc_boto_cfg[0Ktravis_time:start:00b758f5[0Ktravis_time:end:00b758f5:start=1593878191763644619,finish=1593878191767617208,duration=3972589,event=rm_oraclejdk8_symlink[0Ktravis_time:start:008830a1[0Ktravis_time:end:008830a1:start=1593878191773194471,finish=1593878191942896727,duration=169702256,event=enable_i386[0Ktravis_time:start:3c99288c[0Ktravis_time:end:3c99288c:start=1593878191947092507,finish=1593878191950765320,duration=3672813,event=update_rubygems[0Ktravis_time:start:31182b40[0Ktravis_time:end:31182b40:start=1593878191954134450,finish=1593878192739121110,duration=784986660,event=ensure_path_components[0Ktravis_time:start:1c2665c4[0Ktravis_time:end:1c2665c4:start=1593878192743238718,finish=1593878192745258879,duration=2020161,event=redefine_curl[0Ktravis_time:start:01074b46[0Ktravis_time:end:01074b46:start=1593878192749031092,finish=1593878192855858182,duration=106827090,event=nonblock_pipe[0Ktravis_time:start:070c1580[0Ktravis_time:end:070c1580:start=1593878192860040831,finish=1593878198902869983,duration=6042829152,event=apt_get_update[0Ktravis_time:start:22514943[0Ktravis_time:end:22514943:start=1593878198906680692,finish=1593878198909132235,duration=2451543,event=deprecate_xcode_64[0Ktravis_time:start:1fe51384[0Ktravis_time:end:1fe51384:start=1593878198913546190,finish=1593878201285983166,duration=2372436976,event=update_heroku[0Ktravis_time:start:06f5d3ea[0Ktravis_time:end:06f5d3ea:start=1593878201289719603,finish=1593878201291771798,duration=2052195,event=shell_session_update[0Ktravis_time:start:01736dd8[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:01736dd8:start=1593878201295094632,finish=1593878203305495855,duration=2010401223,event=set_docker_mtu[0Ktravis_time:start:1d5882d5[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:1d5882d5:start=1593878203310538282,finish=1593878203383531921,duration=72993639,event=resolvconf[0Ktravis_time:start:04bea71e[0Ktravis_time:end:04bea71e:start=1593878203387529607,finish=1593878203530067269,duration=142537662,event=maven_central_mirror[0Ktravis_time:start:046d362e[0Ktravis_time:end:046d362e:start=1593878203533897741,finish=1593878203628808966,duration=94911225,event=maven_https[0Ktravis_fold:start:apt[0K[33;1mAdding APT Sources[0m
-travis_time:start:059c7ed9[0K$ curl -sSL "https://build.travis-ci.com/files/gpg/travis-security.asc" | sudo -E apt-key add -
+travis_time:end:2166cdaa:start=1593894612171010272,finish=1593894612177712009,duration=6701737,event=show_system_info[0Ktravis_time:start:160fbf2d[0Ktravis_time:end:160fbf2d:start=1593894612180156851,finish=1593894612196028888,duration=15872037,event=rm_riak_source[0Ktravis_time:start:01190310[0Ktravis_time:end:01190310:start=1593894612198709192,finish=1593894612207256351,duration=8547159,event=fix_rwky_redis[0Ktravis_time:start:3e140c38[0Ktravis_time:end:3e140c38:start=1593894612209888755,finish=1593894612905581600,duration=695692845,event=wait_for_network[0Ktravis_time:start:0f3306c0[0Ktravis_time:end:0f3306c0:start=1593894612909219734,finish=1593894613153221403,duration=244001669,event=update_apt_keys[0Ktravis_time:start:1bfad9dc[0Ktravis_time:end:1bfad9dc:start=1593894613157173696,finish=1593894613209750684,duration=52576988,event=fix_hhvm_source[0Ktravis_time:start:015fc298[0Ktravis_time:end:015fc298:start=1593894613214312536,finish=1593894613217393147,duration=3080611,event=update_mongo_arch[0Ktravis_time:start:1afe33e1[0Ktravis_time:end:1afe33e1:start=1593894613223749508,finish=1593894613264854152,duration=41104644,event=fix_sudo_enabled_trusty[0Ktravis_time:start:05fc0904[0Ktravis_time:end:05fc0904:start=1593894613270247159,finish=1593894613272908891,duration=2661732,event=update_glibc[0Ktravis_time:start:0681ac00[0Ktravis_time:end:0681ac00:start=1593894613277998747,finish=1593894613286083452,duration=8084705,event=clean_up_path[0Ktravis_time:start:06a4255f[0Ktravis_time:end:06a4255f:start=1593894613289785812,finish=1593894613298195539,duration=8409727,event=fix_resolv_conf[0Ktravis_time:start:135cc2cc[0Ktravis_time:end:135cc2cc:start=1593894613302042505,finish=1593894613319042414,duration=16999909,event=fix_etc_hosts[0Ktravis_time:start:2015c0f4[0Ktravis_time:end:2015c0f4:start=1593894613322967275,finish=1593894613332018434,duration=9051159,event=fix_mvn_settings_xml[0Ktravis_time:start:20d7db11[0Ktravis_time:end:20d7db11:start=1593894613338184452,finish=1593894613348332630,duration=10148178,event=no_ipv6_localhost[0Ktravis_time:start:0985e22a[0Ktravis_time:end:0985e22a:start=1593894613352740551,finish=1593894613354931528,duration=2190977,event=fix_etc_mavenrc[0Ktravis_time:start:21c1f734[0Ktravis_time:end:21c1f734:start=1593894613358969993,finish=1593894613361765307,duration=2795314,event=fix_wwdr_certificate[0Ktravis_time:start:0007edf5[0Ktravis_time:end:0007edf5:start=1593894613365965856,finish=1593894613423718592,duration=57752736,event=put_localhost_first[0Ktravis_time:start:1341dc41[0Ktravis_time:end:1341dc41:start=1593894613429075763,finish=1593894613432631537,duration=3555774,event=home_paths[0Ktravis_time:start:32effcfb[0Ktravis_time:end:32effcfb:start=1593894613437406458,finish=1593894613449831463,duration=12425005,event=disable_initramfs[0Ktravis_time:start:009ac600[0Ktravis_time:end:009ac600:start=1593894613454864429,finish=1593894613595078915,duration=140214486,event=disable_ssh_roaming[0Ktravis_time:start:2d1cff11[0Ktravis_time:end:2d1cff11:start=1593894613600533917,finish=1593894613602699074,duration=2165157,event=debug_tools[0Ktravis_time:start:1699ae1a[0Ktravis_time:end:1699ae1a:start=1593894613608249781,finish=1593894613611086356,duration=2836575,event=uninstall_oclint[0Ktravis_time:start:1f76d834[0Ktravis_time:end:1f76d834:start=1593894613614459323,finish=1593894613617458384,duration=2999061,event=rvm_use[0Ktravis_time:start:00dd6c3f[0Ktravis_time:end:00dd6c3f:start=1593894613621520495,finish=1593894613630070582,duration=8550087,event=rm_etc_boto_cfg[0Ktravis_time:start:053a52f0[0Ktravis_time:end:053a52f0:start=1593894613633880990,finish=1593894613636711591,duration=2830601,event=rm_oraclejdk8_symlink[0Ktravis_time:start:0046e892[0Ktravis_time:end:0046e892:start=1593894613642541336,finish=1593894613737171933,duration=94630597,event=enable_i386[0Ktravis_time:start:2f62dd3e[0Ktravis_time:end:2f62dd3e:start=1593894613741618371,finish=1593894613745293268,duration=3674897,event=update_rubygems[0Ktravis_time:start:04fd556e[0Ktravis_time:end:04fd556e:start=1593894613749840184,finish=1593894614537269628,duration=787429444,event=ensure_path_components[0Ktravis_time:start:214f6ad0[0Ktravis_time:end:214f6ad0:start=1593894614541356229,finish=1593894614544187692,duration=2831463,event=redefine_curl[0Ktravis_time:start:0f91035c[0Ktravis_time:end:0f91035c:start=1593894614548358644,finish=1593894614656301417,duration=107942773,event=nonblock_pipe[0Ktravis_time:start:0bad9900[0Ktravis_time:end:0bad9900:start=1593894614661121023,finish=1593894620696457296,duration=6035336273,event=apt_get_update[0Ktravis_time:start:17a7e56a[0Ktravis_time:end:17a7e56a:start=1593894620700465590,finish=1593894620702705369,duration=2239779,event=deprecate_xcode_64[0Ktravis_time:start:02ad52f4[0Ktravis_time:end:02ad52f4:start=1593894620707030318,finish=1593894623254311266,duration=2547280948,event=update_heroku[0Ktravis_time:start:04cd6840[0Ktravis_time:end:04cd6840:start=1593894623258472325,finish=1593894623260644089,duration=2171764,event=shell_session_update[0Ktravis_time:start:04539344[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:04539344:start=1593894623266471050,finish=1593894625360992291,duration=2094521241,event=set_docker_mtu[0Ktravis_time:start:24d26ab8[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:24d26ab8:start=1593894625365897073,finish=1593894625451859397,duration=85962324,event=resolvconf[0Ktravis_time:start:3381aae5[0Ktravis_time:end:3381aae5:start=1593894625455852786,finish=1593894625612306320,duration=156453534,event=maven_central_mirror[0Ktravis_time:start:010703e2[0Ktravis_time:end:010703e2:start=1593894625617304940,finish=1593894625721363293,duration=104058353,event=maven_https[0Ktravis_fold:start:apt[0K[33;1mAdding APT Sources[0m
+travis_time:start:05ad37c8[0K$ curl -sSL "https://build.travis-ci.com/files/gpg/travis-security.asc" | sudo -E apt-key add -
 OK
-travis_time:end:059c7ed9:start=1593878203633673839,finish=1593878204010062637,duration=376388798,event=prepare[0Ktravis_time:start:2dba124b[0K$ echo "deb http://archive.ubuntu.com/ubuntu/ focal main universe" | sudo tee -a ${TRAVIS_ROOT}/etc/apt/sources.list >/dev/null
-travis_time:end:2dba124b:start=1593878204013617208,finish=1593878204023597295,duration=9980087,event=prepare[0Ktravis_time:start:235d98cc[0K$ travis_apt_get_update
-travis_time:end:235d98cc:start=1593878204027494991,finish=1593878218988165712,duration=14960670721,event=prepare[0K[33;1mInstalling APT Packages[0m
-travis_time:start:38490fba[0K$ sudo -E apt-get -yq --no-install-suggests --no-install-recommends $(travis_apt_get_options) install cppcheck clang-10 gcc-10 g++-10 clang-format clang-tidy clang-tools iwyu libboost-dev
+travis_time:end:05ad37c8:start=1593894625727380116,finish=1593894626113590438,duration=386210322,event=prepare[0Ktravis_time:start:0f31a666[0K$ echo "deb http://archive.ubuntu.com/ubuntu/ focal main universe" | sudo tee -a ${TRAVIS_ROOT}/etc/apt/sources.list >/dev/null
+travis_time:end:0f31a666:start=1593894626117551451,finish=1593894626128497603,duration=10946152,event=prepare[0Ktravis_time:start:217647f8[0K$ travis_apt_get_update
+travis_time:end:217647f8:start=1593894626132267485,finish=1593894642271438715,duration=16139171230,event=prepare[0K[33;1mInstalling APT Packages[0m
+travis_time:start:0d10a4da[0K$ sudo -E apt-get -yq --no-install-suggests --no-install-recommends $(travis_apt_get_options) install cppcheck clang-10 gcc-10 g++-10 clang-format clang-tidy clang-tools iwyu libboost-dev
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -284,7 +284,7 @@ Get:58 http://archive.ubuntu.com/ubuntu focal/main amd64 libboost1.71-dev amd64 
 Get:59 http://archive.ubuntu.com/ubuntu focal/main amd64 libboost-dev amd64 1.71.0.0ubuntu2 [3,596 B]
 Get:60 http://archive.ubuntu.com/ubuntu focal/universe amd64 iwyu amd64 8.0-3build1 [5,068 kB]
 Preconfiguring packages ...
-Fetched 122 MB in 5s (23.4 MB/s)
+Fetched 122 MB in 5s (24.3 MB/s)
 Selecting previously unselected package gcc-10-base:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 118522 files and directories currently installed.)
 Preparing to unpack .../gcc-10-base_10-20200411-0ubuntu1_amd64.deb ...
@@ -577,17 +577,17 @@ Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
 Processing triggers for ccache (3.4.1-1) ...
 Updating symlinks in /usr/lib/ccache ...
 Processing triggers for libc-bin (2.31-0ubuntu9) ...
-travis_time:end:38490fba:start=1593878218992398534,finish=1593878314091615230,duration=95099216696,event=prepare[0Ktravis_fold:end:apt[0Ktravis_time:start:00e3c910[0Ktravis_time:end:00e3c910:start=1593878314096154662,finish=1593878314098701426,duration=2546764,event=fix_ps4[0Ktravis_time:start:043d7e6d[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:21a7fba8[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
+travis_time:end:0d10a4da:start=1593894642276769650,finish=1593894743512157815,duration=101235388165,event=prepare[0Ktravis_fold:end:apt[0Ktravis_time:start:08d65460[0Ktravis_time:end:08d65460:start=1593894743516954772,finish=1593894743519905086,duration=2950314,event=fix_ps4[0Ktravis_time:start:0eb7012b[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:022fe3e4[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
 Cloning into 'bansan85/wiki_le_garrec_fr'...
-travis_time:end:21a7fba8:start=1593878314106023515,finish=1593878314558681885,duration=452658370,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
-$ git checkout -qf 35b49c9e4ba2556434540b0c1f6fbf0a10a3424c
+travis_time:end:022fe3e4:start=1593894743527433809,finish=1593894744010923982,duration=483490173,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
+$ git checkout -qf db80168c3ed3762c66004c429632665e86b3c821
 travis_fold:end:git.checkout[0K
-travis_time:end:21a7fba8:start=1593878314106023515,finish=1593878314567191911,duration=461168396,event=checkout[0Ktravis_time:start:0580b88f[0K
+travis_time:end:022fe3e4:start=1593894743527433809,finish=1593894744019351808,duration=491917999,event=checkout[0Ktravis_time:start:1dfd974c[0K
 [33;1mSetting environment variables from .travis.yml[0m
 $ export PASSWORD_OPENSSL=[secure]
 
-travis_time:end:0580b88f:start=1593878314571131952,finish=1593878314578449730,duration=7317778,event=env[0K$ export TRAVIS_COMPILER=g++
+travis_time:end:1dfd974c:start=1593894744025842911,finish=1593894744033312470,duration=7469559,event=env[0K$ export TRAVIS_COMPILER=g++
 $ export CXX=${CXX:-g++}
 $ export CXX_FOR_BUILD=${CXX_FOR_BUILD:-g++}
 $ export CC=${CC:-gcc}
@@ -598,19 +598,19 @@ Copyright (C) 2017 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-travis_fold:start:before_install.1[0Ktravis_time:start:05344de8[0K$ cppcheck --version
+travis_fold:start:before_install.1[0Ktravis_time:start:091a9ebf[0K$ cppcheck --version
 Cppcheck 1.90
-travis_time:end:05344de8:start=1593878314596806966,finish=1593878314602351164,duration=5544198,event=before_install[0Ktravis_fold:end:before_install.1[0Ktravis_fold:start:before_install.2[0Ktravis_time:start:2a80f5ec[0K$ clang-format --version
+travis_time:end:091a9ebf:start=1593894744051874421,finish=1593894744060683779,duration=8809358,event=before_install[0Ktravis_fold:end:before_install.1[0Ktravis_fold:start:before_install.2[0Ktravis_time:start:27355e4a[0K$ clang-format --version
 clang-format version 7.0.0 (tags/RELEASE_700/final)
-travis_time:end:2a80f5ec:start=1593878314606819388,finish=1593878314622878328,duration=16058940,event=before_install[0Ktravis_fold:end:before_install.2[0Ktravis_fold:start:before_install.3[0Ktravis_time:start:099f1b2e[0K$ openssl aes-256-cbc -md sha512 -pbkdf2 -iter 100000 -k "$PASSWORD_OPENSSL" -out travis/ci/github_wiki_le_garrec_fr.key -in travis/ci/github_wiki_le_garrec_fr.key.enc -d
-travis_time:end:099f1b2e:start=1593878314627358046,finish=1593878314713641712,duration=86283666,event=before_install[0Ktravis_fold:end:before_install.3[0Ktravis_fold:start:before_install.4[0Ktravis_time:start:0de179c4[0K$ eval $(ssh-agent -s)
-Agent pid 9468
-travis_time:end:0de179c4:start=1593878314718816872,finish=1593878314727540231,duration=8723359,event=before_install[0Ktravis_fold:end:before_install.4[0Ktravis_fold:start:before_install.5[0Ktravis_time:start:3277b41a[0K$ chmod 600 travis/ci/github_wiki_le_garrec_fr.key
-travis_time:end:3277b41a:start=1593878314733058537,finish=1593878314736261874,duration=3203337,event=before_install[0Ktravis_fold:end:before_install.5[0Ktravis_fold:start:before_install.6[0Ktravis_time:start:09613851[0K$ ssh-add travis/ci/github_wiki_le_garrec_fr.key
+travis_time:end:27355e4a:start=1593894744065447817,finish=1593894744084870828,duration=19423011,event=before_install[0Ktravis_fold:end:before_install.2[0Ktravis_fold:start:before_install.3[0Ktravis_time:start:11887450[0K$ openssl aes-256-cbc -md sha512 -pbkdf2 -iter 100000 -k "$PASSWORD_OPENSSL" -out travis/ci/github_wiki_le_garrec_fr.key -in travis/ci/github_wiki_le_garrec_fr.key.enc -d
+travis_time:end:11887450:start=1593894744091750653,finish=1593894744182555983,duration=90805330,event=before_install[0Ktravis_fold:end:before_install.3[0Ktravis_fold:start:before_install.4[0Ktravis_time:start:0c916f71[0K$ eval $(ssh-agent -s)
+Agent pid 9415
+travis_time:end:0c916f71:start=1593894744189768153,finish=1593894744200447932,duration=10679779,event=before_install[0Ktravis_fold:end:before_install.4[0Ktravis_fold:start:before_install.5[0Ktravis_time:start:11e96be4[0K$ chmod 600 travis/ci/github_wiki_le_garrec_fr.key
+travis_time:end:11e96be4:start=1593894744206984874,finish=1593894744211572695,duration=4587821,event=before_install[0Ktravis_fold:end:before_install.5[0Ktravis_fold:start:before_install.6[0Ktravis_time:start:0febed5b[0K$ ssh-add travis/ci/github_wiki_le_garrec_fr.key
 Identity added: travis/ci/github_wiki_le_garrec_fr.key (travis-ci@le-garrec.fr)
-travis_time:end:09613851:start=1593878314740378535,finish=1593878314750331682,duration=9953147,event=before_install[0Ktravis_fold:end:before_install.6[0Ktravis_time:start:16eecf5d[0K$ mkdir buildcppgcc; cd buildcppgcc
-travis_time:end:16eecf5d:start=1593878314753961578,finish=1593878314757013610,duration=3052032,event=script[0K[32;1mThe command "mkdir buildcppgcc; cd buildcppgcc" exited with 0.[0m
-travis_time:start:02192aa5[0K$ CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS="-Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P" cmake ../cpp
+travis_time:end:0febed5b:start=1593894744216837817,finish=1593894744229414405,duration=12576588,event=before_install[0Ktravis_fold:end:before_install.6[0Ktravis_time:start:15201cd8[0K$ mkdir buildcppgcc; cd buildcppgcc
+travis_time:end:15201cd8:start=1593894744233547797,finish=1593894744237637063,duration=4089266,event=script[0K[32;1mThe command "mkdir buildcppgcc; cd buildcppgcc" exited with 0.[0m
+travis_time:start:0a29bf5e[0K$ CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS="-Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P" cmake ../cpp
 -- The C compiler identification is GNU 10.0.1
 -- The CXX compiler identification is GNU 10.0.1
 -- Check for working C compiler: /usr/bin/gcc-10
@@ -626,11 +626,20 @@ travis_time:start:02192aa5[0K$ CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Boost  found.
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc
-travis_time:end:02192aa5:start=1593878314760676960,finish=1593878315635380675,duration=874703715,event=script[0K[32;1mThe command "CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS="-Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P" cmake ../cpp" exited with 0.[0m
-travis_time:start:1f265b05[0K$ make
+travis_time:end:0a29bf5e:start=1593894744242402965,finish=1593894745442488191,duration=1200085226,event=script[0K[32;1mThe command "CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS="-Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P" cmake ../cpp" exited with 0.[0m
+travis_time:start:084c16b8[0K$ make
 /usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc --check-build-system CMakeFiles/Makefile.cmake 0
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/CMakeFiles /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/CMakeFiles/progress.marks
 make -f CMakeFiles/Makefile2 all
@@ -648,33 +657,108 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/boost/executor && /
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/boost/executor && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -o CMakeFiles/boostexecutor.dir/main.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp
 [ 33%] Linking CXX executable boostexecutor
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/boost/executor && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/boostexecutor.dir/link.txt --verbose=1
-/usr/bin/g++-10  -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   CMakeFiles/boostexecutor.dir/executor.cpp.o CMakeFiles/boostexecutor.dir/main.cpp.o  -o boostexecutor 
-/usr/bin/ld: CMakeFiles/boostexecutor.dir/executor.cpp.o: in function `boost::asio::detail::posix_global_impl<boost::asio::system_context>::~posix_global_impl()':
-executor.cpp:(.text._ZN5boost4asio6detail17posix_global_implINS0_14system_contextEED2Ev[_ZN5boost4asio6detail17posix_global_implINS0_14system_contextEED5Ev]+0xa3): undefined reference to `pthread_join'
-/usr/bin/ld: executor.cpp:(.text._ZN5boost4asio6detail17posix_global_implINS0_14system_contextEED2Ev[_ZN5boost4asio6detail17posix_global_implINS0_14system_contextEED5Ev]+0xc4): undefined reference to `pthread_detach'
-/usr/bin/ld: CMakeFiles/boostexecutor.dir/main.cpp.o: in function `main':
-main.cpp:(.text.startup+0x20b): undefined reference to `pthread_create'
-collect2: error: ld returned 1 exit status
-boost/executor/CMakeFiles/boostexecutor.dir/build.make:101: recipe for target 'boost/executor/boostexecutor' failed
-make[2]: *** [boost/executor/boostexecutor] Error 1
+/usr/bin/g++-10  -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   CMakeFiles/boostexecutor.dir/executor.cpp.o CMakeFiles/boostexecutor.dir/main.cpp.o  -o boostexecutor -lpthread 
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-CMakeFiles/Makefile2:143: recipe for target 'boost/executor/CMakeFiles/boostexecutor.dir/all' failed
-make[1]: *** [boost/executor/CMakeFiles/boostexecutor.dir/all] Error 2
+[ 33%] Built target boostexecutor
+make -f linker/weak/CMakeFiles/linkerweak.dir/build.make linker/weak/CMakeFiles/linkerweak.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak/CMakeFiles/linkerweak.dir/DependInfo.cmake --color=
+Scanning dependencies of target linkerweak
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+make -f linker/weak/CMakeFiles/linkerweak.dir/build.make linker/weak/CMakeFiles/linkerweak.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+[ 44%] Building CXX object linker/weak/CMakeFiles/linkerweak.dir/ClasseA.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -O0 -o CMakeFiles/linkerweak.dir/ClasseA.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseA.cpp
+[ 55%] Building CXX object linker/weak/CMakeFiles/linkerweak.dir/ClasseB.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -O0 -o CMakeFiles/linkerweak.dir/ClasseB.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseB.cpp
+[ 66%] Building CXX object linker/weak/CMakeFiles/linkerweak.dir/main.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -O0 -o CMakeFiles/linkerweak.dir/main.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/main.cpp
+[ 77%] Linking CXX executable linkerweak
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak && nm --demangle /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak/CMakeFiles/linkerweak.dir/ClasseA.cpp.o
+                 U __cxa_atexit
+                 U __dso_handle
+                 U _GLOBAL_OFFSET_TABLE_
+000000000000005d t _GLOBAL__sub_I__ZN1A2goEv
+0000000000000010 t __static_initialization_and_destruction_0(int, int)
+0000000000000000 T A::go()
+0000000000000000 W Entete::go()
+                 U std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+                 U std::ios_base::Init::Init()
+                 U std::ios_base::Init::~Init()
+                 U std::cout
+                 U std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+0000000000000000 r std::piecewise_construct
+0000000000000000 b std::__ioinit
+                 U std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak && nm --demangle /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak/CMakeFiles/linkerweak.dir/ClasseB.cpp.o
+                 U __cxa_atexit
+                 U __dso_handle
+                 U _GLOBAL_OFFSET_TABLE_
+000000000000005d t _GLOBAL__sub_I__ZN1B2goEv
+0000000000000010 t __static_initialization_and_destruction_0(int, int)
+0000000000000000 T B::go()
+0000000000000000 W Entete::go()
+                 U std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+                 U std::ios_base::Init::Init()
+                 U std::ios_base::Init::~Init()
+                 U std::cout
+                 U std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+0000000000000000 r std::piecewise_construct
+0000000000000000 b std::__ioinit
+                 U std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak && nm --demangle /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak/CMakeFiles/linkerweak.dir/main.cpp.o
+                 U _GLOBAL_OFFSET_TABLE_
+0000000000000000 T main
+                 U A::go()
+                 U B::go()
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/linker/weak && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/linkerweak.dir/link.txt --verbose=1
+/usr/bin/g++-10  -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   CMakeFiles/linkerweak.dir/ClasseA.cpp.o CMakeFiles/linkerweak.dir/ClasseB.cpp.o CMakeFiles/linkerweak.dir/main.cpp.o  -o linkerweak 
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+[ 77%] Built target linkerweak
+make -f preprocessor/CMakeFiles/str_helper.dir/build.make preprocessor/CMakeFiles/str_helper.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor/CMakeFiles/str_helper.dir/DependInfo.cmake --color=
+Scanning dependencies of target str_helper
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+make -f preprocessor/CMakeFiles/str_helper.dir/build.make preprocessor/CMakeFiles/str_helper.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+[ 88%] Building CXX object preprocessor/CMakeFiles/str_helper.dir/str_helper.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -o CMakeFiles/str_helper.dir/str_helper.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp
+[100%] Linking CXX executable str_helper
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor && make str_helper.cpp.i
+make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && make -f preprocessor/CMakeFiles/str_helper.dir/build.make preprocessor/CMakeFiles/str_helper.dir/str_helper.cpp.i
+make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+Preprocessing CXX source to CMakeFiles/str_helper.dir/str_helper.cpp.i
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor && /usr/bin/g++-10   -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -E /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp > CMakeFiles/str_helper.dir/str_helper.cpp.i
+make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/str_helper.dir/link.txt --verbose=1
+/usr/bin/g++-10  -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   CMakeFiles/str_helper.dir/str_helper.cpp.o  -o str_helper 
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+[100%] Built target str_helper
+make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor/CMakeFiles/macro_and_spaces.dir/DependInfo.cmake --color=
+Scanning dependencies of target macro_and_spaces
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor && make macro_and_spaces.cpp.i
+make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && make -f preprocessor/CMakeFiles/macro_and_spaces_internal.dir/build.make preprocessor/CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+Preprocessing CXX source to CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor && /usr/bin/g++-10   -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -Wunused-value -Wunreachable-code -E /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp > CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor'
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+[100%] Built target macro_and_spaces
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
-Makefile:86: recipe for target 'all' failed
-make: *** [all] Error 2
-travis_time:end:1f265b05:start=1593878315640014361,finish=1593878327099976997,duration=11459962636,event=script[0K[31;1mThe command "make" exited with 2.[0m
-travis_time:start:38917700[0K$ cppcheck --inconclusive --enable=all --project=compile_commands.json
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/CMakeFiles 0
+travis_time:end:084c16b8:start=1593894745447903601,finish=1593894758189199781,duration=12741296180,event=script[0K[32;1mThe command "make" exited with 0.[0m
+travis_time:start:2ec2aa08[0K$ cppcheck --inconclusive --enable=all --project=compile_commands.json --error-exitcode=1 --inline-suppr --suppressions-list=../cpp/cppcheck-suppressions.txt
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp ...
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:65:10: style:inconclusive: Technically the member function 'PrioritySchedulerImpl::item_comp::operator()' can be const. [functionConst]
-    bool operator()(const std::shared_ptr<item_base>& a,
-         ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:100:8: performance:inconclusive: Technically the member function 'ExecutorTypeImpl::on_work_started' can be static (but you may consider moving to unnamed namespace). [functionStatic]
-  void on_work_started() const noexcept {}
-       ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:103:8: performance:inconclusive: Technically the member function 'ExecutorTypeImpl::on_work_finished' can be static (but you may consider moving to unnamed namespace). [functionStatic]
-  void on_work_finished() const noexcept {}
-       ^
 1/7 files checked 14% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp ...
 2/7 files checked 28% done
@@ -687,29 +771,17 @@ Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/main.cpp 
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp ...
 6/7 files checked 85% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp ...
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp:7:18: style: Statements following return, break, continue, goto or throw will never be executed. [unreachableCode]
-  return RET_NEG(ARG1);  // NOLINT
-                 ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp:7:18: warning: Unused variable value 'ARG1' [constStatement]
-  return RET_NEG(ARG1);  // NOLINT
-                 ^
 7/7 files checked 100% done
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:103:0: style: The function 'on_work_finished' is never used. [unusedFunction]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:100:0: style: The function 'on_work_started' is never used. [unusedFunction]
-
-^
 nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
 
-travis_time:end:38917700:start=1593878327107667452,finish=1593878327147594610,duration=39927158,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all --project=compile_commands.json" exited with 0.[0m
-travis_time:start:10fbd089[0K$ iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi
-travis_time:end:10fbd089:start=1593878327151970635,finish=1593878330973811808,duration=3821841173,event=script[0K[32;1mThe command "iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi" exited with 0.[0m
-travis_time:start:04eadaae[0K$ cd ..
-travis_time:end:04eadaae:start=1593878330977785785,finish=1593878330980366046,duration=2580261,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
-travis_time:start:155ab0b8[0K$ mkdir buildcppclang; cd buildcppclang
-travis_time:end:155ab0b8:start=1593878330984188665,finish=1593878330988269259,duration=4080594,event=script[0K[32;1mThe command "mkdir buildcppclang; cd buildcppclang" exited with 0.[0m
-travis_time:start:0a53a272[0K$ CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat" cmake ../cpp
+travis_time:end:2ec2aa08:start=1593894758193688442,finish=1593894758232948444,duration=39260002,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all --project=compile_commands.json --error-exitcode=1 --inline-suppr --suppressions-list=../cpp/cppcheck-suppressions.txt" exited with 0.[0m
+travis_time:start:080e0c40[0K$ iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi
+travis_time:end:080e0c40:start=1593894758238778517,finish=1593894762202337186,duration=3963558669,event=script[0K[32;1mThe command "iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi" exited with 0.[0m
+travis_time:start:0ecf766c[0K$ cd ..
+travis_time:end:0ecf766c:start=1593894762208110188,finish=1593894762210709495,duration=2599307,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
+travis_time:start:0a93a80b[0K$ mkdir buildcppclang; cd buildcppclang
+travis_time:end:0a93a80b:start=1593894762214760372,finish=1593894762218239103,duration=3478731,event=script[0K[32;1mThe command "mkdir buildcppclang; cd buildcppclang" exited with 0.[0m
+travis_time:start:18112430[0K$ CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded" cmake ../cpp
 -- The C compiler identification is Clang 10.0.0
 -- The CXX compiler identification is Clang 10.0.0
 -- Check for working C compiler: /usr/bin/clang-10
@@ -725,11 +797,20 @@ travis_time:start:0a53a272[0K$ CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CX
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Boost  found.
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang
-travis_time:end:0a53a272:start=1593878330992007501,finish=1593878332205160539,duration=1213153038,event=script[0K[32;1mThe command "CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat" cmake ../cpp" exited with 0.[0m
-travis_time:start:050b8f42[0K$ make
+travis_time:end:18112430:start=1593894762223952121,finish=1593894763854080371,duration=1630128250,event=script[0K[32;1mThe command "CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded" cmake ../cpp" exited with 0.[0m
+travis_time:start:0da031c2[0K$ make
 /usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang --check-build-system CMakeFiles/Makefile.cmake 0
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles/progress.marks
 make -f CMakeFiles/Makefile2 all
@@ -763,33 +844,107 @@ make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildc
 make -f boost/executor/CMakeFiles/boostexecutor.dir/build.make boost/executor/CMakeFiles/boostexecutor.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 [ 11%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o
-cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat   -o CMakeFiles/boostexecutor.dir/executor.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:93:21: error: explicitly defaulted move assignment operator is implicitly deleted [-Werror,-Wdefaulted-function-deleted]
-  ExecutorTypeImpl& operator=(ExecutorTypeImpl&& other) noexcept = default;
-                    ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:113:22: note: move assignment operator of 'ExecutorTypeImpl' is implicitly deleted because field 'context_' is of reference type 'PriorityScheduler &'
-  PriorityScheduler& context_;
-                     ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:83:40: error: padding size of 'PriorityScheduler::ExecutorType::ExecutorTypeImpl' with 4 bytes to alignment boundary [-Werror,-Wpadded]
-class PriorityScheduler::ExecutorType::ExecutorTypeImpl
-                                       ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:38:52: error: padding struct 'PriorityScheduler::PrioritySchedulerImpl::item_base' with 4 bytes to align 'timestamp' [-Werror,-Wpadded]
-    std::chrono::high_resolution_clock::time_point timestamp;
-                                                   ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:8:26: error: padding size of 'PriorityScheduler::PrioritySchedulerImpl' with 7 bytes to alignment boundary [-Werror,-Wpadded]
-class PriorityScheduler::PrioritySchedulerImpl
-                         ^
-4 errors generated.
-boost/executor/CMakeFiles/boostexecutor.dir/build.make:65: recipe for target 'boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o' failed
-make[2]: *** [boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o] Error 1
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -o CMakeFiles/boostexecutor.dir/executor.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
+[ 22%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/main.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -o CMakeFiles/boostexecutor.dir/main.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp
+[ 33%] Linking CXX executable boostexecutor
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/boostexecutor.dir/link.txt --verbose=1
+/usr/bin/clang++-10  -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   CMakeFiles/boostexecutor.dir/executor.cpp.o CMakeFiles/boostexecutor.dir/main.cpp.o  -o boostexecutor -lpthread 
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-CMakeFiles/Makefile2:148: recipe for target 'boost/executor/CMakeFiles/boostexecutor.dir/all' failed
-make[1]: *** [boost/executor/CMakeFiles/boostexecutor.dir/all] Error 2
+[ 33%] Built target boostexecutor
+make -f linker/weak/CMakeFiles/linkerweak.dir/build.make linker/weak/CMakeFiles/linkerweak.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak/CMakeFiles/linkerweak.dir/DependInfo.cmake --color=
+Scanning dependencies of target linkerweak
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f linker/weak/CMakeFiles/linkerweak.dir/build.make linker/weak/CMakeFiles/linkerweak.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[ 44%] Building CXX object linker/weak/CMakeFiles/linkerweak.dir/ClasseA.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -O0 -o CMakeFiles/linkerweak.dir/ClasseA.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseA.cpp
+[ 55%] Building CXX object linker/weak/CMakeFiles/linkerweak.dir/ClasseB.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -O0 -o CMakeFiles/linkerweak.dir/ClasseB.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseB.cpp
+[ 66%] Building CXX object linker/weak/CMakeFiles/linkerweak.dir/main.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -O0 -o CMakeFiles/linkerweak.dir/main.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/main.cpp
+[ 77%] Linking CXX executable linkerweak
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && nm --demangle /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak/CMakeFiles/linkerweak.dir/ClasseA.cpp.o
+                 U __cxa_atexit
+0000000000000000 t __cxx_global_var_init
+                 U __dso_handle
+0000000000000040 t _GLOBAL__sub_I_ClasseA.cpp
+0000000000000000 T A::go()
+0000000000000000 W Entete::go()
+                 U std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+                 U std::ios_base::Init::Init()
+                 U std::ios_base::Init::~Init()
+                 U std::cout
+                 U std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+0000000000000000 b std::__ioinit
+                 U std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && nm --demangle /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak/CMakeFiles/linkerweak.dir/ClasseB.cpp.o
+                 U __cxa_atexit
+0000000000000000 t __cxx_global_var_init
+                 U __dso_handle
+0000000000000040 t _GLOBAL__sub_I_ClasseB.cpp
+0000000000000000 T B::go()
+0000000000000000 W Entete::go()
+                 U std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+                 U std::ios_base::Init::Init()
+                 U std::ios_base::Init::~Init()
+                 U std::cout
+                 U std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+0000000000000000 b std::__ioinit
+                 U std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && nm --demangle /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak/CMakeFiles/linkerweak.dir/main.cpp.o
+0000000000000000 T main
+                 U A::go()
+                 U B::go()
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/linkerweak.dir/link.txt --verbose=1
+/usr/bin/clang++-10  -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   CMakeFiles/linkerweak.dir/ClasseA.cpp.o CMakeFiles/linkerweak.dir/ClasseB.cpp.o CMakeFiles/linkerweak.dir/main.cpp.o  -o linkerweak 
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[ 77%] Built target linkerweak
+make -f preprocessor/CMakeFiles/str_helper.dir/build.make preprocessor/CMakeFiles/str_helper.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor/CMakeFiles/str_helper.dir/DependInfo.cmake --color=
+Scanning dependencies of target str_helper
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f preprocessor/CMakeFiles/str_helper.dir/build.make preprocessor/CMakeFiles/str_helper.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[ 88%] Building CXX object preprocessor/CMakeFiles/str_helper.dir/str_helper.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -o CMakeFiles/str_helper.dir/str_helper.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp
+[100%] Linking CXX executable str_helper
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && make str_helper.cpp.i
+make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f preprocessor/CMakeFiles/str_helper.dir/build.make preprocessor/CMakeFiles/str_helper.dir/str_helper.cpp.i
+make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+Preprocessing CXX source to CMakeFiles/str_helper.dir/str_helper.cpp.i
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /usr/bin/clang++-10   -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -E /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp > CMakeFiles/str_helper.dir/str_helper.cpp.i
+make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/str_helper.dir/link.txt --verbose=1
+/usr/bin/clang++-10  -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   CMakeFiles/str_helper.dir/str_helper.cpp.o  -o str_helper 
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[100%] Built target str_helper
+make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor/CMakeFiles/macro_and_spaces.dir/DependInfo.cmake --color=
+Scanning dependencies of target macro_and_spaces
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && make macro_and_spaces.cpp.i
+make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f preprocessor/CMakeFiles/macro_and_spaces_internal.dir/build.make preprocessor/CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+Preprocessing CXX source to CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /usr/bin/clang++-10   -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -Wunused-value -Wunreachable-code -E /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp > CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[100%] Built target macro_and_spaces
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-Makefile:86: recipe for target 'all' failed
-make: *** [all] Error 2
-travis_time:end:050b8f42:start=1593878332210074337,finish=1593878333581859348,duration=1371785011,event=script[0K[31;1mThe command "make" exited with 2.[0m
-travis_time:start:0cf9d38e[0K$ python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles 0
+travis_time:end:0da031c2:start=1593894763861795484,finish=1593894767299715243,duration=3437919759,event=script[0K[32;1mThe command "make" exited with 0.[0m
+travis_time:start:04c83a80[0K$ python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py
 Enabled checks:
     abseil-duration-addition
     abseil-duration-comparison
@@ -1200,121 +1355,15 @@ Enabled checks:
     zircon-temporary-objects
 
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:6:7: error: class 'PriorityScheduler' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator [cppcoreguidelines-special-member-functions,-warnings-as-errors]
-class PriorityScheduler
-      ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:6:7: error: class 'PriorityScheduler' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator [hicpp-special-member-functions,-warnings-as-errors]
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:13:37: error: non-const reference parameter 'ctx', make it const or use a pointer [google-runtime-references,-warnings-as-errors]
-    ExecutorType(PriorityScheduler& ctx, int pri);
-                                    ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:9:18: error: no previous extern declaration for non-static variable 'test' [clang-diagnostic-missing-variable-declarations,-warnings-as-errors]
-std::atomic<int> test{0};
-                 ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp:9:1: note: declare 'static' if the variable is not intended to be used outside of this translation unit
-std::atomic<int> test{0};
-^
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseA.cpp
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseB.cpp
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/main.cpp
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:8:26: error: padding size of 'PriorityScheduler::PrioritySchedulerImpl' with 7 bytes to alignment boundary [clang-diagnostic-padded,-warnings-as-errors]
-class PriorityScheduler::PrioritySchedulerImpl
-                         ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:18:20: error: statement should be inside braces [hicpp-braces-around-statements,-warnings-as-errors]
-      if (stopped_) return;
-                   ^
-                    {
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:18:20: error: statement should be inside braces [readability-braces-around-statements,-warnings-as-errors]
-      if (stopped_) return;
-                   ^
-                    {
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:33:10: error: constructor does not initialize these fields: priority_ [cppcoreguidelines-pro-type-member-init,-warnings-as-errors]
-  struct item_base
-         ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:33:10: error: constructor does not initialize these fields: priority_ [hicpp-member-init,-warnings-as-errors]
-  struct item_base
-         ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:38:52: error: padding struct 'PriorityScheduler::PrioritySchedulerImpl::item_base' with 4 bytes to align 'timestamp' [clang-diagnostic-padded,-warnings-as-errors]
-    std::chrono::high_resolution_clock::time_point timestamp;
-                                                   ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:58:10: error: member variable 'function_' has public visibility [misc-non-private-member-variables-in-classes,-warnings-as-errors]
-    Func function_;
-         ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:68:40: error: statement should be inside braces [google-readability-braces-around-statements,-warnings-as-errors]
-      if (a->priority_ != b->priority_)
-                                       ^
-                                        {
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:68:40: error: statement should be inside braces [hicpp-braces-around-statements,-warnings-as-errors]
-      if (a->priority_ != b->priority_)
-                                       ^
-                                        {
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:68:40: error: statement should be inside braces [readability-braces-around-statements,-warnings-as-errors]
-      if (a->priority_ != b->priority_)
-                                       ^
-                                        {
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:70:7: error: do not use 'else' after 'return' [readability-else-after-return,-warnings-as-errors]
-      else
-      ^~~~
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:70:11: error: statement should be inside braces [google-readability-braces-around-statements,-warnings-as-errors]
-      else
-          ^
-           {
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:70:11: error: statement should be inside braces [hicpp-braces-around-statements,-warnings-as-errors]
-      else
-          ^
-           {
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:70:11: error: statement should be inside braces [readability-braces-around-statements,-warnings-as-errors]
-      else
-          ^
-           {
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:75:14: error: member variable 'mutex_' has public visibility [misc-non-private-member-variables-in-classes,-warnings-as-errors]
-  std::mutex mutex_;
-             ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:76:27: error: member variable 'condition_' has public visibility [misc-non-private-member-variables-in-classes,-warnings-as-errors]
-  std::condition_variable condition_;
-                          ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:79:7: error: member variable 'queue_' has public visibility [misc-non-private-member-variables-in-classes,-warnings-as-errors]
-      queue_;
-      ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:80:21: error: member variable 'stopped_' has public visibility [misc-non-private-member-variables-in-classes,-warnings-as-errors]
-  std::atomic<bool> stopped_{false};
-                    ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:83:40: error: padding size of 'PriorityScheduler::ExecutorType::ExecutorTypeImpl' with 4 bytes to alignment boundary [clang-diagnostic-padded,-warnings-as-errors]
-class PriorityScheduler::ExecutorType::ExecutorTypeImpl
-                                       ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:83:40: error: class 'ExecutorTypeImpl' defines a copy constructor, a copy assignment operator, a move constructor and a move assignment operator but does not define a destructor [cppcoreguidelines-special-member-functions,-warnings-as-errors]
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:83:40: error: class 'ExecutorTypeImpl' defines a copy constructor, a copy assignment operator, a move constructor and a move assignment operator but does not define a destructor [hicpp-special-member-functions,-warnings-as-errors]
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:86:39: error: non-const reference parameter 'ctx', make it const or use a pointer [google-runtime-references,-warnings-as-errors]
-  ExecutorTypeImpl(PriorityScheduler& ctx, int pri) noexcept
-                                      ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:93:3: error: move assignment operator is explicitly defaulted but implicitly deleted, probably because a base class or a non-static data member is not assignable, e.g. because the latter is marked 'const'; definition can either be removed or explicitly deleted [readability-deleted-default,-warnings-as-errors]
-  ExecutorTypeImpl& operator=(ExecutorTypeImpl&& other) noexcept = default;
-  ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:93:21: error: explicitly defaulted move assignment operator is implicitly deleted [clang-diagnostic-defaulted-function-deleted,-warnings-as-errors]
-  ExecutorTypeImpl& operator=(ExecutorTypeImpl&& other) noexcept = default;
-                    ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:113:22: note: move assignment operator of 'ExecutorTypeImpl' is implicitly deleted because field 'context_' is of reference type 'PriorityScheduler &'
-  PriorityScheduler& context_;
-                     ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:159:3: error: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls,-warnings-as-errors]
-  boost::asio::dispatch(*impl_, f);
-  ^
-/usr/include/boost/asio/impl/dispatch.hpp:72:5: note: default parameter was declared here
-    typename enable_if<is_executor<Executor>::value>::type*)
-    ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:6:7: error: class 'PriorityScheduler' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator [cppcoreguidelines-special-member-functions,-warnings-as-errors]
-class PriorityScheduler
-      ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:6:7: error: class 'PriorityScheduler' defines a non-default destructor but does not define a copy constructor, a copy assignment operator, a move constructor or a move assignment operator [hicpp-special-member-functions,-warnings-as-errors]
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h:13:37: error: non-const reference parameter 'ctx', make it const or use a pointer [google-runtime-references,-warnings-as-errors]
-    ExecutorType(PriorityScheduler& ctx, int pri);
-                                    ^
-11153 warnings generated.
-Suppressed 11149 warnings (11149 in non-user code).
+11151 warnings generated.
+Suppressed 11151 warnings (11151 in non-user code).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
-4 warnings treated as errors
 8320 warnings generated.
 Suppressed 8320 warnings (8320 in non-user code).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
@@ -1323,12 +1372,11 @@ Suppressed 8320 warnings (8320 in non-user code).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
 Suppressed 3 warnings (3 NOLINT).
 Suppressed 3 warnings (3 NOLINT).
-38491 warnings generated.
-Suppressed 38462 warnings (38462 in non-user code).
+38460 warnings generated.
+Suppressed 38466 warnings (38460 in non-user code, 6 NOLINT).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
-28 warnings treated as errors
-travis_time:end:0cf9d38e:start=1593878333586634539,finish=1593878353564819420,duration=19978184881,event=script[0K[31;1mThe command "python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py" exited with 1.[0m
-travis_time:start:191d8f8a[0K$ make clean; scan-build -v -v -v -o . make
+travis_time:end:04c83a80:start=1593894767304891346,finish=1593894788738969907,duration=21434078561,event=script[0K[32;1mThe command "python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py" exited with 0.[0m
+travis_time:start:014af05c[0K$ make clean; scan-build -v -v -v -o . make
 make -f CMakeFiles/Makefile2 clean
 make[1]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make -f CMakeFiles/clang_fmt.dir/build.make CMakeFiles/clang_fmt.dir/clean
@@ -1357,7 +1405,7 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 scan-build: Using '/usr/local/clang-7.0.0/bin/clang-7' for static analysis
-scan-build: Emitting reports for this run to '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-04-155913-10062-1'.
+scan-build: Emitting reports for this run to '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-04-203309-10264-1'.
 /usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang --check-build-system CMakeFiles/Makefile.cmake 0
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles/progress.marks
 make -f CMakeFiles/Makefile2 all
@@ -1389,45 +1437,107 @@ make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildc
 make -f boost/executor/CMakeFiles/boostexecutor.dir/build.make boost/executor/CMakeFiles/boostexecutor.dir/build
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 [ 11%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o
-cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat   -o CMakeFiles/boostexecutor.dir/executor.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:93:21: error: explicitly defaulted move assignment operator is implicitly deleted [-Werror,-Wdefaulted-function-deleted]
-  ExecutorTypeImpl& operator=(ExecutorTypeImpl&& other) noexcept = default;
-                    ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:113:22: note: move assignment operator of 'ExecutorTypeImpl' is implicitly deleted because field 'context_' is of reference type 'PriorityScheduler &'
-  PriorityScheduler& context_;
-                     ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:83:40: error: padding size of 'PriorityScheduler::ExecutorType::ExecutorTypeImpl' with 4 bytes to alignment boundary [-Werror,-Wpadded]
-class PriorityScheduler::ExecutorType::ExecutorTypeImpl
-                                       ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:38:52: error: padding struct 'PriorityScheduler::PrioritySchedulerImpl::item_base' with 4 bytes to align 'timestamp' [-Werror,-Wpadded]
-    std::chrono::high_resolution_clock::time_point timestamp;
-                                                   ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:8:26: error: padding size of 'PriorityScheduler::PrioritySchedulerImpl' with 7 bytes to alignment boundary [-Werror,-Wpadded]
-class PriorityScheduler::PrioritySchedulerImpl
-                         ^
-4 errors generated.
-boost/executor/CMakeFiles/boostexecutor.dir/build.make:65: recipe for target 'boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o' failed
-make[2]: *** [boost/executor/CMakeFiles/boostexecutor.dir/executor.cpp.o] Error 1
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -o CMakeFiles/boostexecutor.dir/executor.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
+[ 22%] Building CXX object boost/executor/CMakeFiles/boostexecutor.dir/main.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -o CMakeFiles/boostexecutor.dir/main.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp
+[ 33%] Linking CXX executable boostexecutor
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/boost/executor && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/boostexecutor.dir/link.txt --verbose=1
+/usr/bin/clang++-10  -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   CMakeFiles/boostexecutor.dir/executor.cpp.o CMakeFiles/boostexecutor.dir/main.cpp.o  -o boostexecutor -lpthread 
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-CMakeFiles/Makefile2:148: recipe for target 'boost/executor/CMakeFiles/boostexecutor.dir/all' failed
-make[1]: *** [boost/executor/CMakeFiles/boostexecutor.dir/all] Error 2
+[ 33%] Built target boostexecutor
+make -f linker/weak/CMakeFiles/linkerweak.dir/build.make linker/weak/CMakeFiles/linkerweak.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak/CMakeFiles/linkerweak.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f linker/weak/CMakeFiles/linkerweak.dir/build.make linker/weak/CMakeFiles/linkerweak.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[ 44%] Building CXX object linker/weak/CMakeFiles/linkerweak.dir/ClasseA.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -O0 -o CMakeFiles/linkerweak.dir/ClasseA.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseA.cpp
+[ 55%] Building CXX object linker/weak/CMakeFiles/linkerweak.dir/ClasseB.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -O0 -o CMakeFiles/linkerweak.dir/ClasseB.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/ClasseB.cpp
+[ 66%] Building CXX object linker/weak/CMakeFiles/linkerweak.dir/main.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -O0 -o CMakeFiles/linkerweak.dir/main.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/main.cpp
+[ 77%] Linking CXX executable linkerweak
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && nm --demangle /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak/CMakeFiles/linkerweak.dir/ClasseA.cpp.o
+                 U __cxa_atexit
+0000000000000000 t __cxx_global_var_init
+                 U __dso_handle
+0000000000000040 t _GLOBAL__sub_I_ClasseA.cpp
+0000000000000000 T A::go()
+0000000000000000 W Entete::go()
+                 U std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+                 U std::ios_base::Init::Init()
+                 U std::ios_base::Init::~Init()
+                 U std::cout
+                 U std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+0000000000000000 b std::__ioinit
+                 U std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && nm --demangle /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak/CMakeFiles/linkerweak.dir/ClasseB.cpp.o
+                 U __cxa_atexit
+0000000000000000 t __cxx_global_var_init
+                 U __dso_handle
+0000000000000040 t _GLOBAL__sub_I_ClasseB.cpp
+0000000000000000 T B::go()
+0000000000000000 W Entete::go()
+                 U std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+                 U std::ios_base::Init::Init()
+                 U std::ios_base::Init::~Init()
+                 U std::cout
+                 U std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+0000000000000000 b std::__ioinit
+                 U std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && nm --demangle /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak/CMakeFiles/linkerweak.dir/main.cpp.o
+0000000000000000 T main
+                 U A::go()
+                 U B::go()
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/linker/weak && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/linkerweak.dir/link.txt --verbose=1
+/usr/bin/clang++-10  -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   CMakeFiles/linkerweak.dir/ClasseA.cpp.o CMakeFiles/linkerweak.dir/ClasseB.cpp.o CMakeFiles/linkerweak.dir/main.cpp.o  -o linkerweak 
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[ 77%] Built target linkerweak
+make -f preprocessor/CMakeFiles/str_helper.dir/build.make preprocessor/CMakeFiles/str_helper.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor/CMakeFiles/str_helper.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f preprocessor/CMakeFiles/str_helper.dir/build.make preprocessor/CMakeFiles/str_helper.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[ 88%] Building CXX object preprocessor/CMakeFiles/str_helper.dir/str_helper.cpp.o
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -o CMakeFiles/str_helper.dir/str_helper.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp
+[100%] Linking CXX executable str_helper
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && make str_helper.cpp.i
+make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f preprocessor/CMakeFiles/str_helper.dir/build.make preprocessor/CMakeFiles/str_helper.dir/str_helper.cpp.i
+make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+Preprocessing CXX source to CMakeFiles/str_helper.dir/str_helper.cpp.i
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /usr/bin/clang++-10   -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -E /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp > CMakeFiles/str_helper.dir/str_helper.cpp.i
+make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/str_helper.dir/link.txt --verbose=1
+/usr/bin/clang++-10  -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   CMakeFiles/str_helper.dir/str_helper.cpp.o  -o str_helper 
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[100%] Built target str_helper
+make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor/CMakeFiles/macro_and_spaces.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && make macro_and_spaces.cpp.i
+make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f preprocessor/CMakeFiles/macro_and_spaces_internal.dir/build.make preprocessor/CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+Preprocessing CXX source to CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /usr/bin/clang++-10   -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2 -Wno-c++98-compat -Wno-padded   -Wunused-value -Wunreachable-code -E /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp > CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[100%] Built target macro_and_spaces
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
-Makefile:86: recipe for target 'all' failed
-make: *** [all] Error 2
-scan-build: Removing directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-04-155913-10062-1' because it contains no reports.
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles 0
+scan-build: Removing directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-04-203309-10264-1' because it contains no reports.
 scan-build: No bugs found.
-travis_time:end:191d8f8a:start=1593878353569594235,finish=1593878355245844168,duration=1676249933,event=script[0K[31;1mThe command "make clean; scan-build -v -v -v -o . make" exited with 2.[0m
-travis_time:start:0b46105e[0K$ cppcheck --inconclusive --enable=all --project=compile_commands.json
+travis_time:end:014af05c:start=1593894788744557459,finish=1593894792430294304,duration=3685736845,event=script[0K[32;1mThe command "make clean; scan-build -v -v -v -o . make" exited with 0.[0m
+travis_time:start:025eefe0[0K$ cppcheck --inconclusive --enable=all --project=compile_commands.json --error-exitcode=1 --inline-suppr --suppressions-list=../cpp/cppcheck-suppressions.txt
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp ...
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:65:10: style:inconclusive: Technically the member function 'PrioritySchedulerImpl::item_comp::operator()' can be const. [functionConst]
-    bool operator()(const std::shared_ptr<item_base>& a,
-         ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:100:8: performance:inconclusive: Technically the member function 'ExecutorTypeImpl::on_work_started' can be static (but you may consider moving to unnamed namespace). [functionStatic]
-  void on_work_started() const noexcept {}
-       ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:103:8: performance:inconclusive: Technically the member function 'ExecutorTypeImpl::on_work_finished' can be static (but you may consider moving to unnamed namespace). [functionStatic]
-  void on_work_finished() const noexcept {}
-       ^
 1/7 files checked 14% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp ...
 2/7 files checked 28% done
@@ -1440,21 +1550,10 @@ Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/linker/weak/main.cpp 
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp ...
 6/7 files checked 85% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp ...
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp:7:18: style: Statements following return, break, continue, goto or throw will never be executed. [unreachableCode]
-  return RET_NEG(ARG1);  // NOLINT
-                 ^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp:7:18: warning: Unused variable value 'ARG1' [constStatement]
-  return RET_NEG(ARG1);  // NOLINT
-                 ^
 7/7 files checked 100% done
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:103:0: style: The function 'on_work_finished' is never used. [unusedFunction]
-
-^
-/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp:100:0: style: The function 'on_work_started' is never used. [unusedFunction]
-
-^
 nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
 
-travis_time:end:0b46105e:start=1593878355251339421,finish=1593878355300871942,duration=49532521,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all --project=compile_commands.json" exited with 0.[0m
-travis_time:start:01eff190[0K$ iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi
-/home/travis/build
+travis_time:end:025eefe0:start=1593894792435097755,finish=1593894792474056633,duration=38958878,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all --project=compile_commands.json --error-exitcode=1 --inline-suppr --suppressions-list=../cpp/cppcheck-suppressions.txt" exited with 0.[0m
+travis_time:start:00bc11e4[0K$ iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi
+
+(/home/travis/build/bansan85/wiki_le_g
