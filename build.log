@@ -1,13 +1,13 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: 5849aa02-9492-4243-9de6-cc555c7f8b81@1.worker-com-fb897bfbc-xr6zd.gce-production-1
+hostname: a262ed9c-d054-4e65-a672-6f342e49e50b@1.worker-com-5686bd95fc-h7pxz.gce-production-3
 version: v6.2.17 https://github.com/travis-ci/worker/tree/bc420764f334fe0d096a417c80426f672f1b7d18
-instance: travis-job-918ee854-3dc5-4779-92ad-a2ffb3c37c17 travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
-startup: 6.632927691s
-travis_fold:end:worker_info[0Ktravis_time:start:063a5cbd[0Ktravis_time:end:063a5cbd:start=1592869906584768565,finish=1592869906783553230,duration=198784665,event=no_world_writable_dirs[0Ktravis_time:start:1cd335ad[0Ktravis_time:end:1cd335ad:start=1592869906786556754,finish=1592869906795141606,duration=8584852,event=agent[0Ktravis_time:start:048fec6d[0Ktravis_time:end:048fec6d:start=1592869906798194337,finish=1592869906800335392,duration=2141055,event=check_unsupported[0Ktravis_time:start:03bddfc8[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+instance: travis-job-e6a0dff7-88de-4c55-bf46-4454f8c7460d travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
+startup: 6.147583289s
+travis_fold:end:worker_info[0Ktravis_time:start:3c129c7e[0Ktravis_time:end:3c129c7e:start=1592914630441891728,finish=1592914630640035169,duration=198143441,event=no_world_writable_dirs[0Ktravis_time:start:00c0d214[0Ktravis_time:end:00c0d214:start=1592914630643035891,finish=1592914630651162320,duration=8126429,event=agent[0Ktravis_time:start:0fb572aa[0Ktravis_time:end:0fb572aa:start=1592914630654097877,finish=1592914630656230561,duration=2132684,event=check_unsupported[0Ktravis_time:start:0da21443[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: cpp
 Build dist: bionic
-Build id: 172584542
-Job id: 352449307
+Build id: 172663469
+Job id: 352641719
 Runtime kernel version: 5.0.0-1031-gcp
 travis-build version: 43d08e12
 [34m[1mBuild image provisioning date and time[0m
@@ -164,13 +164,13 @@ ruby-2.5.7
 ruby-2.6.5
 ruby-2.7.0
 travis_fold:end:system_info[0K
-travis_time:end:03bddfc8:start=1592869906803104153,finish=1592869906815728311,duration=12624158,event=show_system_info[0Ktravis_time:start:2736fa20[0Ktravis_time:end:2736fa20:start=1592869906818807689,finish=1592869906836260785,duration=17453096,event=rm_riak_source[0Ktravis_time:start:1a2b7195[0Ktravis_time:end:1a2b7195:start=1592869906839758752,finish=1592869906844848052,duration=5089300,event=fix_rwky_redis[0Ktravis_time:start:15fe0052[0Ktravis_time:end:15fe0052:start=1592869906848140650,finish=1592869907373605323,duration=525464673,event=wait_for_network[0Ktravis_time:start:0127a460[0Ktravis_time:end:0127a460:start=1592869907376794348,finish=1592869907645704283,duration=268909935,event=update_apt_keys[0Ktravis_time:start:01604400[0Ktravis_time:end:01604400:start=1592869907649052920,finish=1592869907703269136,duration=54216216,event=fix_hhvm_source[0Ktravis_time:start:23ad5e2b[0Ktravis_time:end:23ad5e2b:start=1592869907706483676,finish=1592869907709005280,duration=2521604,event=update_mongo_arch[0Ktravis_time:start:0111340a[0Ktravis_time:end:0111340a:start=1592869907711769217,finish=1592869907752583866,duration=40814649,event=fix_sudo_enabled_trusty[0Ktravis_time:start:0aa2dc32[0Ktravis_time:end:0aa2dc32:start=1592869907755795397,finish=1592869907758048690,duration=2253293,event=update_glibc[0Ktravis_time:start:1fd2a7f0[0Ktravis_time:end:1fd2a7f0:start=1592869907760813380,finish=1592869907768474502,duration=7661122,event=clean_up_path[0Ktravis_time:start:0871c753[0Ktravis_time:end:0871c753:start=1592869907771288153,finish=1592869907779661453,duration=8373300,event=fix_resolv_conf[0Ktravis_time:start:1eb44080[0Ktravis_time:end:1eb44080:start=1592869907782376825,finish=1592869907796702454,duration=14325629,event=fix_etc_hosts[0Ktravis_time:start:000f35be[0Ktravis_time:end:000f35be:start=1592869907799407124,finish=1592869907808487661,duration=9080537,event=fix_mvn_settings_xml[0Ktravis_time:start:008735e8[0Ktravis_time:end:008735e8:start=1592869907811321885,finish=1592869907820847454,duration=9525569,event=no_ipv6_localhost[0Ktravis_time:start:067ab571[0Ktravis_time:end:067ab571:start=1592869907823674676,finish=1592869907825817140,duration=2142464,event=fix_etc_mavenrc[0Ktravis_time:start:00291924[0Ktravis_time:end:00291924:start=1592869907828505569,finish=1592869907831925218,duration=3419649,event=fix_wwdr_certificate[0Ktravis_time:start:0bb3efd3[0Ktravis_time:end:0bb3efd3:start=1592869907834617206,finish=1592869907883585216,duration=48968010,event=put_localhost_first[0Ktravis_time:start:265978fc[0Ktravis_time:end:265978fc:start=1592869907886907033,finish=1592869907890226472,duration=3319439,event=home_paths[0Ktravis_time:start:008e338e[0Ktravis_time:end:008e338e:start=1592869907893240701,finish=1592869907906467532,duration=13226831,event=disable_initramfs[0Ktravis_time:start:0b171166[0Ktravis_time:end:0b171166:start=1592869907909402929,finish=1592869908061838873,duration=152435944,event=disable_ssh_roaming[0Ktravis_time:start:091b5f40[0Ktravis_time:end:091b5f40:start=1592869908064923064,finish=1592869908067280288,duration=2357224,event=debug_tools[0Ktravis_time:start:021cd2aa[0Ktravis_time:end:021cd2aa:start=1592869908070351556,finish=1592869908073289292,duration=2937736,event=uninstall_oclint[0Ktravis_time:start:03ceb40f[0Ktravis_time:end:03ceb40f:start=1592869908076389923,finish=1592869908079357182,duration=2967259,event=rvm_use[0Ktravis_time:start:0191782c[0Ktravis_time:end:0191782c:start=1592869908082237378,finish=1592869908090734474,duration=8497096,event=rm_etc_boto_cfg[0Ktravis_time:start:010b5134[0Ktravis_time:end:010b5134:start=1592869908093839489,finish=1592869908096054925,duration=2215436,event=rm_oraclejdk8_symlink[0Ktravis_time:start:0073e778[0Ktravis_time:end:0073e778:start=1592869908098978257,finish=1592869908198559033,duration=99580776,event=enable_i386[0Ktravis_time:start:19d1821c[0Ktravis_time:end:19d1821c:start=1592869908201861144,finish=1592869908206266855,duration=4405711,event=update_rubygems[0Ktravis_time:start:00b08830[0Ktravis_time:end:00b08830:start=1592869908209189451,finish=1592869909023420416,duration=814230965,event=ensure_path_components[0Ktravis_time:start:075e2231[0Ktravis_time:end:075e2231:start=1592869909027040486,finish=1592869909029279256,duration=2238770,event=redefine_curl[0Ktravis_time:start:0bc1608c[0Ktravis_time:end:0bc1608c:start=1592869909032146628,finish=1592869909034277955,duration=2131327,event=nonblock_pipe[0Ktravis_time:start:2461e7e8[0Ktravis_time:end:2461e7e8:start=1592869909036927142,finish=1592869915073926818,duration=6036999676,event=apt_get_update[0Ktravis_time:start:0ac73ffa[0Ktravis_time:end:0ac73ffa:start=1592869915077194474,finish=1592869915079475202,duration=2280728,event=deprecate_xcode_64[0Ktravis_time:start:08f5c83c[0Ktravis_time:end:08f5c83c:start=1592869915082218843,finish=1592869917579230991,duration=2497012148,event=update_heroku[0Ktravis_time:start:074c0e98[0Ktravis_time:end:074c0e98:start=1592869917582724471,finish=1592869917585065899,duration=2341428,event=shell_session_update[0Ktravis_time:start:0e2f48e0[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:0e2f48e0:start=1592869917587961400,finish=1592869919746933931,duration=2158972531,event=set_docker_mtu[0Ktravis_time:start:0aed9fc4[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:0aed9fc4:start=1592869919750517754,finish=1592869919827502017,duration=76984263,event=resolvconf[0Ktravis_time:start:297c304a[0Ktravis_time:end:297c304a:start=1592869919832419847,finish=1592869920012350802,duration=179930955,event=maven_central_mirror[0Ktravis_time:start:03a2bdf0[0Ktravis_time:end:03a2bdf0:start=1592869920015702943,finish=1592869920119573132,duration=103870189,event=maven_https[0Ktravis_fold:start:apt[0K[33;1mAdding APT Sources[0m
-travis_time:start:23d28298[0K$ curl -sSL "https://build.travis-ci.com/files/gpg/travis-security.asc" | sudo -E apt-key add -
+travis_time:end:0da21443:start=1592914630659174445,finish=1592914630667397766,duration=8223321,event=show_system_info[0Ktravis_time:start:195fb324[0Ktravis_time:end:195fb324:start=1592914630670134923,finish=1592914630683903097,duration=13768174,event=rm_riak_source[0Ktravis_time:start:19733fb4[0Ktravis_time:end:19733fb4:start=1592914630687836821,finish=1592914630693097702,duration=5260881,event=fix_rwky_redis[0Ktravis_time:start:0e7972ed[0Ktravis_time:end:0e7972ed:start=1592914630695915772,finish=1592914631021230726,duration=325314954,event=wait_for_network[0Ktravis_time:start:17270ac2[0Ktravis_time:end:17270ac2:start=1592914631024322104,finish=1592914631270237832,duration=245915728,event=update_apt_keys[0Ktravis_time:start:072d5bd4[0Ktravis_time:end:072d5bd4:start=1592914631273231124,finish=1592914631327221075,duration=53989951,event=fix_hhvm_source[0Ktravis_time:start:02e66008[0Ktravis_time:end:02e66008:start=1592914631330196235,finish=1592914631332704918,duration=2508683,event=update_mongo_arch[0Ktravis_time:start:0f46d930[0Ktravis_time:end:0f46d930:start=1592914631335479840,finish=1592914631377217632,duration=41737792,event=fix_sudo_enabled_trusty[0Ktravis_time:start:182b8b60[0Ktravis_time:end:182b8b60:start=1592914631380330383,finish=1592914631382511015,duration=2180632,event=update_glibc[0Ktravis_time:start:0e518782[0Ktravis_time:end:0e518782:start=1592914631385421095,finish=1592914631392914514,duration=7493419,event=clean_up_path[0Ktravis_time:start:10849fe0[0Ktravis_time:end:10849fe0:start=1592914631395605466,finish=1592914631404248407,duration=8642941,event=fix_resolv_conf[0Ktravis_time:start:0a51ded6[0Ktravis_time:end:0a51ded6:start=1592914631407134061,finish=1592914631435798672,duration=28664611,event=fix_etc_hosts[0Ktravis_time:start:3419e710[0Ktravis_time:end:3419e710:start=1592914631438806063,finish=1592914631446915954,duration=8109891,event=fix_mvn_settings_xml[0Ktravis_time:start:0750be5c[0Ktravis_time:end:0750be5c:start=1592914631449770966,finish=1592914631458941030,duration=9170064,event=no_ipv6_localhost[0Ktravis_time:start:16d81f1f[0Ktravis_time:end:16d81f1f:start=1592914631461805440,finish=1592914631463906956,duration=2101516,event=fix_etc_mavenrc[0Ktravis_time:start:02f44bf0[0Ktravis_time:end:02f44bf0:start=1592914631466624122,finish=1592914631469307089,duration=2682967,event=fix_wwdr_certificate[0Ktravis_time:start:04d55706[0Ktravis_time:end:04d55706:start=1592914631472008537,finish=1592914631541767156,duration=69758619,event=put_localhost_first[0Ktravis_time:start:01b6d1b8[0Ktravis_time:end:01b6d1b8:start=1592914631545761548,finish=1592914631550145700,duration=4384152,event=home_paths[0Ktravis_time:start:0f51a982[0Ktravis_time:end:0f51a982:start=1592914631553315508,finish=1592914631566514068,duration=13198560,event=disable_initramfs[0Ktravis_time:start:0d6a51f9[0Ktravis_time:end:0d6a51f9:start=1592914631569437310,finish=1592914631746709505,duration=177272195,event=disable_ssh_roaming[0Ktravis_time:start:13898a6f[0Ktravis_time:end:13898a6f:start=1592914631749779707,finish=1592914631752299743,duration=2520036,event=debug_tools[0Ktravis_time:start:0125dd02[0Ktravis_time:end:0125dd02:start=1592914631755252195,finish=1592914631758107655,duration=2855460,event=uninstall_oclint[0Ktravis_time:start:0266e449[0Ktravis_time:end:0266e449:start=1592914631760924740,finish=1592914631763936836,duration=3012096,event=rvm_use[0Ktravis_time:start:0464eb9c[0Ktravis_time:end:0464eb9c:start=1592914631766960091,finish=1592914631774799885,duration=7839794,event=rm_etc_boto_cfg[0Ktravis_time:start:2c1b8c77[0Ktravis_time:end:2c1b8c77:start=1592914631777797884,finish=1592914631779877623,duration=2079739,event=rm_oraclejdk8_symlink[0Ktravis_time:start:18d07fb0[0Ktravis_time:end:18d07fb0:start=1592914631782628002,finish=1592914631881917518,duration=99289516,event=enable_i386[0Ktravis_time:start:24fe38b9[0Ktravis_time:end:24fe38b9:start=1592914631885022058,finish=1592914631889106189,duration=4084131,event=update_rubygems[0Ktravis_time:start:07b585c0[0Ktravis_time:end:07b585c0:start=1592914631891872480,finish=1592914632692801788,duration=800929308,event=ensure_path_components[0Ktravis_time:start:09071aab[0Ktravis_time:end:09071aab:start=1592914632696325650,finish=1592914632698671714,duration=2346064,event=redefine_curl[0Ktravis_time:start:2d31c99e[0Ktravis_time:end:2d31c99e:start=1592914632701563503,finish=1592914632703689231,duration=2125728,event=nonblock_pipe[0Ktravis_time:start:1b014d2e[0Ktravis_time:end:1b014d2e:start=1592914632706902088,finish=1592914638746054374,duration=6039152286,event=apt_get_update[0Ktravis_time:start:0bd53652[0Ktravis_time:end:0bd53652:start=1592914638749133954,finish=1592914638751193483,duration=2059529,event=deprecate_xcode_64[0Ktravis_time:start:2082b090[0Ktravis_time:end:2082b090:start=1592914638753817244,finish=1592914641326470659,duration=2572653415,event=update_heroku[0Ktravis_time:start:271f0097[0Ktravis_time:end:271f0097:start=1592914641329686609,finish=1592914641331761751,duration=2075142,event=shell_session_update[0Ktravis_time:start:042bcad7[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:042bcad7:start=1592914641334512952,finish=1592914643551473144,duration=2216960192,event=set_docker_mtu[0Ktravis_time:start:23f72ba8[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:23f72ba8:start=1592914643556374401,finish=1592914643628674618,duration=72300217,event=resolvconf[0Ktravis_time:start:121fd350[0Ktravis_time:end:121fd350:start=1592914643632336736,finish=1592914643796546409,duration=164209673,event=maven_central_mirror[0Ktravis_time:start:1db22300[0Ktravis_time:end:1db22300:start=1592914643799498271,finish=1592914643900240589,duration=100742318,event=maven_https[0Ktravis_fold:start:apt[0K[33;1mAdding APT Sources[0m
+travis_time:start:064344d2[0K$ curl -sSL "https://build.travis-ci.com/files/gpg/travis-security.asc" | sudo -E apt-key add -
 OK
-travis_time:end:23d28298:start=1592869920123648752,finish=1592869920522633930,duration=398985178,event=prepare[0Ktravis_time:start:2d006a14[0K$ echo "deb http://archive.ubuntu.com/ubuntu/ focal main universe" | sudo tee -a ${TRAVIS_ROOT}/etc/apt/sources.list >/dev/null
-travis_time:end:2d006a14:start=1592869920526600853,finish=1592869920535222409,duration=8621556,event=prepare[0Ktravis_time:start:06d8d2b4[0K$ travis_apt_get_update
-travis_time:end:06d8d2b4:start=1592869920538550890,finish=1592869936640525041,duration=16101974151,event=prepare[0K[33;1mInstalling APT Packages[0m
-travis_time:start:19281502[0K$ sudo -E apt-get -yq --no-install-suggests --no-install-recommends $(travis_apt_get_options) install cppcheck clang clang-format clang-tidy clang-tools iwyu
+travis_time:end:064344d2:start=1592914643904146326,finish=1592914644219112999,duration=314966673,event=prepare[0Ktravis_time:start:0a68a29c[0K$ echo "deb http://archive.ubuntu.com/ubuntu/ focal main universe" | sudo tee -a ${TRAVIS_ROOT}/etc/apt/sources.list >/dev/null
+travis_time:end:0a68a29c:start=1592914644222544040,finish=1592914644230699443,duration=8155403,event=prepare[0Ktravis_time:start:020fa290[0K$ travis_apt_get_update
+travis_time:end:020fa290:start=1592914644233868107,finish=1592914660745561933,duration=16511693826,event=prepare[0K[33;1mInstalling APT Packages[0m
+travis_time:start:12b60703[0K$ sudo -E apt-get -yq --no-install-suggests --no-install-recommends $(travis_apt_get_options) install cppcheck clang-10 gcc-10 g++-10 clang-format clang-tidy clang-tools iwyu
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -178,31 +178,36 @@ The following package was automatically installed and is no longer required:
   libopts25
 Use 'sudo apt autoremove' to remove it.
 The following additional packages will be installed:
-  clang-10 clang-format-10 clang-tidy-10 clang-tools-10 gcc-10-base gcc-9-base
-  lib32gcc-s1 lib32gcc1 lib32stdc++6 libasan5 libatomic1 libc-bin libc-dev-bin
-  libc6 libc6-dev libc6-i386 libclang-common-10-dev libclang-cpp10
-  libclang1-10 libcrypt-dev libcrypt1 libffi7 libgcc-9-dev libgcc-s1 libgomp1
-  libitm1 libllvm10 liblsan0 libobjc-9-dev libobjc4 libquadmath0
+  binutils binutils-common binutils-x86-64-linux-gnu clang-format-10
+  clang-tidy-10 clang-tools-10 cpp-10 gcc-10-base gcc-9-base lib32gcc-s1
+  lib32gcc1 lib32stdc++6 libasan5 libasan6 libatomic1 libbinutils libc-bin
+  libc-dev-bin libc6 libc6-dev libc6-i386 libcc1-0 libclang-common-10-dev
+  libclang-cpp10 libclang1-10 libcrypt-dev libcrypt1 libctf-nobfd0 libctf0
+  libffi7 libgcc-10-dev libgcc-9-dev libgcc-s1 libgomp1 libisl22 libitm1
+  libllvm10 liblsan0 libobjc-9-dev libobjc4 libquadmath0 libstdc++-10-dev
   libstdc++-9-dev libstdc++6 libtinfo6 libtinyxml2-6a libtsan0 libubsan1
   locales python3-pygments
 Suggested packages:
-  clang-10-doc cppcheck-gui glibc-doc manpages-dev libstdc++-9-doc
-  python-pygments-doc ttf-bitstream-vera
+  binutils-doc clang-10-doc gcc-10-locales cppcheck-gui g++-10-multilib
+  gcc-10-doc gcc-10-multilib glibc-doc manpages-dev libstdc++-10-doc
+  libstdc++-9-doc python-pygments-doc ttf-bitstream-vera
 Recommended packages:
   llvm-10-dev libomp-10-dev manpages-dev libidn2-0
 The following NEW packages will be installed:
-  clang clang-10 clang-format clang-format-10 clang-tidy clang-tidy-10
-  clang-tools clang-tools-10 cppcheck gcc-10-base gcc-9-base iwyu lib32gcc-s1
-  lib32gcc1 lib32stdc++6 libasan5 libc6-i386 libclang-common-10-dev
-  libclang-cpp10 libclang1-10 libcrypt-dev libcrypt1 libffi7 libgcc-9-dev
-  libgcc-s1 libllvm10 libobjc-9-dev libobjc4 libstdc++-9-dev libtinfo6
+  clang-10 clang-format clang-format-10 clang-tidy clang-tidy-10 clang-tools
+  clang-tools-10 cpp-10 cppcheck g++-10 gcc-10 gcc-10-base gcc-9-base iwyu
+  lib32gcc-s1 lib32gcc1 lib32stdc++6 libasan5 libasan6 libc6-i386
+  libclang-common-10-dev libclang-cpp10 libclang1-10 libcrypt-dev libcrypt1
+  libctf-nobfd0 libctf0 libffi7 libgcc-10-dev libgcc-9-dev libgcc-s1 libisl22
+  libllvm10 libobjc-9-dev libobjc4 libstdc++-10-dev libstdc++-9-dev libtinfo6
   libtinyxml2-6a libubsan1 python3-pygments
 The following packages will be upgraded:
-  libatomic1 libc-bin libc-dev-bin libc6 libc6-dev libgomp1 libitm1 liblsan0
+  binutils binutils-common binutils-x86-64-linux-gnu libatomic1 libbinutils
+  libc-bin libc-dev-bin libc6 libc6-dev libcc1-0 libgomp1 libitm1 liblsan0
   libquadmath0 libstdc++6 libtsan0 locales
-12 upgraded, 33 newly installed, 0 to remove and 939 not upgraded.
-Need to get 72.1 MB of archives.
-After this operation, 341 MB of additional disk space will be used.
+17 upgraded, 41 newly installed, 0 to remove and 934 not upgraded.
+Need to get 113 MB of archives.
+After this operation, 494 MB of additional disk space will be used.
 Get:1 http://archive.ubuntu.com/ubuntu focal/main amd64 gcc-10-base amd64 10-20200411-0ubuntu1 [19.0 kB]
 Get:2 http://archive.ubuntu.com/ubuntu focal/main amd64 libgcc-s1 amd64 10-20200411-0ubuntu1 [41.6 kB]
 Get:3 http://archive.ubuntu.com/ubuntu focal/main amd64 libcrypt1 amd64 1:4.4.10-10ubuntu4 [78.2 kB]
@@ -215,41 +220,54 @@ Get:9 http://archive.ubuntu.com/ubuntu focal/main amd64 libcrypt-dev amd64 1:4.4
 Get:10 http://archive.ubuntu.com/ubuntu focal/main amd64 libstdc++6 amd64 10-20200411-0ubuntu1 [503 kB]
 Get:11 http://archive.ubuntu.com/ubuntu focal/main amd64 libtinfo6 amd64 6.2-0ubuntu2 [87.0 kB]
 Get:12 http://archive.ubuntu.com/ubuntu focal/main amd64 libffi7 amd64 3.3-4 [19.7 kB]
-Get:13 http://archive.ubuntu.com/ubuntu focal/main amd64 libllvm10 amd64 1:10.0.0-4ubuntu1 [15.3 MB]
-Get:14 http://archive.ubuntu.com/ubuntu focal/universe amd64 libclang-cpp10 amd64 1:10.0.0-4ubuntu1 [9,944 kB]
-Get:15 http://archive.ubuntu.com/ubuntu focal/main amd64 gcc-9-base amd64 9.3.0-10ubuntu2 [19.3 kB]
-Get:16 http://archive.ubuntu.com/ubuntu focal/main amd64 libgomp1 amd64 10-20200411-0ubuntu1 [101 kB]
-Get:17 http://archive.ubuntu.com/ubuntu focal/main amd64 libitm1 amd64 10-20200411-0ubuntu1 [26.3 kB]
-Get:18 http://archive.ubuntu.com/ubuntu focal/main amd64 libatomic1 amd64 10-20200411-0ubuntu1 [9,284 B]
-Get:19 http://archive.ubuntu.com/ubuntu focal/main amd64 libasan5 amd64 9.3.0-10ubuntu2 [395 kB]
-Get:20 http://archive.ubuntu.com/ubuntu focal/main amd64 liblsan0 amd64 10-20200411-0ubuntu1 [144 kB]
-Get:21 http://archive.ubuntu.com/ubuntu focal/main amd64 libtsan0 amd64 10-20200411-0ubuntu1 [319 kB]
-Get:22 http://archive.ubuntu.com/ubuntu focal/main amd64 libubsan1 amd64 10-20200411-0ubuntu1 [136 kB]
-Get:23 http://archive.ubuntu.com/ubuntu focal/main amd64 libquadmath0 amd64 10-20200411-0ubuntu1 [146 kB]
-Get:24 http://archive.ubuntu.com/ubuntu focal/main amd64 libgcc-9-dev amd64 9.3.0-10ubuntu2 [2,359 kB]
-Get:25 http://archive.ubuntu.com/ubuntu focal/main amd64 libstdc++-9-dev amd64 9.3.0-10ubuntu2 [1,711 kB]
-Get:26 http://archive.ubuntu.com/ubuntu focal/universe amd64 libobjc4 amd64 10-20200411-0ubuntu1 [42.8 kB]
-Get:27 http://archive.ubuntu.com/ubuntu focal/universe amd64 libobjc-9-dev amd64 9.3.0-10ubuntu2 [225 kB]
-Get:28 http://archive.ubuntu.com/ubuntu focal/main amd64 libc6-i386 amd64 2.31-0ubuntu9 [2,723 kB]
-Get:29 http://archive.ubuntu.com/ubuntu focal/main amd64 lib32gcc-s1 amd64 10-20200411-0ubuntu1 [49.6 kB]
-Get:30 http://archive.ubuntu.com/ubuntu focal/main amd64 lib32gcc1 amd64 1:10-20200411-0ubuntu1 [1,132 B]
-Get:31 http://archive.ubuntu.com/ubuntu focal/main amd64 lib32stdc++6 amd64 10-20200411-0ubuntu1 [525 kB]
-Get:32 http://archive.ubuntu.com/ubuntu focal/universe amd64 libclang-common-10-dev amd64 1:10.0.0-4ubuntu1 [5,012 kB]
-Get:33 http://archive.ubuntu.com/ubuntu focal/universe amd64 libclang1-10 amd64 1:10.0.0-4ubuntu1 [7,571 kB]
-Get:34 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-10 amd64 1:10.0.0-4ubuntu1 [66.9 kB]
-Get:35 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang amd64 1:10.0-50~exp1 [3,276 B]
-Get:36 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-format-10 amd64 1:10.0.0-4ubuntu1 [40.9 kB]
-Get:37 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-format amd64 1:10.0-50~exp1 [3,272 B]
-Get:38 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-tools-10 amd64 1:10.0.0-4ubuntu1 [6,150 kB]
-Get:39 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-tidy-10 amd64 1:10.0.0-4ubuntu1 [1,033 kB]
-Get:40 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-tidy amd64 1:10.0-50~exp1 [3,048 B]
-Get:41 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-tools amd64 1:10.0-50~exp1 [3,176 B]
-Get:42 http://archive.ubuntu.com/ubuntu focal/universe amd64 libtinyxml2-6a amd64 7.0.0+dfsg-1build1 [28.4 kB]
-Get:43 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-pygments all 2.3.1+dfsg-1ubuntu2 [579 kB]
-Get:44 http://archive.ubuntu.com/ubuntu focal/universe amd64 cppcheck amd64 1.90-4build1 [1,646 kB]
-Get:45 http://archive.ubuntu.com/ubuntu focal/universe amd64 iwyu amd64 8.0-3build1 [5,068 kB]
-Fetched 72.1 MB in 3s (21.5 MB/s)
-Extracting templates from packages: 66%Extracting templates from packages: 100%
+Get:13 http://archive.ubuntu.com/ubuntu focal/main amd64 binutils-x86-64-linux-gnu amd64 2.34-6ubuntu1 [1,614 kB]
+Get:14 http://archive.ubuntu.com/ubuntu focal/main amd64 binutils-common amd64 2.34-6ubuntu1 [207 kB]
+Get:15 http://archive.ubuntu.com/ubuntu focal/main amd64 binutils amd64 2.34-6ubuntu1 [3,376 B]
+Get:16 http://archive.ubuntu.com/ubuntu focal/main amd64 libbinutils amd64 2.34-6ubuntu1 [474 kB]
+Get:17 http://archive.ubuntu.com/ubuntu focal/main amd64 libctf-nobfd0 amd64 2.34-6ubuntu1 [47.0 kB]
+Get:18 http://archive.ubuntu.com/ubuntu focal/main amd64 libctf0 amd64 2.34-6ubuntu1 [46.6 kB]
+Get:19 http://archive.ubuntu.com/ubuntu focal/main amd64 libllvm10 amd64 1:10.0.0-4ubuntu1 [15.3 MB]
+Get:20 http://archive.ubuntu.com/ubuntu focal/universe amd64 libclang-cpp10 amd64 1:10.0.0-4ubuntu1 [9,944 kB]
+Get:21 http://archive.ubuntu.com/ubuntu focal/main amd64 gcc-9-base amd64 9.3.0-10ubuntu2 [19.3 kB]
+Get:22 http://archive.ubuntu.com/ubuntu focal/main amd64 libgomp1 amd64 10-20200411-0ubuntu1 [101 kB]
+Get:23 http://archive.ubuntu.com/ubuntu focal/main amd64 libitm1 amd64 10-20200411-0ubuntu1 [26.3 kB]
+Get:24 http://archive.ubuntu.com/ubuntu focal/main amd64 libatomic1 amd64 10-20200411-0ubuntu1 [9,284 B]
+Get:25 http://archive.ubuntu.com/ubuntu focal/main amd64 libasan5 amd64 9.3.0-10ubuntu2 [395 kB]
+Get:26 http://archive.ubuntu.com/ubuntu focal/main amd64 liblsan0 amd64 10-20200411-0ubuntu1 [144 kB]
+Get:27 http://archive.ubuntu.com/ubuntu focal/main amd64 libtsan0 amd64 10-20200411-0ubuntu1 [319 kB]
+Get:28 http://archive.ubuntu.com/ubuntu focal/main amd64 libubsan1 amd64 10-20200411-0ubuntu1 [136 kB]
+Get:29 http://archive.ubuntu.com/ubuntu focal/main amd64 libquadmath0 amd64 10-20200411-0ubuntu1 [146 kB]
+Get:30 http://archive.ubuntu.com/ubuntu focal/main amd64 libgcc-9-dev amd64 9.3.0-10ubuntu2 [2,359 kB]
+Get:31 http://archive.ubuntu.com/ubuntu focal/main amd64 libstdc++-9-dev amd64 9.3.0-10ubuntu2 [1,711 kB]
+Get:32 http://archive.ubuntu.com/ubuntu focal/universe amd64 libobjc4 amd64 10-20200411-0ubuntu1 [42.8 kB]
+Get:33 http://archive.ubuntu.com/ubuntu focal/universe amd64 libobjc-9-dev amd64 9.3.0-10ubuntu2 [225 kB]
+Get:34 http://archive.ubuntu.com/ubuntu focal/main amd64 libc6-i386 amd64 2.31-0ubuntu9 [2,723 kB]
+Get:35 http://archive.ubuntu.com/ubuntu focal/main amd64 lib32gcc-s1 amd64 10-20200411-0ubuntu1 [49.6 kB]
+Get:36 http://archive.ubuntu.com/ubuntu focal/main amd64 lib32gcc1 amd64 1:10-20200411-0ubuntu1 [1,132 B]
+Get:37 http://archive.ubuntu.com/ubuntu focal/main amd64 lib32stdc++6 amd64 10-20200411-0ubuntu1 [525 kB]
+Get:38 http://archive.ubuntu.com/ubuntu focal/universe amd64 libclang-common-10-dev amd64 1:10.0.0-4ubuntu1 [5,012 kB]
+Get:39 http://archive.ubuntu.com/ubuntu focal/universe amd64 libclang1-10 amd64 1:10.0.0-4ubuntu1 [7,571 kB]
+Get:40 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-10 amd64 1:10.0.0-4ubuntu1 [66.9 kB]
+Get:41 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-format-10 amd64 1:10.0.0-4ubuntu1 [40.9 kB]
+Get:42 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-format amd64 1:10.0-50~exp1 [3,272 B]
+Get:43 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-tools-10 amd64 1:10.0.0-4ubuntu1 [6,150 kB]
+Get:44 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-tidy-10 amd64 1:10.0.0-4ubuntu1 [1,033 kB]
+Get:45 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-tidy amd64 1:10.0-50~exp1 [3,048 B]
+Get:46 http://archive.ubuntu.com/ubuntu focal/universe amd64 clang-tools amd64 1:10.0-50~exp1 [3,176 B]
+Get:47 http://archive.ubuntu.com/ubuntu focal/main amd64 libisl22 amd64 0.22.1-1 [592 kB]
+Get:48 http://archive.ubuntu.com/ubuntu focal/universe amd64 cpp-10 amd64 10-20200411-0ubuntu1 [8,050 kB]
+Get:49 http://archive.ubuntu.com/ubuntu focal/universe amd64 libtinyxml2-6a amd64 7.0.0+dfsg-1build1 [28.4 kB]
+Get:50 http://archive.ubuntu.com/ubuntu focal/main amd64 python3-pygments all 2.3.1+dfsg-1ubuntu2 [579 kB]
+Get:51 http://archive.ubuntu.com/ubuntu focal/universe amd64 cppcheck amd64 1.90-4build1 [1,646 kB]
+Get:52 http://archive.ubuntu.com/ubuntu focal/main amd64 libcc1-0 amd64 10-20200411-0ubuntu1 [41.1 kB]
+Get:53 http://archive.ubuntu.com/ubuntu focal/main amd64 libasan6 amd64 10-20200411-0ubuntu1 [344 kB]
+Get:54 http://archive.ubuntu.com/ubuntu focal/main amd64 libgcc-10-dev amd64 10-20200411-0ubuntu1 [2,340 kB]
+Get:55 http://archive.ubuntu.com/ubuntu focal/universe amd64 gcc-10 amd64 10-20200411-0ubuntu1 [16.3 MB]
+Get:56 http://archive.ubuntu.com/ubuntu focal/universe amd64 libstdc++-10-dev amd64 10-20200411-0ubuntu1 [1,717 kB]
+Get:57 http://archive.ubuntu.com/ubuntu focal/universe amd64 g++-10 amd64 10-20200411-0ubuntu1 [9,034 kB]
+Get:58 http://archive.ubuntu.com/ubuntu focal/universe amd64 iwyu amd64 8.0-3build1 [5,068 kB]
+Fetched 113 MB in 4s (25.2 MB/s)
+Extracting templates from packages: 51%Extracting templates from packages: 100%
 Preconfiguring packages ...
 Selecting previously unselected package gcc-10-base:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 118522 files and directories currently installed.)
@@ -308,112 +326,151 @@ Unpacking libtinfo6:amd64 (6.2-0ubuntu2) ...
 Selecting previously unselected package libffi7:amd64.
 Preparing to unpack .../01-libffi7_3.3-4_amd64.deb ...
 Unpacking libffi7:amd64 (3.3-4) ...
+Preparing to unpack .../02-binutils-x86-64-linux-gnu_2.34-6ubuntu1_amd64.deb ...
+Unpacking binutils-x86-64-linux-gnu (2.34-6ubuntu1) over (2.30-21ubuntu1~18.04.2) ...
+Preparing to unpack .../03-binutils-common_2.34-6ubuntu1_amd64.deb ...
+Unpacking binutils-common:amd64 (2.34-6ubuntu1) over (2.30-21ubuntu1~18.04.2) ...
+Preparing to unpack .../04-binutils_2.34-6ubuntu1_amd64.deb ...
+Unpacking binutils (2.34-6ubuntu1) over (2.30-21ubuntu1~18.04.2) ...
+Preparing to unpack .../05-libbinutils_2.34-6ubuntu1_amd64.deb ...
+Unpacking libbinutils:amd64 (2.34-6ubuntu1) over (2.30-21ubuntu1~18.04.2) ...
+Selecting previously unselected package libctf-nobfd0:amd64.
+Preparing to unpack .../06-libctf-nobfd0_2.34-6ubuntu1_amd64.deb ...
+Unpacking libctf-nobfd0:amd64 (2.34-6ubuntu1) ...
+Selecting previously unselected package libctf0:amd64.
+Preparing to unpack .../07-libctf0_2.34-6ubuntu1_amd64.deb ...
+Unpacking libctf0:amd64 (2.34-6ubuntu1) ...
 Selecting previously unselected package libllvm10:amd64.
-Preparing to unpack .../02-libllvm10_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Preparing to unpack .../08-libllvm10_1%3a10.0.0-4ubuntu1_amd64.deb ...
 Unpacking libllvm10:amd64 (1:10.0.0-4ubuntu1) ...
 Selecting previously unselected package libclang-cpp10.
-Preparing to unpack .../03-libclang-cpp10_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Preparing to unpack .../09-libclang-cpp10_1%3a10.0.0-4ubuntu1_amd64.deb ...
 Unpacking libclang-cpp10 (1:10.0.0-4ubuntu1) ...
 Selecting previously unselected package gcc-9-base:amd64.
-Preparing to unpack .../04-gcc-9-base_9.3.0-10ubuntu2_amd64.deb ...
+Preparing to unpack .../10-gcc-9-base_9.3.0-10ubuntu2_amd64.deb ...
 Unpacking gcc-9-base:amd64 (9.3.0-10ubuntu2) ...
-Preparing to unpack .../05-libgomp1_10-20200411-0ubuntu1_amd64.deb ...
+Preparing to unpack .../11-libgomp1_10-20200411-0ubuntu1_amd64.deb ...
 Unpacking libgomp1:amd64 (10-20200411-0ubuntu1) over (8.3.0-6ubuntu1~18.04.1) ...
-Preparing to unpack .../06-libitm1_10-20200411-0ubuntu1_amd64.deb ...
+Preparing to unpack .../12-libitm1_10-20200411-0ubuntu1_amd64.deb ...
 Unpacking libitm1:amd64 (10-20200411-0ubuntu1) over (8.3.0-6ubuntu1~18.04.1) ...
-Preparing to unpack .../07-libatomic1_10-20200411-0ubuntu1_amd64.deb ...
+Preparing to unpack .../13-libatomic1_10-20200411-0ubuntu1_amd64.deb ...
 Unpacking libatomic1:amd64 (10-20200411-0ubuntu1) over (8.3.0-6ubuntu1~18.04.1) ...
 Selecting previously unselected package libasan5:amd64.
-Preparing to unpack .../08-libasan5_9.3.0-10ubuntu2_amd64.deb ...
+Preparing to unpack .../14-libasan5_9.3.0-10ubuntu2_amd64.deb ...
 Unpacking libasan5:amd64 (9.3.0-10ubuntu2) ...
-Preparing to unpack .../09-liblsan0_10-20200411-0ubuntu1_amd64.deb ...
+Preparing to unpack .../15-liblsan0_10-20200411-0ubuntu1_amd64.deb ...
 Unpacking liblsan0:amd64 (10-20200411-0ubuntu1) over (8.3.0-6ubuntu1~18.04.1) ...
-Preparing to unpack .../10-libtsan0_10-20200411-0ubuntu1_amd64.deb ...
+Preparing to unpack .../16-libtsan0_10-20200411-0ubuntu1_amd64.deb ...
 Unpacking libtsan0:amd64 (10-20200411-0ubuntu1) over (8.3.0-6ubuntu1~18.04.1) ...
 Selecting previously unselected package libubsan1:amd64.
-Preparing to unpack .../11-libubsan1_10-20200411-0ubuntu1_amd64.deb ...
+Preparing to unpack .../17-libubsan1_10-20200411-0ubuntu1_amd64.deb ...
 Unpacking libubsan1:amd64 (10-20200411-0ubuntu1) ...
-Preparing to unpack .../12-libquadmath0_10-20200411-0ubuntu1_amd64.deb ...
+Preparing to unpack .../18-libquadmath0_10-20200411-0ubuntu1_amd64.deb ...
 Unpacking libquadmath0:amd64 (10-20200411-0ubuntu1) over (8.3.0-6ubuntu1~18.04.1) ...
 Selecting previously unselected package libgcc-9-dev:amd64.
-Preparing to unpack .../13-libgcc-9-dev_9.3.0-10ubuntu2_amd64.deb ...
+Preparing to unpack .../19-libgcc-9-dev_9.3.0-10ubuntu2_amd64.deb ...
 Unpacking libgcc-9-dev:amd64 (9.3.0-10ubuntu2) ...
 Selecting previously unselected package libstdc++-9-dev:amd64.
-Preparing to unpack .../14-libstdc++-9-dev_9.3.0-10ubuntu2_amd64.deb ...
+Preparing to unpack .../20-libstdc++-9-dev_9.3.0-10ubuntu2_amd64.deb ...
 Unpacking libstdc++-9-dev:amd64 (9.3.0-10ubuntu2) ...
 Selecting previously unselected package libobjc4:amd64.
-Preparing to unpack .../15-libobjc4_10-20200411-0ubuntu1_amd64.deb ...
+Preparing to unpack .../21-libobjc4_10-20200411-0ubuntu1_amd64.deb ...
 Unpacking libobjc4:amd64 (10-20200411-0ubuntu1) ...
 Selecting previously unselected package libobjc-9-dev:amd64.
-Preparing to unpack .../16-libobjc-9-dev_9.3.0-10ubuntu2_amd64.deb ...
+Preparing to unpack .../22-libobjc-9-dev_9.3.0-10ubuntu2_amd64.deb ...
 Unpacking libobjc-9-dev:amd64 (9.3.0-10ubuntu2) ...
 Selecting previously unselected package libc6-i386.
-Preparing to unpack .../17-libc6-i386_2.31-0ubuntu9_amd64.deb ...
+Preparing to unpack .../23-libc6-i386_2.31-0ubuntu9_amd64.deb ...
 Unpacking libc6-i386 (2.31-0ubuntu9) ...
 Selecting previously unselected package lib32gcc-s1.
-Preparing to unpack .../18-lib32gcc-s1_10-20200411-0ubuntu1_amd64.deb ...
+Preparing to unpack .../24-lib32gcc-s1_10-20200411-0ubuntu1_amd64.deb ...
 Unpacking lib32gcc-s1 (10-20200411-0ubuntu1) ...
 Selecting previously unselected package lib32gcc1.
-Preparing to unpack .../19-lib32gcc1_1%3a10-20200411-0ubuntu1_amd64.deb ...
+Preparing to unpack .../25-lib32gcc1_1%3a10-20200411-0ubuntu1_amd64.deb ...
 Unpacking lib32gcc1 (1:10-20200411-0ubuntu1) ...
 Selecting previously unselected package lib32stdc++6.
-Preparing to unpack .../20-lib32stdc++6_10-20200411-0ubuntu1_amd64.deb ...
+Preparing to unpack .../26-lib32stdc++6_10-20200411-0ubuntu1_amd64.deb ...
 Unpacking lib32stdc++6 (10-20200411-0ubuntu1) ...
 Selecting previously unselected package libclang-common-10-dev.
-Preparing to unpack .../21-libclang-common-10-dev_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Preparing to unpack .../27-libclang-common-10-dev_1%3a10.0.0-4ubuntu1_amd64.deb ...
 Unpacking libclang-common-10-dev (1:10.0.0-4ubuntu1) ...
 Selecting previously unselected package libclang1-10.
-Preparing to unpack .../22-libclang1-10_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Preparing to unpack .../28-libclang1-10_1%3a10.0.0-4ubuntu1_amd64.deb ...
 Unpacking libclang1-10 (1:10.0.0-4ubuntu1) ...
 Selecting previously unselected package clang-10.
-Preparing to unpack .../23-clang-10_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Preparing to unpack .../29-clang-10_1%3a10.0.0-4ubuntu1_amd64.deb ...
 Unpacking clang-10 (1:10.0.0-4ubuntu1) ...
-Selecting previously unselected package clang.
-Preparing to unpack .../24-clang_1%3a10.0-50~exp1_amd64.deb ...
-Unpacking clang (1:10.0-50~exp1) ...
 Selecting previously unselected package clang-format-10.
-Preparing to unpack .../25-clang-format-10_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Preparing to unpack .../30-clang-format-10_1%3a10.0.0-4ubuntu1_amd64.deb ...
 Unpacking clang-format-10 (1:10.0.0-4ubuntu1) ...
 Selecting previously unselected package clang-format.
-Preparing to unpack .../26-clang-format_1%3a10.0-50~exp1_amd64.deb ...
+Preparing to unpack .../31-clang-format_1%3a10.0-50~exp1_amd64.deb ...
 Unpacking clang-format (1:10.0-50~exp1) ...
 Selecting previously unselected package clang-tools-10.
-Preparing to unpack .../27-clang-tools-10_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Preparing to unpack .../32-clang-tools-10_1%3a10.0.0-4ubuntu1_amd64.deb ...
 Unpacking clang-tools-10 (1:10.0.0-4ubuntu1) ...
 Selecting previously unselected package clang-tidy-10.
-Preparing to unpack .../28-clang-tidy-10_1%3a10.0.0-4ubuntu1_amd64.deb ...
+Preparing to unpack .../33-clang-tidy-10_1%3a10.0.0-4ubuntu1_amd64.deb ...
 Unpacking clang-tidy-10 (1:10.0.0-4ubuntu1) ...
 Selecting previously unselected package clang-tidy.
-Preparing to unpack .../29-clang-tidy_1%3a10.0-50~exp1_amd64.deb ...
+Preparing to unpack .../34-clang-tidy_1%3a10.0-50~exp1_amd64.deb ...
 Unpacking clang-tidy (1:10.0-50~exp1) ...
 Selecting previously unselected package clang-tools.
-Preparing to unpack .../30-clang-tools_1%3a10.0-50~exp1_amd64.deb ...
+Preparing to unpack .../35-clang-tools_1%3a10.0-50~exp1_amd64.deb ...
 Unpacking clang-tools (1:10.0-50~exp1) ...
+Selecting previously unselected package libisl22:amd64.
+Preparing to unpack .../36-libisl22_0.22.1-1_amd64.deb ...
+Unpacking libisl22:amd64 (0.22.1-1) ...
+Selecting previously unselected package cpp-10.
+Preparing to unpack .../37-cpp-10_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking cpp-10 (10-20200411-0ubuntu1) ...
 Selecting previously unselected package libtinyxml2-6a:amd64.
-Preparing to unpack .../31-libtinyxml2-6a_7.0.0+dfsg-1build1_amd64.deb ...
+Preparing to unpack .../38-libtinyxml2-6a_7.0.0+dfsg-1build1_amd64.deb ...
 Unpacking libtinyxml2-6a:amd64 (7.0.0+dfsg-1build1) ...
 Selecting previously unselected package python3-pygments.
-Preparing to unpack .../32-python3-pygments_2.3.1+dfsg-1ubuntu2_all.deb ...
+Preparing to unpack .../39-python3-pygments_2.3.1+dfsg-1ubuntu2_all.deb ...
 Unpacking python3-pygments (2.3.1+dfsg-1ubuntu2) ...
 Selecting previously unselected package cppcheck.
-Preparing to unpack .../33-cppcheck_1.90-4build1_amd64.deb ...
+Preparing to unpack .../40-cppcheck_1.90-4build1_amd64.deb ...
 Unpacking cppcheck (1.90-4build1) ...
+Preparing to unpack .../41-libcc1-0_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libcc1-0:amd64 (10-20200411-0ubuntu1) over (8.3.0-6ubuntu1~18.04.1) ...
+Selecting previously unselected package libasan6:amd64.
+Preparing to unpack .../42-libasan6_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libasan6:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libgcc-10-dev:amd64.
+Preparing to unpack .../43-libgcc-10-dev_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libgcc-10-dev:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package gcc-10.
+Preparing to unpack .../44-gcc-10_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking gcc-10 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package libstdc++-10-dev:amd64.
+Preparing to unpack .../45-libstdc++-10-dev_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking libstdc++-10-dev:amd64 (10-20200411-0ubuntu1) ...
+Selecting previously unselected package g++-10.
+Preparing to unpack .../46-g++-10_10-20200411-0ubuntu1_amd64.deb ...
+Unpacking g++-10 (10-20200411-0ubuntu1) ...
 Selecting previously unselected package iwyu.
-Preparing to unpack .../34-iwyu_8.0-3build1_amd64.deb ...
+Preparing to unpack .../47-iwyu_8.0-3build1_amd64.deb ...
 Unpacking iwyu (8.0-3build1) ...
 Setting up libquadmath0:amd64 (10-20200411-0ubuntu1) ...
 Setting up libgomp1:amd64 (10-20200411-0ubuntu1) ...
 Setting up gcc-9-base:amd64 (9.3.0-10ubuntu2) ...
 Setting up libatomic1:amd64 (10-20200411-0ubuntu1) ...
+Setting up libcc1-0:amd64 (10-20200411-0ubuntu1) ...
 Setting up libobjc4:amd64 (10-20200411-0ubuntu1) ...
+Setting up libctf-nobfd0:amd64 (2.34-6ubuntu1) ...
 Setting up libtsan0:amd64 (10-20200411-0ubuntu1) ...
 Setting up libtinfo6:amd64 (6.2-0ubuntu2) ...
 Setting up libc6-i386 (2.31-0ubuntu9) ...
 Setting up lib32gcc-s1 (10-20200411-0ubuntu1) ...
 Setting up libffi7:amd64 (3.3-4) ...
 Setting up liblsan0:amd64 (10-20200411-0ubuntu1) ...
+Setting up binutils-common:amd64 (2.34-6ubuntu1) ...
+Setting up libasan6:amd64 (10-20200411-0ubuntu1) ...
 Setting up libcrypt-dev:amd64 (1:4.4.10-10ubuntu4) ...
 Setting up libc-dev-bin (2.31-0ubuntu9) ...
+Setting up libisl22:amd64 (0.22.1-1) ...
 Setting up libc6-dev:amd64 (2.31-0ubuntu9) ...
 Setting up libasan5:amd64 (9.3.0-10ubuntu2) ...
 Setting up locales (2.31-0ubuntu9) ...
@@ -469,39 +526,47 @@ Setting up python3-pygments (2.3.1+dfsg-1ubuntu2) ...
 Setting up cppcheck (1.90-4build1) ...
 Setting up libllvm10:amd64 (1:10.0.0-4ubuntu1) ...
 Setting up libgcc-9-dev:amd64 (9.3.0-10ubuntu2) ...
+Setting up libbinutils:amd64 (2.34-6ubuntu1) ...
+Setting up cpp-10 (10-20200411-0ubuntu1) ...
+Setting up libgcc-10-dev:amd64 (10-20200411-0ubuntu1) ...
 Setting up libstdc++-9-dev:amd64 (9.3.0-10ubuntu2) ...
+Setting up libstdc++-10-dev:amd64 (10-20200411-0ubuntu1) ...
 Setting up libclang1-10 (1:10.0.0-4ubuntu1) ...
 Setting up libclang-cpp10 (1:10.0.0-4ubuntu1) ...
+Setting up libctf0:amd64 (2.34-6ubuntu1) ...
 Setting up lib32stdc++6 (10-20200411-0ubuntu1) ...
 Setting up clang-format-10 (1:10.0.0-4ubuntu1) ...
+Setting up binutils-x86-64-linux-gnu (2.34-6ubuntu1) ...
 Setting up libobjc-9-dev:amd64 (9.3.0-10ubuntu2) ...
 Setting up libclang-common-10-dev (1:10.0.0-4ubuntu1) ...
 Setting up clang-format (1:10.0-50~exp1) ...
+Setting up binutils (2.34-6ubuntu1) ...
 Setting up clang-10 (1:10.0.0-4ubuntu1) ...
+Setting up gcc-10 (10-20200411-0ubuntu1) ...
+Setting up g++-10 (10-20200411-0ubuntu1) ...
 Setting up clang-tools-10 (1:10.0.0-4ubuntu1) ...
 Setting up iwyu (8.0-3build1) ...
 Setting up clang-tools (1:10.0-50~exp1) ...
-Setting up clang (1:10.0-50~exp1) ...
 Setting up clang-tidy-10 (1:10.0.0-4ubuntu1) ...
 Setting up clang-tidy (1:10.0-50~exp1) ...
 Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
 Processing triggers for ccache (3.4.1-1) ...
 Updating symlinks in /usr/lib/ccache ...
 Processing triggers for libc-bin (2.31-0ubuntu9) ...
-travis_time:end:19281502:start=1592869936644658488,finish=1592870031884496120,duration=95239837632,event=prepare[0Ktravis_fold:end:apt[0Ktravis_time:start:006189dc[0Ktravis_fold:start:services[0Ktravis_time:start:0eaa0f10[0K$ sudo systemctl start docker
-travis_time:end:0eaa0f10:start=1592870031891986082,finish=1592870031905169444,duration=13183362,event=prepare[0Ktravis_fold:end:services[0Ktravis_time:end:0eaa0f10:start=1592870031891986082,finish=1592870034913396154,duration=3021410072,event=services[0Ktravis_time:start:01500aa9[0Ktravis_time:end:01500aa9:start=1592870034918277968,finish=1592870034921362697,duration=3084729,event=fix_ps4[0Ktravis_time:start:03f7f62c[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:0f8cb1b7[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
+travis_time:end:12b60703:start=1592914660749222673,finish=1592914761973860608,duration=101224637935,event=prepare[0Ktravis_fold:end:apt[0Ktravis_time:start:19f96f28[0Ktravis_fold:start:services[0Ktravis_time:start:01b9c688[0K$ sudo systemctl start docker
+travis_time:end:01b9c688:start=1592914761980807737,finish=1592914761992602386,duration=11794649,event=prepare[0Ktravis_fold:end:services[0Ktravis_time:end:01b9c688:start=1592914761980807737,finish=1592914764998648411,duration=3017840674,event=services[0Ktravis_time:start:199db1fb[0Ktravis_time:end:199db1fb:start=1592914765001959719,finish=1592914765004255361,duration=2295642,event=fix_ps4[0Ktravis_time:start:249cf654[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:01fb0e86[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
 Cloning into 'bansan85/wiki_le_garrec_fr'...
-remote: Enumerating objects: 91, done.[K
-remote: Counting objects:   1% (1/91)[Kremote: Counting objects:   2% (2/91)[Kremote: Counting objects:   3% (3/91)[Kremote: Counting objects:   4% (4/91)[Kremote: Counting objects:   5% (5/91)[Kremote: Counting objects:   6% (6/91)[Kremote: Counting objects:   7% (7/91)[Kremote: Counting objects:   8% (8/91)[Kremote: Counting objects:   9% (9/91)[Kremote: Counting objects:  10% (10/91)[Kremote: Counting objects:  12% (11/91)[Kremote: Counting objects:  13% (12/91)[Kremote: Counting objects:  14% (13/91)[Kremote: Counting objects:  15% (14/91)[Kremote: Counting objects:  16% (15/91)[Kremote: Counting objects:  17% (16/91)[Kremote: Counting objects:  18% (17/91)[Kremote: Counting objects:  19% (18/91)[Kremote: Counting objects:  20% (19/91)[Kremote: Counting objects:  21% (20/91)[Kremote: Counting objects:  23% (21/91)[Kremote: Counting objects:  24% (22/91)[Kremote: Counting objects:  25% (23/91)[Kremote: Counting objects:  26% (24/91)[Kremote: Counting objects:  27% (25/91)[Kremote: Counting objects:  28% (26/91)[Kremote: Counting objects:  29% (27/91)[Kremote: Counting objects:  30% (28/91)[Kremote: Counting objects:  31% (29/91)[Kremote: Counting objects:  32% (30/91)[Kremote: Counting objects:  34% (31/91)[Kremote: Counting objects:  35% (32/91)[Kremote: Counting objects:  36% (33/91)[Kremote: Counting objects:  37% (34/91)[Kremote: Counting objects:  38% (35/91)[Kremote: Counting objects:  39% (36/91)[Kremote: Counting objects:  40% (37/91)[Kremote: Counting objects:  41% (38/91)[Kremote: Counting objects:  42% (39/91)[Kremote: Counting objects:  43% (40/91)[Kremote: Counting objects:  45% (41/91)[Kremote: Counting objects:  46% (42/91)[Kremote: Counting objects:  47% (43/91)[Kremote: Counting objects:  48% (44/91)[Kremote: Counting objects:  49% (45/91)[Kremote: Counting objects:  50% (46/91)[Kremote: Counting objects:  51% (47/91)[Kremote: Counting objects:  52% (48/91)[Kremote: Counting objects:  53% (49/91)[Kremote: Counting objects:  54% (50/91)[Kremote: Counting objects:  56% (51/91)[Kremote: Counting objects:  57% (52/91)[Kremote: Counting objects:  58% (53/91)[Kremote: Counting objects:  59% (54/91)[Kremote: Counting objects:  60% (55/91)[Kremote: Counting objects:  61% (56/91)[Kremote: Counting objects:  62% (57/91)[Kremote: Counting objects:  63% (58/91)[Kremote: Counting objects:  64% (59/91)[Kremote: Counting objects:  65% (60/91)[Kremote: Counting objects:  67% (61/91)[Kremote: Counting objects:  68% (62/91)[Kremote: Counting objects:  69% (63/91)[Kremote: Counting objects:  70% (64/91)[Kremote: Counting objects:  71% (65/91)[Kremote: Counting objects:  72% (66/91)[Kremote: Counting objects:  73% (67/91)[Kremote: Counting objects:  74% (68/91)[Kremote: Counting objects:  75% (69/91)[Kremote: Counting objects:  76% (70/91)[Kremote: Counting objects:  78% (71/91)[Kremote: Counting objects:  79% (72/91)[Kremote: Counting objects:  80% (73/91)[Kremote: Counting objects:  81% (74/91)[Kremote: Counting objects:  82% (75/91)[Kremote: Counting objects:  83% (76/91)[Kremote: Counting objects:  84% (77/91)[Kremote: Counting objects:  85% (78/91)[Kremote: Counting objects:  86% (79/91)[Kremote: Counting objects:  87% (80/91)[Kremote: Counting objects:  89% (81/91)[Kremote: Counting objects:  90% (82/91)[Kremote: Counting objects:  91% (83/91)[Kremote: Counting objects:  92% (84/91)[Kremote: Counting objects:  93% (85/91)[Kremote: Counting objects:  94% (86/91)[Kremote: Counting objects:  95% (87/91)[Kremote: Counting objects:  96% (88/91)[Kremote: Counting objects:  97% (89/91)[Kremote: Counting objects:  98% (90/91)[Kremote: Counting objects: 100% (91/91)[Kremote: Counting objects: 100% (91/91), done.[K
-remote: Compressing objects:   1% (1/60)[Kremote: Compressing objects:   3% (2/60)[Kremote: Compressing objects:   5% (3/60)[Kremote: Compressing objects:   6% (4/60)[Kremote: Compressing objects:   8% (5/60)[Kremote: Compressing objects:  10% (6/60)[Kremote: Compressing objects:  11% (7/60)[Kremote: Compressing objects:  13% (8/60)[Kremote: Compressing objects:  15% (9/60)[Kremote: Compressing objects:  16% (10/60)[Kremote: Compressing objects:  18% (11/60)[Kremote: Compressing objects:  20% (12/60)[Kremote: Compressing objects:  21% (13/60)[Kremote: Compressing objects:  23% (14/60)[Kremote: Compressing objects:  25% (15/60)[Kremote: Compressing objects:  26% (16/60)[Kremote: Compressing objects:  28% (17/60)[Kremote: Compressing objects:  30% (18/60)[Kremote: Compressing objects:  31% (19/60)[Kremote: Compressing objects:  33% (20/60)[Kremote: Compressing objects:  35% (21/60)[Kremote: Compressing objects:  36% (22/60)[Kremote: Compressing objects:  38% (23/60)[Kremote: Compressing objects:  40% (24/60)[Kremote: Compressing objects:  41% (25/60)[Kremote: Compressing objects:  43% (26/60)[Kremote: Compressing objects:  45% (27/60)[Kremote: Compressing objects:  46% (28/60)[Kremote: Compressing objects:  48% (29/60)[Kremote: Compressing objects:  50% (30/60)[Kremote: Compressing objects:  51% (31/60)[Kremote: Compressing objects:  53% (32/60)[Kremote: Compressing objects:  55% (33/60)[Kremote: Compressing objects:  56% (34/60)[Kremote: Compressing objects:  58% (35/60)[Kremote: Compressing objects:  60% (36/60)[Kremote: Compressing objects:  61% (37/60)[Kremote: Compressing objects:  63% (38/60)[Kremote: Compressing objects:  65% (39/60)[Kremote: Compressing objects:  66% (40/60)[Kremote: Compressing objects:  68% (41/60)[Kremote: Compressing objects:  70% (42/60)[Kremote: Compressing objects:  71% (43/60)[Kremote: Compressing objects:  73% (44/60)[Kremote: Compressing objects:  75% (45/60)[Kremote: Compressing objects:  76% (46/60)[Kremote: Compressing objects:  78% (47/60)[Kremote: Compressing objects:  80% (48/60)[Kremote: Compressing objects:  81% (49/60)[Kremote: Compressing objects:  83% (50/60)[Kremote: Compressing objects:  85% (51/60)[Kremote: Compressing objects:  86% (52/60)[Kremote: Compressing objects:  88% (53/60)[Kremote: Compressing objects:  90% (54/60)[Kremote: Compressing objects:  91% (55/60)[Kremote: Compressing objects:  93% (56/60)[Kremote: Compressing objects:  95% (57/60)[Kremote: Compressing objects:  96% (58/60)[Kremote: Compressing objects:  98% (59/60)[Kremote: Compressing objects: 100% (60/60)[Kremote: Compressing objects: 100% (60/60), done.[K
-Receiving objects:   1% (1/91)Receiving objects:   2% (2/91)Receiving objects:   3% (3/91)Receiving objects:   4% (4/91)Receiving objects:   5% (5/91)Receiving objects:   6% (6/91)Receiving objects:   7% (7/91)Receiving objects:   8% (8/91)Receiving objects:   9% (9/91)Receiving objects:  10% (10/91)Receiving objects:  12% (11/91)Receiving objects:  13% (12/91)Receiving objects:  14% (13/91)Receiving objects:  15% (14/91)Receiving objects:  16% (15/91)Receiving objects:  17% (16/91)Receiving objects:  18% (17/91)Receiving objects:  19% (18/91)Receiving objects:  20% (19/91)Receiving objects:  21% (20/91)remote: Total 91 (delta 26), reused 82 (delta 20), pack-reused 0[K
-Receiving objects:  23% (21/91)Receiving objects:  24% (22/91)Receiving objects:  25% (23/91)Receiving objects:  26% (24/91)Receiving objects:  27% (25/91)Receiving objects:  28% (26/91)Receiving objects:  29% (27/91)Receiving objects:  30% (28/91)Receiving objects:  31% (29/91)Receiving objects:  32% (30/91)Receiving objects:  34% (31/91)Receiving objects:  35% (32/91)Receiving objects:  36% (33/91)Receiving objects:  37% (34/91)Receiving objects:  38% (35/91)Receiving objects:  39% (36/91)Receiving objects:  40% (37/91)Receiving objects:  41% (38/91)Receiving objects:  42% (39/91)Receiving objects:  43% (40/91)Receiving objects:  45% (41/91)Receiving objects:  46% (42/91)Receiving objects:  47% (43/91)Receiving objects:  48% (44/91)Receiving objects:  49% (45/91)Receiving objects:  50% (46/91)Receiving objects:  51% (47/91)Receiving objects:  52% (48/91)Receiving objects:  53% (49/91)Receiving objects:  54% (50/91)Receiving objects:  56% (51/91)Receiving objects:  57% (52/91)Receiving objects:  58% (53/91)Receiving objects:  59% (54/91)Receiving objects:  60% (55/91)Receiving objects:  61% (56/91)Receiving objects:  62% (57/91)Receiving objects:  63% (58/91)Receiving objects:  64% (59/91)Receiving objects:  65% (60/91)Receiving objects:  67% (61/91)Receiving objects:  68% (62/91)Receiving objects:  69% (63/91)Receiving objects:  70% (64/91)Receiving objects:  71% (65/91)Receiving objects:  72% (66/91)Receiving objects:  73% (67/91)Receiving objects:  74% (68/91)Receiving objects:  75% (69/91)Receiving objects:  76% (70/91)Receiving objects:  78% (71/91)Receiving objects:  79% (72/91)Receiving objects:  80% (73/91)Receiving objects:  81% (74/91)Receiving objects:  82% (75/91)Receiving objects:  83% (76/91)Receiving objects:  84% (77/91)Receiving objects:  85% (78/91)Receiving objects:  86% (79/91)Receiving objects:  87% (80/91)Receiving objects:  89% (81/91)Receiving objects:  90% (82/91)Receiving objects:  91% (83/91)Receiving objects:  92% (84/91)Receiving objects:  93% (85/91)Receiving objects:  94% (86/91)Receiving objects:  95% (87/91)Receiving objects:  96% (88/91)Receiving objects:  97% (89/91)Receiving objects:  98% (90/91)Receiving objects: 100% (91/91)Receiving objects: 100% (91/91), 15.73 KiB | 1.43 MiB/s, done.
-Resolving deltas:   0% (0/26)Resolving deltas:  15% (4/26)Resolving deltas:  19% (5/26)Resolving deltas:  26% (7/26)Resolving deltas:  38% (10/26)Resolving deltas:  46% (12/26)Resolving deltas:  50% (13/26)Resolving deltas:  53% (14/26)Resolving deltas:  57% (15/26)Resolving deltas:  61% (16/26)Resolving deltas:  65% (17/26)Resolving deltas:  69% (18/26)Resolving deltas: 100% (26/26)Resolving deltas: 100% (26/26), done.
-travis_time:end:0f8cb1b7:start=1592870034928239867,finish=1592870035472896799,duration=544656932,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
-$ git checkout -qf 8420c123b21b93e5e69bf946f7f584ab16e8b266
+remote: Enumerating objects: 6, done.[K
+remote: Counting objects:  16% (1/6)[Kremote: Counting objects:  33% (2/6)[Kremote: Counting objects:  50% (3/6)[Kremote: Counting objects:  66% (4/6)[Kremote: Counting objects:  83% (5/6)[Kremote: Counting objects: 100% (6/6)[Kremote: Counting objects: 100% (6/6), done.[K
+remote: Compressing objects:  16% (1/6)[Kremote: Compressing objects:  33% (2/6)[Kremote: Compressing objects:  50% (3/6)[Kremote: Compressing objects:  66% (4/6)[Kremote: Compressing objects:  83% (5/6)[Kremote: Compressing objects: 100% (6/6)[Kremote: Compressing objects: 100% (6/6), done.[K
+remote: Total 97 (delta 1), reused 3 (delta 0), pack-reused 91[K
+Receiving objects:   1% (1/97)Receiving objects:   2% (2/97)Receiving objects:   3% (3/97)Receiving objects:   4% (4/97)Receiving objects:   5% (5/97)Receiving objects:   6% (6/97)Receiving objects:   7% (7/97)Receiving objects:   8% (8/97)Receiving objects:   9% (9/97)Receiving objects:  10% (10/97)Receiving objects:  11% (11/97)Receiving objects:  12% (12/97)Receiving objects:  13% (13/97)Receiving objects:  14% (14/97)Receiving objects:  15% (15/97)Receiving objects:  16% (16/97)Receiving objects:  17% (17/97)Receiving objects:  18% (18/97)Receiving objects:  19% (19/97)Receiving objects:  20% (20/97)Receiving objects:  21% (21/97)Receiving objects:  22% (22/97)Receiving objects:  23% (23/97)Receiving objects:  24% (24/97)Receiving objects:  25% (25/97)Receiving objects:  26% (26/97)Receiving objects:  27% (27/97)Receiving objects:  28% (28/97)Receiving objects:  29% (29/97)Receiving objects:  30% (30/97)Receiving objects:  31% (31/97)Receiving objects:  32% (32/97)Receiving objects:  34% (33/97)Receiving objects:  35% (34/97)Receiving objects:  36% (35/97)Receiving objects:  37% (36/97)Receiving objects:  38% (37/97)Receiving objects:  39% (38/97)Receiving objects:  40% (39/97)Receiving objects:  41% (40/97)Receiving objects:  42% (41/97)Receiving objects:  43% (42/97)Receiving objects:  44% (43/97)Receiving objects:  45% (44/97)Receiving objects:  46% (45/97)Receiving objects:  47% (46/97)Receiving objects:  48% (47/97)Receiving objects:  49% (48/97)Receiving objects:  50% (49/97)Receiving objects:  51% (50/97)Receiving objects:  52% (51/97)Receiving objects:  53% (52/97)Receiving objects:  54% (53/97)Receiving objects:  55% (54/97)Receiving objects:  56% (55/97)Receiving objects:  57% (56/97)Receiving objects:  58% (57/97)Receiving objects:  59% (58/97)Receiving objects:  60% (59/97)Receiving objects:  61% (60/97)Receiving objects:  62% (61/97)Receiving objects:  63% (62/97)Receiving objects:  64% (63/97)Receiving objects:  65% (64/97)Receiving objects:  67% (65/97)Receiving objects:  68% (66/97)Receiving objects:  69% (67/97)Receiving objects:  70% (68/97)Receiving objects:  71% (69/97)Receiving objects:  72% (70/97)Receiving objects:  73% (71/97)Receiving objects:  74% (72/97)Receiving objects:  75% (73/97)Receiving objects:  76% (74/97)Receiving objects:  77% (75/97)Receiving objects:  78% (76/97)Receiving objects:  79% (77/97)Receiving objects:  80% (78/97)Receiving objects:  81% (79/97)Receiving objects:  82% (80/97)Receiving objects:  83% (81/97)Receiving objects:  84% (82/97)Receiving objects:  85% (83/97)Receiving objects:  86% (84/97)Receiving objects:  87% (85/97)Receiving objects:  88% (86/97)Receiving objects:  89% (87/97)Receiving objects:  90% (88/97)Receiving objects:  91% (89/97)Receiving objects:  92% (90/97)Receiving objects:  93% (91/97)Receiving objects:  94% (92/97)Receiving objects:  95% (93/97)Receiving objects:  96% (94/97)Receiving objects:  97% (95/97)Receiving objects:  98% (96/97)Receiving objects: 100% (97/97)Receiving objects: 100% (97/97), 17.55 KiB | 8.78 MiB/s, done.
+Resolving deltas:   0% (0/28)Resolving deltas:  14% (4/28)Resolving deltas:  46% (13/28)Resolving deltas:  53% (15/28)Resolving deltas:  64% (18/28)Resolving deltas:  67% (19/28)Resolving deltas:  75% (21/28)Resolving deltas:  78% (22/28)Resolving deltas:  82% (23/28)Resolving deltas:  85% (24/28)Resolving deltas:  89% (25/28)Resolving deltas:  92% (26/28)Resolving deltas:  96% (27/28)Resolving deltas: 100% (28/28)Resolving deltas: 100% (28/28), done.
+travis_time:end:01fb0e86:start=1592914765010719402,finish=1592914765415458466,duration=404739064,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
+$ git checkout -qf a7f7e716c5bdfc4f12265c0b1e81e94252070b37
 travis_fold:end:git.checkout[0K
-travis_time:end:0f8cb1b7:start=1592870034928239867,finish=1592870035479295622,duration=551055755,event=checkout[0Ktravis_time:start:006eabbb[0Ktravis_time:end:006eabbb:start=1592870035482738937,finish=1592870035488911801,duration=6172864,event=env[0K$ export TRAVIS_COMPILER=g++
+travis_time:end:01fb0e86:start=1592914765010719402,finish=1592914765421634650,duration=410915248,event=checkout[0Ktravis_time:start:0103cd34[0Ktravis_time:end:0103cd34:start=1592914765424947376,finish=1592914765431192223,duration=6244847,event=env[0K$ export TRAVIS_COMPILER=g++
 $ export CXX=${CXX:-g++}
 $ export CXX_FOR_BUILD=${CXX_FOR_BUILD:-g++}
 $ export CC=${CC:-gcc}
@@ -512,97 +577,138 @@ Copyright (C) 2017 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-travis_fold:start:before_install.1[0Ktravis_time:start:2ad8adee[0K$ docker pull gcc:latest
-latest: Pulling from library/gcc
-
-[1A[1K[Ke9afc4f90ab0: Pulling fs layer [1B
-[1A[1K[K989e6b19a265: Pulling fs layer [1B
-[1A[1K[Kaf14b6c2f878: Pulling fs layer [1B
-[1A[1K[K5573c4b30949: Pulling fs layer [1B
-[1A[1K[K11a88e764313: Pulling fs layer [1B
-[1A[1K[Ke2983d3e9d87: Pulling fs layer [1B
-[1A[1K[Kb73e08d8a550: Pulling fs layer [1B
-[1A[1K[Kef564e387869: Pulling fs layer [1B
-[1A[1K[K2645c37e0992: Pulling fs layer [1B[6A[1K[K5573c4b30949: Waiting [6B[5A[1K[K11a88e764313: Waiting [5B[4A[1K[Ke2983d3e9d87: Waiting [4B[3A[1K[Kb73e08d8a550: Waiting [3B[2A[1K[Kef564e387869: Waiting [2B[1A[1K[K2645c37e0992: Waiting [1B[7A[1K[Kaf14b6c2f878: Downloading  102.4kB/9.996MB[7B[8A[1K[K989e6b19a265: Downloading  81.49kB/7.812MB[8B[9A[1K[Ke9afc4f90ab0: Downloading  506.3kB/50.39MB[9B[7A[1K[Kaf14b6c2f878: Downloading  9.268MB/9.996MB[7B[7A[1K[Kaf14b6c2f878: Verifying Checksum [7B[7A[1K[Kaf14b6c2f878: Download complete [7B[8A[1K[K989e6b19a265: Downloading  6.462MB/7.812MB[8B[8A[1K[K989e6b19a265: Verifying Checksum [8B[8A[1K[K989e6b19a265: Download complete [8B[9A[1K[Ke9afc4f90ab0: Downloading   7.13MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Downloading  21.97MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Downloading  36.28MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  539.1kB/192.2MB[5B[6A[1K[K5573c4b30949: Downloading  521.9kB/51.83MB[6B[5A[1K[K11a88e764313: Downloading  9.628MB/192.2MB[5B[6A[1K[K5573c4b30949: Downloading  6.314MB/51.83MB[6B[9A[1K[Ke9afc4f90ab0: Downloading  48.59MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Verifying Checksum [9B[9A[1K[Ke9afc4f90ab0: Download complete [9B[6A[1K[K5573c4b30949: Downloading  14.21MB/51.83MB[6B[5A[1K[K11a88e764313: Downloading  19.29MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  524.3kB/50.39MB[9B[6A[1K[K5573c4b30949: Downloading  22.09MB/51.83MB[6B[9A[1K[Ke9afc4f90ab0: Extracting  2.097MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  28.94MB/192.2MB[5B[6A[1K[K5573c4b30949: Downloading  27.35MB/51.83MB[6B[5A[1K[K11a88e764313: Downloading  36.94MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  3.146MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading     46MB/192.2MB[5B[6A[1K[K5573c4b30949: Downloading  33.15MB/51.83MB[6B[9A[1K[Ke9afc4f90ab0: Extracting  4.194MB/50.39MB[9B[4A[1K[Ke2983d3e9d87: Downloading     422B/11.56kB[4B[4A[1K[Ke2983d3e9d87: Downloading  11.56kB/11.56kB[4B[4A[1K[Ke2983d3e9d87: Verifying Checksum [4B[4A[1K[Ke2983d3e9d87: Download complete [4B[5A[1K[K11a88e764313: Downloading  55.09MB/192.2MB[5B[6A[1K[K5573c4b30949: Downloading  41.05MB/51.83MB[6B[9A[1K[Ke9afc4f90ab0: Extracting  5.243MB/50.39MB[9B[6A[1K[K5573c4b30949: Downloading  48.94MB/51.83MB[6B[6A[1K[K5573c4b30949: Verifying Checksum [6B[6A[1K[K5573c4b30949: Download complete [6B[5A[1K[K11a88e764313: Downloading  63.66MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting   7.34MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  75.41MB/192.2MB[5B[5A[1K[K11a88e764313: Downloading  86.62MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  8.913MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  539.7kB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  10.49MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  97.34MB/192.2MB[5B[2A[1K[Kef564e387869: Downloading     422B/11.58kB[2B[2A[1K[Kef564e387869: Downloading  11.58kB/11.58kB[2B[2A[1K[Kef564e387869: Verifying Checksum [2B[3A[1K[Kb73e08d8a550: Downloading  10.21MB/116.8MB[3B[2A[1K[Kef564e387869: Download complete [2B[9A[1K[Ke9afc4f90ab0: Extracting  11.53MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading    107MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  19.31MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading  115.7MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  28.97MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  12.58MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  123.7MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  35.93MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  13.63MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  133.8MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  45.02MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading  142.9MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting  14.68MB/50.39MB[9B[1A[1K[K2645c37e0992: Downloading     423B/1.931kB[1B[1A[1K[K2645c37e0992: Downloading  1.931kB/1.931kB[1B[1A[1K[K2645c37e0992: Verifying Checksum [1B[1A[1K[K2645c37e0992: Download complete [1B[3A[1K[Kb73e08d8a550: Downloading  54.66MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading  153.6MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  64.85MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  15.73MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  158.4MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  72.86MB/116.8MB[3B[5A[1K[K11a88e764313: Downloading    167MB/192.2MB[5B[9A[1K[Ke9afc4f90ab0: Extracting   17.3MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  78.77MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  18.35MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  172.9MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  85.16MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  19.92MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  179.9MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  93.21MB/116.8MB[3B[9A[1K[Ke9afc4f90ab0: Extracting  22.02MB/50.39MB[9B[5A[1K[K11a88e764313: Downloading  187.4MB/192.2MB[5B[3A[1K[Kb73e08d8a550: Downloading  102.3MB/116.8MB[3B[5A[1K[K11a88e764313: Verifying Checksum [5B[5A[1K[K11a88e764313: Download complete [5B[9A[1K[Ke9afc4f90ab0: Extracting  23.59MB/50.39MB[9B[3A[1K[Kb73e08d8a550: Downloading  114.6MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Verifying Checksum [3B[3A[1K[Kb73e08d8a550: Download complete [3B[9A[1K[Ke9afc4f90ab0: Extracting  25.69MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  28.84MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  34.08MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  37.22MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  39.32MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  41.42MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  43.52MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  45.61MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  47.71MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  49.28MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  50.33MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Extracting  50.39MB/50.39MB[9B[9A[1K[Ke9afc4f90ab0: Pull complete [9B[8A[1K[K989e6b19a265: Extracting   98.3kB/7.812MB[8B[8A[1K[K989e6b19a265: Extracting  2.753MB/7.812MB[8B[8A[1K[K989e6b19a265: Extracting  5.407MB/7.812MB[8B[8A[1K[K989e6b19a265: Extracting  7.668MB/7.812MB[8B[8A[1K[K989e6b19a265: Extracting  7.812MB/7.812MB[8B[8A[1K[K989e6b19a265: Pull complete [8B[7A[1K[Kaf14b6c2f878: Extracting  131.1kB/9.996MB[7B[7A[1K[Kaf14b6c2f878: Extracting  2.884MB/9.996MB[7B[7A[1K[Kaf14b6c2f878: Extracting  8.651MB/9.996MB[7B[7A[1K[Kaf14b6c2f878: Extracting  9.996MB/9.996MB[7B[7A[1K[Kaf14b6c2f878: Pull complete [7B[6A[1K[K5573c4b30949: Extracting  524.3kB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting   3.67MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  6.291MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  9.437MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  12.06MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting   15.2MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  18.35MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  19.92MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting   21.5MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  23.59MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  25.17MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  26.74MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  28.84MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  31.46MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  33.03MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  35.65MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  37.22MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  40.89MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  42.99MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  45.09MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  47.19MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  48.76MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  50.33MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  51.38MB/51.83MB[6B[6A[1K[K5573c4b30949: Extracting  51.83MB/51.83MB[6B[6A[1K[K5573c4b30949: Pull complete [6B[5A[1K[K11a88e764313: Extracting  557.1kB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  3.342MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  6.128MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  8.913MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  10.03MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  11.14MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  12.26MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  13.37MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  14.48MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting   15.6MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  16.71MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  17.83MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  21.17MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  23.95MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  26.74MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  28.97MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  32.31MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  35.09MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  38.44MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  40.67MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  42.89MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  46.24MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  48.46MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  51.81MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  55.15MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  57.93MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  60.16MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  61.83MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting   63.5MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  65.18MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  66.85MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  69.07MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting   71.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  73.53MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  76.32MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  78.54MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  81.33MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  84.12MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  86.34MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  89.13MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  91.36MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  94.14MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  97.48MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  100.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  103.6MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  106.4MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  109.2MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting    112MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  114.2MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  116.4MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  118.7MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  120.9MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  123.1MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  125.9MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  128.1MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  130.4MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  133.1MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  135.4MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  138.1MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  139.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting    142MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  143.7MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  149.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  154.9MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  164.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  169.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  173.2MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  176.6MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  178.8MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting    181MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  183.3MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  184.9MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  187.2MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  189.4MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  190.5MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  191.6MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  192.2MB/192.2MB[5B[5A[1K[K11a88e764313: Extracting  192.2MB/192.2MB[5B[5A[1K[K11a88e764313: Pull complete [5B[4A[1K[Ke2983d3e9d87: Extracting  11.56kB/11.56kB[4B[4A[1K[Ke2983d3e9d87: Extracting  11.56kB/11.56kB[4B[4A[1K[Ke2983d3e9d87: Pull complete [4B[3A[1K[Kb73e08d8a550: Extracting  557.1kB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  3.342MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  6.128MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting   9.47MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  12.26MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  15.04MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  16.71MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  17.83MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  21.17MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  22.28MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting   23.4MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  25.62MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  27.85MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  30.08MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  32.31MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  34.54MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  36.77MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  38.99MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  41.22MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  44.01MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  46.24MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  48.46MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  50.69MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  53.48MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  56.82MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting   59.6MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  61.83MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  64.62MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  67.96MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  70.19MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  72.97MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting   75.2MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  77.99MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  80.77MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  83.56MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  86.34MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  89.13MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  92.47MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  95.26MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  98.04MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  100.3MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  103.1MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  106.4MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  109.2MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  111.4MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  113.6MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  115.9MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Extracting  116.8MB/116.8MB[3B[3A[1K[Kb73e08d8a550: Pull complete [3B[2A[1K[Kef564e387869: Extracting  11.58kB/11.58kB[2B[2A[1K[Kef564e387869: Extracting  11.58kB/11.58kB[2B[2A[1K[Kef564e387869: Pull complete [2B[1A[1K[K2645c37e0992: Extracting  1.931kB/1.931kB[1B[1A[1K[K2645c37e0992: Extracting  1.931kB/1.931kB[1B[1A[1K[K2645c37e0992: Pull complete [1BDigest: sha256:02b1fc7bb48417e09574ad2dfbe6ea75c2f3637650068509ba4d4c3ebe199e40
-Status: Downloaded newer image for gcc:latest
-travis_time:end:2ad8adee:start=1592870035507797644,finish=1592870059472166292,duration=23964368648,event=before_install[0Ktravis_fold:end:before_install.1[0Ktravis_fold:start:before_install.2[0Ktravis_time:start:01f75ea8[0K$ docker pull clangbuiltlinux/ubuntu:latest
-latest: Pulling from clangbuiltlinux/ubuntu
-
-[1A[1K[Ka4a2a29f9ba4: Pulling fs layer [1B
-[1A[1K[K127c9761dcba: Pulling fs layer [1B
-[1A[1K[Kd13bf203e905: Pulling fs layer [1B
-[1A[1K[K4039240d2e0b: Pulling fs layer [1B
-[1A[1K[K6ff3fdecd2ff: Pulling fs layer [1B
-[1A[1K[Ke9c09fd1dd64: Pulling fs layer [1B
-[1A[1K[K531d7219700b: Pulling fs layer [1B
-[1A[1K[K80bc5e0cb092: Pulling fs layer [1B
-[1A[1K[K7ff3bf1b4fb1: Pulling fs layer [1B
-[1A[1K[K07004629d7c2: Pulling fs layer [1B[7A[1K[K4039240d2e0b: Waiting [7B[6A[1K[K6ff3fdecd2ff: Waiting [6B[5A[1K[Ke9c09fd1dd64: Waiting [5B[4A[1K[K531d7219700b: Waiting [4B[3A[1K[K80bc5e0cb092: Waiting [3B[2A[1K[K7ff3bf1b4fb1: Waiting [2B[1A[1K[K07004629d7c2: Waiting [1B[9A[1K[K127c9761dcba: Downloading     423B/32.32kB[9B[9A[1K[K127c9761dcba: Downloading  32.32kB/32.32kB[9B[9A[1K[K127c9761dcba: Verifying Checksum [9B[9A[1K[K127c9761dcba: Download complete [9B[8A[1K[Kd13bf203e905: Downloading     425B/844B[8B[8A[1K[Kd13bf203e905: Downloading     844B/844B[8B[8A[1K[Kd13bf203e905: Verifying Checksum [8B[8A[1K[Kd13bf203e905: Download complete [8B[10A[1K[Ka4a2a29f9ba4: Downloading  292.5kB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Downloading  11.71MB/28.56MB[10B[7A[1K[K4039240d2e0b: Downloading     161B/161B[7B[7A[1K[K4039240d2e0b: Verifying Checksum [7B[7A[1K[K4039240d2e0b: Download complete [7B[10A[1K[Ka4a2a29f9ba4: Downloading  25.17MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  539.1kB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Verifying Checksum [10B[10A[1K[Ka4a2a29f9ba4: Download complete [10B[10A[1K[Ka4a2a29f9ba4: Extracting  294.9kB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  10.19MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Downloading  20.37MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  2.064MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  539.1kB/93.18MB[5B[4A[1K[K531d7219700b: Downloading     426B/865B[4B[4A[1K[K531d7219700b: Downloading     865B/865B[4B[4A[1K[K531d7219700b: Verifying Checksum [4B[4A[1K[K531d7219700b: Download complete [4B[6A[1K[K6ff3fdecd2ff: Downloading  26.24MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  3.539MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  7.502MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  34.81MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  5.014MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  16.65MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  42.84MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  5.898MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  25.78MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  52.49MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  7.373MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  32.74MB/93.18MB[5B[10A[1K[Ka4a2a29f9ba4: Extracting  8.552MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  60.01MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Downloading  41.33MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading   67.5MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  9.437MB/28.56MB[10B[3A[1K[K80bc5e0cb092: Downloading     104B/104B[3B[3A[1K[K80bc5e0cb092: Verifying Checksum [3B[3A[1K[K80bc5e0cb092: Download complete [3B[6A[1K[K6ff3fdecd2ff: Downloading   72.3MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Downloading  43.46MB/93.18MB[5B[10A[1K[Ka4a2a29f9ba4: Extracting  10.62MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  47.21MB/93.18MB[5B[10A[1K[Ka4a2a29f9ba4: Extracting  12.09MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  80.29MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Downloading  54.66MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  85.65MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  13.57MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  64.35MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  92.04MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  15.04MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  100.6MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Downloading  70.25MB/93.18MB[5B[10A[1K[Ka4a2a29f9ba4: Extracting  16.22MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  79.41MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  104.3MB/165.6MB[6B[2A[1K[K7ff3bf1b4fb1: Downloading     426B/462B[2B[2A[1K[K7ff3bf1b4fb1: Downloading     462B/462B[2B[2A[1K[K7ff3bf1b4fb1: Verifying Checksum [2B[2A[1K[K7ff3bf1b4fb1: Download complete [2B[10A[1K[Ka4a2a29f9ba4: Extracting  17.69MB/28.56MB[10B[5A[1K[Ke9c09fd1dd64: Downloading  86.42MB/93.18MB[5B[6A[1K[K6ff3fdecd2ff: Downloading  112.9MB/165.6MB[6B[5A[1K[Ke9c09fd1dd64: Verifying Checksum [5B[5A[1K[Ke9c09fd1dd64: Download complete [5B[10A[1K[Ka4a2a29f9ba4: Extracting  19.46MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  119.3MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  20.94MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  130.6MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  22.41MB/28.56MB[10B[1A[1K[K07004629d7c2: Downloading     425B/1.871kB[1B[1A[1K[K07004629d7c2: Downloading  1.871kB/1.871kB[1B[1A[1K[K07004629d7c2: Verifying Checksum [1B[1A[1K[K07004629d7c2: Download complete [1B[6A[1K[K6ff3fdecd2ff: Downloading  140.2MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  23.89MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  147.2MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  24.18MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  155.7MB/165.6MB[6B[10A[1K[Ka4a2a29f9ba4: Extracting  25.66MB/28.56MB[10B[6A[1K[K6ff3fdecd2ff: Downloading  164.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Verifying Checksum [6B[6A[1K[K6ff3fdecd2ff: Download complete [6B[10A[1K[Ka4a2a29f9ba4: Extracting  27.13MB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Extracting  28.31MB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Extracting  28.56MB/28.56MB[10B[10A[1K[Ka4a2a29f9ba4: Pull complete [10B[9A[1K[K127c9761dcba: Extracting  32.32kB/32.32kB[9B[9A[1K[K127c9761dcba: Extracting  32.32kB/32.32kB[9B[9A[1K[K127c9761dcba: Pull complete [9B[8A[1K[Kd13bf203e905: Extracting     844B/844B[8B[8A[1K[Kd13bf203e905: Extracting     844B/844B[8B[8A[1K[Kd13bf203e905: Pull complete [8B[7A[1K[K4039240d2e0b: Extracting     161B/161B[7B[7A[1K[K4039240d2e0b: Extracting     161B/161B[7B[7A[1K[K4039240d2e0b: Pull complete [7B[6A[1K[K6ff3fdecd2ff: Extracting  557.1kB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  3.342MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  6.128MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  8.913MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting   11.7MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  14.48MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  16.71MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting   19.5MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  22.28MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  24.51MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  26.74MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  28.97MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  31.75MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  34.54MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  36.77MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  39.55MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  41.78MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  44.56MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  46.79MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  49.58MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  51.81MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  54.59MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  56.82MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting   59.6MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  62.39MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  64.62MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting   67.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  69.63MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  72.42MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  74.09MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  76.87MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting   79.1MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  81.33MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  84.12MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  86.34MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  87.46MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  88.57MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  91.36MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  94.14MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  96.93MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  99.71MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  102.5MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  105.8MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  107.5MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  110.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  113.1MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  115.9MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  118.7MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  121.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  124.2MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting    127MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  129.2MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting    132MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  134.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  136.5MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  139.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting    142MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  144.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  145.9MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  148.2MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  150.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  153.7MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  155.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  157.6MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  159.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  160.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  163.2MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  163.8MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  164.3MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  165.4MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Extracting  165.6MB/165.6MB[6B[6A[1K[K6ff3fdecd2ff: Pull complete [6B[5A[1K[Ke9c09fd1dd64: Extracting  557.1kB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  1.671MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  5.014MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  7.242MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  10.03MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  12.81MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  16.15MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  18.38MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  21.17MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting   23.4MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  25.07MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting   27.3MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  29.52MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  31.75MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  33.98MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  36.21MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  38.44MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  41.22MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  44.01MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  46.79MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  49.58MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  51.81MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  54.59MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  57.38MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  60.16MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  62.95MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  65.73MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  68.52MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  70.75MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  72.42MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  74.65MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  76.87MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  79.66MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  82.44MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  84.67MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting   86.9MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  89.13MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  91.91MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Extracting  93.18MB/93.18MB[5B[5A[1K[Ke9c09fd1dd64: Pull complete [5B[4A[1K[K531d7219700b: Extracting     865B/865B[4B[4A[1K[K531d7219700b: Extracting     865B/865B[4B[4A[1K[K531d7219700b: Pull complete [4B[3A[1K[K80bc5e0cb092: Extracting     104B/104B[3B[3A[1K[K80bc5e0cb092: Extracting     104B/104B[3B[3A[1K[K80bc5e0cb092: Pull complete [3B[2A[1K[K7ff3bf1b4fb1: Extracting     462B/462B[2B[2A[1K[K7ff3bf1b4fb1: Extracting     462B/462B[2B[2A[1K[K7ff3bf1b4fb1: Pull complete [2B[1A[1K[K07004629d7c2: Extracting  1.871kB/1.871kB[1B[1A[1K[K07004629d7c2: Extracting  1.871kB/1.871kB[1B[1A[1K[K07004629d7c2: Pull complete [1BDigest: sha256:098b12dcb0d9134d3c515aff9df1298e4e33408c7075dd98f671cb7200c1e9a9
-Status: Downloaded newer image for clangbuiltlinux/ubuntu:latest
-travis_time:end:01f75ea8:start=1592870059476210834,finish=1592870081920349844,duration=22444139010,event=before_install[0Ktravis_fold:end:before_install.2[0Ktravis_fold:start:before_install.3[0Ktravis_time:start:1742b9b0[0K$ docker run --rm gcc:latest g++ --version
-g++ (GCC) 10.1.0
-Copyright (C) 2020 Free Software Foundation, Inc.
-This is free software; see the source for copying conditions.  There is NO
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-travis_time:end:1742b9b0:start=1592870081924878778,finish=1592870099713779461,duration=17788900683,event=before_install[0Ktravis_fold:end:before_install.3[0Ktravis_fold:start:before_install.4[0Ktravis_time:start:058d9853[0K$ docker run --rm clangbuiltlinux/ubuntu:latest clang++-11 --version
-Ubuntu clang version 11.0.0-++20200621052611+a45f713c673-1~exp1~20200621153220.79 
-Target: x86_64-pc-linux-gnu
-Thread model: posix
-InstalledDir: /usr/bin
-travis_time:end:058d9853:start=1592870099718082381,finish=1592870100476511325,duration=758428944,event=before_install[0Ktravis_fold:end:before_install.4[0Ktravis_fold:start:before_install.5[0Ktravis_time:start:0187e6ce[0K$ cppcheck --version
+travis_fold:start:before_install.1[0Ktravis_time:start:2eec9ff9[0K$ cppcheck --version
 Cppcheck 1.90
-travis_time:end:0187e6ce:start=1592870100481036017,finish=1592870100487133694,duration=6097677,event=before_install[0Ktravis_fold:end:before_install.5[0Ktravis_fold:start:before_install.6[0Ktravis_time:start:05fa7288[0K$ clang-format --version
+travis_time:end:2eec9ff9:start=1592914765453920655,finish=1592914765459099652,duration=5178997,event=before_install[0Ktravis_fold:end:before_install.1[0Ktravis_fold:start:before_install.2[0Ktravis_time:start:275feae4[0K$ clang-format --version
 clang-format version 7.0.0 (tags/RELEASE_700/final)
-travis_time:end:05fa7288:start=1592870100491104403,finish=1592870100517172245,duration=26067842,event=before_install[0Ktravis_fold:end:before_install.6[0Ktravis_time:start:06676880[0K$ docker run --rm -v "$PWD":/usr/src/templateweak -w /usr/src/templateweak gcc:latest g++ cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2
-travis_time:end:06676880:start=1592870100522113403,finish=1592870101855565916,duration=1333452513,event=script[0K[32;1mThe command "docker run --rm -v "$PWD":/usr/src/templateweak -w /usr/src/templateweak gcc:latest g++ cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2" exited with 0.[0m
-travis_time:start:07b13b75[0K$ docker run --rm -v "$PWD":/usr/src/templateweak -w /usr/src/templateweak clangbuiltlinux/ubuntu:latest clang++-11 cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp -Weverything -Werror -fsyntax-only -O2
-travis_time:end:07b13b75:start=1592870101859563018,finish=1592870103006234332,duration=1146671314,event=script[0K[32;1mThe command "docker run --rm -v "$PWD":/usr/src/templateweak -w /usr/src/templateweak clangbuiltlinux/ubuntu:latest clang++-11 cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp -Weverything -Werror -fsyntax-only -O2" exited with 0.[0m
-travis_time:start:0295d358[0K$ cppcheck --inconclusive --enable=all cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp
-Checking cpp/template/weak/ClasseA.cpp ...
-1/3 files checked 34% done
-Checking cpp/template/weak/ClasseB.cpp ...
-Checking cpp/template/weak/ClasseB.cpp: HACK...
-2/3 files checked 68% done
-Checking cpp/template/weak/main.cpp ...
-3/3 files checked 100% done
-nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
-
-travis_time:end:0295d358:start=1592870103010501588,finish=1592870103025388041,duration=14886453,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all cpp/template/weak/ClasseA.cpp cpp/template/weak/ClasseB.cpp cpp/template/weak/main.cpp" exited with 0.[0m
-travis_time:start:124a7fe0[0K$ if [ $(clang-format -style=file cpp/template/weak/ClasseA.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseA.cpp | diff -pu cpp/template/weak/ClasseA.cpp - ; exit 1; fi
-travis_time:end:124a7fe0:start=1592870103029149706,finish=1592870103039625055,duration=10475349,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/ClasseA.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseA.cpp | diff -pu cpp/template/weak/ClasseA.cpp - ; exit 1; fi" exited with 0.[0m
-travis_time:start:05365e92[0K$ if [ $(clang-format -style=file cpp/template/weak/ClasseB.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseB.cpp | diff -pu cpp/template/weak/ClasseB.cpp - ; exit 1; fi
-travis_time:end:05365e92:start=1592870103044074967,finish=1592870103052139665,duration=8064698,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/ClasseB.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseB.cpp | diff -pu cpp/template/weak/ClasseB.cpp - ; exit 1; fi" exited with 0.[0m
-travis_time:start:01c64d90[0K$ if [ $(clang-format -style=file cpp/template/weak/ClasseA.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseA.h | diff -pu cpp/template/weak/ClasseA.h - ; exit 1; fi
-travis_time:end:01c64d90:start=1592870103055664792,finish=1592870103064070926,duration=8406134,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/ClasseA.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseA.h | diff -pu cpp/template/weak/ClasseA.h - ; exit 1; fi" exited with 0.[0m
-travis_time:start:002669c1[0K$ if [ $(clang-format -style=file cpp/template/weak/ClasseB.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseB.h | diff -pu cpp/template/weak/ClasseB.h - ; exit 1; fi
-travis_time:end:002669c1:start=1592870103067621111,finish=1592870103075511147,duration=7890036,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/ClasseB.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/ClasseB.h | diff -pu cpp/template/weak/ClasseB.h - ; exit 1; fi" exited with 0.[0m
-travis_time:start:39e873b0[0K$ if [ $(clang-format -style=file cpp/template/weak/main.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/main.cpp | diff -pu cpp/template/weak/main.cpp - ; exit 1; fi
-travis_time:end:39e873b0:start=1592870103078802524,finish=1592870103088143640,duration=9341116,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/main.cpp -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/main.cpp | diff -pu cpp/template/weak/main.cpp - ; exit 1; fi" exited with 0.[0m
-travis_time:start:00a3af2b[0K$ if [ $(clang-format -style=file cpp/template/weak/Template.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/Template.h | diff -pu cpp/template/weak/Template.h - ; exit 1; fi
-travis_time:end:00a3af2b:start=1592870103091495643,finish=1592870103100155405,duration=8659762,event=script[0K[32;1mThe command "if [ $(clang-format -style=file cpp/template/weak/Template.h -output-replacements-xml |grep "<replacement offset=" | wc -l) -ne "0" ]; then clang-format -style=file cpp/template/weak/Template.h | diff -pu cpp/template/weak/Template.h - ; exit 1; fi" exited with 0.[0m
-travis_time:start:098bfa98[0K$ cd cpp; mkdir buildcpp; cd buildcpp; CC=/usr/bin/clang CXX=/usr/bin/clang++ CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include" cmake ..
--- The C compiler identification is Clang 10.0.0
--- The CXX compiler identification is Clang 10.0.0
--- Check for working C compiler: /usr/bin/clang
--- Check for working C compiler: /usr/bin/clang -- works
+travis_time:end:275feae4:start=1592914765462716408,finish=1592914765485768652,duration=23052244,event=before_install[0Ktravis_fold:end:before_install.2[0Ktravis_time:start:334db9ca[0K$ mkdir buildcppgcc; cd buildcppgcc
+travis_time:end:334db9ca:start=1592914765489519661,finish=1592914765492960678,duration=3441017,event=script[0K[32;1mThe command "mkdir buildcppgcc; cd buildcppgcc" exited with 0.[0m
+travis_time:start:0d09bed0[0K$ CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS="-Wall -Werror -Wextra -Wpedantic -fanalyzer -O2" cmake ../cpp
+-- The C compiler identification is GNU 10.0.1
+-- The CXX compiler identification is GNU 10.0.1
+-- Check for working C compiler: /usr/bin/gcc-10
+-- Check for working C compiler: /usr/bin/gcc-10 -- works
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Check for working CXX compiler: /usr/bin/clang++
--- Check for working CXX compiler: /usr/bin/clang++ -- works
+-- Check for working CXX compiler: /usr/bin/g++-10
+-- Check for working CXX compiler: /usr/bin/g++-10 -- works
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/buildcpp
-travis_time:end:098bfa98:start=1592870103103842723,finish=1592870104588574123,duration=1484731400,event=script[0K[32;1mThe command "cd cpp; mkdir buildcpp; cd buildcpp; CC=/usr/bin/clang CXX=/usr/bin/clang++ CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include" cmake .." exited with 0.[0m
-travis_time:start:102abe70[0K$ iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi
-travis_time:end:102abe70:start=1592870104592767379,finish=1592870106035145072,duration=1442377693,event=script[0K[32;1mThe command "iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi" exited with 0.[0m
-travis_time:start:05d8cade[0K$ python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py
+-- Build files have been written to: /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc
+travis_time:end:0d09bed0:start=1592914765496132443,finish=1592914766544957984,duration=1048825541,event=script[0K[32;1mThe command "CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS="-Wall -Werror -Wextra -Wpedantic -fanalyzer -O2" cmake ../cpp" exited with 0.[0m
+travis_time:start:0bd2687e[0K$ make
+/usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/CMakeFiles /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+make -f template/weak/CMakeFiles/templateweak.dir/build.make template/weak/CMakeFiles/templateweak.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/template/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/template/weak/CMakeFiles/templateweak.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target templateweak[0m
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+make -f template/weak/CMakeFiles/templateweak.dir/build.make template/weak/CMakeFiles/templateweak.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+[ 25%] [32mBuilding CXX object template/weak/CMakeFiles/templateweak.dir/ClasseA.cpp.o[0m
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/template/weak && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2   -o CMakeFiles/templateweak.dir/ClasseA.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.cpp
+[ 50%] [32mBuilding CXX object template/weak/CMakeFiles/templateweak.dir/ClasseB.cpp.o[0m
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/template/weak && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2   -o CMakeFiles/templateweak.dir/ClasseB.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseB.cpp
+[ 75%] [32mBuilding CXX object template/weak/CMakeFiles/templateweak.dir/main.cpp.o[0m
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/template/weak && /usr/bin/g++-10    -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2   -o CMakeFiles/templateweak.dir/main.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/main.cpp
+[100%] [32m[1mLinking CXX executable templateweak[0m
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/template/weak && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/templateweak.dir/link.txt --verbose=1
+/usr/bin/g++-10  -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2   CMakeFiles/templateweak.dir/ClasseA.cpp.o CMakeFiles/templateweak.dir/ClasseB.cpp.o CMakeFiles/templateweak.dir/main.cpp.o  -o templateweak 
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+[100%] Built target templateweak
+make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/CMakeFiles 0
+travis_time:end:0bd2687e:start=1592914766548526740,finish=1592914767227562329,duration=679035589,event=script[0K[32;1mThe command "make" exited with 0.[0m
+travis_time:start:03c24089[0K$ cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json
+Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.cpp ...
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/Template.h:3:0: information: Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
+
+^
+1/3 files checked 33% done
+Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseB.cpp ...
+2/3 files checked 66% done
+Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/main.cpp ...
+3/3 files checked 100% done
+travis_time:end:03c24089:start=1592914767231242463,finish=1592914767245674942,duration=14432479,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json" exited with 0.[0m
+travis_time:start:1ed2993b[0K$ iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi
+travis_time:end:1ed2993b:start=1592914767249298066,finish=1592914768480486176,duration=1231188110,event=script[0K[32;1mThe command "iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi" exited with 0.[0m
+travis_time:start:2447c1b7[0K$ cd ..
+travis_time:end:2447c1b7:start=1592914768484217661,finish=1592914768486552669,duration=2335008,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
+travis_time:start:12f7136f[0K$ mkdir buildcppclang; cd buildcppclang
+travis_time:end:12f7136f:start=1592914768489821279,finish=1592914768493162433,duration=3341154,event=script[0K[32;1mThe command "mkdir buildcppclang; cd buildcppclang" exited with 0.[0m
+travis_time:start:01a9d693[0K$ CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2" cmake ../cpp
+-- The C compiler identification is Clang 10.0.0
+-- The CXX compiler identification is Clang 10.0.0
+-- Check for working C compiler: /usr/bin/clang-10
+-- Check for working C compiler: /usr/bin/clang-10 -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/clang++-10
+-- Check for working CXX compiler: /usr/bin/clang++-10 -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang
+travis_time:end:01a9d693:start=1592914768496357283,finish=1592914769937248779,duration=1440891496,event=script[0K[32;1mThe command "CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2" cmake ../cpp" exited with 0.[0m
+travis_time:start:1cd186c0[0K$ make
+/usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f CMakeFiles/clang_fmt.dir/build.make CMakeFiles/clang_fmt.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles/clang_fmt.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target clang_fmt[0m
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f CMakeFiles/clang_fmt.dir/build.make CMakeFiles/clang_fmt.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.cpp
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.h
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseB.cpp
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseB.h
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/Template.h
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/main.cpp
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[  0%] Built target clang_fmt
+make -f template/weak/CMakeFiles/templateweak.dir/build.make template/weak/CMakeFiles/templateweak.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/template/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/template/weak/CMakeFiles/templateweak.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target templateweak[0m
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f template/weak/CMakeFiles/templateweak.dir/build.make template/weak/CMakeFiles/templateweak.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[ 25%] [32mBuilding CXX object template/weak/CMakeFiles/templateweak.dir/ClasseA.cpp.o[0m
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/template/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2   -o CMakeFiles/templateweak.dir/ClasseA.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.cpp
+[ 50%] [32mBuilding CXX object template/weak/CMakeFiles/templateweak.dir/ClasseB.cpp.o[0m
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/template/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2   -o CMakeFiles/templateweak.dir/ClasseB.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseB.cpp
+[ 75%] [32mBuilding CXX object template/weak/CMakeFiles/templateweak.dir/main.cpp.o[0m
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/template/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2   -o CMakeFiles/templateweak.dir/main.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/main.cpp
+[100%] [32m[1mLinking CXX executable templateweak[0m
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/template/weak && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/templateweak.dir/link.txt --verbose=1
+/usr/bin/clang++-10  -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2   CMakeFiles/templateweak.dir/ClasseA.cpp.o CMakeFiles/templateweak.dir/ClasseB.cpp.o CMakeFiles/templateweak.dir/main.cpp.o  -o templateweak 
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[100%] Built target templateweak
+make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles 0
+travis_time:end:1cd186c0:start=1592914769941177940,finish=1592914770599847510,duration=658669570,event=script[0K[32;1mThe command "make" exited with 0.[0m
+travis_time:start:1bdfee43[0K$ python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py
 Enabled checks:
     abseil-duration-addition
     abseil-duration-comparison
@@ -1013,28 +1119,88 @@ Enabled checks:
     readability-uppercase-literal-suffix
     zircon-temporary-objects
 
-clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/buildcpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.cpp
-8703 warnings generated.
-Suppressed 8703 warnings (8703 in non-user code).
+clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.cpp
+9062 warnings generated.
+Suppressed 9062 warnings (9062 in non-user code).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
-clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/buildcpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseB.cpp
-8703 warnings generated.
-Suppressed 8703 warnings (8703 in non-user code).
+clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseB.cpp
+9062 warnings generated.
+Suppressed 9062 warnings (9062 in non-user code).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
-clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/buildcpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/main.cpp
-travis_time:end:05d8cade:start=1592870106038962354,finish=1592870108818338473,duration=2779376119,event=script[0K[32;1mThe command "python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py" exited with 0.[0m
-travis_time:start:078145dc[0K$ make clean; scan-build -v -o . make
+clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/main.cpp
+travis_time:end:1bdfee43:start=1592914770603914745,finish=1592914773546781878,duration=2942867133,event=script[0K[32;1mThe command "python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py" exited with 0.[0m
+travis_time:start:19e8e3e6[0K$ make clean; scan-build -v -o . make
+make -f CMakeFiles/Makefile2 clean
+make[1]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f CMakeFiles/clang_fmt.dir/build.make CMakeFiles/clang_fmt.dir/clean
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+/usr/local/cmake-3.12.4/bin/cmake -P CMakeFiles/clang_fmt.dir/cmake_clean.cmake
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f template/weak/CMakeFiles/templateweak.dir/build.make template/weak/CMakeFiles/templateweak.dir/clean
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/template/weak && /usr/local/cmake-3.12.4/bin/cmake -P CMakeFiles/templateweak.dir/cmake_clean.cmake
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 scan-build: Using '/usr/local/clang-7.0.0/bin/clang-7' for static analysis
-scan-build: Emitting reports for this run to '/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/buildcpp/2020-06-22-235509-10570-1'.
-[35m[1mScanning dependencies of target templateweak[0m
+scan-build: Emitting reports for this run to '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-06-23-121933-9980-1'.
+/usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f CMakeFiles/clang_fmt.dir/build.make CMakeFiles/clang_fmt.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles/clang_fmt.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f CMakeFiles/clang_fmt.dir/build.make CMakeFiles/clang_fmt.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.cpp
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.h
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseB.cpp
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseB.h
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/Template.h
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/main.cpp
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[  0%] Built target clang_fmt
+make -f template/weak/CMakeFiles/templateweak.dir/build.make template/weak/CMakeFiles/templateweak.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/template/weak /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/template/weak/CMakeFiles/templateweak.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f template/weak/CMakeFiles/templateweak.dir/build.make template/weak/CMakeFiles/templateweak.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 [ 25%] [32mBuilding CXX object template/weak/CMakeFiles/templateweak.dir/ClasseA.cpp.o[0m
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/template/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2   -o CMakeFiles/templateweak.dir/ClasseA.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.cpp
 [ 50%] [32mBuilding CXX object template/weak/CMakeFiles/templateweak.dir/ClasseB.cpp.o[0m
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/template/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2   -o CMakeFiles/templateweak.dir/ClasseB.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseB.cpp
 [ 75%] [32mBuilding CXX object template/weak/CMakeFiles/templateweak.dir/main.cpp.o[0m
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/template/weak && /usr/bin/clang++-10    -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2   -o CMakeFiles/templateweak.dir/main.cpp.o -c /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/main.cpp
 [100%] [32m[1mLinking CXX executable templateweak[0m
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/template/weak && /usr/local/cmake-3.12.4/bin/cmake -E cmake_link_script CMakeFiles/templateweak.dir/link.txt --verbose=1
+/usr/bin/clang++-10  -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2   CMakeFiles/templateweak.dir/ClasseA.cpp.o CMakeFiles/templateweak.dir/ClasseB.cpp.o CMakeFiles/templateweak.dir/main.cpp.o  -o templateweak 
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 [100%] Built target templateweak
-scan-build: Removing directory '/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/buildcpp/2020-06-22-235509-10570-1' because it contains no reports.
+make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+/usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles 0
+scan-build: Removing directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-06-23-121933-9980-1' because it contains no reports.
 scan-build: No bugs found.
-travis_time:end:078145dc:start=1592870108822071851,finish=1592870109678619028,duration=856547177,event=script[0K[32;1mThe command "make clean; scan-build -v -o . make" exited with 0.[0m
+travis_time:end:19e8e3e6:start=1592914773550760079,finish=1592914774538282079,duration=987522000,event=script[0K[32;1mThe command "make clean; scan-build -v -o . make" exited with 0.[0m
+travis_time:start:0341a063[0K$ cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json
+Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.cpp ...
+/home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/Template.h:3:0: information: Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
+
+^
+1/3 files checked 33% done
+Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseB.cpp ...
+2/3 files checked 66% done
+Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/main.cpp ...
+3/3 files checked 100% done
+travis_time:end:0341a063:start=1592914774542423814,finish=1592914774557053066,duration=14629252,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json" exited with 0.[0m
+travis_time:start:06733298[0K$ iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi
+travis_time:end:06733298:start=1592914774561059624,finish=1592914775865559788,duration=1304500164,event=script[0K[32;1mThe command "iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi" exited with 0.[0m
+travis_time:start:02da1514[0K$ cd ..
+travis_time:end:02da1514:start=1592914775869234048,finish=1592914775871576234,duration=2342186,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
 
 
 Done. Your build exited with 0.
