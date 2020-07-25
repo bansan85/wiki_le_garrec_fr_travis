@@ -1,15 +1,15 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: 71a0429a-dfdd-462e-85a2-27540a189465@1.worker-com-fb897bfbc-xr6zd.gce-production-1
+hostname: d5816644-dc11-48e5-be23-29a9c0c6e26d@1.worker-com-5686bd95fc-lzhpl.gce-production-3
 version: v6.2.17 https://github.com/travis-ci/worker/tree/bc420764f334fe0d096a417c80426f672f1b7d18
-instance: travis-job-6d9467b2-3b2d-4086-8ab2-dec9b659cdb7 travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
-startup: 6.231647514s
-travis_fold:end:worker_info[0Ktravis_time:start:3bcfbe81[0Ktravis_time:end:3bcfbe81:start=1593699857127843472,finish=1593699857319491460,duration=191647988,event=no_world_writable_dirs[0Ktravis_time:start:02acd710[0Ktravis_time:end:02acd710:start=1593699857322639973,finish=1593699857326067349,duration=3427376,event=setup_filter[0Ktravis_time:start:05536713[0Ktravis_time:end:05536713:start=1593699857329878456,finish=1593699857341497083,duration=11618627,event=agent[0Ktravis_time:start:19431827[0Ktravis_time:end:19431827:start=1593699857344237071,finish=1593699857346471363,duration=2234292,event=check_unsupported[0Ktravis_time:start:2677defb[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+instance: travis-job-d15d95a3-68cc-4d2c-a055-81861433cf25 travis-ci-ubuntu-1804-1582576938-a9b1ae58 (via amqp)
+startup: 6.363555356s
+travis_fold:end:worker_info[0Ktravis_time:start:172dfc32[0Ktravis_time:end:172dfc32:start=1593776862968588154,finish=1593776863143713478,duration=175125324,event=no_world_writable_dirs[0Ktravis_time:start:24bbb2e8[0Ktravis_time:end:24bbb2e8:start=1593776863146528282,finish=1593776863149575388,duration=3047106,event=setup_filter[0Ktravis_time:start:123bf646[0Ktravis_time:end:123bf646:start=1593776863153203802,finish=1593776863168103479,duration=14899677,event=agent[0Ktravis_time:start:12078363[0Ktravis_time:end:12078363:start=1593776863170711924,finish=1593776863172731805,duration=2019881,event=check_unsupported[0Ktravis_time:start:0c88e0ce[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: cpp
 Build dist: bionic
-Build id: 174063064
-Job id: 356921094
+Build id: 174200162
+Job id: 357324207
 Runtime kernel version: 5.0.0-1031-gcp
-travis-build version: 8e9c8035
+travis-build version: 53c9fddd
 [34m[1mBuild image provisioning date and time[0m
 Mon Feb 24 21:21:37 UTC 2020
 [34m[1mOperating System Details[0m
@@ -164,13 +164,13 @@ ruby-2.5.7
 ruby-2.6.5
 ruby-2.7.0
 travis_fold:end:system_info[0K
-travis_time:end:2677defb:start=1593699857349179667,finish=1593699857354788505,duration=5608838,event=show_system_info[0Ktravis_time:start:0072eda0[0Ktravis_time:end:0072eda0:start=1593699857357319146,finish=1593699857372065746,duration=14746600,event=rm_riak_source[0Ktravis_time:start:142b2d5d[0Ktravis_time:end:142b2d5d:start=1593699857375383498,finish=1593699857382142686,duration=6759188,event=fix_rwky_redis[0Ktravis_time:start:17d2b400[0Ktravis_time:end:17d2b400:start=1593699857385269867,finish=1593699857964941139,duration=579671272,event=wait_for_network[0Ktravis_time:start:04201b97[0Ktravis_time:end:04201b97:start=1593699857970771224,finish=1593699858216526822,duration=245755598,event=update_apt_keys[0Ktravis_time:start:22c06d7c[0Ktravis_time:end:22c06d7c:start=1593699858220395910,finish=1593699858274325535,duration=53929625,event=fix_hhvm_source[0Ktravis_time:start:08dcf810[0Ktravis_time:end:08dcf810:start=1593699858278127138,finish=1593699858280897867,duration=2770729,event=update_mongo_arch[0Ktravis_time:start:11ee4d1c[0Ktravis_time:end:11ee4d1c:start=1593699858284474250,finish=1593699858324951685,duration=40477435,event=fix_sudo_enabled_trusty[0Ktravis_time:start:10af0796[0Ktravis_time:end:10af0796:start=1593699858329119420,finish=1593699858331749703,duration=2630283,event=update_glibc[0Ktravis_time:start:1f6d372a[0Ktravis_time:end:1f6d372a:start=1593699858335295741,finish=1593699858343704160,duration=8408419,event=clean_up_path[0Ktravis_time:start:1cbc35a8[0Ktravis_time:end:1cbc35a8:start=1593699858347143927,finish=1593699858355870513,duration=8726586,event=fix_resolv_conf[0Ktravis_time:start:0f452d18[0Ktravis_time:end:0f452d18:start=1593699858359173787,finish=1593699858384764346,duration=25590559,event=fix_etc_hosts[0Ktravis_time:start:131e1568[0Ktravis_time:end:131e1568:start=1593699858389101808,finish=1593699858399746620,duration=10644812,event=fix_mvn_settings_xml[0Ktravis_time:start:148cb518[0Ktravis_time:end:148cb518:start=1593699858403932307,finish=1593699858413393198,duration=9460891,event=no_ipv6_localhost[0Ktravis_time:start:16ab9a24[0Ktravis_time:end:16ab9a24:start=1593699858417021729,finish=1593699858419185718,duration=2163989,event=fix_etc_mavenrc[0Ktravis_time:start:0a1a8cea[0Ktravis_time:end:0a1a8cea:start=1593699858422830444,finish=1593699858425730810,duration=2900366,event=fix_wwdr_certificate[0Ktravis_time:start:09c6990b[0Ktravis_time:end:09c6990b:start=1593699858429327034,finish=1593699858475746921,duration=46419887,event=put_localhost_first[0Ktravis_time:start:173981be[0Ktravis_time:end:173981be:start=1593699858479595937,finish=1593699858483300468,duration=3704531,event=home_paths[0Ktravis_time:start:21eb3725[0Ktravis_time:end:21eb3725:start=1593699858486569865,finish=1593699858499278797,duration=12708932,event=disable_initramfs[0Ktravis_time:start:0ca7e555[0Ktravis_time:end:0ca7e555:start=1593699858503326938,finish=1593699858688519147,duration=185192209,event=disable_ssh_roaming[0Ktravis_time:start:0bc80356[0Ktravis_time:end:0bc80356:start=1593699858692344559,finish=1593699858694522106,duration=2177547,event=debug_tools[0Ktravis_time:start:110f7c60[0Ktravis_time:end:110f7c60:start=1593699858697828048,finish=1593699858700907013,duration=3078965,event=uninstall_oclint[0Ktravis_time:start:15273cf0[0Ktravis_time:end:15273cf0:start=1593699858704994779,finish=1593699858708201009,duration=3206230,event=rvm_use[0Ktravis_time:start:152ecc41[0Ktravis_time:end:152ecc41:start=1593699858711820232,finish=1593699858719733653,duration=7913421,event=rm_etc_boto_cfg[0Ktravis_time:start:0e38afd6[0Ktravis_time:end:0e38afd6:start=1593699858723517231,finish=1593699858725639939,duration=2122708,event=rm_oraclejdk8_symlink[0Ktravis_time:start:32b06dab[0Ktravis_time:end:32b06dab:start=1593699858729205578,finish=1593699858826728585,duration=97523007,event=enable_i386[0Ktravis_time:start:2fd4ac0d[0Ktravis_time:end:2fd4ac0d:start=1593699858831081230,finish=1593699858835150350,duration=4069120,event=update_rubygems[0Ktravis_time:start:18a1c481[0Ktravis_time:end:18a1c481:start=1593699858839224513,finish=1593699859631150433,duration=791925920,event=ensure_path_components[0Ktravis_time:start:00522477[0Ktravis_time:end:00522477:start=1593699859635750271,finish=1593699859638065204,duration=2314933,event=redefine_curl[0Ktravis_time:start:07a7b807[0Ktravis_time:end:07a7b807:start=1593699859641511776,finish=1593699859750137917,duration=108626141,event=nonblock_pipe[0Ktravis_time:start:2d9a8d27[0Ktravis_time:end:2d9a8d27:start=1593699859754040051,finish=1593699865791965941,duration=6037925890,event=apt_get_update[0Ktravis_time:start:0100290f[0Ktravis_time:end:0100290f:start=1593699865796116937,finish=1593699865798293434,duration=2176497,event=deprecate_xcode_64[0Ktravis_time:start:0149e480[0Ktravis_time:end:0149e480:start=1593699865801803110,finish=1593699868338255447,duration=2536452337,event=update_heroku[0Ktravis_time:start:04f5beb0[0Ktravis_time:end:04f5beb0:start=1593699868342847579,finish=1593699868345549270,duration=2701691,event=shell_session_update[0Ktravis_time:start:0aaeac58[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:0aaeac58:start=1593699868350066405,finish=1593699870542229098,duration=2192162693,event=set_docker_mtu[0Ktravis_time:start:2c749564[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:2c749564:start=1593699870546764730,finish=1593699870627940433,duration=81175703,event=resolvconf[0Ktravis_time:start:0e47ef56[0Ktravis_time:end:0e47ef56:start=1593699870632137344,finish=1593699870807834490,duration=175697146,event=maven_central_mirror[0Ktravis_time:start:07367955[0Ktravis_time:end:07367955:start=1593699870812542406,finish=1593699870913744348,duration=101201942,event=maven_https[0Ktravis_fold:start:apt[0K[33;1mAdding APT Sources[0m
-travis_time:start:0b04a508[0K$ curl -sSL "https://build.travis-ci.com/files/gpg/travis-security.asc" | sudo -E apt-key add -
+travis_time:end:0c88e0ce:start=1593776863175548643,finish=1593776863182012589,duration=6463946,event=show_system_info[0Ktravis_time:start:19bc5580[0Ktravis_time:end:19bc5580:start=1593776863184204661,finish=1593776863198747105,duration=14542444,event=rm_riak_source[0Ktravis_time:start:18318eb9[0Ktravis_time:end:18318eb9:start=1593776863201298678,finish=1593776863206443239,duration=5144561,event=fix_rwky_redis[0Ktravis_time:start:09550c40[0Ktravis_time:end:09550c40:start=1593776863209960093,finish=1593776863547801855,duration=337841762,event=wait_for_network[0Ktravis_time:start:0024e609[0Ktravis_time:end:0024e609:start=1593776863552739130,finish=1593776863782614116,duration=229874986,event=update_apt_keys[0Ktravis_time:start:0a9b0628[0Ktravis_time:end:0a9b0628:start=1593776863786154864,finish=1593776863835949521,duration=49794657,event=fix_hhvm_source[0Ktravis_time:start:0d56eaf0[0Ktravis_time:end:0d56eaf0:start=1593776863839782435,finish=1593776863842068773,duration=2286338,event=update_mongo_arch[0Ktravis_time:start:022b0f5a[0Ktravis_time:end:022b0f5a:start=1593776863845698058,finish=1593776863883106837,duration=37408779,event=fix_sudo_enabled_trusty[0Ktravis_time:start:1754d0dd[0Ktravis_time:end:1754d0dd:start=1593776863886283350,finish=1593776863888241167,duration=1957817,event=update_glibc[0Ktravis_time:start:0072aeef[0Ktravis_time:end:0072aeef:start=1593776863891754495,finish=1593776863898727885,duration=6973390,event=clean_up_path[0Ktravis_time:start:2ed243c7[0Ktravis_time:end:2ed243c7:start=1593776863902227512,finish=1593776863910107122,duration=7879610,event=fix_resolv_conf[0Ktravis_time:start:1651adba[0Ktravis_time:end:1651adba:start=1593776863914194450,finish=1593776863928558113,duration=14363663,event=fix_etc_hosts[0Ktravis_time:start:322a5e72[0Ktravis_time:end:322a5e72:start=1593776863931524924,finish=1593776863939092854,duration=7567930,event=fix_mvn_settings_xml[0Ktravis_time:start:00eeb93a[0Ktravis_time:end:00eeb93a:start=1593776863943230630,finish=1593776863952138357,duration=8907727,event=no_ipv6_localhost[0Ktravis_time:start:01d44bde[0Ktravis_time:end:01d44bde:start=1593776863956569289,finish=1593776863958944822,duration=2375533,event=fix_etc_mavenrc[0Ktravis_time:start:05524ad6[0Ktravis_time:end:05524ad6:start=1593776863961941227,finish=1593776863964895331,duration=2954104,event=fix_wwdr_certificate[0Ktravis_time:start:000b5694[0Ktravis_time:end:000b5694:start=1593776863968894648,finish=1593776864015754455,duration=46859807,event=put_localhost_first[0Ktravis_time:start:24ae5574[0Ktravis_time:end:24ae5574:start=1593776864019494825,finish=1593776864022669725,duration=3174900,event=home_paths[0Ktravis_time:start:0b7f0e34[0Ktravis_time:end:0b7f0e34:start=1593776864027596272,finish=1593776864038780718,duration=11184446,event=disable_initramfs[0Ktravis_time:start:1f2f4eae[0Ktravis_time:end:1f2f4eae:start=1593776864042415878,finish=1593776864207066800,duration=164650922,event=disable_ssh_roaming[0Ktravis_time:start:028622bc[0Ktravis_time:end:028622bc:start=1593776864211012650,finish=1593776864213434776,duration=2422126,event=debug_tools[0Ktravis_time:start:023ce8e4[0Ktravis_time:end:023ce8e4:start=1593776864217438505,finish=1593776864220138334,duration=2699829,event=uninstall_oclint[0Ktravis_time:start:1c6d3688[0Ktravis_time:end:1c6d3688:start=1593776864224052260,finish=1593776864226629954,duration=2577694,event=rvm_use[0Ktravis_time:start:0456c858[0Ktravis_time:end:0456c858:start=1593776864230078596,finish=1593776864237513547,duration=7434951,event=rm_etc_boto_cfg[0Ktravis_time:start:1562c940[0Ktravis_time:end:1562c940:start=1593776864240645432,finish=1593776864242592783,duration=1947351,event=rm_oraclejdk8_symlink[0Ktravis_time:start:03f1c794[0Ktravis_time:end:03f1c794:start=1593776864245820812,finish=1593776864335184328,duration=89363516,event=enable_i386[0Ktravis_time:start:0807bd4c[0Ktravis_time:end:0807bd4c:start=1593776864338922828,finish=1593776864342403957,duration=3481129,event=update_rubygems[0Ktravis_time:start:08a9ac47[0Ktravis_time:end:08a9ac47:start=1593776864345432523,finish=1593776865128335243,duration=782902720,event=ensure_path_components[0Ktravis_time:start:096a85c0[0Ktravis_time:end:096a85c0:start=1593776865132757374,finish=1593776865135778954,duration=3021580,event=redefine_curl[0Ktravis_time:start:0bd39045[0Ktravis_time:end:0bd39045:start=1593776865140080434,finish=1593776865244040728,duration=103960294,event=nonblock_pipe[0Ktravis_time:start:136c5537[0Ktravis_time:end:136c5537:start=1593776865247868199,finish=1593776871281840483,duration=6033972284,event=apt_get_update[0Ktravis_time:start:06599600[0Ktravis_time:end:06599600:start=1593776871285589045,finish=1593776871287871040,duration=2281995,event=deprecate_xcode_64[0Ktravis_time:start:06f5c418[0Ktravis_time:end:06f5c418:start=1593776871291825120,finish=1593776873798093955,duration=2506268835,event=update_heroku[0Ktravis_time:start:191ef8e1[0Ktravis_time:end:191ef8e1:start=1593776873801839204,finish=1593776873804006417,duration=2167213,event=shell_session_update[0Ktravis_time:start:046e1c3b[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:046e1c3b:start=1593776873807275738,finish=1593776876202005992,duration=2394730254,event=set_docker_mtu[0Ktravis_time:start:2bba1e7e[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:2bba1e7e:start=1593776876205980676,finish=1593776876270648552,duration=64667876,event=resolvconf[0Ktravis_time:start:06f651fc[0Ktravis_time:end:06f651fc:start=1593776876275282079,finish=1593776876423817331,duration=148535252,event=maven_central_mirror[0Ktravis_time:start:107c4924[0Ktravis_time:end:107c4924:start=1593776876427273865,finish=1593776876519831746,duration=92557881,event=maven_https[0Ktravis_fold:start:apt[0K[33;1mAdding APT Sources[0m
+travis_time:start:2a2cf0b8[0K$ curl -sSL "https://build.travis-ci.com/files/gpg/travis-security.asc" | sudo -E apt-key add -
 OK
-travis_time:end:0b04a508:start=1593699870918895572,finish=1593699871330465150,duration=411569578,event=prepare[0Ktravis_time:start:102ef3d0[0K$ echo "deb http://archive.ubuntu.com/ubuntu/ focal main universe" | sudo tee -a ${TRAVIS_ROOT}/etc/apt/sources.list >/dev/null
-travis_time:end:102ef3d0:start=1593699871337380874,finish=1593699871348840758,duration=11459884,event=prepare[0Ktravis_time:start:04538a2b[0K$ travis_apt_get_update
-travis_time:end:04538a2b:start=1593699871354405096,finish=1593699887786190642,duration=16431785546,event=prepare[0K[33;1mInstalling APT Packages[0m
-travis_time:start:00b245da[0K$ sudo -E apt-get -yq --no-install-suggests --no-install-recommends $(travis_apt_get_options) install cppcheck clang-10 gcc-10 g++-10 clang-format clang-tidy clang-tools iwyu
+travis_time:end:2a2cf0b8:start=1593776876524871399,finish=1593776876848237157,duration=323365758,event=prepare[0Ktravis_time:start:08b40d4a[0K$ echo "deb http://archive.ubuntu.com/ubuntu/ focal main universe" | sudo tee -a ${TRAVIS_ROOT}/etc/apt/sources.list >/dev/null
+travis_time:end:08b40d4a:start=1593776876852817858,finish=1593776876863714192,duration=10896334,event=prepare[0Ktravis_time:start:0082202e[0K$ travis_apt_get_update
+travis_time:end:0082202e:start=1593776876868990964,finish=1593776892259711988,duration=15390721024,event=prepare[0K[33;1mInstalling APT Packages[0m
+travis_time:start:1b6139fb[0K$ sudo -E apt-get -yq --no-install-suggests --no-install-recommends $(travis_apt_get_options) install cppcheck clang-10 gcc-10 g++-10 clang-format clang-tidy clang-tools iwyu
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -267,7 +267,7 @@ Get:56 http://archive.ubuntu.com/ubuntu focal/universe amd64 libstdc++-10-dev am
 Get:57 http://archive.ubuntu.com/ubuntu focal/universe amd64 g++-10 amd64 10-20200411-0ubuntu1 [9,034 kB]
 Get:58 http://archive.ubuntu.com/ubuntu focal/universe amd64 iwyu amd64 8.0-3build1 [5,068 kB]
 Preconfiguring packages ...
-Fetched 113 MB in 6s (18.4 MB/s)
+Fetched 113 MB in 4s (26.9 MB/s)
 Selecting previously unselected package gcc-10-base:amd64.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 118522 files and directories currently installed.)
 Preparing to unpack .../gcc-10-base_10-20200411-0ubuntu1_amd64.deb ...
@@ -552,17 +552,17 @@ Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
 Processing triggers for ccache (3.4.1-1) ...
 Updating symlinks in /usr/lib/ccache ...
 Processing triggers for libc-bin (2.31-0ubuntu9) ...
-travis_time:end:00b245da:start=1593699887791039847,finish=1593699991883145754,duration=104092105907,event=prepare[0Ktravis_fold:end:apt[0Ktravis_time:start:0651d5a4[0Ktravis_time:end:0651d5a4:start=1593699991888965694,finish=1593699991892046810,duration=3081116,event=fix_ps4[0Ktravis_time:start:026e98d4[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:0ff01c2c[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
+travis_time:end:1b6139fb:start=1593776892265138217,finish=1593776987302693614,duration=95037555397,event=prepare[0Ktravis_fold:end:apt[0Ktravis_time:start:03e7e070[0Ktravis_time:end:03e7e070:start=1593776987307961098,finish=1593776987310328601,duration=2367503,event=fix_ps4[0Ktravis_time:start:32b39e8a[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:010c230f[0K$ git clone --depth=50 --branch=master https://github.com/bansan85/wiki_le_garrec_fr.git bansan85/wiki_le_garrec_fr
 Cloning into 'bansan85/wiki_le_garrec_fr'...
-travis_time:end:0ff01c2c:start=1593699991901793466,finish=1593699992371526373,duration=469732907,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
-$ git checkout -qf 4f7cac73852d69f7a19dbdfe37e98701cdbe7f65
+travis_time:end:010c230f:start=1593776987317206136,finish=1593776987665153390,duration=347947254,event=checkout[0K$ cd bansan85/wiki_le_garrec_fr
+$ git checkout -qf 11563bbf8d867ffc94767d403105244f4b942329
 travis_fold:end:git.checkout[0K
-travis_time:end:0ff01c2c:start=1593699991901793466,finish=1593699992379409711,duration=477616245,event=checkout[0Ktravis_time:start:01898b01[0K
+travis_time:end:010c230f:start=1593776987317206136,finish=1593776987672972084,duration=355765948,event=checkout[0Ktravis_time:start:0d44fdae[0K
 [33;1mSetting environment variables from .travis.yml[0m
 $ export PASSWORD_OPENSSL=[secure]
 
-travis_time:end:01898b01:start=1593699992383430293,finish=1593699992392919807,duration=9489514,event=env[0K$ export TRAVIS_COMPILER=g++
+travis_time:end:0d44fdae:start=1593776987676868395,finish=1593776987683718947,duration=6850552,event=env[0K$ export TRAVIS_COMPILER=g++
 $ export CXX=${CXX:-g++}
 $ export CXX_FOR_BUILD=${CXX_FOR_BUILD:-g++}
 $ export CC=${CC:-gcc}
@@ -573,19 +573,19 @@ Copyright (C) 2017 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-travis_fold:start:before_install.1[0Ktravis_time:start:0bfc1dd0[0K$ cppcheck --version
+travis_fold:start:before_install.1[0Ktravis_time:start:01199b0e[0K$ cppcheck --version
 Cppcheck 1.90
-travis_time:end:0bfc1dd0:start=1593699992418054740,finish=1593699992424441125,duration=6386385,event=before_install[0Ktravis_fold:end:before_install.1[0Ktravis_fold:start:before_install.2[0Ktravis_time:start:18617a54[0K$ clang-format --version
+travis_time:end:01199b0e:start=1593776987703573923,finish=1593776987710110418,duration=6536495,event=before_install[0Ktravis_fold:end:before_install.1[0Ktravis_fold:start:before_install.2[0Ktravis_time:start:042c3c60[0K$ clang-format --version
 clang-format version 7.0.0 (tags/RELEASE_700/final)
-travis_time:end:18617a54:start=1593699992432534798,finish=1593699992452904713,duration=20369915,event=before_install[0Ktravis_fold:end:before_install.2[0Ktravis_fold:start:before_install.3[0Ktravis_time:start:02b3ac48[0K$ openssl aes-256-cbc -md sha512 -pbkdf2 -iter 100000 -k "$PASSWORD_OPENSSL" -out travis/ci/github_wiki_le_garrec_fr.key -in travis/ci/github_wiki_le_garrec_fr.key.enc -d
-travis_time:end:02b3ac48:start=1593699992459812517,finish=1593699992549458935,duration=89646418,event=before_install[0Ktravis_fold:end:before_install.3[0Ktravis_fold:start:before_install.4[0Ktravis_time:start:0f34ab88[0K$ eval $(ssh-agent -s)
-Agent pid 9591
-travis_time:end:0f34ab88:start=1593699992554891540,finish=1593699992565576634,duration=10685094,event=before_install[0Ktravis_fold:end:before_install.4[0Ktravis_fold:start:before_install.5[0Ktravis_time:start:0c3541bb[0K$ chmod 600 travis/ci/github_wiki_le_garrec_fr.key
-travis_time:end:0c3541bb:start=1593699992572649521,finish=1593699992577375198,duration=4725677,event=before_install[0Ktravis_fold:end:before_install.5[0Ktravis_fold:start:before_install.6[0Ktravis_time:start:1c2dcb58[0K$ ssh-add travis/ci/github_wiki_le_garrec_fr.key
+travis_time:end:042c3c60:start=1593776987714206449,finish=1593776987734723725,duration=20517276,event=before_install[0Ktravis_fold:end:before_install.2[0Ktravis_fold:start:before_install.3[0Ktravis_time:start:12fc050e[0K$ openssl aes-256-cbc -md sha512 -pbkdf2 -iter 100000 -k "$PASSWORD_OPENSSL" -out travis/ci/github_wiki_le_garrec_fr.key -in travis/ci/github_wiki_le_garrec_fr.key.enc -d
+travis_time:end:12fc050e:start=1593776987740950129,finish=1593776987826599093,duration=85648964,event=before_install[0Ktravis_fold:end:before_install.3[0Ktravis_fold:start:before_install.4[0Ktravis_time:start:0d1d94b0[0K$ eval $(ssh-agent -s)
+Agent pid 9433
+travis_time:end:0d1d94b0:start=1593776987830728867,finish=1593776987840386036,duration=9657169,event=before_install[0Ktravis_fold:end:before_install.4[0Ktravis_fold:start:before_install.5[0Ktravis_time:start:1e988550[0K$ chmod 600 travis/ci/github_wiki_le_garrec_fr.key
+travis_time:end:1e988550:start=1593776987845829786,finish=1593776987849526041,duration=3696255,event=before_install[0Ktravis_fold:end:before_install.5[0Ktravis_fold:start:before_install.6[0Ktravis_time:start:1e5153a8[0K$ ssh-add travis/ci/github_wiki_le_garrec_fr.key
 Identity added: travis/ci/github_wiki_le_garrec_fr.key (travis-ci@le-garrec.fr)
-travis_time:end:1c2dcb58:start=1593699992583587841,finish=1593699992595963728,duration=12375887,event=before_install[0Ktravis_fold:end:before_install.6[0Ktravis_time:start:1a3743fe[0K$ mkdir buildcppgcc; cd buildcppgcc
-travis_time:end:1a3743fe:start=1593699992600122436,finish=1593699992604147400,duration=4024964,event=script[0K[32;1mThe command "mkdir buildcppgcc; cd buildcppgcc" exited with 0.[0m
-travis_time:start:19bcbdac[0K$ CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS="-Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P" cmake ../cpp
+travis_time:end:1e5153a8:start=1593776987854922665,finish=1593776987865659789,duration=10737124,event=before_install[0Ktravis_fold:end:before_install.6[0Ktravis_time:start:0ac05927[0K$ mkdir buildcppgcc; cd buildcppgcc
+travis_time:end:0ac05927:start=1593776987869973844,finish=1593776987873337633,duration=3363789,event=script[0K[32;1mThe command "mkdir buildcppgcc; cd buildcppgcc" exited with 0.[0m
+travis_time:start:0a885d04[0K$ CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS="-Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P" cmake ../cpp
 -- The C compiler identification is GNU 10.0.1
 -- The CXX compiler identification is GNU 10.0.1
 -- Check for working C compiler: /usr/bin/gcc-10
@@ -603,8 +603,8 @@ travis_time:start:19bcbdac[0K$ CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc
-travis_time:end:19bcbdac:start=1593699992608474851,finish=1593699993633658888,duration=1025184037,event=script[0K[32;1mThe command "CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS="-Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P" cmake ../cpp" exited with 0.[0m
-travis_time:start:00fc754c[0K$ make
+travis_time:end:0a885d04:start=1593776987877320093,finish=1593776988825788993,duration=948468900,event=script[0K[32;1mThe command "CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10 CXXFLAGS="-Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P" cmake ../cpp" exited with 0.[0m
+travis_time:start:16dd7e1b[0K$ make
 /usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc --check-build-system CMakeFiles/Makefile.cmake 0
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/CMakeFiles /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/CMakeFiles/progress.marks
 make -f CMakeFiles/Makefile2 all
@@ -688,29 +688,48 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor && /us
 /usr/bin/g++-10  -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   CMakeFiles/str_helper.dir/str_helper.cpp.o  -o str_helper 
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 [100%] Built target str_helper
+make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor/CMakeFiles/macro_and_spaces.dir/DependInfo.cmake --color=
+Scanning dependencies of target macro_and_spaces
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor && make macro_and_spaces.cpp.i
+make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc && make -f preprocessor/CMakeFiles/macro_and_spaces_internal.dir/build.make preprocessor/CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+Preprocessing CXX source to CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor && /usr/bin/g++-10   -Wall -Werror -Wextra -Wpedantic -fanalyzer -O2 -P   -Wunused-value -Wunreachable-code -E /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp > CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/preprocessor'
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
+[100%] Built target macro_and_spaces
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc'
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppgcc/CMakeFiles 0
-travis_time:end:00fc754c:start=1593699993639440301,finish=1593699994573656361,duration=934216060,event=script[0K[32;1mThe command "make" exited with 0.[0m
-travis_time:start:180baedc[0K$ cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json
+travis_time:end:16dd7e1b:start=1593776988830167927,finish=1593776989672940211,duration=842772284,event=script[0K[32;1mThe command "make" exited with 0.[0m
+travis_time:start:0b798f9d[0K$ cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.cpp ...
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/Template.h:3:0: information: Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
 
 ^
-1/4 files checked 25% done
+1/5 files checked 20% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseB.cpp ...
-2/4 files checked 50% done
+2/5 files checked 40% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/main.cpp ...
-3/4 files checked 75% done
+3/5 files checked 60% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp ...
-4/4 files checked 100% done
-travis_time:end:180baedc:start=1593699994578329996,finish=1593699994597593774,duration=19263778,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json" exited with 0.[0m
-travis_time:start:2482d8d4[0K$ iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi
-travis_time:end:2482d8d4:start=1593699994602279935,finish=1593699995881705900,duration=1279425965,event=script[0K[32;1mThe command "iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi" exited with 0.[0m
-travis_time:start:19f1ca70[0K$ cd ..
-travis_time:end:19f1ca70:start=1593699995887112844,finish=1593699995889688559,duration=2575715,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
-travis_time:start:10bd90b0[0K$ mkdir buildcppclang; cd buildcppclang
-travis_time:end:10bd90b0:start=1593699995893791770,finish=1593699995898226006,duration=4434236,event=script[0K[32;1mThe command "mkdir buildcppclang; cd buildcppclang" exited with 0.[0m
-travis_time:start:2da07e1c[0K$ CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2" cmake ../cpp
+4/5 files checked 80% done
+Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp ...
+5/5 files checked 100% done
+travis_time:end:0b798f9d:start=1593776989677389544,finish=1593776989699805763,duration=22416219,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json" exited with 0.[0m
+travis_time:start:29412c8c[0K$ iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi
+travis_time:end:29412c8c:start=1593776989703845800,finish=1593776990948524064,duration=1244678264,event=script[0K[32;1mThe command "iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi" exited with 0.[0m
+travis_time:start:2c021efe[0K$ cd ..
+travis_time:end:2c021efe:start=1593776990953732778,finish=1593776990956451518,duration=2718740,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
+travis_time:start:1f5e183c[0K$ mkdir buildcppclang; cd buildcppclang
+travis_time:end:1f5e183c:start=1593776990962375926,finish=1593776990966562762,duration=4186836,event=script[0K[32;1mThe command "mkdir buildcppclang; cd buildcppclang" exited with 0.[0m
+travis_time:start:084726d0[0K$ CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2" cmake ../cpp
 -- The C compiler identification is Clang 10.0.0
 -- The CXX compiler identification is Clang 10.0.0
 -- Check for working C compiler: /usr/bin/clang-10
@@ -728,8 +747,8 @@ travis_time:start:2da07e1c[0K$ CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CX
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang
-travis_time:end:2da07e1c:start=1593699995902335274,finish=1593699997322305898,duration=1419970624,event=script[0K[32;1mThe command "CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2" cmake ../cpp" exited with 0.[0m
-travis_time:start:0025f832[0K$ make
+travis_time:end:084726d0:start=1593776990972500324,finish=1593776992275569383,duration=1303069059,event=script[0K[32;1mThe command "CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 CXXFLAGS="-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2" cmake ../cpp" exited with 0.[0m
+travis_time:start:1cb9a728[0K$ make
 /usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang --check-build-system CMakeFiles/Makefile.cmake 0
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles/progress.marks
 make -f CMakeFiles/Makefile2 all
@@ -744,6 +763,7 @@ make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/build
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.h
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.cpp
@@ -828,10 +848,27 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /
 /usr/bin/clang++-10  -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2   CMakeFiles/str_helper.dir/str_helper.cpp.o  -o str_helper 
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 [100%] Built target str_helper
+make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor/CMakeFiles/macro_and_spaces.dir/DependInfo.cmake --color=
+Scanning dependencies of target macro_and_spaces
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && make macro_and_spaces.cpp.i
+make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f preprocessor/CMakeFiles/macro_and_spaces_internal.dir/build.make preprocessor/CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+Preprocessing CXX source to CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /usr/bin/clang++-10   -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2   -Wunused-value -Wunreachable-code -E /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp > CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[100%] Built target macro_and_spaces
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles 0
-travis_time:end:0025f832:start=1593699997329207528,finish=1593699998273471680,duration=944264152,event=script[0K[32;1mThe command "make" exited with 0.[0m
-travis_time:start:0e742cf4[0K$ python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py
+travis_time:end:1cb9a728:start=1593776992284723669,finish=1593776993170612269,duration=885888600,event=script[0K[32;1mThe command "make" exited with 0.[0m
+travis_time:start:37917597[0K$ python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py
 Enabled checks:
     abseil-duration-addition
     abseil-duration-comparison
@@ -1243,9 +1280,10 @@ Enabled checks:
     zircon-temporary-objects
 
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseB.cpp
-clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/main.cpp
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.cpp
 clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp
+clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/main.cpp
+clang-tidy-10 -p=/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp
 9062 warnings generated.
 Suppressed 9062 warnings (9062 in non-user code).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
@@ -1253,8 +1291,9 @@ Use -header-filter=.* to display errors from all non-system headers. Use -system
 Suppressed 9062 warnings (9062 in non-user code).
 Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
 Suppressed 3 warnings (3 NOLINT).
-travis_time:end:0e742cf4:start=1593699998278355566,finish=1593700001459561151,duration=3181205585,event=script[0K[32;1mThe command "python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py" exited with 0.[0m
-travis_time:start:2e3aaa7a[0K$ make clean; scan-build -v -o . make
+Suppressed 3 warnings (3 NOLINT).
+travis_time:end:37917597:start=1593776993174593783,finish=1593776996356454005,duration=3181860222,event=script[0K[32;1mThe command "python3 /usr/lib/llvm-*/share/clang/run-clang-tidy.py" exited with 0.[0m
+travis_time:start:0ea2c41a[0K$ make clean; scan-build -v -o . make
 make -f CMakeFiles/Makefile2 clean
 make[1]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make -f CMakeFiles/clang_fmt.dir/build.make CMakeFiles/clang_fmt.dir/clean
@@ -1269,9 +1308,17 @@ make -f preprocessor/CMakeFiles/str_helper.dir/build.make preprocessor/CMakeFile
 make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /usr/local/cmake-3.12.4/bin/cmake -P CMakeFiles/str_helper.dir/cmake_clean.cmake
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/clean
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /usr/local/cmake-3.12.4/bin/cmake -P CMakeFiles/macro_and_spaces.dir/cmake_clean.cmake
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f preprocessor/CMakeFiles/macro_and_spaces_internal.dir/build.make preprocessor/CMakeFiles/macro_and_spaces_internal.dir/clean
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /usr/local/cmake-3.12.4/bin/cmake -P CMakeFiles/macro_and_spaces_internal.dir/cmake_clean.cmake
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 scan-build: Using '/usr/local/clang-7.0.0/bin/clang-7' for static analysis
-scan-build: Emitting reports for this run to '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-02-142641-10243-1'.
+scan-build: Emitting reports for this run to '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-03-114956-10126-1'.
 /usr/local/cmake-3.12.4/bin/cmake -H/home/travis/build/bansan85/wiki_le_garrec_fr/cpp -B/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang --check-build-system CMakeFiles/Makefile.cmake 0
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles/progress.marks
 make -f CMakeFiles/Makefile2 all
@@ -1285,6 +1332,7 @@ make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/build
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.cpp
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/executor.h
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/boost/executor/main.cpp
+sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.h
 sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/clang-format-check.sh /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.cpp
@@ -1367,63 +1415,85 @@ cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /
 /usr/bin/clang++-10  -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2   CMakeFiles/str_helper.dir/str_helper.cpp.o  -o str_helper 
 make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 [100%] Built target str_helper
+make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/depend
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && /usr/local/cmake-3.12.4/bin/cmake -E cmake_depends "Unix Makefiles" /home/travis/build/bansan85/wiki_le_garrec_fr/cpp /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor/CMakeFiles/macro_and_spaces.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make -f preprocessor/CMakeFiles/macro_and_spaces.dir/build.make preprocessor/CMakeFiles/macro_and_spaces.dir/build
+make[2]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && make macro_and_spaces.cpp.i
+make[3]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang && make -f preprocessor/CMakeFiles/macro_and_spaces_internal.dir/build.make preprocessor/CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+make[4]: Entering directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+Preprocessing CXX source to CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+cd /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor && /usr/bin/clang++-10   -isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -Weverything -Werror -O2   -Wunused-value -Wunreachable-code -E /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp > CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i
+make[4]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+make[3]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/preprocessor'
+make[2]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
+[100%] Built target macro_and_spaces
 make[1]: Leaving directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang'
 /usr/local/cmake-3.12.4/bin/cmake -E cmake_progress_start /home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/CMakeFiles 0
-scan-build: Removing directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-02-142641-10243-1' because it contains no reports.
+scan-build: Removing directory '/home/travis/build/bansan85/wiki_le_garrec_fr/buildcppclang/2020-07-03-114956-10126-1' because it contains no reports.
 scan-build: No bugs found.
-travis_time:end:2e3aaa7a:start=1593700001464646954,finish=1593700002732612360,duration=1267965406,event=script[0K[32;1mThe command "make clean; scan-build -v -o . make" exited with 0.[0m
-travis_time:start:14389420[0K$ cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json
+travis_time:end:0ea2c41a:start=1593776996362313889,finish=1593776997693005386,duration=1330691497,event=script[0K[32;1mThe command "make clean; scan-build -v -o . make" exited with 0.[0m
+travis_time:start:1e419466[0K$ cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseA.cpp ...
 /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/Template.h:3:0: information: Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem]
 
 ^
-1/4 files checked 25% done
+1/5 files checked 20% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/ClasseB.cpp ...
-2/4 files checked 50% done
+2/5 files checked 40% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/template/weak/main.cpp ...
-3/4 files checked 75% done
+3/5 files checked 60% done
 Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/str_helper.cpp ...
-4/4 files checked 100% done
-travis_time:end:14389420:start=1593700002737475881,finish=1593700002757657060,duration=20181179,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json" exited with 0.[0m
-travis_time:start:009327a8[0K$ iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi
-travis_time:end:009327a8:start=1593700002762732053,finish=1593700004112968415,duration=1350236362,event=script[0K[32;1mThe command "iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi" exited with 0.[0m
-travis_time:start:0cbea4a2[0K$ cd ..
-travis_time:end:0cbea4a2:start=1593700004119649811,finish=1593700004122564035,duration=2914224,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
-travis_time:start:08a08090[0K$ git clone ssh://git@github.com/bansan85/wiki_le_garrec_fr_travis.git
+4/5 files checked 80% done
+Checking /home/travis/build/bansan85/wiki_le_garrec_fr/cpp/preprocessor/macro_and_spaces.cpp ...
+5/5 files checked 100% done
+travis_time:end:1e419466:start=1593776997697532926,finish=1593776997717816567,duration=20283641,event=script[0K[32;1mThe command "cppcheck --inconclusive --enable=all --check-config --project=compile_commands.json" exited with 0.[0m
+travis_time:start:0ae8e2c2[0K$ iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi
+travis_time:end:0ae8e2c2:start=1593776997722167618,finish=1593776999034687512,duration=1312519894,event=script[0K[32;1mThe command "iwyu_tool -p . > iwyu_tool.log; if [ $(cat iwyu_tool.log |grep -e "should add these lines" -e "should remove these lines" | wc -l) -ne "0" ]; then cat iwyu_tool.log ; exit 1; fi" exited with 0.[0m
+travis_time:start:11d90ec0[0K$ cd ..
+travis_time:end:11d90ec0:start=1593776999039785698,finish=1593776999042060711,duration=2275013,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
+travis_time:start:12fec5b3[0K$ git clone ssh://git@github.com/bansan85/wiki_le_garrec_fr_travis.git
 Cloning into 'wiki_le_garrec_fr_travis'...
 Warning: Permanently added the RSA host key for IP address '140.82.113.3' to the list of known hosts.
-travis_time:end:08a08090:start=1593700004127665384,finish=1593700004889092924,duration=761427540,event=script[0K[32;1mThe command "git clone ssh://git@github.com/bansan85/wiki_le_garrec_fr_travis.git" exited with 0.[0m
-travis_time:start:115c4daa[0K$ mkdir -p wiki_le_garrec_fr_travis/linker/weak wiki_le_garrec_fr_travis/cpp/preprocessor
-travis_time:end:115c4daa:start=1593700004895073510,finish=1593700004899855515,duration=4782005,event=script[0K[32;1mThe command "mkdir -p wiki_le_garrec_fr_travis/linker/weak wiki_le_garrec_fr_travis/cpp/preprocessor" exited with 0.[0m
-travis_time:start:2ad9c4d7[0K$ nm --demangle buildcppgcc/template/weak/CMakeFiles/templateweak.dir/ClasseA.cpp.o > wiki_le_garrec_fr_travis/linker/weak/ClasseA.cpp.txt
-travis_time:end:2ad9c4d7:start=1593700004905178673,finish=1593700004911868846,duration=6690173,event=script[0K[32;1mThe command "nm --demangle buildcppgcc/template/weak/CMakeFiles/templateweak.dir/ClasseA.cpp.o > wiki_le_garrec_fr_travis/linker/weak/ClasseA.cpp.txt" exited with 0.[0m
-travis_time:start:223f9852[0K$ nm --demangle buildcppgcc/template/weak/CMakeFiles/templateweak.dir/ClasseB.cpp.o > wiki_le_garrec_fr_travis/linker/weak/ClasseB.cpp.txt
-travis_time:end:223f9852:start=1593700004918205395,finish=1593700004924768017,duration=6562622,event=script[0K[32;1mThe command "nm --demangle buildcppgcc/template/weak/CMakeFiles/templateweak.dir/ClasseB.cpp.o > wiki_le_garrec_fr_travis/linker/weak/ClasseB.cpp.txt" exited with 0.[0m
-travis_time:start:08effdc4[0K$ cd wiki_le_garrec_fr_travis
-travis_time:end:08effdc4:start=1593700004931907447,finish=1593700004934957654,duration=3050207,event=script[0K[32;1mThe command "cd wiki_le_garrec_fr_travis" exited with 0.[0m
-travis_time:start:11630898[0K$ git config --global user.name "Travis"
-travis_time:end:11630898:start=1593700004939860992,finish=1593700004943991614,duration=4130622,event=script[0K[32;1mThe command "git config --global user.name "Travis"" exited with 0.[0m
-travis_time:start:101a274f[0K$ git config --global user.email "travis-ci@le-garrec.fr"
-travis_time:end:101a274f:start=1593700004948143354,finish=1593700004952423761,duration=4280407,event=script[0K[32;1mThe command "git config --global user.email "travis-ci@le-garrec.fr"" exited with 0.[0m
-travis_time:start:0c2ca232[0K$ git add linker/weak/ClasseA.cpp.txt linker/weak/ClasseB.cpp.txt
-travis_time:end:0c2ca232:start=1593700004956644827,finish=1593700004961320608,duration=4675781,event=script[0K[32;1mThe command "git add linker/weak/ClasseA.cpp.txt linker/weak/ClasseB.cpp.txt" exited with 0.[0m
-travis_time:start:0e410917[0K$ cd ..
-travis_time:end:0e410917:start=1593700004965702400,finish=1593700004968502856,duration=2800456,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
-travis_time:start:0d6b5eb5[0K$ cp buildcppgcc/preprocessor/CMakeFiles/str_helper.dir/str_helper.cpp.i wiki_le_garrec_fr_travis/cpp/preprocessor/
-travis_time:end:0d6b5eb5:start=1593700004972495450,finish=1593700004976760975,duration=4265525,event=script[0K[32;1mThe command "cp buildcppgcc/preprocessor/CMakeFiles/str_helper.dir/str_helper.cpp.i wiki_le_garrec_fr_travis/cpp/preprocessor/" exited with 0.[0m
-travis_time:start:3b509ce0[0K$ cd wiki_le_garrec_fr_travis
-travis_time:end:3b509ce0:start=1593700004981182081,finish=1593700004983752800,duration=2570719,event=script[0K[32;1mThe command "cd wiki_le_garrec_fr_travis" exited with 0.[0m
-travis_time:start:1d9ef6a6[0K$ git add cpp/preprocessor/str_helper.cpp.i
-travis_time:end:1d9ef6a6:start=1593700004988227332,finish=1593700004992597971,duration=4370639,event=script[0K[32;1mThe command "git add cpp/preprocessor/str_helper.cpp.i" exited with 0.[0m
-travis_time:start:0006b6b8[0K$ if [ $(git diff-index --name-only HEAD --) ]; then git commit -m "$TRAVIS_COMMIT_MESSAGE" -m "Update from $TRAVIS_COMMIT_RANGE"; git push; fi
-[master 131c33d] Add preprocessor/str_helper
- 1 file changed, 3 insertions(+)
- create mode 100644 cpp/preprocessor/str_helper.cpp.i
+travis_time:end:12fec5b3:start=1593776999045728938,finish=1593776999638570636,duration=592841698,event=script[0K[32;1mThe command "git clone ssh://git@github.com/bansan85/wiki_le_garrec_fr_travis.git" exited with 0.[0m
+travis_time:start:00e7604e[0K$ mkdir -p wiki_le_garrec_fr_travis/linker/weak wiki_le_garrec_fr_travis/cpp/preprocessor
+travis_time:end:00e7604e:start=1593776999643382084,finish=1593776999647121318,duration=3739234,event=script[0K[32;1mThe command "mkdir -p wiki_le_garrec_fr_travis/linker/weak wiki_le_garrec_fr_travis/cpp/preprocessor" exited with 0.[0m
+travis_time:start:20ed0f55[0K$ nm --demangle buildcppgcc/template/weak/CMakeFiles/templateweak.dir/ClasseA.cpp.o > wiki_le_garrec_fr_travis/linker/weak/ClasseA.cpp.txt
+travis_time:end:20ed0f55:start=1593776999652363072,finish=1593776999657626394,duration=5263322,event=script[0K[32;1mThe command "nm --demangle buildcppgcc/template/weak/CMakeFiles/templateweak.dir/ClasseA.cpp.o > wiki_le_garrec_fr_travis/linker/weak/ClasseA.cpp.txt" exited with 0.[0m
+travis_time:start:0de9bd00[0K$ nm --demangle buildcppgcc/template/weak/CMakeFiles/templateweak.dir/ClasseB.cpp.o > wiki_le_garrec_fr_travis/linker/weak/ClasseB.cpp.txt
+travis_time:end:0de9bd00:start=1593776999662679835,finish=1593776999668568995,duration=5889160,event=script[0K[32;1mThe command "nm --demangle buildcppgcc/template/weak/CMakeFiles/templateweak.dir/ClasseB.cpp.o > wiki_le_garrec_fr_travis/linker/weak/ClasseB.cpp.txt" exited with 0.[0m
+travis_time:start:1405725c[0K$ cd wiki_le_garrec_fr_travis
+travis_time:end:1405725c:start=1593776999674675966,finish=1593776999677349896,duration=2673930,event=script[0K[32;1mThe command "cd wiki_le_garrec_fr_travis" exited with 0.[0m
+travis_time:start:10d89031[0K$ git config --global user.name "Travis"
+travis_time:end:10d89031:start=1593776999682431422,finish=1593776999686502211,duration=4070789,event=script[0K[32;1mThe command "git config --global user.name "Travis"" exited with 0.[0m
+travis_time:start:1a3802ba[0K$ git config --global user.email "travis-ci@le-garrec.fr"
+travis_time:end:1a3802ba:start=1593776999690939243,finish=1593776999695240249,duration=4301006,event=script[0K[32;1mThe command "git config --global user.email "travis-ci@le-garrec.fr"" exited with 0.[0m
+travis_time:start:1cc46bec[0K$ git add linker/weak/ClasseA.cpp.txt linker/weak/ClasseB.cpp.txt
+travis_time:end:1cc46bec:start=1593776999702046933,finish=1593776999706773334,duration=4726401,event=script[0K[32;1mThe command "git add linker/weak/ClasseA.cpp.txt linker/weak/ClasseB.cpp.txt" exited with 0.[0m
+travis_time:start:13db0f50[0K$ cd ..
+travis_time:end:13db0f50:start=1593776999711926509,finish=1593776999714563226,duration=2636717,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
+travis_time:start:00da63ca[0K$ cp buildcppgcc/preprocessor/CMakeFiles/str_helper.dir/str_helper.cpp.i wiki_le_garrec_fr_travis/cpp/preprocessor/
+travis_time:end:00da63ca:start=1593776999718297611,finish=1593776999722365484,duration=4067873,event=script[0K[32;1mThe command "cp buildcppgcc/preprocessor/CMakeFiles/str_helper.dir/str_helper.cpp.i wiki_le_garrec_fr_travis/cpp/preprocessor/" exited with 0.[0m
+travis_time:start:292b4b60[0K$ cp buildcppgcc/preprocessor/CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i wiki_le_garrec_fr_travis/cpp/preprocessor/
+travis_time:end:292b4b60:start=1593776999726514035,finish=1593776999730477684,duration=3963649,event=script[0K[32;1mThe command "cp buildcppgcc/preprocessor/CMakeFiles/macro_and_spaces_internal.dir/macro_and_spaces.cpp.i wiki_le_garrec_fr_travis/cpp/preprocessor/" exited with 0.[0m
+travis_time:start:116449a7[0K$ cd wiki_le_garrec_fr_travis
+travis_time:end:116449a7:start=1593776999734803688,finish=1593776999737878312,duration=3074624,event=script[0K[32;1mThe command "cd wiki_le_garrec_fr_travis" exited with 0.[0m
+travis_time:start:09ab1f90[0K$ git add cpp/preprocessor/str_helper.cpp.i
+travis_time:end:09ab1f90:start=1593776999741698033,finish=1593776999745881498,duration=4183465,event=script[0K[32;1mThe command "git add cpp/preprocessor/str_helper.cpp.i" exited with 0.[0m
+travis_time:start:05d28492[0K$ git add cpp/preprocessor/macro_and_spaces.cpp.i
+travis_time:end:05d28492:start=1593776999749846897,finish=1593776999754082229,duration=4235332,event=script[0K[32;1mThe command "git add cpp/preprocessor/macro_and_spaces.cpp.i" exited with 0.[0m
+travis_time:start:305e6494[0K$ if [ $(git diff-index --name-only HEAD --) ]; then git commit -m "$TRAVIS_COMMIT_MESSAGE" -m "Update from $TRAVIS_COMMIT_RANGE"; git push; fi
+[master 3b604a0] Add macro_and_spaces.cpp
+ 1 file changed, 5 insertions(+)
+ create mode 100644 cpp/preprocessor/macro_and_spaces.cpp.i
 To ssh://github.com/bansan85/wiki_le_garrec_fr_travis.git
-   9e75ccd..131c33d  master -> master
-travis_time:end:0006b6b8:start=1593700004997163915,finish=1593700008226829070,duration=3229665155,event=script[0K[32;1mThe command "if [ $(git diff-index --name-only HEAD --) ]; then git commit -m "$TRAVIS_COMMIT_MESSAGE" -m "Update from $TRAVIS_COMMIT_RANGE"; git push; fi" exited with 0.[0m
-travis_time:start:0046a793[0K$ cd ..
-travis_time:end:0046a793:start=1593700008232600924,finish=1593700008235215429,duration=2614505,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
+   131c33d..3b604a0  master -> master
+travis_time:end:305e6494:start=1593776999758055800,finish=1593777002832706448,duration=3074650648,event=script[0K[32;1mThe command "if [ $(git diff-index --name-only HEAD --) ]; then git commit -m "$TRAVIS_COMMIT_MESSAGE" -m "Update from $TRAVIS_COMMIT_RANGE"; git push; fi" exited with 0.[0m
+travis_time:start:1903ea16[0K$ cd ..
+travis_time:end:1903ea16:start=1593777002839320859,finish=1593777002841698936,duration=2378077,event=script[0K[32;1mThe command "cd .." exited with 0.[0m
 
 
 Done. Your build exited with 0.
